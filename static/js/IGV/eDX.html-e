@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Canvas eDX App</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!--[if IE]>
+    <script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+    <script type="text/javascript" src="js/igvcanvas.js"></script>
+    <script type="text/javascript" src="js/edx.js"></script>
+</head>
+<body>
+<div id="canvasDiv"
+     ontouchstart="touchStart(event,'canvasDiv');"
+     ontouchend="touchEnd(event);"
+     ontouchcancel="touchCancel(event);"></div>
+
+<script type="text/javascript"> $(document).ready(function () {
+    prepareCanvas('resources/SRGN.txt');
+});</script>
+
+</body>
+</html>

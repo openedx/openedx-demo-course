@@ -1,0 +1,5 @@
+loupeAndLightbox is a jQuery image magnifier plugin. It's based off the use of two photography viewing tools: a loupe (or magnifying glass) and a lightbox. loupeAndLightbox uses a smaller image with a link referring to a larger version of the image for magnification effects.
+
+See Wiki for more info.
+
+Copyright © 2010 M.Biscan, released under the MIT license.

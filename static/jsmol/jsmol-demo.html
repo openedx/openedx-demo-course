@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>HTML5-only and WebGL Jmol Demo</title>
+<head>
+<script type="text/javascript" src="JSmoljQuery.js"></script>
+<script type="text/javascript" src="JSmolCore.js"></script>
+<script type="text/javascript" src="JSmolApplet.js"></script>
+<script type="text/javascript" src="JSmolApi.js"></script>
+<script type="text/javascript" src="j2s/j2sjmol.js"></script>
+<script type="text/javascript" src="JSmol.js"></script>
+<script type="text/javascript">
+
+Jmol.debugCode = false
+
+var myJmol1;
+var myInfo1 = {
+        height: '100%',
+        width: '100%',
+        color: '#000000',
+        jarFile: "JmolApplet.jar",
+        jarPath: '..',
+        j2sPath: "j2s",
+        use: 'HTML5',
+	console: "myJmol1_infodiv",
+        debug: false
+};
+</script>
+</head>
+<body>
+<div style="width:800px;height:800px" >
+<script type="text/javascript">
+myJmol1 = Jmol.getApplet("myJmol1", myInfo1);
+Jmol.script(myJmol1, 'load "lyso-H.pdb";select all; spacefill off; wireframe off; select protein; spacefill on;' );
+</script>
+</div>
+
+<div id="myJmol1_infodiv"></div>
+<br/>
+
+<br/>
+<table>
+	<tr>
+		<td>The viewer above shows the protein Lysozyme isolated from hen egg white.
+			Lysozyme is an enzyme that breaks down the cell wall of certain bacteria.
+			Without their cell walls, these bacteria rapidly die. Thus, lysozyme is
+			part of the egg's defense against bacteria.<p>
+			The atoms are colored using the color scheme at the right.<p>
+			There are several things you can do with the view above:
+			<ul>
+				<li>You can rotate the image by dragging with the mouse</li>
+				<li>You can zoom in by holding the shift key while dragging the mouse.</li>
+				<li>If you put your cursor over an atom and wait a little, a label will pop
+					up showing information about that atom. For example:
+					<img src="label.gif"> means that you have identified atom number <u>780</u> which is
+					an <u>O</u>xygen atom in <u>ASP</u>artic Acid <u>101</u>.
+			</ul>
+			</td>
+		<td><img src="cpkColors.gif"></td>
+	</tr>
+</table>
+
+
+
+</body>

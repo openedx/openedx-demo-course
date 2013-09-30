@@ -1,0 +1,14 @@
+function attempt(a) {
+background yellow
+refresh
+//delay 1.0
+background red
+refresh
+prompt "a"+a
+return "attempt" +a
+}
+
+attempt 1;
+attempt 2;
+background white;
+

@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Test page for VGL and Java Web Start</title>
+</head>
+<body bgcolor=#D0D0D0>
+<script src="http://www.java.com/js/deployJava.js"></script>
+
+This is the test page for VGL and Java Web Start<br>
+<table border=1>
+	<tr>
+		<th>Task</th>
+		<th>Submission mode</th>
+		<th>Practice mode</th>
+	</tr>
+	<tr>
+		<td>VGL for Part (a):</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-A.jnlp', '1.6.0');</script></td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Ap.jnlp', '1.6.0');</script></td>
+	</tr>
+	<tr>
+		<td>VGL for Part (b):</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-B.jnlp', '1.6.0');</script></td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Bp.jnlp', '1.6.0');</script></td>
+	</tr>
+	<tr>
+		<td>VGL for Part (c):</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-C.jnlp', '1.6.0');</script></td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Cp.jnlp', '1.6.0');</script></td>
+	</tr>
+	<tr>
+		<td>VGL for Part (d):</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-D.jnlp', '1.6.0');</script></td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Dp.jnlp', '1.6.0');</script></td>
+	</tr>
+	<tr>
+		<td>VGL for Part (e):</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-E.jnlp', '1.6.0');</script></td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Ep.jnlp', '1.6.0');</script></td>
+	</tr>
+	<tr>
+		<td>VGL for Part (f):</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-F.jnlp', '1.6.0');</script></td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Fp.jnlp', '1.6.0');</script></td>
+	</tr>
+	<tr>
+		<td>VGL For Opening Saved files:</td>
+		<td><script>deployJava.createWebStartLaunchButton('http://www.securebio.umb.edu/edX/VGL-Open.jnlp', '1.6.0');</script></td>
+		<td>N/A</td>
+	</tr>
+</table>
+
+</body>
+</html>

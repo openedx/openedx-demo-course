@@ -1,0 +1,31 @@
+#headerDiv, #contentDiv {
+    width: 600px;
+}
+
+
+#titleText {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px;
+}
+.expandablehdr {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 5px;
+}
+#headerDiv {
+    background-color: #F4F4F4;
+}
+#contentDiv {
+    background-color: #F4F4F4;
+}
+.expandablecontent {
+    margin: 5px 10px 5px 5px;
+}
+#headerDiv a {
+    float: right;
+    margin: 5px 5px 5px 5px;
+}
+#headerDiv a:hover {
+    color: #FFFFFF;
+}

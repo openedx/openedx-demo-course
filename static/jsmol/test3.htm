@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>HTML5-only and WebGL Jmol Demo</title>
+<head>
+<script type="text/javascript" src="JSmoljQuery.js"></script>
+<script type="text/javascript" src="JSmolCore.js"></script>
+<script type="text/javascript" src="JSmolApplet.js"></script>
+<script type="text/javascript" src="JSmolApi.js"></script>
+<script type="text/javascript" src="j2s/j2sjmol.js"></script>
+<script type="text/javascript" src="JSmol.js"></script>
+<script type="text/javascript">
+
+//Jmol.debugCode = true
+
+var myJmol1,myJmol2;
+var myInfo1 = {
+        height: '100%',
+        width: '100%',
+        jarFile: "JmolApplet.jar",
+        jarPath: '..',
+        j2sPath: "j2s",
+        use: 'HTML5',
+	console: "myJmol1_infodiv",
+        debug: false
+};
+var myInfo2 = {
+        height: '100%',
+        width: '100%',
+        jarFile: "JmolApplet.jar",
+        jarPath: '..',
+        j2sPath: "j2s",
+        use: 'HTML5',
+	console: "myJmol2_infodiv",
+        debug: false
+};
+</script>
+</head>
+<body>
+<table style=width:1000px><tr>
+<td>
+<div style="width:500px;height:300px" >
+<script type="text/javascript">
+myJmol1 = Jmol.getApplet("myJmol1", myInfo1);
+Jmol.script(myJmol1, 'load "caffeine.mol";' );
+</script>
+</div>
+</td>
+<td style>
+<div style="width:500px;height:300px" >
+<script type="text/javascript">
+myJmol2 = Jmol.getApplet("myJmol2", myInfo2);
+Jmol.script(myJmol2, 'load "t-butene.xyz";' );
+</script>
+</div>
+</td></tr></table>
+
+</body>

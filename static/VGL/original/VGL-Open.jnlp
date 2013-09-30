@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.securebio.umb.edu/edX/" href="VGL-Open.jnlp">
+    <information>
+        <title>VGL Demo</title>
+        <vendor>Brian White and EdX</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="VGLII.jar"
+            main="true" />
+
+    </resources>
+    <offline-allowed/>
+   <security>
+      <all-permissions/>
+   </security>
+
+    <application-desc
+         name="VGLII Application"
+         main-class="VGL.VGLII"
+         width="1000"
+         height="1000">
+	 	<argument>-edXMode</argument>
+    </application-desc>
+     <update check="background"/>
+</jnlp>                            

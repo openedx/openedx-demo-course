@@ -1,0 +1,18 @@
+<problem display_name="Randomized Questions" rerandomize="always" showanswer="never">
+  <text>
+    <p>Some problems change depending on when and how you look at them because they are using randomized elements. For these problems, you will be able to reset the question after you answer it, which will reconstruct the problem with a new set of parameters. 
+    </p>
+    <p>
+After you answer the question and submit it for grading, you will not always be able to get back the same question. If you want to keep your question the same, don't 'check' your answer, just 'save' it.</p>
+    <script type="loncapa/python">
+x1 = random.randint(0, 100)
+x2 = random.randint(0, 100)
+y = x1+x2
+</script>
+    <p>What is the value of \($x1+$x2\)?</p>
+    <numericalresponse answer="$y">
+      <responseparam type="tolerance" default="0.0001%" name="tol" description="Numerical Tolerance"/>
+      <textline/>
+    </numericalresponse>
+  </text>
+</problem>

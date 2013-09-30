@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://www.securebio.umb.edu/edX/" href="VGL-Bp.jnlp">
+    <information>
+        <title>VGL Demo</title>
+        <vendor>Brian White and EdX</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="VGLII.jar"
+            main="true" />
+
+    </resources>
+    <offline-allowed/>
+   <security>
+      <all-permissions/>
+   </security>
+
+    <application-desc
+         name="VGLII Application"
+         main-class="VGL.VGLII"
+         width="1000"
+         height="1000">
+        <argument>-edXCookieURL=http://sandbox-bio-001.m.edx.org</argument>
+        <argument>-edXLoginURL=http://sandbox-bio-001.m.edx.org/login</argument>
+        <argument>-edXSubmissionURL=http://sandbox-bio-001.m.edx.org/courses/MITx/6.002x/2012_Fall/modx/i4x://MITx/6.002x/problem/Sample_Numeric_Problem/problem_check</argument>
+        <argument>-edXLocation=input_i4x://MITx/6.002x/problem/Sample_Numeric_Problem_2_1</argument>
+	 	<argument>-BeginnerMode=True</argument>
+	 	<argument>-ZZ_ZW=0.0</argument>
+	 	<argument>-Gene1_SexLinked=0.0</argument>
+	 	<argument>-Gene1_IncDom=1.0</argument>
+     </application-desc>
+     <update check="background"/>
+</jnlp>                            

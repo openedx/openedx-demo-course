@@ -1,0 +1,11 @@
+<problem display_name="Immediate Feedback" rerandomize="never" showanswer="never">
+  <text>
+    <p>In most questions, edX checks your answers and gives you immediate feedback. When you click “check” for a problem it is automatically submitted for grading. </p>
+    <p>Let's practice! (For many of the following questions, if you get an answer wrong, you can simply try again until you get it right.)</p>
+    <p>How many hours are in a day?</p>
+    <numericalresponse answer="24">
+      <responseparam type="tolerance" default="0.0001%" name="tol" description="Numerical Tolerance"/>
+      <textline/>
+    </numericalresponse>
+  </text>
+</problem>

@@ -1,0 +1,41 @@
+#!/usr/bin/python
+#
+# make VGL jnlp files with the right URLs for sandbox, edx.org, and localhost
+# start with original/*.jnlp
+
+import os, sys, string, re, glob
+
+courses = {'edx': 'MITx/7.012/MIT_2013_Spring',
+           }
+
+
+inputs = {'edx': 'i4x://MITx/7_012/problem',
+          }
+
+
+roots = {'localhost': 'http://localhost:8000', 
+         'edx' : 'https://mit.edx.org',
+         'sandbox': 'http://sandbox-bio-001.m.edx.org',
+         'mitx-staging': 'https://staging.mitx.mitx.mit.edu',
+         'mitx-lms': 'https://lms.mitx.mitx.mit.edu',
+	 }
+
+def fix(fn, root, url):
+    old = open(fn).read()
+    new = re.sub('<argument>-edXCookieURL=([^<]+)</argument>','<argument>-edXCookieURL=%s</argument>' % url, old)
+    new = re.sub('<argument>-edXLoginURL=([^<]+)</argument>','<argument>-edXLoginURL=%s/login</argument>' % url, new)
+    new = re.sub('<argument>-edXSubmissionURL=([^<]+)/courses','<argument>-edXSubmissionURL=%s/courses' % url, new)
+    
+    if root in courses:
+        new = re.sub('MITx/7.00x/2013_Spring',courses[root], new)
+        
+    if root in inputs:
+        new = re.sub('i4x://MITx/7.00x/problem',inputs[root], new)
+
+    open('%s/%s' % (root, os.path.basename(fn)),'w').write(new)
+    print "Processed %s (%s:%s)" % (fn, root, url)
+
+for root, url in roots.items():
+    for fn in glob.glob('original/*.jnlp'):
+        fix(fn, root, url)
+

@@ -1,0 +1,35 @@
+{
+  "start": [
+    220, 
+    3460, 
+    6020, 
+    6870, 
+    9160, 
+    10830, 
+    14010, 
+    17610, 
+    19280
+  ], 
+  "end": [
+    3460, 
+    6020, 
+    6870, 
+    9160, 
+    10830, 
+    14010, 
+    17610, 
+    19280, 
+    20530
+  ], 
+  "text": [
+    "Well, those are your tools for edX.", 
+    "Bear in mind that we are still in the early stages of", 
+    "development.", 
+    "So we might be tweaking parts of the site as the term", 
+    "progresses.", 
+    "Those changes will all be small and will not distract", 
+    "from the learning that is the ultimate purpose of edX.", 
+    "Good luck with your classes this term.", 
+    "We look forward to your development."
+  ]
+}

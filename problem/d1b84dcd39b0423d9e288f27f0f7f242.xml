@@ -1,0 +1,14 @@
+<problem max_attempts="3" weight="" display_name="Few Checks" rerandomize="never" showanswer="never">
+  <text>
+    <p>This example question has fewer checks, so you can observe how the system behaves when you run out of checks.</p>
+    <p>What common fruit is round, has a stem, grows on tree, and comes in both red and green varieties?</p>
+    <multiplechoiceresponse>
+      <choicegroup type="MultipleChoice">
+        <choice correct="true">An Apple</choice>
+        <choice correct="false">A Banana</choice>
+        <choice correct="false">An Orange</choice>
+        <choice correct="false">A Pumpkin</choice>
+      </choicegroup>
+    </multiplechoiceresponse>
+  </text>
+</problem>

@@ -1,0 +1,12 @@
+edX Demonstration Course
+========================
+
+This is a demonstration course you can import into edX Studio.
+
+Create an empty course then, under Tools, select Import and choose the
+gzipped tarball.
+
+All content is made available under a Creative Commons BY-NC-SA 3.0 US License
+(see <http://creativecommons.org/licenses/by-nc-sa/3.0/us/>)
+
+All code is made available under an AGPLv3 License (see AGPL_LICENSE)

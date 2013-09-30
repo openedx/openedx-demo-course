@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>jsmol2 test -- with applet</title>
+<!-- A Link An Application (ALAA) -->
+<script type="text/javascript" src="JSmoljQuery.js"></script>
+<script type="text/javascript" src="JSmolCore.js"></script>
+<script type="text/javascript" src="j2s/j2sjmol.js"></script>
+<script type="text/javascript">
+
+window["j2s.lib"] = {
+	base : "j2s/",
+	alias : ".",
+	console : "myconsole"
+};
+
+
+f2 = function() {
+
+viewerOptions =  new java.util.Hashtable ();
+//viewerOptions.put ("adapter",  new org.jmol.adapter.smarter.SmarterJmolAdapter ());
+viewerOptions.put ("name", "applet");
+viewerOptions.put ("syncId", "23320980249237");
+viewerOptions.put ("applet", "true");
+viewerOptions.put ("debug", "false");
+viewerOptions.put ("platform", "org.jmol.awtjs.Platform");
+viewerOptions.put ("echoCallback", "mycallback");
+viewerOptions.put ("repaintManager", "");
+viewerOptions.put ("fullName", "jmolApplet0_232380238923");
+viewerOptions.put ("documentBase", document.location.href);
+var base = document.location.href.split("?")[0].split("#")[0].split("/")
+base[base.length - 1] = window["j2s.lib"].base
+viewerOptions.put ("codeBase", base.join("/"));
+applet = new org.jmol.appletjs.Jmol(viewerOptions);
+// viewer =  new org.jmol.viewer.Viewer (viewerOptions);
+applet.scriptWait("show state")
+document.getElementById("btns").style.display="block"
+
+}
+
+var t0 = new Date()
+mycallback = function(a,b,c,d) {
+	document.getElementById("messages").innerHTML += (b + "\n" + ((new Date) - t0) + " ms").replace(/\n/g,"<br/>")
+}
+
+f1 = function() {
+	org.jmol.awtjs.JmolURLConnection.prototype.doAjax = function() {
+	 //alert(this.url)
+	 var data = Jmol._getFileData("" + this.url);
+	 return org.jmol.util.StringXBuilder.newS(data);
+	}
+ClazzLoader.loadClass ("org.jmol.appletjs.Jmol",f2)
+}
+
+$(document).ready(function(){
+	$("#info").keyup(function(ev) {
+   if (ev.which === 13) sendMsg()
+	}); 
+  LoadClazz();
+
+	ClazzLoader.packageClasspath ("java", null, true);
+	ClazzLoader.setPrimaryFolder ("j2s"); // where org.jsmol.test.Test is to be found
+	ClazzLoader.packageClasspath ("j2s"); // where the other files are to be found
+  ClazzLoader.loadClass ("org.jmol.awtjs.JmolURLConnection", f1)
+})
+
+//ClazzLoader.loadClass ("org.jsmol.test.Test", function () {
+//	org.jsmol.test.Test.main([]);
+//});
+
+function doCmd(cmd) {
+  document.getElementById('info').value = cmd
+  sendMsg();
+}
+function sendMsg() {
+	document.getElementById("messages").innerHTML = "";
+  t0 = new Date();
+	applet.scriptWait(document.getElementById('info').value)
+}
+</script>
+</head>
+<body>
+<div id="myconsole" style="background-color:#FAFAFA;width:600px;height:200px;overflow:auto">
+myconsole
+</div>
+<input type="text" id="info" style="width:400px" /><input type="button" onclick="sendMsg()" value="execute" />
+<div id="messages" style="background-color:#FAAAFA;width:600px;height:200px;overflow:auto">
+messages
+</div>
+<div id="btns" style="display:none;background-color:#FAFAFF;position:absolute;width:200px;height:400px;left:620px;top:0px">
+<input type=button style="width:120px" value="load caffeine" onclick="doCmd('set showTiming;load $caffeine')" />
+<br />
+<input type=button style="width:120px" value="SMILES" onclick="doCmd('show SMILES')" />
+<br />
+<input type=button style="width:120px" value="t.jvxl" onclick="doCmd('isosurface &quot;t.jvxl&quot;')" />
+<br />
+<input type=button style="width:120px" value="charges" onclick="doCmd('calculate partialcharge;print {*}.partialcharge.all')" />
+<br />
+<input type=button style="width:120px" value="vdw" onclick="doCmd('isosurface vdw')" />
+<br />
+<input type=button style="width:120px" value="t.jvxl" onclick="doCmd('isosurface &quot;t.jvxl&quot;')" />
+<br />
+<input type=button style="width:120px" value="load 1crn" onclick="doCmd('load 1crn.pdb')" />
+<br />
+<input type=button style="width:120px" value="1crn-sasurface" onclick="doCmd('isosurface sasurface')" />
+<br />
+
+</div>
+</body>
+</html>
