@@ -4,7 +4,7 @@ Some course questions may show you an image and ask that you click on it to answ
 </p>
   <p>Which animal is a kitten?</p>
   <imageresponse>
-    <imageinput src="/static/Dog-and-Cat.jpg" width="640" height="400" rectangle="(385,98)-(600,337)"/>
+    <imageinput src="/c4x/edX/DemoX/asset/Dog-and-Cat.jpg" width="640" height="400" rectangle="(385,98)-(600,337)"/>
   </imageresponse>
   <solution>
     <div class="detailed-solution">

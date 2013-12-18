@@ -1,4 +1,4 @@
-<combinedopenended max_score="1" accept_file_upload="False" markdown="null" max_attempts="1000" skip_spelling_checks="False" version="1" display_name="Open Ended Response">
+<combinedopenended max_score="1" accept_file_upload="False" display_name="Open Ended Response" markdown="null" max_attempts="1000" skip_spelling_checks="False" version="1">
   <rubric>
     <rubric>
       <category>
