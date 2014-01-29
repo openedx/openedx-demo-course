@@ -50,7 +50,7 @@ class StudentView():
         onLoad="javascript:window.frames[0].Jmol.script(window.frames[0].myJmol1,
         'select all;spacefill off;wireframe off; cartoon off;select protein and not
         hydrogen;dots on;select {0};dots off;spacefill
-        on;select ligand; color purple; spacefill on;');"> </iframe>
+        on;select ligand; color purple; spacefill on;');" title="Protein View"> </iframe>
         """
         to_select = ' or '.join(amino_nos) 
 
