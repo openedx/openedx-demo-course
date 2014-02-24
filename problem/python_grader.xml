@@ -99,38 +99,32 @@ print "Lowest Payment:", round(payment, 2)
           <p><b>Note:</b> The automated tests are lenient - if your answers are off by a few cents 
     in either direction, your code is OK. </p>
           <p>Test Cases:</p>
-          <ol>
-            <li>
-              <p>
-                <pre>
-                  <code>
-          Test Case 1:
-          balance = 320000
-          annualInterestRate = 0.2
+          <p>
+            <pre>
+<code>
+      Test Case 1:
+      balance = 320000
+      annualInterestRate = 0.2
 
-          Result Your Code Should Generate:
-          -------------------
-          Lowest Payment: 29157.09
-      </code>
-                </pre>
-              </p>
-            </li>
-            <li>
-              <p>
-                <pre>
-                  <code>
-          Test Case 2:
-          balance = 999999
-          annualInterestRate = 0.18
-          
-          Result Your Code Should Generate:
-          -------------------
-          Lowest Payment: 90325.07
-      </code>
-                </pre>
-              </p>
-            </li>
-          </ol>
+      Result Your Code Should Generate:
+      -------------------
+      Lowest Payment: 29157.09
+</code>
+            </pre>
+          </p>
+          <p>
+            <pre>
+<code>
+      Test Case 2:
+      balance = 999999
+      annualInterestRate = 0.18
+
+      Result Your Code Should Generate:
+      -------------------
+      Lowest Payment: 90325.07
+</code>
+            </pre>
+          </p>
         </section>
       </div>
       <div class="collapsible">
