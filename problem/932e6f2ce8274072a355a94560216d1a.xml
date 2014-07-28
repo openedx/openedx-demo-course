@@ -1,4 +1,4 @@
-<problem markdown="The paragraph contains references to sleepiness and an unexpected event. Why?&#10;&#10;( ) Feeling sleepy can cause white rabbits to appear.&#10;( ) There is foreshadowing of a tea party.&#10;(x) There is an implication that the strangeness to follow can be considered like a dream.&#10;&#10;" display_name="Perchance to Dream" rerandomize="never" showanswer="always">
+<problem display_name="Perchance to Dream" markdown="The paragraph contains references to sleepiness and an unexpected event. Why?&#10;&#10;( ) Feeling sleepy can cause white rabbits to appear.&#10;( ) There is foreshadowing of a tea party.&#10;(x) There is an implication that the strangeness to follow can be considered like a dream.&#10;&#10;" rerandomize="never" showanswer="always">
   <p>The paragraph contains references to sleepiness and an unexpected event. Why?</p>
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice">

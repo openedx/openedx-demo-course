@@ -1,4 +1,4 @@
-<combinedopenended max_score="1" accept_file_upload="False" markdown="null" max_attempts="10000" skip_spelling_checks="False" version="1" display_name="Peer-Graded Essay">
+<combinedopenended max_score="1" accept_file_upload="false" display_name="Peer-Graded Essay" markdown="null" max_attempts="10000" skip_spelling_checks="false" version="1">
   <rubric>
     <rubric>
       <category>

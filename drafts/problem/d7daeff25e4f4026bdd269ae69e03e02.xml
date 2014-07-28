@@ -1,4 +1,4 @@
-<problem max_attempts="" weight="" display_name="Instructor-Programmed Responses" rerandomize="never" showanswer="never">
+<problem display_name="Instructor-Programmed Responses" max_attempts="null" rerandomize="never" showanswer="never" weight="null">
   <text>
     <p>
       Consider the game tree shown below.

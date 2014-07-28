@@ -1,4 +1,4 @@
-<problem max_attempts="" weight="" display_name="Molecule Structures" rerandomize="never" showanswer="never">
+<problem display_name="Molecule Structures" max_attempts="" rerandomize="never" showanswer="never" weight="">
   <startouttext/>
   <p> Carbon reacts with chlorine and hydrogen to form the compound CH<sub>3</sub>Cl.</p>
   <p>Construct the structure of CH<sub>3</sub>Cl.</p>
