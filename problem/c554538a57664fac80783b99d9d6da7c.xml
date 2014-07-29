@@ -1,10 +1,10 @@
-<problem max_attempts="" weight="" display_name="Pointing on a Picture" rerandomize="never" showanswer="always">
+<problem display_name="Pointing on a Picture" max_attempts="" rerandomize="never" showanswer="always" weight="">
   <p>
 Some course questions may show you an image and ask that you click on it to answer a question. Try this example. (If you are correct you will see our famous green check mark.)
 </p>
   <p>Which animal is a kitten?</p>
   <imageresponse>
-    <imageinput src="/static/Dog-and-Cat.jpg" width="640" height="400" rectangle="(385,98)-(600,337)"/>
+    <imageinput src="/c4x/edX/DemoX/asset/Dog-and-Cat.jpg" width="640" height="400" rectangle="(385,98)-(600,337)"/>
   </imageresponse>
   <solution>
     <div class="detailed-solution">

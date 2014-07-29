@@ -1,0 +1,190 @@
+#periodic-table {
+ margin: 0px;;
+ font-size: 14px;
+}
+
+#periodic-table tr.row-7 td {
+ padding-bottom: 3em;
+}
+
+#periodic-table td {
+ margin: 0px;
+ padding: 0px;
+ border: none;
+}
+
+#periodic-table tr.header td.cell{
+ padding-bottom: 11.5em;
+}
+
+#periodic-table td.showcase dl {
+ margin: 0em auto ;
+ border: 1px solid black;
+ position: relative;
+ width: 12em;
+ height: 12em;
+}
+
+#periodic-table td.showcase dd {
+ margin: 0px;
+ padding: 0px;
+ position: absolute;
+ width: 100%;
+ line-height: 1em;
+ text-align: center;
+ overflow: visible;
+}
+
+#periodic-table td.showcase dd[data-id="symbol"] {
+ top: 20%;
+ font-size: 5em;
+ font-weight: bold;
+}
+
+#periodic-table td.showcase dd[data-id="atomic_number"] {
+ top: 0.2em;
+ right: 0.2em;
+ font-size: 2em;
+ text-align: right;
+}
+
+#periodic-table td.showcase dd[data-id="name"] {
+ bottom: 2.8em;
+ font-size: 1em;
+ font-weight: bold;
+}
+
+#periodic-table td.showcase dd.property {
+ bottom: 1em;
+ font-size: 1em;
+}
+
+#periodic-table td.properties dt {
+ cursor: pointer;
+}
+
+#periodic-table td.properties dt.active {
+ text-decoration:underline;
+}
+
+#periodic-table td.properties dt:hover {
+ text-decoration:underline;
+}
+
+#periodic-table td.properties span[data-id="electronic_configuration"] {
+ font-size: 0.75em;
+ overflow: hidden;
+}
+
+#periodic-table td.properties dl {
+ margin: auto;
+ border: 1px solid black;
+ position: relative;
+ width: 20em;
+ height: 18em;
+ overflow: visible;
+}
+
+#periodic-table td.properties dl * {
+ height:1.15em;
+ font-size: 0.85em;
+ padding-left: 0.2em;
+}
+
+#periodic-table td.properties dt {
+ margin: 0px;
+ margin-right: 0.8em;
+ clear: left;
+ float: left;
+ width: 12em;
+}
+
+#periodic-table td.properties dd {
+ margin: 0px;
+ float: left;
+ text-align: right;
+}
+
+#periodic-table td.element dl:hover {
+ background-color: #777;
+ color: #FFF;
+ cursor: pointer;
+}
+
+#periodic-table td.element dl.active {
+ margin: 1px;
+ border: 2px solid black;
+ padding: 0px;
+ color: #FFF;
+ background-color: #777;
+}
+
+#periodic-table td.cell dl {
+ margin: 2px;
+ border: 1px solid black;
+ padding: 0px;
+ width: 3em;
+ height: 3em;
+ position: relative;
+}
+
+#periodic-table td.cell dl.filler {
+ margin: 3px;
+ border: 0px;
+}
+
+#periodic-table td.element dd {
+ display: none;
+ margin: 0px;
+ padding: 0px;
+ line-height: 1.0em;
+ text-align: center;
+ width: 100%;
+ overflow: hidden;
+ position: absolute;
+ font-size: 0.75em;
+}
+
+#periodic-table td.element dd[itemprop="symbol"] {
+ display: block;
+ padding: 0px;
+ top: 0.68em;
+ font-size: 1.2em;
+ font-weight: bold;
+ overflow: visible;
+}
+
+#periodic-table td.element dd[itemprop="atomic_number"] {
+ display: block;
+ top: 0.2em;
+ right: 0.2em;
+ font-size: 0.7em;
+ text-align: right;
+}
+
+#periodic-table td.element dd.active {
+ display: block;
+ bottom: 0.2em;
+ letter-spacing: 0em;
+}
+
+#periodic-table td.element dd[itemprop="oxidation_states"] {
+ font-size: 0.65em;
+}
+
+#periodic-table td.element dd[itemprop="electronic_configuration"] {
+ display: none;
+}
+
+#periodic-table td.element dd[itemprop="thermal_conductivity"] {
+ font-size: 0.65em;
+}
+
+@media (max-width: 1100px) {
+  #periodic-table td.showcase dl {
+    width: 10em;
+  }
+  #periodic-table td.showcase dd.property {
+    font-size: 0.9em;
+  }
+}

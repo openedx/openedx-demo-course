@@ -1,0 +1,34 @@
+<div class="script_placeholder" data-src="/static/js/Lab_5B.js"/><h2>MOSFET AMPLIFIER EXPERIMENT</h2><p>This demonstration is to develop your intuition about
+amplifiers and biasing, and to have fun with music! There are no responses
+that need to be checked.</p><p>In the lab below, you will find:</p><ul><li><p>A circuit schematic of the MOSFET amplifier. You can use the sliders
+        to the left of the circuit to control various parameters of the MOSFET and
+        the amplifier.</p></li><li><p>A plot (as a function of time) of selected voltages from the amplifier
+        circuit. You can select the input waveform (e.g., sine wave, square wave, 
+        various types of music) by using the \(v_\mathrm{IN}\)
+        drop-down menu and the associated sliders. (The parameter \(V_\mathrm{MAX}\)
+        sets the maximum range on the plots.)</p></li><li><p>The "Play" button which lets you listen to the selected voltage
+        waveform as sound. Try it out!</p></li></ul><section class="tool-wrapper"><div id="controlls-container"><div class="graph-controls"><div class="music-wrapper"><div id="graph-listen"><p>Listen to:</p><ul><li><label for="vinRadioButton"><input id="vinRadioButton" type="radio" checked="yes" name="listenToWhat"/>v<sub>IN</sub></label></li><li><label for="voutRadioButton"><input id="voutRadioButton" type="radio" name="listenToWhat"/>v<sub>OUT</sub></label></li><li><label for="vrRadioButton"><input id="vrRadioButton" type="radio" name="listenToWhat"/>v<sub>R</sub></label></li></ul></div><input id="playButton" type="button" value="Play"/></div><div class="inputs-wrapper"><p>Graph:</p><ul><li><label for="vinCheckbox"><input id="vinCheckbox" type="checkbox" checked="yes"/>v<sub>IN</sub></label></li><li><label for="voutCheckbox"><input id="voutCheckbox" type="checkbox" checked="yes"/>v<sub>OUT</sub></label></li><li><label for="vrCheckbox"><input id="vrCheckbox" type="checkbox"/>v<sub>R</sub></label></li></ul></div></div><div class="schematic-sliders"><div class="top-sliders"><p>v<sub>IN</sub>:</p><select id="musicTypeSelect" size="1"><option value="0">Zero Input</option><option value="1">Unit Impulse</option><option value="2">Unit Step</option><option selected="selected" value="3">Sine Wave</option><option value="4">Square Wave</option><option value="5">Classical Music</option><option value="6">Folk Music</option><option value="7">Jazz Music</option><option value="8">Reggae Music</option></select><div class="slider-label" id="vin"/><div class="slider" id="vinSlider"/><div class="slider-label" id="freq"/><div class="slider" id="freqSlider"/></div><div class="slider-label" id="vs"/><div class="slider" id="vsSlider"/><div class="slider-label" id="vbias"/><div class="slider" id="vbiasSlider"/><div class="slider-label" id="r"/><div class="slider" id="rSlider"/><div class="slider-label" id="k"/><div class="slider" id="kSlider"/><div class="slider-label" id="vt"/><div class="slider" id="vtSlider"/><div class="slider-label" id="vmax"/><div class="slider" id="vmaxSlider"/></div></div><div id="graph-container"><canvas id="graph" width="500" height="500">Your browser must support the Canvas element and have JavaScript enabled to view this tool.</canvas><canvas id="diag1" width="500" height="500">Your browser must support the Canvas element and have JavaScript enabled to view this tool.</canvas></div></section><br/><h2>Experiment 1: Distorted output</h2><p>Begin by selecting a sine wave input in the drop-down menu for \(v_\mathrm{IN}\).
+Then, adjust the sliders to the baseline (default) setting shown below.</p><p>Baseline setting of sliders:</p><ul><li>Peak to peak voltage: \(v_\mathrm{IN}=3~\mathrm{V}\),</li><li>Frequency: \(f = 1000~\mathrm{Hz}\),</li><li>Supply voltage: \(V_\mathrm{S}=1.6~\mathrm{V}\),</li><li>Input bias voltage: \(V_\mathrm{BIAS}=2.5~\mathrm{V}\),</li><li>Pull-up resistor: \(R = 10~\mathrm{k}\Omega\),</li><li>MOSFET parameter: \(K=\frac{1~\mathrm{mA}}{\mathrm{V}^2}\),</li><li>MOSFET threshold voltage: \(V_\mathrm{T} = 1~\mathrm{V}\),</li><li>Vertical plot range: \(V_\mathrm{MAX} = 2~\mathrm{V}\).</li></ul><p>You should observe in the plot that with the baseline settings,
+the amplifier produces a distorted sine wave signal for
+\(v_{OUT}\). Next, go ahead and select one of the music signals as the input and
+listen to each of \(v_{IN}\) and \(v_{OUT}\), and confirm for yourself that the
+output sounds degraded at the chosen slider settings.  You will notice
+that the graph now plots the music signal waveforms. Think about the
+reasons why the amplifier is producing a distorted output.</p><h2>Experiment 2: Linear regime</h2><p>We now study the amplifier's small signal
+behavior.  Select a sine wave as the input signal. To study the small
+signal behavior, reduce the value of \(v_{IN}\) to 0.1V (peak-to-peak) by
+using the \(v_{IN}\) slider. Keeping the rest of the parameters at their
+baseline settings, derive an appropriate value of \(V_{BIAS}\) that will ensure
+saturation region operation for the MOSFET for the 0.1V peak-to-peak swing
+for \(v_{IN}\).  Make sure to think about both positive and negative excursions
+of the signals.</p><p>Next, use the \(V_{BIAS}\) slider to choose your computed value for \(V_{BIAS}\) and
+see if the observed plot of \(v_{OUT}\)  is more-or-less distortion free. If
+your calculation was right, then the output will indeed be distortion free.</p><p>Next, select one of the music signals as the input and listen to each of
+\(v_{IN}\) and \(v_{OUT}\), and confirm for yourself that the output  sounds much
+better than in Experiment 1. Also, based on sound volume, convince yourself that \(v_{OUT}\) is
+an amplified version of \(v_{IN}\).</p><h2>Experiment 3: Your settings</h2><p>Now go ahead and experiment with various other settings while listening
+to the music signal at \(v_{OUT}\). Observe the plots and listen to \(v_{OUT}\) as
+you change, for example,  the bias voltage \(V_{BIAS}\). You will notice that
+the amplifier distorts the input signal when \(V_{BIAS}\) becomes too small, or
+when it becomes too large.  You can also experiment with various values of
+\(v_{IN}\), \(R_{L}\), etc., and see how they affect the amplification and distortion.</p>
