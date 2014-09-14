@@ -1,26 +1,26 @@
-<problem display_name="Numerical Input" markdown="Some course questions ask that you insert numbers into web-text fields, and your answers can be judged exactly - or approximately - according to the question. &#10;&#10;Note that the edX system uses a period to indicate decimals, so fifteen and three quarters is written &quot;15.75&quot;, not &quot;15,75&quot;. &#10;&#10;Enter the numerical value of Pi:&#10;= 3.14159 +- .02&#10;&#10;Enter the approximate value of 502*9:&#10;= 4518 +- 15%&#10;&#10;Enter the number of fingernails on a healthy human hand. For the purposes of this question, please consider the thumb as a finger:&#10;= 5&#10;&#10;[explanation] Pi, or the the ratio between a circle's circumference to its diameter, is an irrational number known to extreme precision. It is value is approximately equal to 3.14.&#10;Although you can get an exact value by typing 502*9 into a calculator, the result will be close to 500*10, or 5,000. The grader accepts any response within 15% of the true value, 4518, so that you can use any estimation technique that you like.&#10;The index finger, middle finger, ring finger, pinky, and thumb are the five different fingers on a human hand.[explanation] " max_attempts="" rerandomize="never" showanswer="always" weight="">
-  <p>Some course questions ask that you insert numbers into web-text fields, and your answers can be judged exactly - or approximately - according to the question. </p>
-  <p>Note that the edX system uses a period to indicate decimals, so fifteen and three quarters is written "15.75", not "15,75". </p>
-  <p>Enter the numerical value of Pi:</p>
+<problem display_name="Réponse Numérique" markdown="Certains cours vous demandent d'entrer des nombre dans des champs textes, et vos réponses peuvent être examinées de manière exactes - ou approximées - en fonction de la question. &#10;&#10;Notez bien que edX utilise un point (.) pour indiquer les décimales, donc quinze soixante quinze est écrit &quot;15.75&quot;, et non pas &quot;15,75&quot;. &#10;&#10;Entere la valeur numérique de Pi:&#10;= 3.14159 +- .02&#10;&#10;Entrer la valeur approximative de 502*9:&#10;= 4518 +- 15%&#10;&#10;Entre le nombre de doigts sur une main humaine en bonne santé. Pour cette question, considérez le pouce comme un doigt:&#10;= 5&#10;&#10;[explanation] Pi, ou le quotient entre la circonférence d'un cercle et son diamètre, est une nombre irrationnel connu à une précision extrème. Sa valeur est approximativement égale à 3,14 (ou 3.14 en notation edX).&#10;Bien que vous puissiez avoir une valeur exacte pour le produit 502*9 dans une calculatrice, le résultat se rapproche de 500*10, ou 5,000. L'outil d'évaluation acceptera une réponse dans les 15% de la valeurs exacte, 4518, donc vous pouvez utiliser la technique d'estimation de votre choix.&#10;L'index, le majeur, l'annulaire, le petit doigt et le pouce sont les cinq doigts de la main de l'homme.[explanation] " max_attempts="null" rerandomize="never" showanswer="always" weight="null">
+  <p>Certains cours vous demandent d'entrer des nombre dans des champs textes, et vos réponses peuvent être examinées de manière exactes - ou approximées - en fonction de la question. </p>
+  <p>Notez bien que edX utilise un point (.) pour indiquer les décimales, donc quinze soixante quinze est écrit "15.75", et non pas "15,75". </p>
+  <p>Entere la valeur numérique de Pi:</p>
   <numericalresponse answer="3.14159">
     <responseparam type="tolerance" default=".02"/>
-    <textline/>
+    <formulaequationinput/>
   </numericalresponse>
-  <p>Enter the approximate value of 502*9:</p>
+  <p>Entrer la valeur approximative de 502*9:</p>
   <numericalresponse answer="4518">
     <responseparam type="tolerance" default="15%"/>
-    <textline/>
+    <formulaequationinput/>
   </numericalresponse>
-  <p>Enter the number of fingernails on a healthy human hand. For the purposes of this question, please consider the thumb as a finger:</p>
+  <p>Entre le nombre de doigts sur une main humaine en bonne santé. Pour cette question, considérez le pouce comme un doigt:</p>
   <numericalresponse answer="5">
-    <textline/>
+    <formulaequationinput/>
   </numericalresponse>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
-      <p> Pi, or the the ratio between a circle's circumference to its diameter, is an irrational number known to extreme precision. It is value is approximately equal to 3.14.</p>
-      <p>Although you can get an exact value by typing 502*9 into a calculator, the result will be close to 500*10, or 5,000. The grader accepts any response within 15% of the true value, 4518, so that you can use any estimation technique that you like.</p>
-      <p>The index finger, middle finger, ring finger, pinky, and thumb are the five different fingers on a human hand.</p>
+      <p> Pi, ou le quotient entre la circonférence d'un cercle et son diamètre, est une nombre irrationnel connu à une précision extrème. Sa valeur est approximativement égale à 3,14 (ou 3.14 en notation edX).</p>
+      <p>Bien que vous puissiez avoir une valeur exacte pour le produit 502*9 dans une calculatrice, le résultat se rapproche de 500*10, ou 5,000. L'outil d'évaluation acceptera une réponse dans les 15% de la valeurs exacte, 4518, donc vous pouvez utiliser la technique d'estimation de votre choix.</p>
+      <p>L'index, le majeur, l'annulaire, le petit doigt et le pouce sont les cinq doigts de la main de l'homme.</p>
     </div>
   </solution>
 </problem>

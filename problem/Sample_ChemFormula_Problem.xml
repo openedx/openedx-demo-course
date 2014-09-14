@@ -1,6 +1,6 @@
-<problem display_name="Chemical Equations" rerandomize="never" showanswer="never">
+<problem display_name="Équations chimiques" markdown="null" rerandomize="never" showanswer="never">
   <startouttext/>
-  <p>Some problems may ask for a particular chemical equation. You can practice this technique by writing out the following reaction in the box below.</p>
+  <p>Cetains problèmes peuvent demander une équation chimique particulière. Vous pouvez pratiquer cette technique en écrivant la réaction suivante dans la boite ci-dessous.</p>
   <center>\( \text{H}_2\text{SO}_4 \longrightarrow \text{ H}^+ + \text{ HSO}_4^-\)</center>
   <br/>
   <customresponse>
@@ -14,7 +14,7 @@ else:
 
 </answer>
   </customresponse>
-  <p> Some tips:<ul><li>Only real element symbols are permitted.</li><li>Subscripts are entered with plain text.</li><li>Superscripts are indicated with a caret (^).</li><li>The reaction arrow (\(\longrightarrow\)) is indicated with "-&gt;".</li></ul>
-	 So, you can enter "H2SO4 -&gt; H^+ + HSO4^-".</p>
+  <p> Astuces:<ul><li>Seul les symboles d'élements rééls sont permis.</li><li>Les indices sont entrés avec du texte de base.</li><li>Les exposants sont entrés avec un accent circonflexe (^).</li><li>Les flèches de réaction sont (\(\longrightarrow\)) indiquées avec "-&gt;".</li></ul>
+	 Donc, vous pouvez entrer "H2SO4 -&gt; H^+ + HSO4^-".</p>
   <endouttext/>
 </problem>

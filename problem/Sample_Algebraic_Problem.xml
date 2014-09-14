@@ -1,13 +1,13 @@
-<problem display_name="Mathematical Expressions" graceperiod="0 day 5 hours 0 minutes 0 seconds" rerandomize="never" showanswer="attempted" start="2013-02-05T00:00" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
+<problem display_name="Expressions Mathématiques" graceperiod="18000 seconds" markdown="null" rerandomize="never" showanswer="attempted" start="2013-02-05T00:00:00Z" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
   <script type="loncapa/python">
 z = "A*x^2 + sqrt(y)"
 </script>
   <startouttext/>
-  <p>Some edX courses ask you to enter an algebraic expression as an answer. Try entering the following algebraic expression in the box below. It’s easier than it looks.</p>
+  <p>Certains cours edX peuvent vous demander d'entrer une expression sous forme de formule mathématique. Essayez d'entrer une formule mathématique dans la boite ci-dessous. C'est plus simple qu'il n'y paraît.</p>
   <p> \(A \cdot x^2 + \sqrt{y}\)  
     </p>
   <p>
-The entry is case sensitive. The product must be indicated with an asterisk, and the exponentiation with a caret, so you would write  
+L'entrée est sensible à la casse. Le produit doit-être indiqué avec une astérisque, et l'exponentielle avec un accent circonflexe, donc vous devriez écrire 
 "A*x^2 + sqrt(y)".</p>
   <endouttext/>
   <formularesponse type="cs" samples="A,x,y@1,1,1:3,3,3#10" answer="$z">

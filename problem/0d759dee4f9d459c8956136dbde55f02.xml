@@ -1,13 +1,13 @@
-<problem display_name="Text Input" markdown="Here's a very simple example of a text input question. Depending on the course you may have to observe special text requirements for dates, case sensitivity, etc. &#10;&#10;Which country contains Paris as its capital?&#10;= France&#10;[explanation]&#10;You can find verification that Paris is the capital of France on wikipedia, or any atlas that you have at hand.&#10;[explanation]&#10;" max_attempts="" rerandomize="never" showanswer="always" weight="">
-  <p>Here's a very simple example of a text input question. Depending on the course you may have to observe special text requirements for dates, case sensitivity, etc. </p>
-  <p>Which country contains Paris as its capital?</p>
+<problem display_name="Réponse Textuelle" markdown="Voici une exemple très simple d'une question à réponse textuelle. En fonction du cours vous avez des règles spécifiques pour les dates, la casse, ...&#10;&#10;&#10;Quel pays a pour capitale Paris?&#10;= France&#10;[explanation]&#10;Vous pouvez vérifier que Paris est la capitale de la France sur wikipedia, ou n'importe quel atlas à votre disposition.&#10;[explanation]&#10;" max_attempts="null" rerandomize="never" showanswer="always" weight="null">
+  <p>Voici une exemple très simple d'une question à réponse textuelle. En fonction du cours vous avez des règles spécifiques pour les dates, la casse, ...</p>
+  <p>Quel pays a pour capitale Paris?</p>
   <stringresponse answer="France" type="ci">
     <textline size="20"/>
   </stringresponse>
   <solution>
     <div class="detailed-solution">
       <p>Explanation</p>
-      <p>You can find verification that Paris is the capital of France on wikipedia, or any atlas that you have at hand.</p>
+      <p>Vous pouvez vérifier que Paris est la capitale de la France sur wikipedia, ou n'importe quel atlas à votre disposition.</p>
     </div>
   </solution>
 </problem>
