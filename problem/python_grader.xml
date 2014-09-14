@@ -1,41 +1,32 @@
-<problem title="Embedded Code Box" display_name="" graceperiod="0 day 5 hours 0 minutes 0 seconds" markdown="null" rerandomize="never" showanswer="always" start="2013-02-05T00:00" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
+<problem title="Embedded Code Box" display_name="" graceperiod="18000 seconds" markdown="null" rerandomize="never" showanswer="always" start="2013-02-05T00:00:00Z" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
   <text>
-    <p> We are searching for
-      the smallest monthly payment such that we can pay off the
-      entire balance of a loan within a year.</p>
-    <p> The following values might be useful when writing your solution</p>
+    <p> Nous cherchons le plus petit  paiement mensuel tel que nous pouvons payer la somme entière d'un prêt en un an.</p>
+    <p> Les valeurs suivantes peuvent être utiles lorsque vous écrivez votre solution</p>
     <blockquote>
-      <p><strong>Monthly interest rate</strong>
-= (Annual interest rate) / 12<br/>
-<strong>Monthly payment lower bound</strong>
-= Balance / 12<br/>
+      <p><strong>Intérêt mensuel</strong>
+= (Intérêt annuel) / 12<br/>
+<strong>Plus petit paiement mensuel</strong>
+= Somme restante à payer / 12<br/>
 
-<strong>Monthly payment upper bound</strong> = (Balance x
-        (1 + Monthly interest rate)<sup>12</sup>) / 12
+<strong>Plus gros paiement mensuel</strong> = (Somme restante à payer x
+        (1 + Intérêt mensuel)<sup>12</sup>) / 12
 </p>
     </blockquote>
-    <p>The following variables contain values as described below:</p>
+    <p>Les variables suivantes contiennent des valeurs décrites de la manière suivante:</p>
     <ol>
       <li>
-        <p><code>balance</code> - the outstanding balance on the credit card</p>
+        <p><code>balance</code> - la somme restante sur la carte de crédit</p>
       </li>
       <li>
-        <p><code>annualInterestRate</code> - annual interest rate as a decimal</p>
+        <p><code>annualInterestRate</code> - le taux d'intérêt annuel</p>
       </li>
     </ol>
-    <p>Write a program that uses these bounds and bisection
-        search (for more info check out <a href="http://en.wikipedia.org/wiki/Bisection_method" target="_blank">the Wikipedia page
-        on bisection search</a>)
-        to find the smallest monthly payment <em>to the cent</em>
-        such that we can pay off the
-        debt within a year.</p>
-    <p>Note that if you do not use bisection search, your code will not run - your code only has
-      30 seconds to run on our servers. If you get a message that states "Your submission could not be graded. Please recheck your 
-      submission and try again. If the problem persists, please notify the course staff.", check to be 
-      sure your code doesn't take too long to run.</p>
-    <p>The code you paste into the following box should not specify the values for the variables <code>balance</code> 
-      or <code>annualInterestRate</code> - our test code will define those values 
-      before testing your submission. </p>
+    <p>Écrivez un programme qui utilise ces limites et la recherche binaire (pour plus d'info voir<a href="http://en.wikipedia.org/wiki/Bisection_method" target="_blank">la page Wikipedia sur la recherche binaire</a>)
+        pour obtenir le paiement mensuel <em>au cent près</em>
+        tel que vous pouvez payer totalement
+        la dette en un an.</p>
+    <p>Notez que si vous n'utilisez pas la recherche binaire, votre code ne marchera pas - votre code a seulement 30 secondes pour marcher sur nos serveurs. Si vous obtenez un message qui mentionne "Votre soumission n'a pas pu être notée. Veuillez revoire votre soumission et essayez à nouveau. Si le problème persite, veuillez notifier un membre de l'équipe du cours.", vérifiez pour être sûr que votre code ne prenne pas trop longtemps à s'executer.</p>
+    <p>Le code que vous allez coller dans la boite suivante ne doit pas spécifier de valeur pour les variables <code>balance</code> ou <code>annualInterestRate</code> - notre code de test va définir ces valeurs avant execution. </p>
   </text>
   <coderesponse>
     <textbox rows="10" cols="70" mode="python" tabsize="4"/>
@@ -82,55 +73,45 @@ print "Lowest Payment:", round(payment, 2)
   </coderesponse>
   <text>
     <div>
-      <b>Note:</b>
-      <p>Depending on where, and how frequently, you round during
-        this function, your answers may be off a few cents in
-        either direction. Try rounding as few times as possible
-        in order to increase the accuracy of your result. </p>
+      <b>Remarque:</b>
+      <p>En fonction d'où ou d'à quelle fréquence, vous allez arrondir cette fonction, vos réponses peuvent être inexactes à quelques cents près en plus ou en moins. Essayez d'arrondir le moins possible de manière à avoir un résultat plus exact de votre résultat. </p>
     </div>
     <section class="hints">
       <h3>Hints</h3>
       <div class="collapsible">
         <header>
-          <a href="#" id="ht3l">Test Cases to test your code with. Be sure to test these on your own machine - 
-    and that you get the same output! - before running your code on this webpage! </a>
+          <a href="#" id="ht3l">Batterie de Tests pour tester votre code. Faites en sorte de faire cette batterie de test sur votre machine locale - 
+    et que vous avez le même résultat! - avant de l'essayer sur cette page web! </a>
         </header>
         <section id="ht3">
-          <p><b>Note:</b> The automated tests are lenient - if your answers are off by a few cents 
-    in either direction, your code is OK. </p>
+          <p><b>Remarque:</b> Les tests automatiques sont assez souples. Si votre réponse est inexacte en plus ou en moins, votre code sera considéré comme Ok! </p>
           <p>Test Cases:</p>
-          <ol>
-            <li>
-              <p>
-                <pre>
-                  <code>
-          Test Case 1:
-          balance = 320000
-          annualInterestRate = 0.2
+          <p>
+            <pre>
+              <code>
+      Test Case 1:
+      balance = 320000
+      annualInterestRate = 0.2
 
-          Result Your Code Should Generate:
-          -------------------
-          Lowest Payment: 29157.09
-      </code>
-                </pre>
-              </p>
-            </li>
-            <li>
-              <p>
-                <pre>
-                  <code>
-          Test Case 2:
-          balance = 999999
-          annualInterestRate = 0.18
-          
-          Result Your Code Should Generate:
-          -------------------
-          Lowest Payment: 90325.07
-      </code>
-                </pre>
-              </p>
-            </li>
-          </ol>
+      Result Your Code Should Generate:
+      -------------------
+      Lowest Payment: 29157.09
+</code>
+            </pre>
+          </p>
+          <p>
+            <pre>
+              <code>
+      Test Case 2:
+      balance = 999999
+      annualInterestRate = 0.18
+
+      Result Your Code Should Generate:
+      -------------------
+      Lowest Payment: 90325.07
+</code>
+            </pre>
+          </p>
         </section>
       </div>
       <div class="collapsible">

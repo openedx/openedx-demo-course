@@ -1,4 +1,4 @@
-<problem display_name="" graceperiod="0 day 5 hours 0 minutes 0 seconds" markdown="null" rerandomize="never" showanswer="always" start="2013-02-05T00:00" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
+<problem display_name="" graceperiod="18000 seconds" markdown="null" rerandomize="never" showanswer="always" start="2013-02-05T00:00:00Z" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
   <startouttext/>
   <p>Many problems in real courses that use the schematic editor will have an initial position and question that you shold design a solution for. It will accept any of many correct solutions that solve its requirements.</p>
   <p> The following problem statement is contained within 6.002x: Circuits and Electronics.</p>
@@ -70,7 +70,7 @@ only <i>after</i> you've performed the transient simulation so that
 the checker will have a waveform to check!</p>
   <p>When the gate is correctly implemented, the plot produced by the transient
 analysis should like similar to the following figure.</p>
-  <center><img src="/c4x/edX/DemoX/asset/images_logic_gate_image.png"/><br/>Figure 1.  Example plot output
+  <center><img src="/static/images_logic_gate_image.png"/><br/>Figure 1.  Example plot output
 </center>
   <p>Food for thought: You'll notice there are little spikes,
 sometimes called <i>glitches</i>, in the output waveform (see the
@@ -83,7 +83,7 @@ circuitry at the time the glitches occur.</p>
     <div class="detailed-solution">
       <p>Explanation:</p>
       <p>We are asked to implement the logic function \( \overline{C\cdot\left(A + B\right)}\). This can be achieved with three transistors, as shown below; a series connection between \(C\) and \(\left(A+B\right)\) to implement the AND function, and a parallel connection between \(A\) and \(B\) to implement the OR function:</p>
-      <img src="/c4x/edX/DemoX/asset/images_logic_gate_sln.png"/>
+      <img src="/static/images_logic_gate_sln.png"/>
       <p>We are told that \(V_{DD} = 3V\) and that \(R_{n} = 26.5K\Omega\). Furthermore, we
 are told that we are to use the switch-resistor model of the MOSFETS, treating
 them like resistors with resistances \(R_{ON}\) when they are given a high input. \(R_{ON}\)

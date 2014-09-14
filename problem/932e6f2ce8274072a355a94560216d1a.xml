@@ -1,10 +1,10 @@
-<problem display_name="Perchance to Dream" markdown="The paragraph contains references to sleepiness and an unexpected event. Why?&#10;&#10;( ) Feeling sleepy can cause white rabbits to appear.&#10;( ) There is foreshadowing of a tea party.&#10;(x) There is an implication that the strangeness to follow can be considered like a dream.&#10;&#10;" rerandomize="never" showanswer="always">
-  <p>The paragraph contains references to sleepiness and an unexpected event. Why?</p>
+<problem display_name="Rêver peut-être " markdown="Ce paragraphe contient certaines références au someil et un évènement inattendu. Pourquoi ?&#10;&#10;( ) S'endormir peut faire apparaître des lapins blancs.&#10;( ) Il y a la prémonition de la venue d'une reception.&#10;(x) Il y a une implication que l'étrangeté qui suit peut être considéré comme un rêve.&#10;&#10;" rerandomize="never" showanswer="always">
+  <p>Ce paragraphe contient certaines références au someil et un évènement inattendu. Pourquoi ?</p>
   <multiplechoiceresponse>
     <choicegroup type="MultipleChoice">
-      <choice correct="false">Feeling sleepy can cause white rabbits to appear.</choice>
-      <choice correct="false">There is foreshadowing of a tea party.</choice>
-      <choice correct="true">There is an implication that the strangeness to follow can be considered like a dream.</choice>
+      <choice correct="false">S'endormir peut faire apparaître des lapins blancs.</choice>
+      <choice correct="false">Il y a la prémonition de la venue d'une reception.</choice>
+      <choice correct="true">Il y a une implication que l'étrangeté qui suit peut être considéré comme un rêve.</choice>
     </choicegroup>
   </multiplechoiceresponse>
 </problem>

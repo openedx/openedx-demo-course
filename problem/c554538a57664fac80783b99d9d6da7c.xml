@@ -1,15 +1,15 @@
-<problem display_name="Pointing on a Picture" max_attempts="" rerandomize="never" showanswer="always" weight="">
+<problem display_name="Cliquer sur une image" markdown="null" max_attempts="null" rerandomize="never" showanswer="always" weight="null">
   <p>
-Some course questions may show you an image and ask that you click on it to answer a question. Try this example. (If you are correct you will see our famous green check mark.)
+Certaines question de cours peuvent vous montrer une image et vous demander de cliquer pour répondre à une question. Essayez cet example. (Si vous avez raison vous allez voir la fameuse coche verte.)
 </p>
-  <p>Which animal is a kitten?</p>
+  <p>Quel animal est un chat?</p>
   <imageresponse>
-    <imageinput src="/c4x/edX/DemoX/asset/Dog-and-Cat.jpg" width="640" height="400" rectangle="(385,98)-(600,337)"/>
+    <imageinput src="/static/Dog-and-Cat.jpg" width="640" height="400" rectangle="(385,98)-(600,337)"/>
   </imageresponse>
   <solution>
     <div class="detailed-solution">
-      <p>Explanation</p>
-      <p>The domestic cat, or kitten (Latin name <i>Felis silvestris catus</i>) is to the right in this photograph.</p>
+      <p>Explication</p>
+      <p>Le chat domestique, ou chat (Nom latin <i>Felis silvestris catus</i>) est à droite de cette photo.</p>
     </div>
   </solution>
 </problem>

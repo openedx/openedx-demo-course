@@ -3,12 +3,11 @@ var Sound = (function() {
 	//////////PRIVATE FIELDS AND METHODS//////////
 	var TWO_PI = 2.0*Math.PI;
 	var PI_DIV_2 = Math.PI/2.0;
-
+	
 	function Player()
 	{
 		this.isChrome = false;
 		this.isMoz = false;
-		this.hasWebkitPrefix = false;
 		this.audioChrome;
 		this.audioMoz;
 		this.dir = "/c4x/edX/DemoX/asset/js_sound_labs_sounds_"; // HACK: Static-replace not being run in js source
@@ -25,25 +24,15 @@ var Sound = (function() {
 		this.playAudio;
 		this.outSrc;
 
-		//##### Test for Web Audio API #####
-		//http://webaudio.github.io/web-audio-api/
-		//http://caniuse.com/audio-api
-		//Webkit browsers: Chrome version 10 to 33 & Safari version 6 to 7
+		//Test for Web Audio API --> Webkit browsers ie Chrome & Safari	
+		//https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html
 		if (!!window.webkitAudioContext)
 		{
 			this.audioChrome = new webkitAudioContext();
 			this.isChrome = true;
-			this.hasWebkitPrefix = true;
 		}
-		//Chrome 34 and above & Firefox version 25 and above
-		else if (!!window.AudioContext)
-		{
-			this.audioChrome = new AudioContext();
-			this.isChrome = true;
-		}
-		//##### Test for Audio Data API #####
+		//Test for Audio Data API --> Firefox 4 and ulterior
 		//https://wiki.mozilla.org/Audio_Data_API
-		//Firefox version 4 to 24
 		else if (!!new Audio().mozSetup)
 		{
 			this.audioMoz = new Audio();
@@ -52,15 +41,15 @@ var Sound = (function() {
 		else //Sound libraries are not supported, exit.
 			throw "Neither Web Audio API nor Audio Data API is supported in this browser.";
 
-		//To be overriden
+		//To be overriden	
 		this.soundStarted = function()
 		{
-		}
-
+		}	
+	
 		this.soundStopped = function()
 		{
 		}
-
+	
 		this.load = function(url, callback)
 		{
 			var request;
@@ -69,12 +58,12 @@ var Sound = (function() {
 			request = new XMLHttpRequest();
   			request.open('GET', file, true); //Asynchronous
   			request.responseType = 'arraybuffer';
-
+  	
 			request.onload = function()
 			{
 				var arrayBuffer = request.response;
    			if (arrayBuffer)
-				{
+				{ 
 					var audioDataTmp = new Int16Array(arrayBuffer, 44);
 					self.audioData = new Float32Array(audioDataTmp);
 					//The music has been loaded, continue execution
@@ -82,7 +71,7 @@ var Sound = (function() {
 				}
   		}
 			request.send();
-		}
+		}        
 
 		this.getAudioHeader = function(audioHeaderData)
 		{
@@ -101,15 +90,15 @@ var Sound = (function() {
     				bitsPerSample: bytesToNum(audioHeaderData, 34, 2), // 34   2    8 bits = 8, 16 bits = 16, etc...
     				subChunk2Id  : bytesToStr(audioHeaderData, 36, 4), // 36   4    "data" = 0x64617461
     				subChunk2Size: bytesToNum(audioHeaderData, 40, 4)  // 40   4    data size = NumSamples*NumChannels*BitsPerSample/8
-			};
+			};	
 		}
 
 		this.bytesToStr = function(arr, offset, len)
 		{
 			var result = "";
 			var l = 0;
-			var i = offset;
-
+			var i = offset;	
+	
 			while (l < len)
 			{
 				result += String.fromCharCode(arr[i]);
@@ -128,37 +117,37 @@ var Sound = (function() {
 			var i = offset + len - 1;
 			var hexstr = "0x";
 			var tmpstr;
-
+	 
 			while (l < len)
 			{
-				if (arr[i] >= 0  && arr[i] <= 15)
+				if (arr[i] >= 0  && arr[i] <= 15) 
 					tmpstr = "0" + arr[i].toString(16);
 				else
 					tmpstr = arr[i].toString(16);
-
+   
 				hexstr += tmpstr;
 				i--;
 				l++;
 			}
-
+	
 			return parseInt(hexstr, 16);
 		}
 
 		this.createBuffers = function(nOut)
 		{
 			this.numberSamples = this.sampleRate*this.soundLength;
-
+					
 			if (this.isChrome)
-			{
+			{	
 				var b, d;
-
+				
 				b = this.audioChrome.createBuffer(this.numberChannels, this.numberSamples, this.sampleRate);
 				d = b.getChannelData(0); //Float32Array
 				this.inSignal = {buffer: b, data: d, listen: true};
-
+				
 				for (var i = 0; i < nOut; i++)
 				{
-
+					
 					b = this.audioChrome.createBuffer(this.numberChannels, this.numberSamples, this.sampleRate);
 					d = b.getChannelData(0); //Float32Array
 					this.outSignals[i] = {buffer: b, data: d, listen: false};
@@ -185,7 +174,7 @@ var Sound = (function() {
 
 		this.generateUnitImpulse = function()
 		{
-			this.inSignal.data[0] = 10000;
+			this.inSignal.data[0] = 10000;		
 			for (var i = 1, l = this.inSignal.data.length; i < l; i++)
 			{
 				this.inSignal.data[i] = 0.0;
@@ -203,9 +192,9 @@ var Sound = (function() {
 		this.generateSineWave = function(peakToPeak, frequency, vOffset)
 		{
 			var amp = 0.5*peakToPeak;
-
+			
 			if (vOffset != 0)
-			{
+			{		
 				for (var i = 0, l = this.inSignal.data.length; i < l; i++)
 				{
 					this.inSignal.data[i] = amp * Math.sin(TWO_PI*frequency*i/this.sampleRate) + vOffset;
@@ -217,17 +206,17 @@ var Sound = (function() {
 				{
 					this.inSignal.data[i] = amp * Math.sin(TWO_PI*frequency*i/this.sampleRate);
 				}
-			}
+			}		
 		}
-
+	
 		this.generateSquareWave = function(peakToPeak, frequency, vOffset)
 		{
-			var amp = 0.5*peakToPeak;
+			var amp = 0.5*peakToPeak;		
 			var period = 1/frequency;
 			var halfPeriod = period/2;
 			var itmp, sgn;
-
-
+		
+			
 			if (vOffset != 0)
 			{
 				for (var i = 0, l = this.inSignal.data.length; i < l; i++)
@@ -251,7 +240,7 @@ var Sound = (function() {
 						sgn = -1;
 					this.inSignal.data[i] = amp * sgn;
 				}
-			}
+			}	
 		}
 
 		this.normalizeSound = function(arr)
@@ -260,7 +249,7 @@ var Sound = (function() {
 			var max = Number.NEGATIVE_INFINITY;
 			var vInMaxLocal = 10.0;
 			var maxVol = 1/vInMaxLocal;
-
+					
 			//Find the min and max
 			for (var i = 0, l = arr.length; i < l; i++)
 			{
@@ -269,43 +258,43 @@ var Sound = (function() {
 				if (arr[i] < min)
 					min = arr[i];
 			}
-
+	
 			var vPeakToPeak = Math.abs(max - min);
 			var maxVol = vPeakToPeak / vInMaxLocal;  //If we have a peak to peak voltage of 10 V, we want max sound, normalize to [-1, 1]
 			var norm = Math.max(Math.abs(min), Math.abs(max));
-
-			if (max != 0.0)
+	
+			if (max != 0.0)		
 			{
 				for (var i = 0, l = arr.length; i < l; i++)
 				{
-					arr[i] = maxVol*arr[i] / norm;
+					arr[i] = maxVol*arr[i] / norm;	
 				}
 			}
 			else  //Fill in with zeros
 			{
 				for (var i = 0, l = arr.length; i < l; i++)
 				{
-					arr[i] = 0.0;
+					arr[i] = 0.0;	
 				}
 			}
 		}
 
 		this.normalizeAllSounds = function()
 		{
-			//Normalize the sound buffer that will be heard
+			//Normalize the sound buffer that will be heard		
 			this.normalizeSound(this.inSignal.data);
 			for (var i = 0; i < this.outSignals.length; i++)
 			{
 				this.normalizeSound(this.outSignals[i].data);
-			}
+			}		
 		}
 
 		this.playTone = function()
 		{
-			this.soundStarted();
-			var self = this;
+			this.soundStarted();		
+			var self = this;		
 			if (this.isChrome)
-			{
+			{	
 				this.outSrc = this.audioChrome.createBufferSource();
 
 				if (this.inSignal.listen)
@@ -314,24 +303,19 @@ var Sound = (function() {
 				{
 					for (var i = 0; i < this.outSignals.length; i++)
 					{
-						if (this.outSignals[i].listen)
+						if (this.outSignals[i].listen)	
 							this.outSrc.buffer = this.outSignals[i].buffer;
-					}
-				}
-
+					}		
+				}				
+  				
 				this.outSrc.connect(this.audioChrome.destination);
-				if (this.hasWebkitPrefix) {
-					this.outSrc.noteOn(0);
-				}
-				else {
-					this.outSrc.start(0);
-				}
+				this.outSrc.noteOn(0);
 				this.isPlaying = true;
 				this.chromeTimer = setTimeout(function(){
 					self.isPlaying = false;
 					self.soundStopped();
 				}, this.outSrc.buffer.duration * 1000);
-
+		
 			}
 			else if (this.isMoz)
 			{
@@ -340,26 +324,26 @@ var Sound = (function() {
 				var currentPlayPosition = 0;
 				var prebufferSize = 22050 / 2; // buffer 500ms
 				var tail = null;
-
+								
 				if (this.inSignal.listen)
 					playedAudioData = this.inSignal.data;
 				else
 				{
 					for (var i = 0; i < this.outSignals.length; i++)
 					{
-						if (this.outSignals[i].listen)
+						if (this.outSignals[i].listen)	
 							playedAudioData = this.outSignals[i].data;
 					}
 				}
 
 				this.isPlaying = true;
-
-				// The function called with regular interval to populate the audio output buffer.
+				
+				// The function called with regular interval to populate the audio output buffer.		
 				this.playAudio = setInterval(function()
 				{
-					var written;
+					var written;					
 					currentPlayPosition = self.audioMoz.mozCurrentSampleOffset();
-
+					
 					// Check if some data was not written in previous attempts.
 					if (tail)
 					{
@@ -368,7 +352,7 @@ var Sound = (function() {
 						if (written < tail.length)
 						{
 							// Not all the data was written, saving the tail...
-            	tail = tail.subarray(written);
+            	tail = tail.subarray(written); 
 							return; //... and exit the function.
 						}
 						tail = null;
@@ -378,7 +362,7 @@ var Sound = (function() {
 					var available = Math.floor(currentPlayPosition + prebufferSize - currentWritePosition);
 					if (available > 0)
 					{
-						var data = playedAudioData.subarray(currentWritePosition);
+						var data = playedAudioData.subarray(currentWritePosition); 
 						// Writting the data
 						written = self.audioMoz.mozWriteAudio(data);
 						// Not all the data was written, saving the tail
@@ -387,29 +371,24 @@ var Sound = (function() {
 						currentWritePosition += written;
 					}
 				}, 100);
-
+				
 				this.mozTimer = setTimeout(function(){
 		  		clearInterval(self.playAudio);
 					self.isPlaying = false;
 					self.soundStopped();
-				}, this.soundLength*1000);
+				}, this.soundLength*1000);	
 			}
 		}
 
 		this.stopTone = function()
 		{
 			if (this.isPlaying)
-			{
+			{	
 				if (this.isChrome)
 				{
 					clearTimeout(this.chromeTimer);
-					if (this.hasWebkitPrefix) {
-						this.outSrc.noteOff(0);
-					}
-					else {
-						this.outSrc.stop(0);
-					}
-				}
+					this.outSrc.noteOff(0);
+				}	
 				else if (this.isMoz)
 				{
 					clearTimeout(this.mozTimer);
@@ -420,7 +399,7 @@ var Sound = (function() {
 			this.soundStopped();
 		}
 	}
-
+	
 	//////////PUBLIC FIELDS AND METHODS//////////
 	return {
 		Player: Player
@@ -439,22 +418,22 @@ var Plotter = (function() {
 		{
 			return Math.round(wleft + wwidth * (fx - fleft) / fwidth);
 		},
-
+		
 		getxFromPix : function(wx, wleft, wwidth, fleft, fwidth)
 		{
 			return fleft + fwidth * (wx - wleft) / wwidth;
 		},
-
+	
 		getyPix : function(fy, fbottom, fheight, wbottom, wheight)
 		{
 			return Math.round(wbottom - wheight * (fy - fbottom) / fheight);
 		},
-
+		
 		getyFromPix : function(wy, wbottom, wheight, fbottom, fheight)
 		{
 			return fbottom + fheight * (wbottom - wy) / wheight;
 		},
-
+		
 		log10: function(x)
 		{
 			return Math.log(x)/Math.LN10;
@@ -480,8 +459,8 @@ var Plotter = (function() {
 		yellow : "rgb(255, 255, 0)",
 		cyan : "rgb(0, 255, 255)",
 		magenta : "rgb(255, 0, 255)",*/
-
-
+		
+		
 		//Solarized palette: http://ethanschoonover.com/solarized
 		base03 :   "#002b36",
 		base02 :   "#073642",
@@ -508,9 +487,9 @@ var Plotter = (function() {
 		lightmagenta: "#ff3656",
 		lightbeige: "#eee8d5" //Base 2: Added to color current curve in series RLC Circuit --> Have to change
 	};
-
+	
 	////////// GENERAL DRAWING ROUTINES //////////
-
+	
 	function drawLine(c, x1, y1, x2, y2)
 	{
 		c.beginPath();
@@ -611,7 +590,7 @@ var Plotter = (function() {
 		c.lineTo(xc+h, yc+h);
 		c.stroke();
 	}
-
+	
 	function drawArrow(c, x1, y1, x2, y2, base, height)
 	{
 		var xs1 = x1 + 0.5;
@@ -641,7 +620,7 @@ var Plotter = (function() {
 		//c.stroke();
 		c.restore();
 	}
-
+	
 	function DrawingZone(left, top, width, height)
 	{
 		this.left = left;
@@ -651,7 +630,7 @@ var Plotter = (function() {
 		this.right = left + width - 1;
 		this.bottom = top + height - 1;
 	}
-
+	
 	function Graph(x, y, width, height, canvas, buffer)
 	{
 		this.canvas = canvas;
@@ -659,10 +638,10 @@ var Plotter = (function() {
 		this.canvas_ctx = canvas.getContext("2d");
 		this.buffer_ctx = buffer.getContext("2d");
 		this.canvasColor = Color.base02; //Color.background : "rgb(0, 51, 102)"
-
+		
 		//Use the screen canvas
 		this.ctx = this.canvas_ctx;
-
+		
 		this.drawingZone = new DrawingZone(x, y, width, height);
 		this.drawingZoneColor = Color.base03; //Color.black;
 		this.drawingZoneBorderColor = Color.base01; //Color.lomidgray;
@@ -676,7 +655,7 @@ var Plotter = (function() {
 		this.yAxisColor = Color.base00;  //Color.himidgray;
 		this.yLabelColor = Color.base1;  //Color.himidgray;
 		this.yTextColor = Color.base2;   //Color.litegray;
-
+		
 		this.xText = "x";
 		this.yText = "y";
 
@@ -733,7 +712,7 @@ var Plotter = (function() {
 
 		this.xTextxOffset = 9;
 		this.yTextyOffset = -9;
-
+		
 		this.hasxLog = false;
 		this.hasyLog = false;
 		this.xPowerMin = 1;
@@ -764,19 +743,19 @@ var Plotter = (function() {
 			else if (where == "canvas")
 				this.ctx = this.canvas_ctx;  //Default behavior
 		};
-
+		
 		this.paintBuffer = function() //Paints buffer on screen canvas
 		{
 			this.canvas_ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 			this.canvas_ctx.drawImage(buffer, 0, 0);
 		};
-
+		
 		this.paintCanvas = function() //Paints screen canvas on buffer
 		{
 			this.buffer_ctx.clearRect(0, 0, this.buffer.width, this.buffer.height);
 			this.buffer_ctx.drawImage(canvas, 0, 0);
-		};
-
+		};		
+		
 		this.drawBorder = function()
 		{
 			this.ctx.strokeStyle = this.drawingZoneBorderColor;
@@ -792,14 +771,14 @@ var Plotter = (function() {
 			drawLine(this.ctx, this.drawingZone.right + 4, this.wy0 - 2, this.drawingZone.right + 4, this.wy0 + 2);
 			drawLine(this.ctx, this.drawingZone.right + 5, this.wy0 - 1, this.drawingZone.right + 5, this.wy0 + 1);
 		};
-
+		
 		/*
 		if (this.hasxLog)
 						wx = this.getxPix(Utils.log10(x));
 		if (this.hasyLog)
 						wy = this.getyPix(Utils.log10(y));
 		*/
-
+						
 		/*
 		this.ctx.textAlign = "left";
 		this.ctx.textAlign = "center";
@@ -809,7 +788,7 @@ var Plotter = (function() {
 		this.ctx.textBaseline = "bottom";
 		this.ctx.textBaseline = "alphabetic";
 		*/
-
+						
 		this.drawxLog = function()
 		{
 			var power;
@@ -817,7 +796,7 @@ var Plotter = (function() {
 			var wx;
 			var wy = this.drawingZone.bottom + 12;
 			var str;
-
+			
 			//Don't draw grid line when on border of graph
 			for(var p = this.xPowerMin; p <= this.xPowerMax; p++)
 			{
@@ -826,10 +805,10 @@ var Plotter = (function() {
 						wx = this.drawingZone.right;
 				//Labeled grid line
 				if (p != this.xPowerMin && p != this.xPowerMax) //Don't draw line on left or right border of graph
-				{
+				{ 
 					this.ctx.strokeStyle = this.xGridColor;
 					drawLine(this.ctx, wx, this.drawingZone.bottom, wx, this.drawingZone.top);
-				}
+				}	
 				//Long ticks
 				this.ctx.strokeStyle = this.xLabelColor;
 				drawLine(this.ctx, wx, this.drawingZone.bottom, wx, this.drawingZone.bottom + 4);
@@ -838,7 +817,7 @@ var Plotter = (function() {
 				this.ctx.strokeStyle = this.xLabelColor;
 				str = "10^{" + p.toFixed(0) + "}";
 				this.drawSubSuperScript(this.ctx, str, wx, wy, "center", "top");
-
+								
 				if (p != this.xPowerMax)
 				{
 					for(var i = 2; i < 10; i++)
@@ -855,7 +834,7 @@ var Plotter = (function() {
 				}
 			}
 		}
-
+		
 		this.drawyLog = function()
 		{
 			var power;
@@ -863,19 +842,19 @@ var Plotter = (function() {
 			var wy;
 			var wx = this.drawingZone.left - 7;
 			var str;
-
+			
 			//Don't draw grid line when on border of graph
 			for(var p = this.yPowerMin; p <= this.yPowerMax; p++)
 			{
-				wy = this.getyPix(p);
+				wy = this.getyPix(p);	
 				if(wy < this.drawingZone.top)
 					wy = this.drawingZone.top;
 				//Labeled grid line
 				if (p != this.yPowerMin && p != this.yPowerMax) //Don't draw line on left or right border of graph
-				{
+				{ 
 					this.ctx.strokeStyle = this.yGridColor;
 					drawLine(this.ctx, this.drawingZone.left, wy, this.drawingZone.right, wy);
-				}
+				}	
 				//Long ticks
 				this.ctx.strokeStyle = this.yLabelColor;
 				drawLine(this.ctx, this.drawingZone.left, wy, this.drawingZone.left - 4, wy);
@@ -884,7 +863,7 @@ var Plotter = (function() {
 				this.ctx.strokeStyle = this.yLabelColor;
 				str = "10^{" + p.toFixed(0) + "}";
 				this.drawSubSuperScript(this.ctx, str, wx, wy, "right", "middle");
-
+				
 				if (p != this.xPowerMax)
 				{
 					for(var i = 2; i < 10; i++)
@@ -958,7 +937,7 @@ var Plotter = (function() {
 				}
 			}
 		};
-
+		
 		this.drawyAxis = function()
 		{
 			this.wx0 = this.getxPix(this.x0);
@@ -981,7 +960,7 @@ var Plotter = (function() {
 			{
 				for(y = this.yLongTickMin; y <= this.yLongTickMax; y += this.yLongTickStep)
 				{
-					wy = this.getyPix(y);
+					wy = this.getyPix(y);	
 					if(wy < this.drawingZone.top)
 						wy = this.drawingZone.top;
 					drawLine(this.ctx, this.drawingZone.left, wy, this.drawingZone.left - 4, wy);
@@ -1041,7 +1020,7 @@ var Plotter = (function() {
 			this.ctx.strokeStyle = this.xLabelColor;
 			this.ctx.textAlign = "center";
 			this.ctx.textBaseline = "top";
-
+			
 			if(this.automaticxLabels)
 			{
 				for( x = this.xLabelMin; x <= this.xLabelMax; x += this.xLabelStep)
@@ -1059,7 +1038,7 @@ var Plotter = (function() {
 				}
 			}
 		}
-
+		
 		this.drawxText = function()
 		{
 			var x;
@@ -1085,7 +1064,7 @@ var Plotter = (function() {
 			this.ctx.strokeStyle = this.yLabelColor;
 			this.ctx.textAlign = "right";
 			this.ctx.textBaseline = "middle";
-
+			
 			if(this.automaticyLabels)
 			{
 				for( y = this.yLabelMin; y <= this.yLabelMax; y += this.yLabelStep)
@@ -1114,7 +1093,7 @@ var Plotter = (function() {
 			//this.drawSubSuperScript(this.ctx, this.yText, wx, wy, "left", "bottom", "10pt Verdana bold", "8pt Verdana bold");
 			this.drawSubSuperScript(this.ctx, this.yText, wx, wy, "left", "bottom", "12pt Open Sans", "10pt Open Sans");
 		};
-
+		
 		this.parseSubSuperScriptText = function(str)
 		{
 			/*var regExpSub = /_\{(.*?)\}/g;
@@ -1137,7 +1116,7 @@ var Plotter = (function() {
 			{
 				sups[i] = sups[i].substring(2, sups[i].length - 1); //Discard ^{ and }
 			}*/
-
+	   	
     	var len = str.length;
    		var i = 0;
    		var start;
@@ -1146,14 +1125,14 @@ var Plotter = (function() {
    		var text = [];
    		var type;
    		var ntext = "";
-
+	   	
    		while (i < len)
    		{
    			if (str[i] == "_") //Encountered a potential subscript _
    				type = "sub";
    			else if (str[i] == "^")  //Encountered a potential superscript ^
    				type = "sup";
-
+   			
    			if (type == "sub" || type == "sup")
    			{
    				if (str[i+1] == "{")
@@ -1178,7 +1157,7 @@ var Plotter = (function() {
    						{
    							text.push({s: ntext, type: "normal"});
    							ntext = "";
-   						}
+   						}	
    						//Store subscript or superscript and tag it as so
    						if (type == "sub")
    							text.push({s: str.substring(start, end), type: "sub"});
@@ -1191,66 +1170,66 @@ var Plotter = (function() {
    				}
    			}
    			ntext += str[i];
-   			if (i == len - 1 && ntext.length != 0) //We've reached the end, store normal text if not empty and tag it as so
+   			if (i == len - 1 && ntext.length != 0) //We've reached the end, store normal text if not empty and tag it as so 
    				text.push({s: ntext, type: "normal"});
    			i++;
    		}
-
+   	
 			return text;
 		}
-
+  
 		this.subSuperScriptLength = function(c, text, fNormal, fSubSup)
 		{
 			var fontNormal = fNormal;
 			var fontSubSup = fSubSup;
-
+				    	    
    		var xpos = 0;
-
+   	
    		for (var i = 0; i < text.length; i++)
-   		{
+   		{		
 				if (text[i].type == "normal")
 					c.font = fontNormal;
 				else if (text[i].type == "sub")
 					c.font = fontSubSup;
 				else
 					c.font = fontSubSup;
-				xpos += c.measureText(text[i].s).width;
+				xpos += c.measureText(text[i].s).width;	
 			}
-
+   	
 			return xpos;
-		}
-
+		}	
+  	
 		this.drawSubSuperScript = function(c, str, x, y, xway, yway, fNormal, fSubSup)
 		{
 			/*var fontNormal = (typeof fNormal == 'undefined') ? "8pt Verdana bold" : fNormal;
 			var fontSubSup = (typeof fSubSup == 'undefined') ? "7pt Verdana bold" : fSubSup;*/
 			var fontNormal = (typeof fNormal == 'undefined') ? "12pt Open Sans" : fNormal;
 			var fontSubSup = (typeof fSubSup == 'undefined') ? "10pt Open Sans" : fSubSup;
-
-			this.ctx.textAlign = "left";
+			
+			this.ctx.textAlign = "left"; 
 			this.ctx.textBaseline = yway;
-
+	    	    	    
    		var text = this.parseSubSuperScriptText(str);
    		var len = this.subSuperScriptLength(c, text, fontNormal, fontSubSup);
    		var xposIni = x;
    		var yposIni = y;
    		var xpos, ypos;
-
+   	
    		if (xway == "left")
    			xpos = xposIni;
    		else if (xway == "right")
    			xpos = xposIni - len;
    		else if (xway == "center")
-   			xpos = xposIni - len/2;
-
+   			xpos = xposIni - len/2;	
+   	
    		//Draw the text
    		for (var i = 0; i < text.length; i++)
-   		{
+   		{		
 				if (text[i].type == "normal")
 				{
 					c.font = fontNormal;
 					ypos = yposIni;
-				}
+				}	
 				else if (text[i].type == "sub")
 				{
 					c.font = fontSubSup;
@@ -1264,8 +1243,8 @@ var Plotter = (function() {
 				c.strokeText(text[i].s, xpos, ypos);
 				c.fillText(text[i].s, xpos, ypos);
 				//Advance x position
-				xpos += c.measureText(text[i].s).width + 2;
-			}
+				xpos += c.measureText(text[i].s).width + 2;	
+			}   		
 		}
 
 		this.paint = function()
@@ -1273,7 +1252,7 @@ var Plotter = (function() {
 			//Clears the canvas entirely with background color
 			this.ctx.fillStyle = this.canvasColor;
 			this.ctx.fillRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
-
+			
 			//Clear drawing zone
 			this.ctx.fillStyle = this.drawingZoneColor;
 			fillRect(this.ctx, this.drawingZone.left, this.drawingZone.top, this.drawingZone.right, this.drawingZone.bottom);
@@ -1283,12 +1262,12 @@ var Plotter = (function() {
 				if(this.showxGrid)
 					this.drawxGrid();
 			}
-
+			
 			if (!this.hasyLog)
-			{
+			{	
 				if(this.showyGrid)
 					this.drawyGrid();
-			}
+			}		
 
 			if(this.showBorder)
 				this.drawBorder();
@@ -1301,7 +1280,7 @@ var Plotter = (function() {
 					this.drawxLongTicks();
 				if(this.showxLabels)
 					this.drawxLabels();
-			}
+			}		
 
 			if (!this.hasyLog)
 			{
@@ -1311,25 +1290,25 @@ var Plotter = (function() {
 					this.drawyLongTicks();
 				if(this.showyLabels)
 					this.drawyLabels();
-			}
+			}		
 
 			if (this.hasxLog)
 				this.drawxLog();
-
+				
 			if (this.hasyLog)
 				this.drawyLog();
-
+			
 			if(this.showxAxis)
 				this.drawxAxis();
 			if(this.showxText)
 				this.drawxText();
-
+			
 			if(this.showyAxis)
 				this.drawyAxis();
 			if(this.showyText)
 				this.drawyText();
-
-
+						
+			
 		};
 
 		this.drawCurve = function(f, color)
@@ -1494,13 +1473,13 @@ var Circuit = (function() {
 		cyan : "rgb(0, 255, 255)",
 		magenta : "rgb(255, 0, 255)"
 	};
-
+	
 	var Utils =
 	{
 		TWO_PI: 2.0*Math.PI,
 		PI_DIV_2: Math.PI/2.0
 	};
-
+	
 	function distance(x1, y1, x2, y2)
 	{
 		var dx = x2 - x1;
@@ -1508,7 +1487,7 @@ var Circuit = (function() {
 
 		return Math.sqrt(dx * dx + dy * dy);
 	}
-
+	
 	function transform(x, y, xt, yt, rot)
 	{
 		//First translate
@@ -1522,14 +1501,14 @@ var Circuit = (function() {
 	{
 		return gridStep * Math.round(x / gridStep);
 	}
-
+	
 	function getMousePosition(diagram, event)
 	{
 		var mouseX = event.pageX - (parseInt(diagram.element.offset().left) + parseInt(diagram.element.css('paddingLeft')) + parseInt(diagram.element.css('borderLeftWidth')));
 		var mouseY = event.pageY - (parseInt(diagram.element.offset().top) + parseInt(diagram.element.css('paddingTop')) + parseInt(diagram.element.css('borderTopWidth')));
 		return {x : mouseX,	y : mouseY};
 	}
-
+	
 	function diagramMouseDown(event)
 	{
 		if (!event) event = window.event;
@@ -1547,7 +1526,7 @@ var Circuit = (function() {
 				diagram.starty = closestGridPoint(diagram.gridStep, mpos.y);
 			}
 		}
-
+		
 		return false;
 	}
 
@@ -1595,13 +1574,13 @@ var Circuit = (function() {
 
 		return false;
 	}
-
+	
 	function diagramMouseUp(event)
 	{
 		if (!event) event = window.event;
 	  else event.preventDefault();
 	  var canvas = (window.event) ? event.srcElement : event.target;
-	  var diagram = canvas.diagram;
+	  var diagram = canvas.diagram;	
 		var mpos = getMousePosition(diagram, event);
 
 		for(var i = 0, len = diagram.components.length; i < len; i++)
@@ -1616,19 +1595,19 @@ var Circuit = (function() {
 
 		return false;
 	}
-
+	
 	function diagramDoubleClick(event)
 	{
 		if (!event) event = window.event;
 	  else event.preventDefault();
 	  var canvas = (window.event) ? event.srcElement : event.target;
-	  var diagram = canvas.diagram;
-
+	  var diagram = canvas.diagram;	
+		
 		alert(diagram.toString());
-
+		
 		return false;
 	}
-
+	
 	function copyPrototype(descendant, parent)
 	{
 		var sConstructor = parent.toString();
@@ -1642,7 +1621,7 @@ var Circuit = (function() {
 			descendant.prototype[m] = parent.prototype[m];
 		}
 	}
-
+	
 	function Diagram(element, frozen)
 	{
 		this.element = element;
@@ -1659,7 +1638,7 @@ var Circuit = (function() {
 			this.canvas.addEventListener('mousemove', diagramMouseMove, false);
 			this.canvas.addEventListener('mouseup', diagramMouseUp, false);
 			this.canvas.addEventListener('dblclick', diagramDoubleClick, false);
-		}
+		}	
 		//To disable text selection outside the canvas
 		this.canvas.onselectstart = function(){return false;};
 		this.components = [];
@@ -1680,7 +1659,7 @@ var Circuit = (function() {
 		//this.fontType = 'sans-serif';
 		this.fontType = 'Open Sans';
 	}
-
+	
 	Diagram.prototype.toString = function()
 	{
 		var result = "";
@@ -1688,10 +1667,10 @@ var Circuit = (function() {
 		{
 			result += this.components[i].toString();
 		}
-
+		
 		return result;
 	}
-
+	
 	Diagram.prototype.addNode = function(x, y)
 	{
 		var n = new Node(x, y);
@@ -1701,7 +1680,7 @@ var Circuit = (function() {
 		this.components.push(n);
 		return n;
 	}
-
+	
 	Diagram.prototype.addWire = function(x1, y1, x2, y2)
 	{
 		var w = new Wire(x1, y1, x2, y2)
@@ -1711,7 +1690,7 @@ var Circuit = (function() {
 		this.components.push(w);
 		return w;
 	}
-
+	
 	Diagram.prototype.addLabel = function(x, y, value, textAlign)
 	{
 		var l = new Label(x, y, value, textAlign)
@@ -1721,7 +1700,7 @@ var Circuit = (function() {
 		this.components.push(l);
 		return l;
 	}
-
+	
 	Diagram.prototype.addCurrentLabel = function(x, y, value)
 	{
 		var cl = new CurrentLabel(x, y, value)
@@ -1731,7 +1710,7 @@ var Circuit = (function() {
 		this.components.push(cl);
 		return cl;
 	}
-
+	
 	Diagram.prototype.addResistor = function(x, y, value)
 	{
 		var r = new Resistor(x, y, value)
@@ -1741,7 +1720,7 @@ var Circuit = (function() {
 		this.components.push(r);
 		return r;
 	}
-
+	
 	Diagram.prototype.addInductor = function(x, y, value)
 	{
 		var l = new Inductor(x, y, value)
@@ -1751,7 +1730,7 @@ var Circuit = (function() {
 		this.components.push(l);
 		return l;
 	}
-
+	
 	Diagram.prototype.addCapacitor = function(x, y, value)
 	{
 		var c = new Capacitor(x, y, value)
@@ -1761,7 +1740,7 @@ var Circuit = (function() {
 		this.components.push(c);
 		return c;
 	}
-
+	
 	Diagram.prototype.addMosfet = function(x, y, value, type)
 	{
 		var m = new Mosfet(x, y, value, type)
@@ -1771,7 +1750,7 @@ var Circuit = (function() {
 		this.components.push(m);
 		return m;
 	}
-
+	
 	Diagram.prototype.addGround = function(x, y)
 	{
 		var g = new Ground(x, y)
@@ -1781,7 +1760,7 @@ var Circuit = (function() {
 		this.components.push(g);
 		return g;
 	}
-
+	
 	Diagram.prototype.addDiode = function(x, y, value)
 	{
 		var d = new Diode(x, y, value)
@@ -1791,7 +1770,7 @@ var Circuit = (function() {
 		this.components.push(d);
 		return d;
 	}
-
+	
 	Diagram.prototype.addSource = function(x, y, value, type)
 	{
 		var v = new Source(x, y, value, type)
@@ -1801,19 +1780,19 @@ var Circuit = (function() {
 		this.components.push(v);
 		return v;
 	}
-
+	
 	Diagram.prototype.paint = function()
 	{
 		this.ctx.clearRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
 		if (this.showGrid)
 			this.drawGrid();
-
+		
 		for(var i = 0, len = this.components.length; i < len; i++)
 		{
 			this.components[i].paint();
-		}
+		}	
 	}
-
+	
 	Diagram.prototype.drawGrid = function()
 	{
 		this.ctx.fillStyle = Color.black;
@@ -1833,7 +1812,7 @@ var Circuit = (function() {
 		c.lineTo((x2 - this.xOrigin) * this.scale, (y2 - this.yOrigin) * this.scale);
 		c.stroke();
 	}
-
+	
 	Diagram.prototype.drawArc = function(c, x, y, radius,startRadians, endRadians, anticlockwise, width, filled)
 	{
 		c.lineWidth = width;
@@ -1842,19 +1821,19 @@ var Circuit = (function() {
 		if (filled) c.fill();
 		else c.stroke();
 	}
-
+	
 	Diagram.prototype.drawCircle = function(c, x, y, radius, filled)
 	{
 		this.drawArc(c, x, y, radius, 0, 2*Math.PI, false, 1, filled);
 	}
-
+	
 	Diagram.prototype.drawText = function(c, str, x, y)
 	{
 		c.font = this.scale*this.fontSize + "pt " + this.fontType;
 		c.fillText(str, (x - this.xOrigin) * this.scale, (y - this.yOrigin) * this.scale);
 	}
 	//End drawing routines
-
+	
 	Diagram.prototype.parseSubSuperScriptText = function(str)
 	{
 		/*var regExpSub = /_\{(.*?)\}/g;
@@ -1877,7 +1856,7 @@ var Circuit = (function() {
 		{
 			sups[i] = sups[i].substring(2, sups[i].length - 1); //Discard ^{ and }
 		}*/
-
+	   	
     var len = str.length;
    	var i = 0;
    	var start;
@@ -1886,14 +1865,14 @@ var Circuit = (function() {
    	var text = [];
    	var type;
    	var ntext = "";
-
+	   	
    	while (i < len)
    	{
    		if (str[i] == "_") //Encountered a potential subscript _
    			type = "sub";
    		else if (str[i] == "^")  //Encountered a potential superscript ^
    			type = "sup";
-
+   			
    		if (type == "sub" || type == "sup")
    		{
    			if (str[i+1] == "{")
@@ -1918,7 +1897,7 @@ var Circuit = (function() {
    					{
    						text.push({s: ntext, type: "normal"});
    						ntext = "";
-   					}
+   					}	
    					//Store subscript or superscript and tag it as so
    					if (type == "sub")
    						text.push({s: str.substring(start, end), type: "sub"});
@@ -1931,61 +1910,61 @@ var Circuit = (function() {
    			}
    		}
    		ntext += str[i];
-   		if (i == len - 1 && ntext.length != 0) //We've reached the end, store normal text if not empty and tag it as so
+   		if (i == len - 1 && ntext.length != 0) //We've reached the end, store normal text if not empty and tag it as so 
    			text.push({s: ntext, type: "normal"});
    		i++;
    	}
-
+   	
 		return text;
 	}
-
+  
   Diagram.prototype.subSuperScriptLength = function(c, text)
 	{
 		var fontNormal = this.scale*this.fontSize + "pt " + this.fontType;
     var fontSubSup = this.scale*(this.fontSize-1) + "pt " + this.fontType;
-
+	    	    	    
    	var xpos = 0;
-
+   	
    	for (var i = 0; i < text.length; i++)
-   	{
+   	{		
 			if (text[i].type == "normal")
 				c.font = fontNormal;
 			else if (text[i].type == "sub")
 				c.font = fontSubSup;
 			else
 				c.font = fontSubSup;
-			xpos += c.measureText(text[i].s).width;
+			xpos += c.measureText(text[i].s).width;	
 		}
-
+   	
 		return xpos;
-	}
-
+	}	
+  	
 	Diagram.prototype.drawSubSuperScript = function(c, str, x, y, way)
 	{
 		var fontNormal = this.scale*this.fontSize + "pt " + this.fontType;
     var fontSubSup = this.scale*(this.fontSize-1) + "pt " + this.fontType;
-
+	    	    	    
    	var text = this.parseSubSuperScriptText(str);
    	var len = this.subSuperScriptLength(c, text);
    	var xposIni = (x - this.xOrigin) * this.scale;
    	var yposIni = (y - this.yOrigin) * this.scale;
    	var xpos, ypos;
-
+   	
    	if (way == "left")
    		xpos = xposIni;
    	else if (way == "right")
    		xpos = xposIni - len;
    	else if (way == "center")
-   		xpos = xposIni - len/2;
-
+   		xpos = xposIni - len/2;	
+   	
    	//Draw the text
    	for (var i = 0; i < text.length; i++)
-   	{
+   	{		
 			if (text[i].type == "normal")
 			{
 				c.font = fontNormal;
 				ypos = yposIni;
-			}
+			}	
 			else if (text[i].type == "sub")
 			{
 				c.font = fontSubSup;
@@ -1998,8 +1977,8 @@ var Circuit = (function() {
 			}
 			c.fillText(text[i].s, xpos, ypos);
 			//Advance x position
-			xpos += c.measureText(text[i].s).width;
-		}
+			xpos += c.measureText(text[i].s).width;	
+		}   		
 	}
 
 	//Draws a rectangle, top left corner x1, y1 and bottom right corner x2, y2
@@ -2010,7 +1989,7 @@ var Circuit = (function() {
 		c.lineTo(x2 + 0.5, y2 + 0.5);
 		c.stroke();
 	}
-
+	
 	Diagram.prototype.drawRect = function(c, x1, y1, x2, y2)
 	{
 		c.strokeRect(x1 + 0.5, y1 + 0.5, x2 - x1 + 1.0, y2 - y1 + 1.0);
@@ -2028,21 +2007,21 @@ var Circuit = (function() {
 
 	Diagram.prototype.drawPixel = function(c, x, y)
 	{
-		c.fillRect(x, y, 1.0, 1.0);
+		c.fillRect(x, y, 1.0, 1.0);	
 	}
 
 	Diagram.prototype.drawPoint = function(c, x, y, radius)
 	{
 		c.beginPath();
-		c.arc(x + 0.5, y + 0.5, radius, 0, Utils.TWO_PI, true); //Last param is anticlockwise
+		c.arc(x + 0.5, y + 0.5, radius, 0, Utils.TWO_PI, true); //Last param is anticlockwise  
 		c.fill();
 	}
 
 	Diagram.prototype.drawHollowPoint = function(c, x, y, radius)
 	{
 		c.beginPath();
-		c.arc(x + 0.5, y + 0.5, radius, 0, Utils.TWO_PI, true); //Last param is anticlockwise
-		c.stroke();
+		c.arc(x + 0.5, y + 0.5, radius, 0, Utils.TWO_PI, true); //Last param is anticlockwise  
+		c.stroke();  
 	}
 
 	Diagram.prototype.drawTriangle = function(c, x1, y1, x2, y2, x3, y3)
@@ -2071,36 +2050,36 @@ var Circuit = (function() {
 		if (concaveDown)
 			c.arc(x + 0.5, y + 0.5, radius, 0, Math.PI, true); //Last param is anticlockwise
 		else
-			c.arc(x + 0.5, y + 0.5, radius, Math.PI, 0, true); //Last param is anticlockwise
-    c.stroke();
+			c.arc(x + 0.5, y + 0.5, radius, Math.PI, 0, true); //Last param is anticlockwise  
+    c.stroke(); 
 	}
 
 	Diagram.prototype.drawDiamond = function(c, x, y, h)
 	{
 		var xc = x + 0.5;
 		var yc = y + 0.5;
-
-		c.beginPath();
-		c.moveTo(xc-h, yc);
-		c.lineTo(xc, yc-h);
+	
+		c.beginPath();  
+		c.moveTo(xc-h, yc);  
+		c.lineTo(xc, yc-h);  
 		c.lineTo(xc+h, yc);
 		c.lineTo(xc, yc+h);
 		c.closePath();
 
-		c.fill();
+		c.fill();  
 	}
 
 	Diagram.prototype.drawX = function(c, x, y, h)
 	{
 		var xc = x + 0.5;
 		var yc = y + 0.5;
-
+		
 		c.beginPath();
 		c.moveTo(xc+h, yc-h);
 		c.lineTo(xc-h, yc+h);
 		c.moveTo(xc-h, yc-h);
 		c.lineTo(xc+h, yc+h);
-		c.stroke();
+		c.stroke();	
 	}
 
 	Diagram.prototype.drawArrow = function(c, x1, y1, x2, y2, base, height)
@@ -2112,7 +2091,7 @@ var Circuit = (function() {
 		var xv = x2 - x1;
 		var yv = y2 - y1;
 		var ang = Math.atan2(-yv, xv);
-
+		
 		c.beginPath();
 		//Arrow line
 		c.moveTo(xs1, ys1);
@@ -2123,7 +2102,7 @@ var Circuit = (function() {
 		c.beginPath();
 		c.translate(xs2, ys2);
 		c.rotate(Utils.PI_DIV_2-ang);
-
+	
 		c.moveTo(0, 0);
 		c.lineTo(-base, height);
 		c.lineTo(base, height);
@@ -2132,13 +2111,13 @@ var Circuit = (function() {
 		//c.stroke();
 		c.restore();
 	}
-
+			
 	//***** COMPONENT *****//
 	function Component(x, y, width, height)
 	{
 		this.x = x;
 		this.y = y;
-
+		
 		this.boundingBox = [0, 0, 0, 0];
 		this.transBoundingBox = [0, 0, 0, 0];
 		this.xMiddle = 0;
@@ -2156,12 +2135,12 @@ var Circuit = (function() {
 		this.label = {str: "", x: 0, y: 0, position: "left", show: true, color: Color.white}; //color: Color.lodarkgray
 		//String representing value to the right
 		this.valueString = {x: 0, y: 0, position: "right", show: true, suffix: "", decimal: -1, color: Color.white}; //color: Color.lodarkgray
-
+				
 		this.lineWidth = 1;
 		this.rotation = 0;
 		this.value = 0;
 	}
-
+	
 	Component.prototype.addEventListener = function(type, eventListener)
 	{
 		if(!(type in this.eventListeners))
@@ -2184,7 +2163,7 @@ var Circuit = (function() {
 		else
 			throw new Error("Event object missing 'type' property.");
 	}
-
+	
 	Component.prototype.updateBoundingBox = function()
 	{
 		//Apply global transform
@@ -2198,34 +2177,34 @@ var Circuit = (function() {
 		this.valueString.x = this.transBoundingBox[2] + 5;
 		this.valueString.y = (this.transBoundingBox[3] - this.transBoundingBox[1]) / 2;
 	}
-
+	
 	Component.prototype.initPaint = function()
 	{
 		if(this.selectable)
 		{
-			this.ctx.strokeStyle = this.selectedColor;
+			this.ctx.strokeStyle = this.selectedColor;		
 			this.ctx.fillStyle = this.selectedColor;
 		}
 		else
-		{
-			this.ctx.strokeStyle = this.color;
+		{	
+			this.ctx.strokeStyle = this.color;		
 			this.ctx.fillStyle = this.color;
 		}
 	}
-
+	
 	Component.prototype.transform = function()
 	{
 		this.ctx.translate(this.x, this.y);
 		if(this.rotation != 0)
 			this.ctx.rotate(-this.rotation);
 	}
-
+	
 	Component.prototype.getMiddle = function()
 	{
 		this.xMiddle = (this.boundingBox[2] - this.boundingBox[0]) / 2;
 		this.yMiddle = (this.boundingBox[3] - this.boundingBox[1]) / 2;
-	}
-
+	}	
+	
 	Component.prototype.drawLabel = function()
 	{
 		if (this.label.show)
@@ -2272,7 +2251,7 @@ var Circuit = (function() {
 					this.ctx.textBaseline = "middle";
 					textAlign = "right";
 				}
-			}
+			}	
 			else if (this.rotation == 2*Math.PI/3) //Component is vertical
 			{
 				if (this.label.position == "left") //Label is on right
@@ -2285,14 +2264,14 @@ var Circuit = (function() {
 					this.ctx.textBaseline = "middle";
 					textAlign = "right";
 				}
-			}
+			}			
 			this.ctx.translate(this.label.x, this.label.y);
 			this.ctx.rotate(this.rotation);
 			this.diagram.drawSubSuperScript(this.ctx, this.label.str, 0, 0, textAlign);
 			this.ctx.restore();
-		}
+		}	
 	}
-
+	
 	Component.prototype.drawValueString = function()
 	{
 		if (this.valueString.show)
@@ -2339,7 +2318,7 @@ var Circuit = (function() {
 					this.ctx.textBaseline = "middle";
 					textAlign = "right";
 				}
-			}
+			}	
 			else if (this.rotation == 2*Math.PI/3) //Component is vertical
 			{
 				if (this.valueString.position == "left") //Label is on right
@@ -2360,12 +2339,12 @@ var Circuit = (function() {
 				str = this.value + " " + this.valueString.suffix;
 			else //Force a certain number of digits
 				str = (this.value).toFixed(this.valueString.decimal) + " " + this.valueString.suffix;
-
+			
 			this.diagram.drawSubSuperScript(this.ctx, str, 0, 0, textAlign);
 			this.ctx.restore();
-		}
+		}	
 	}
-
+	
 	Component.prototype.isInside = function(x, y)
 	{
 		var pt = transform(x, y, this.x, this.y, this.rotation);
@@ -2374,7 +2353,7 @@ var Circuit = (function() {
 		else
 			return false;
 	}
-
+	
 	//***** NODE COMPONENT *****//
 	function Node(x, y)
 	{
@@ -2390,13 +2369,13 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawCircle(this.ctx, 0, 0, this.nodeRadius, true);
 		this.drawLabel();
 		this.ctx.restore();
 	}
-
+	
 	Node.prototype.toString = function()
 	{
 	    return "<Node (" + this.x + "," + this.y + ")>";
@@ -2418,12 +2397,12 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, this.dx, this.dy);
 		this.ctx.restore();
 	}
-
+	
 	Wire.prototype.toString = function()
 	{
 	    return "<Wire (" + this.x + "," + this.y + "," + (this.x + this.dx) + "," + (this.y + this.dy) + ")>";
@@ -2446,17 +2425,17 @@ var Circuit = (function() {
 		this.ctx.textAlign = "left";
 		this.ctx.translate(this.x, this.y);
 		this.ctx.rotate(this.rotation);
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawSubSuperScript(this.ctx, this.value, 0, 0, this.textAlign);
 		this.ctx.restore();
 	}
-
+	
 	Label.prototype.toString = function()
 	{
 	    return "<Label (" + this.x + "," + this.y + ")>";
 	}
-
+	
 	//***** CURRENT LABEL COMPONENT *****//
 	function CurrentLabel(x, y, value)
 	{
@@ -2472,7 +2451,7 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 3, 3);
 		this.diagram.drawLine(this.ctx, 0, 0, -3, 3);
@@ -2480,12 +2459,12 @@ var Circuit = (function() {
 		this.drawValueString();
 		this.ctx.restore();
 	}
-
+	
 	CurrentLabel.prototype.toString = function()
 	{
 	    return "<Current Label (" + this.x + "," + this.y + ")>";
 	}
-
+	
 	//***** CAPACITOR COMPONENT *****//
 	function Capacitor(x, y, value)
 	{
@@ -2501,7 +2480,7 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 22);
 		this.diagram.drawLine(this.ctx, -8, 22, 8, 22);
@@ -2511,7 +2490,7 @@ var Circuit = (function() {
 		this.drawValueString();
 		this.ctx.restore();
 	}
-
+	
 	Capacitor.prototype.toString = function()
 	{
 	    return "<Capacitor (" + this.x + "," + this.y + ")>";
@@ -2532,7 +2511,7 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 12);
 		this.diagram.drawLine(this.ctx, 0, 12, 4, 14);
@@ -2547,7 +2526,7 @@ var Circuit = (function() {
 		this.drawValueString();
 		this.ctx.restore();
 	}
-
+	
 	Resistor.prototype.toString = function()
 	{
 	    return "<Resistor (" + this.x + "," + this.y + ")>";
@@ -2568,7 +2547,7 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 14);
 		this.diagram.drawArc(this.ctx, 0, 18, 4, 6*Math.PI/4, 3*Math.PI/4);
@@ -2579,7 +2558,7 @@ var Circuit = (function() {
 		this.drawValueString();
 		this.ctx.restore();
 	}
-
+	
 	Inductor.prototype.toString = function()
 	{
 	    return "<Inductor (" + this.x + "," + this.y + ")>";
@@ -2601,7 +2580,7 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 16);
 		this.diagram.drawLine(this.ctx, -8, 16, 0, 16);
@@ -2620,10 +2599,10 @@ var Circuit = (function() {
 			this.diagram.drawLine(this.ctx, -12, 16, -12, 32);
 		}
 		this.drawLabel();
-		this.drawValueString();
+		this.drawValueString();			
 		this.ctx.restore();
 	}
-
+	
 	Mosfet.prototype.toString = function()
 	{
 	    if (this.type = "n")
@@ -2648,7 +2627,7 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 12);
 		this.diagram.drawCircle(this.ctx, 0, 24, 12, false);
@@ -2661,7 +2640,7 @@ var Circuit = (function() {
 			this.ctx.rotate(this.rotation);
 			this.diagram.drawLine(this.ctx, 0, -3, 0, 3); //this.diagram.drawLine(this.ctx, 0, 15, 0, 21);
 			this.ctx.restore();
-
+			
 			//Plus sign, horizontal bar
 			this.ctx.save();
 			this.ctx.translate(0, this.diagram.scale*18);
@@ -2679,13 +2658,13 @@ var Circuit = (function() {
 		{
 			this.diagram.drawLine(this.ctx, 0, 15, 0, 32);
 			this.diagram.drawLine(this.ctx,-3, 26, 0, 32);
-			this.diagram.drawLine(this.ctx,3, 26, 0, 32);
+			this.diagram.drawLine(this.ctx,3, 26, 0, 32);		
 		}
 		this.drawLabel();
 		this.drawValueString();
 		this.ctx.restore();
 	}
-
+	
 	Source.prototype.toString = function()
 	{
 			if (this.type = "v")
@@ -2708,13 +2687,13 @@ var Circuit = (function() {
 		this.initPaint();
 		this.ctx.save();
 		this.transform();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 8);
 	  this.diagram.drawLine(this.ctx, -6, 8, 6, 8);
 	  this.ctx.restore();
 	}
-
+	
 	Ground.prototype.toString = function()
 	{
 	    return "<Ground (" + this.x + "," + this.y + ")>";
@@ -2736,7 +2715,7 @@ var Circuit = (function() {
 		this.ctx.save();
 		this.transform();
 		this.drawLabel();
-		this.ctx.strokeStyle = this.color;
+		this.ctx.strokeStyle = this.color;		
 		this.ctx.fillStyle = this.color;
 		this.diagram.drawLine(this.ctx, 0, 0, 0, 16);
 		this.diagram.drawLine(this.ctx, -8, 16, 8, 16);
@@ -2746,12 +2725,12 @@ var Circuit = (function() {
 		this.diagram.drawLine(this.ctx,0 , 32, 0, 48);
 		this.ctx.restore();
 	}
-
+	
 	Diode.prototype.toString = function()
 	{
 	    return "<Diode (" + this.x + "," + this.y + ")>";
 	}
-
+	
 //////////PUBLIC FIELDS AND METHODS//////////
 	return {
 
@@ -2786,7 +2765,7 @@ function initDiagram()
     var testCanvas = document.createElement("canvas")
     if (!testCanvas.getContext)
         throw "Canvas element is not supported in this browser."
-
+    
     var element = $('#diag1');
     diagram = new Circuit.Diagram(element, true);
 
@@ -2795,40 +2774,40 @@ function initDiagram()
     var wirev2 = diagram.addWire(100, 78, 100, 135.5);
     var wirev3 = diagram.addWire(380, 78.5, 380, 89.5);
     var wirev4 = diagram.addWire(380, 290, 380, 361.5);
-
+    
     var wireh1 = diagram.addWire(100, 78, 240, 78);
     var wireh2 = diagram.addWire(240, 243, 286, 243);
     var wireh3 = diagram.addWire(100, 433, 240, 433);
-
+        
     var vOutPlus = diagram.addLabel(396, 219, "\u002B", "left");
     var vOutLabel = diagram.addLabel(396, 244, "v_{OUT}", "left");
     var vOutMinus = diagram.addLabel(396, 274, "\u2212", "left");
     vOutPlus.color = Plotter.Color.lightyellow;
     vOutLabel.color = Plotter.Color.lightyellow;
     vOutMinus.color = Plotter.Color.lightyellow;
-
+    
     var vRPlus = diagram.addLabel(310, 127, "\u002B", "left");
     var vRLabel = diagram.addLabel(310, 152, "v_{R}", "left");
     var vRMinus = diagram.addLabel(310, 182, "\u2212", "left");
     vRPlus.color = Plotter.Color.lightgreen;
     vRLabel.color = Plotter.Color.lightgreen;
     vRMinus.color = Plotter.Color.lightgreen;
-
+    
     //vin
     //Plotter.Color.lightblue);
     //vout
     //Plotter.Color.lightyellow);
     //vr
     //Plotter.Color.lightgreen);
-
+    
     //Ground
     var ground = diagram.addGround(240, 433);
-
+        
     //Resistor
     R = diagram.addResistor(380, 99.5, 10);
     R.label.str = "R";
     R.valueString.suffix = "k\u03A9";
-
+    
     //Voltage sources
     VS = diagram.addSource(100, 193, 1.6, "v");
     VS.label.str = "V_{S}";
@@ -2841,10 +2820,10 @@ function initDiagram()
     VBias = diagram.addSource(240, 338, 2.5, "v");
     VBias.label.str = "v_{BIAS}";
     VBias.valueString.suffix = "V";
-
+    
     //Mosfet
-    var nMosfet = diagram.addMosfet(380, 195, "", "n");
-
+    var nMosfet = diagram.addMosfet(380, 195, "", "n"); 
+    
     //diagram.showGrid = true;
     //diagram.gridStep = 1;
     diagram.paint();
@@ -2856,7 +2835,7 @@ function setGraph()
     var sticks = 0.5;
     //x axis
     graph.xText = xLab;
-    graph.yText = "V_{MAX} (Volts)";
+    graph.yText = "V_{MAX} (Volts)";    
     graph.xmin = 0;
     graph.xmax = maxTime;
     graph.xspan = maxTime;
@@ -2888,24 +2867,24 @@ function setGraph()
     graph.yGridMin = -maxVolt + (maxVolt % lticks);
     graph.yGridMax = maxVolt - (maxVolt % lticks);
     graph.yGridStep = lticks;
-}
-
+}   
+    
 function generateBuffer()
 {
     //Draw on offscreen image buffer
-    graph.paintOn("buffer");
+    graph.paintOn("buffer"); 
     graph.paint();
 }
 
 function draw()
-{
+{   
     //Paint buffer on canvas
     graph.paintBuffer();
-
+    
     //Draw on canvas
     graph.paintOn("canvas"); //Draw on screen image
-
-    if (vinChecked)
+    
+    if (vinChecked) 
         graph.drawArray(time, insig, Plotter.Color.lightblue);
     if (voutChecked)
         graph.drawArray(time, outsig, Plotter.Color.lightyellow);
@@ -2919,14 +2898,14 @@ function initSound()
     sp.soundStarted = function()
     {
         $('#playButton').prop('value', "Stop");
-    }
-
+    }   
+    
     sp.soundStopped = function()
     {
         $('#playButton').prop('value', "Play");
     }
-}
-
+}       
+    
 function communSlide()
 {
     if (labEnabled)
@@ -2936,21 +2915,21 @@ function communSlide()
         calculateSignals();
         draw();
         diagram.paint();
-    }
-}
+    }   
+}       
 
 
 function getCheckboxesState()
 {
-    if($('#vinCheckbox').prop('checked'))
+    if($('#vinCheckbox').prop('checked')) 
         vinChecked = true;
     else
         vinChecked = false;
-    if($('#voutCheckbox').prop('checked'))
+    if($('#voutCheckbox').prop('checked')) 
         voutChecked = true;
     else
         voutChecked = false;
-    if($('#vrCheckbox').prop('checked'))
+    if($('#vrCheckbox').prop('checked')) 
         vrChecked = true;
     else
         vrChecked = false;
@@ -2958,15 +2937,15 @@ function getCheckboxesState()
 
 function getRadioButtonsState()
 {
-    if($('#vinRadioButton').prop('checked'))
+    if($('#vinRadioButton').prop('checked')) 
         sp.inSignal.listen = true;
     else
         sp.inSignal.listen = false;
-    if($('#voutRadioButton').prop('checked'))
+    if($('#voutRadioButton').prop('checked')) 
         sp.outSignals[0].listen = true;
     else
         sp.outSignals[0].listen = false;
-    if($('#vrRadioButton').prop('checked'))
+    if($('#vrRadioButton').prop('checked')) 
         sp.outSignals[1].listen = true;
     else
         sp.outSignals[1].listen = false;
@@ -2989,7 +2968,7 @@ function onSelectChange()
         else if (musicType == 1) //Unit Impulse
         {
             $("#vinSlider").slider( "option", "disabled", true);
-            $("#freqSlider").slider( "option", "disabled", true);
+            $("#freqSlider").slider( "option", "disabled", true);   
             maxTime = 10; //ms
             xLab = "t (ms)";
             musicLoaded();
@@ -2997,15 +2976,15 @@ function onSelectChange()
         else if (musicType == 2) //Unit Step
         {
             $("#vinSlider").slider( "option", "disabled", true);
-            $("#freqSlider").slider( "option", "disabled", true);
+            $("#freqSlider").slider( "option", "disabled", true);   
             maxTime = 10; //ms
             xLab = "t (ms)";
             musicLoaded();
-        }
+        }   
         if (musicType == 3) //Sine Wave
         {
             $("#vinSlider").slider( "option", "disabled", false);
-            $("#freqSlider").slider( "option", "disabled", false);
+            $("#freqSlider").slider( "option", "disabled", false);      
             maxTime = 10; //ms
             xLab = "t (ms)";
             musicLoaded();
@@ -3013,18 +2992,18 @@ function onSelectChange()
         else if (musicType == 4) //Square Wave
         {
             $("#vinSlider").slider( "option", "disabled", false);
-            $("#freqSlider").slider( "option", "disabled", false);
+            $("#freqSlider").slider( "option", "disabled", false);      
             maxTime = 10; //ms
             xLab = "t (ms)";
             musicLoaded();
-        }
+        }       
         else if (musicType == 5 || musicType == 6 || musicType == 7 || musicType == 8) //Music
-        {
+        {       
             $("#vinSlider").slider( "option", "disabled", false);
-            $("#freqSlider").slider( "option", "disabled", true);
+            $("#freqSlider").slider( "option", "disabled", true);       
             maxTime = 20; //s
             xLab = "t (s)";
-
+            
             if (musicType == 5)
                 sp.load("classical.wav", musicLoaded);
             else if (musicType == 6)
@@ -3034,7 +3013,7 @@ function onSelectChange()
             else
                 sp.load("reggae.wav", musicLoaded);
         }
-    }
+    }   
 }
 
 function musicLoaded()
@@ -3043,7 +3022,7 @@ function musicLoaded()
     generateBuffer();
     calculateSignals();
     draw();
-}
+}   
 
 function checkboxClicked()
 {
@@ -3051,7 +3030,7 @@ function checkboxClicked()
     {
         getCheckboxesState();
         draw();
-    }
+    }   
 }
 
 function radioButtonClicked()
@@ -3061,7 +3040,7 @@ function radioButtonClicked()
         if (sp.isPlaying)
             sp.stopTone();
         getRadioButtonsState();
-    }
+    }   
 }
 
 function playButtonClicked()
@@ -3072,7 +3051,7 @@ function playButtonClicked()
             sp.stopTone();
         else
             sp.playTone();
-    }
+    }   
 }
 
 //TO DO: PUT ALL THE FOLLOWING GLOBAL VARIABLES IN A NAMESPACE
@@ -3107,25 +3086,25 @@ var vMax = 2;
 
 function calculateSignals()
 {
-    if (musicType == 0 || musicType == 1 || musicType == 2 || musicType == 3)
-    {
-        sp.soundLength = 1;
+    if (musicType == 0 || musicType == 1 || musicType == 2 || musicType == 3) 
+    {   
+        sp.soundLength = 1;     
         sp.sampleRate = 50000;
     }
     else if (musicType == 4)
     {
-        sp.soundLength = 1;
+        sp.soundLength = 1;     
         sp.sampleRate = 88200;
     }
     else if (musicType == 5 || musicType == 6 || musicType == 7 || musicType == 8) //Classical, Folk, Jazz, Reggae
     {
         sp.soundLength = 20;
         sp.sampleRate = 22050;
-    }
+    } 
 
     sp.createBuffers(2); //We have two outputs, first one is the voltage across Drain, Source, the second across resistor R
     getRadioButtonsState(); //Set what we are listening to, input, or one of the above
-
+    
     if (musicType == 0) //Zero Input
         sp.generateZero();
     else if (musicType == 1) //Unit Impulse
@@ -3133,15 +3112,15 @@ function calculateSignals()
     else if (musicType == 2) //Unit Step
         sp.generateUnitStep();
     else if (musicType == 3) //Sine Wave
-        sp.generateSineWave(vIn, freq, 0);
+        sp.generateSineWave(vIn, freq, 0);  
     else if (musicType == 4) //Square Wave
         sp.generateSquareWave(vIn, freq, 0);
     else if (musicType == 5 || musicType == 6 || musicType == 7 || musicType == 8) //Classical, Folk, Jazz, Reggae
     {
-        //TO DO: MOVE OUT
+        //TO DO: MOVE OUT       
         var max = Number.NEGATIVE_INFINITY;
         var amp = 0.0;
-
+            
         //Find the max and normalize
         for (var i = 0, l = sp.inSignal.data.length; i < l; i++)
         {
@@ -3151,24 +3130,24 @@ function calculateSignals()
         }
         max /= 0.5;
         if (max != 0.0)
-        {
+        {   
             for (var i = 0, l = sp.inSignal.data.length; i < l; i++)
             {
-                sp.inSignal.data[i] = vIn*sp.audioData[i] / max;
+                sp.inSignal.data[i] = vIn*sp.audioData[i] / max;    
             }
         }
         else //Fill in with zeros
         {
             for (var i = 0, l = sp.inSignal.data.length; i < l; i++)
             {
-                sp.inSignal.data[i] = 0.0;
+                sp.inSignal.data[i] = 0.0;  
             }
         }
     }
-
+    
     getVDS(sp.inSignal.data, sp.outSignals[0].data, vBias, vS, r, k, vt);
     getVr(sp.outSignals[0].data, sp.outSignals[1].data);
-
+        
     time = [];
     insig = [];
     outsig = [];
@@ -3179,8 +3158,8 @@ function calculateSignals()
     var imax;
     var x = 0;
     var xinc;
-
-
+    
+    
     //Scale of graph is 500 px
     //All generated sound (sine wave etc.) except square wave have sampling rate of 50000 Hz, length 1s. We will plot the first 10 ms. That's 500       samples for 10 ms and 500 px
     if (musicType == 0 || musicType == 1 || musicType == 2 || musicType == 3)
@@ -3198,19 +3177,19 @@ function calculateSignals()
     else if (musicType == 5 || musicType == 6 || musicType == 7 || musicType == 8) //All music files have a sampling rate 22050 Hz, length 20s. 20s/500px --> get value every 0.04 s ie every 882 samples.
     {
         xinc = 20/500;
-        imax = 500;
-        imult = 882;
+        imax = 500;     
+        imult = 882;    
     }
 
     while (i <= imax)
     {
-        ii = imult*i;
+        ii = imult*i;       
         time[i] = x;
         insig[i] = sp.inSignal.data[ii];
         outsig[i] = sp.outSignals[0].data[ii];
         rsig[i] = sp.outSignals[1].data[ii];
         x += xinc;
-        i++;
+        i++;    
     }
 
     sp.normalizeAllSounds();
@@ -3223,7 +3202,7 @@ function getResistance(value)
     var distance;
     var minDistance = Number.POSITIVE_INFINITY;
     var minIndex;
-
+    
     for (var i = 0, l = resistance.length; i < l; i++)
     {
         distance = Math.abs(value - resistance[i]);
@@ -3233,7 +3212,7 @@ function getResistance(value)
             minIndex = i;
         }
     }
-    return resistance[minIndex];
+    return resistance[minIndex];    
 }
 
 function kiloToUnit(k)
@@ -3250,15 +3229,15 @@ function getVDS(inData, outData, VBIAS, VS, R, K, VT)
     // R: load resistor
     // VC: gate-to-source below above which MOSFET is in saturation
     // K, VT: mosfet parameters
-
+    
     var b;
     var VC = getVC(VS, R, K, VT);
     var indata;
-
+    
     for (var i = 0, l = inData.length; i < l; i++)
     {
         indata = inData[i] + VBIAS;
-
+        
         if (indata < VT)
             outData[i] = VS;
         else if (indata < VC)
@@ -3282,7 +3261,7 @@ function getVr(inData, outData)
     for (var i = 0, l = outData.length; i < l; i++)
     {
         outData[i] = vS - inData[i];
-    }
+    }   
 }
 
 $("#vsSlider" ).slider({value: vS, min: 0, max: 10, step: 0.01,
@@ -3339,14 +3318,14 @@ $("#rSlider").slider({value: 1, min: 0.1, max: 10, step: 0.01,
                         $("#r").html("R = " +  val + " k&Omega;");
                         R.value = val;
                         R.valueString.suffix = "k\u03A9";
-                    }
+                    }   
                     else
                     {
                         $("#r").html("R = " +  kiloToUnit(val) + " &Omega;");
                         R.value = kiloToUnit(val);
-                        R.valueString.suffix = "\u03A9";
-                    }
-
+                        R.valueString.suffix = "\u03A9";  
+                    }   
+                    
                     r = kiloToUnit(val);
                     communSlide();
                     //return false; //Blocks keystrokes if enabled
@@ -3370,7 +3349,7 @@ $("#k").html("k = " + $("#kSlider").slider("value") + " mA/V<sup>2</sup>");
                     $("#vt").html("V<sub>T</sub> = " + ui.value + " V");
                     vt = ui.value;
                     communSlide();
-                }
+                } 
             });
 $("#vt").html("V<sub>T</sub> = " + $("#vtSlider").slider("value") + " V");
 
@@ -3386,8 +3365,8 @@ $("#vmaxSlider" ).slider({value: vMax, min: 1, max: 20, step: 0.1,
                         setGraph();
                         generateBuffer();
                         calculateSignals();
-                        draw();
-                    }
+                        draw(); 
+                    }   
                 }
             });
 $("#vmax").html("V<sub>MAX</sub> = " + $("#vmaxSlider").slider("value") + " V");
@@ -3395,8 +3374,8 @@ $("#vmax").html("V<sub>MAX</sub> = " + $("#vmaxSlider").slider("value") + " V");
 //The try catch block checks if canvas and audio libraries are present. If not, we exit and alert the user.
 try
 {
-    //Add corresponding listener to various UI elements
-    $('#musicTypeSelect').change(onSelectChange);
+    //Add corresponding listener to various UI elements     
+    $('#musicTypeSelect').change(onSelectChange);       
     $('input:checkbox').click(checkboxClicked);
     $('input:radio').click(radioButtonClicked);
     $('#playButton').click(playButtonClicked);
@@ -3413,4 +3392,4 @@ catch(err)
 {
     labEnabled = false;
     alert(err + " The tool is disabled.");
-}
+}   
