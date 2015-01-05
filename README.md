@@ -1,5 +1,5 @@
-edX Demonstration Course
-========================
+Open edX Demonstration Course
+=============================
 
 This is a demonstration course you can import into edX Studio.
 
