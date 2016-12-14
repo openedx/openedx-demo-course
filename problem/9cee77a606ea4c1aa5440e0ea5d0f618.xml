@@ -2,7 +2,7 @@
   <p>Most courses have interactive questions that test your knowledge like the one below.  They can be part of a learning sequence or an exam.  Notice the visual feedback.  Go ahead, try it out!</p>
   <p>Questions which are part of assignments or exams may have due dates - the last possible time you can submit an assignment for grading. Once this time has passed, you will not be able to get credit for any incomplete problems in the assignment.</p>
   <p>If an assignment has a due date, you can see the due date in the accordion on the side. (This demo course does not have any due date.) If no due date is displayed, the assignment can be turned in at any time.</p>
-  <p>All assignment due dates are listed in UTC (the international time standard). Please <a href="http://www.timeanddate.com/worldclock/">look up your time zone</a> in order to understand what time your assignments are due according to your clock. EdX cannot offer any extensions.</p>
+  <p>All assignment due dates are listed in the user's specified timezone, defaulting to UTC (the international time standard) if one has not been chosen. EdX cannot offer any extensions.</p>
   <h1/>
   <p>What kinds of late policies does edX allow?</p>
   <choiceresponse>
