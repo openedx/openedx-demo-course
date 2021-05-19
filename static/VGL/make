@@ -33,7 +33,7 @@ def fix(fn, root, url):
         new = re.sub('i4x://MITx/7.00x/problem',inputs[root], new)
 
     open('%s/%s' % (root, os.path.basename(fn)),'w').write(new)
-    print "Processed %s (%s:%s)" % (fn, root, url)
+    print("Processed %s (%s:%s)" % (fn, root, url))
 
 for root, url in roots.items():
     for fn in glob.glob('original/*.jnlp'):
