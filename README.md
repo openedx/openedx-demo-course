@@ -15,4 +15,4 @@ All code is made available under an [AGPLv3 License][agpl].
 
 [agpl]: AGPL_LICENSE
 [cc]: http://creativecommons.org/licenses/by-nc-sa/3.0/us/
-[gzipped tarball]: https://github.com/edx/edx-demo-course/archive/open-release/ironwood.2.tar.gz
+[gzipped tarball]: https://github.com/openedx/edx-demo-course/releases/download/v1.1/edx_demo_course_1_1.tar.gz
