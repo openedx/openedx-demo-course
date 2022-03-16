@@ -1,0 +1,24 @@
+<problem display_name="Molecule Structures" max_attempts="null" rerandomize="never" showanswer="never" weight="null">
+  <startouttext/>
+  <p> Carbon reacts with chlorine and hydrogen to form the compound CH<sub>3</sub>Cl.</p>
+  <p>Construct the structure of CH<sub>3</sub>Cl.</p>
+  <endouttext/>
+  <customresponse>
+    <vsepr_input height="600" width="650" hidden="1" molecules="C,H,Cl,(ep)" geometries="Linear,Trigonal Planar, Tetrahedral, Trigonal Bipyramidal, Octahedral"/>
+    <answer type="loncapa/python">
+user_answer = chemtools.vsepr_parse_user_answer(submission[0])
+
+    #solution
+    #AX4E0
+    #central atom = C
+    #peripheral atoms, any placement: = Cl,H,H,H
+correct_answer = chemtools.vsepr_build_correct_answer(geometry="Tetrahedral",atoms={"c0":"C","p0":"H","p1": "H", "p2":"H", "p3":"Cl"})
+
+if chemtools.vsepr_grade(user_answer, correct_answer, convert_to_peripheral=True):
+    correct = ['correct']
+else:
+    correct = ['incorrect']
+
+</answer>
+  </customresponse>
+</problem>

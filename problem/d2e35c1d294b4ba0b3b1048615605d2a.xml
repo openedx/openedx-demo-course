@@ -1,8 +1,8 @@
-<problem display_name="Drag and Drop" markdown="null" max_attempts="" rerandomize="never" showanswer="never" weight="">
+<problem display_name="Drag and Drop" markdown="null" max_attempts="null" rerandomize="never" showanswer="never" weight="null">
   
 Here's an example of a "Drag and Drop" question set. Click and drag EVERY word in the scrollbar below, up to the numbered bucket which matches the number of letters in the word. 
   
-   <customresponse><drag_and_drop_input img="/c4x/edX/DemoX/asset/L9_buckets.png"><draggable id="1" label="a"/><draggable id="2" label="cat"/><draggable id="3" label="there"/><draggable id="4" label="pear"/><draggable id="5" label="kitty"/><draggable id="6" label="in"/><draggable id="7" label="them"/><draggable id="8" label="za"/><draggable id="9" label="dog"/><draggable id="10" label="slate"/></drag_and_drop_input><answer type="loncapa/python">
+   <customresponse><drag_and_drop_input img="/static/L9_buckets.png"><draggable id="1" label="a"/><draggable id="2" label="cat"/><draggable id="3" label="there"/><draggable id="4" label="pear"/><draggable id="5" label="kitty"/><draggable id="6" label="in"/><draggable id="7" label="them"/><draggable id="8" label="za"/><draggable id="9" label="dog"/><draggable id="10" label="slate"/></drag_and_drop_input><answer type="loncapa/python">
 correct_answer = {
         '1':      [[70, 150], 121],
         '6':      [[190, 150], 121],

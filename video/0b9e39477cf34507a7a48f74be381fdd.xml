@@ -1,0 +1,9 @@
+<video youtube="1.00:c6YBGhZBB80" url_name="0b9e39477cf34507a7a48f74be381fdd" sub="" transcripts="{&quot;en&quot;: &quot;5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt&quot;}" display_name="Welcome!" download_track="true" download_video="true" edx_video_id="5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6" html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-H010000_100.mp4&quot;]" show_captions="true" track="" youtube_id_0_75="" youtube_id_1_0="c6YBGhZBB80" youtube_id_1_25="" youtube_id_1_5="" source="">
+  <source src="https://s3.amazonaws.com/edx-course-videos/edx-edx101/EDXSPCPJSP13-H010000_100.mp4"/>
+  <video_asset client_video_id="External Video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt"/>
+</video>

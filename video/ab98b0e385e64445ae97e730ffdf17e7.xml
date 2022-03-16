@@ -1,0 +1,8 @@
+<video youtube="1.00:gnqth8uWzO8" url_name="ab98b0e385e64445ae97e730ffdf17e7" sub="" transcripts="{&quot;en&quot;: &quot;912830b2-527d-4540-b137-ccb6284490b4-en.srt&quot;}" display_name="Biology Demonstration" edx_video_id="912830b2-527d-4540-b137-ccb6284490b4" youtube_id_1_0="gnqth8uWzO8">
+  <video_asset client_video_id="External Video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="912830b2-527d-4540-b137-ccb6284490b4-en.srt"/>
+</video>
