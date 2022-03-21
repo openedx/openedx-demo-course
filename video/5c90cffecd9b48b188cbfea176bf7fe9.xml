@@ -1,3 +1,9 @@
-<video youtube="1.00:rKbzh2DWBX4" url_name="5c90cffecd9b48b188cbfea176bf7fe9" display_name="Video" download_video="true" end_time="00:07:24" html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/harvard-heroes/HARHEROESP13-H00700_100.mp4&quot;]" source="" start_time="00:05:10" sub="HARHEROESP13-H00700_100" youtube_id_1_0="rKbzh2DWBX4">
+<video youtube="1.00:rKbzh2DWBX4" url_name="5c90cffecd9b48b188cbfea176bf7fe9" sub="" transcripts="{&quot;en&quot;: &quot;304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt&quot;}" display_name="Video" download_video="true" edx_video_id="304e2b4e-27eb-4dbe-98fd-e93c3f48402c" end_time="00:07:24" html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/harvard-heroes/HARHEROESP13-H00700_100.mp4&quot;]" start_time="00:05:10" youtube_id_0_75="" youtube_id_1_0="rKbzh2DWBX4" youtube_id_1_25="" youtube_id_1_5="" source="">
   <source src="https://s3.amazonaws.com/edx-course-videos/harvard-heroes/HARHEROESP13-H00700_100.mp4"/>
+  <video_asset client_video_id="External Video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt"/>
 </video>

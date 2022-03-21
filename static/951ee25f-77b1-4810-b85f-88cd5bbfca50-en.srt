@@ -1,0 +1,356 @@
+0
+00:00:00,000 --> 00:00:02,440
+SPEAKER 1: What we see here-- a mess.
+
+1
+00:00:02,440 --> 00:00:02,970
+OK?
+
+2
+00:00:02,970 --> 00:00:06,120
+What we have is a voltmeter and an amp meter.
+
+3
+00:00:06,120 --> 00:00:08,200
+The amp meter measures current, the voltmeter
+
+4
+00:00:08,200 --> 00:00:10,680
+measures voltage of course.
+
+5
+00:00:10,680 --> 00:00:14,585
+And we're measuring the voltage across the light
+
+6
+00:00:14,585 --> 00:00:16,190
+bulb-- the lamp.
+
+7
+00:00:16,190 --> 00:00:19,092
+And we're measuring the current into the lamp.
+
+8
+00:00:19,092 --> 00:00:22,430
+PETER: So we've got a voltmeter
+
+9
+00:00:22,430 --> 00:00:25,240
+measuring across the--
+
+10
+00:00:25,240 --> 00:00:28,720
+volts meter--
+
+11
+00:00:28,720 --> 00:00:30,090
+across there.
+
+12
+00:00:30,090 --> 00:00:32,565
+And then we've got an amp reader measuring into.
+
+13
+00:00:32,564 --> 00:00:35,120
+SPEAKER 1: Right.
+
+14
+00:00:35,120 --> 00:00:37,286
+Exactly.
+
+15
+00:00:37,286 --> 00:00:41,120
+Now, we're going to connect that to a battery.
+
+16
+00:00:41,120 --> 00:00:43,065
+The three cell battery that you've seen before.
+
+17
+00:00:46,060 --> 00:00:48,680
+And we're going to see, of course, that the
+
+18
+00:00:48,680 --> 00:00:50,980
+light bulb lit up.
+
+19
+00:00:50,980 --> 00:00:57,180
+And the current we measure is 122 milliamperes going into
+
+20
+00:00:57,180 --> 00:00:58,430
+the light bulb.
+
+21
+00:01:00,680 --> 00:01:02,900
+122 milliamperes.
+
+22
+00:01:02,900 --> 00:01:11,960
+And the voltage across is from the plus to minus, 4.31 volts.
+
+23
+00:01:11,960 --> 00:01:12,680
+OK?
+
+24
+00:01:12,680 --> 00:01:16,160
+Now, we can do another experiment.
+
+25
+00:01:16,160 --> 00:01:18,350
+Notice how the light bulb is lit up and how much it's lit,
+
+26
+00:01:18,350 --> 00:01:21,150
+approximately.
+
+27
+00:01:21,150 --> 00:01:26,740
+Now, I'm going to reverse the battery so that we connect the
+
+28
+00:01:26,740 --> 00:01:31,370
+battery in the opposite polarity.
+
+29
+00:01:31,370 --> 00:01:33,550
+OK.
+
+30
+00:01:33,550 --> 00:01:35,881
+Go ahead, Peter.
+
+31
+00:01:35,881 --> 00:01:37,890
+PETER: You connect it, I will draw.
+
+32
+00:01:37,890 --> 00:01:38,640
+SPEAKER 1: OK, I'm just doing it.
+
+33
+00:01:38,640 --> 00:01:40,250
+PETER: So I'll swap these.
+
+34
+00:01:40,250 --> 00:01:42,060
+SPEAKER 1: Yes, sir.
+
+35
+00:01:42,060 --> 00:01:43,310
+OK.
+
+36
+00:01:45,562 --> 00:01:51,080
+And what we observe is basically the amp meter is
+
+37
+00:01:51,080 --> 00:01:56,360
+measuring 122 milliamperes in the negative direction.
+
+38
+00:01:56,360 --> 00:01:59,050
+So that means it's measuring the current
+
+39
+00:01:59,050 --> 00:02:00,420
+into the light bulb--
+
+40
+00:02:00,420 --> 00:02:02,370
+because I've not changed the orientation with respect to
+
+41
+00:02:02,370 --> 00:02:03,440
+the light bulb--
+
+42
+00:02:03,440 --> 00:02:07,540
+of minus 122 milliamperes.
+
+43
+00:02:07,540 --> 00:02:11,080
+And the voltage across the light bulb, from here to here,
+
+44
+00:02:11,080 --> 00:02:16,240
+is minus 4.29 volts.
+
+45
+00:02:16,240 --> 00:02:17,330
+PETER: Sorry, that's a minus?
+
+46
+00:02:17,330 --> 00:02:17,550
+SPEAKER 1: Yes.
+
+47
+00:02:17,550 --> 00:02:21,640
+PETER: So if we look at the power in the first case, 122
+
+48
+00:02:21,640 --> 00:02:35,450
+milliamps times 4.31 volts, we get 526 milliwatts.
+
+49
+00:02:35,450 --> 00:02:36,320
+SPEAKER 1: Yep.
+
+50
+00:02:36,320 --> 00:02:40,040
+PETER: If we measure the power in this case over here, minus
+
+51
+00:02:40,040 --> 00:02:50,610
+122 milliamps times minus 4.29 volts, we get approximately
+
+52
+00:02:50,610 --> 00:02:51,350
+the same thing.
+
+53
+00:02:51,350 --> 00:02:55,810
+So I'm going to round it off to, let's say best guess, 524,
+
+54
+00:02:55,810 --> 00:02:57,570
+maybe 23 or something.
+
+55
+00:02:57,570 --> 00:02:58,550
+No less.
+
+56
+00:02:58,550 --> 00:02:58,960
+SPEAKER 1: OK.
+
+57
+00:02:58,960 --> 00:03:02,590
+PETER: So this is equal to that within measurement error.
+
+58
+00:03:02,590 --> 00:03:05,780
+SPEAKER 1: And of course, you see the power is the power
+
+59
+00:03:05,780 --> 00:03:10,290
+going into the light bulb and coming out as light and heat.
+
+60
+00:03:10,290 --> 00:03:12,180
+OK?
+
+61
+00:03:12,180 --> 00:03:17,220
+We have arranged our measurements by having these
+
+62
+00:03:17,220 --> 00:03:20,480
+associated reference directions, so that this is
+
+63
+00:03:20,480 --> 00:03:24,850
+plus and that's minus, and that the current always goes
+
+64
+00:03:24,850 --> 00:03:28,910
+into the terminal that we label with plus.
+
+65
+00:03:28,910 --> 00:03:32,270
+That always means that the power we measure by
+
+66
+00:03:32,270 --> 00:03:35,690
+multiplying these two numbers is the power
+
+67
+00:03:35,690 --> 00:03:37,440
+going into this device.
+
+68
+00:03:37,440 --> 00:03:42,360
+PETER: So this light bulb is dissipating 524 milliwatts.
+
+69
+00:03:42,360 --> 00:03:45,920
+If we were to do the same calculation for the battery,
+
+70
+00:03:45,920 --> 00:03:49,360
+so current would be going to the positive
+
+71
+00:03:49,360 --> 00:03:51,040
+terminal, we would--
+
+72
+00:03:51,040 --> 00:03:51,952
+SPEAKER 1: Well, you have to measure it then
+
+73
+00:03:51,952 --> 00:03:53,188
+from there to there.
+
+74
+00:03:53,188 --> 00:03:53,980
+PETER: Yeah.
+
+75
+00:03:53,980 --> 00:03:54,650
+Plus, minus.
+
+76
+00:03:54,650 --> 00:03:55,790
+That's what we're doing.
+
+77
+00:03:55,790 --> 00:04:00,560
+So this would be 4.29 volts.
+
+78
+00:04:00,560 --> 00:04:04,150
+The current would still be minus 122 milliamps.
+
+79
+00:04:04,150 --> 00:04:06,040
+The current's moving in a loop, so here is the same as
+
+80
+00:04:06,040 --> 00:04:07,775
+here, but the signs are swapped.
+
+81
+00:04:10,310 --> 00:04:17,040
+That same calculation would give us minus 524 milliwatts.
+
+82
+00:04:17,040 --> 00:04:20,280
+And that's because the battery is outputting power, whereas
+
+83
+00:04:20,279 --> 00:04:22,195
+the light bulb is dissipating power.
+
+84
+00:04:22,195 --> 00:04:24,740
+SPEAKER 1: Think about it as, if we're measuring the power
+
+85
+00:04:24,740 --> 00:04:27,967
+entering the battery, it's minus 524 milliwatts.
+
+86
+00:04:27,967 --> 00:04:29,250
+OK?
+
+87
+00:04:29,250 --> 00:04:31,055
+That's the way to think about it.
+
+88
+00:04:31,055 --> 00:04:33,910
+This always gives you the power entering that element.
+

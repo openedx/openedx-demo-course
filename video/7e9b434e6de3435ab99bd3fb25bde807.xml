@@ -1,1 +1,8 @@
-<video youtube="1.00:CCxmtcICYNc" url_name="7e9b434e6de3435ab99bd3fb25bde807" display_name="Science and Cooking Chef Profile: JOSÉ ANDRÉS" html5_sources="[]" sub="CCxmtcICYNc" youtube_id_1_0="CCxmtcICYNc"/>
+<video youtube="1.00:HQqZU8G7bAo" url_name="7e9b434e6de3435ab99bd3fb25bde807" sub="" transcripts="{&quot;en&quot;: &quot;218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt&quot;}" display_name="A Shared Culture" edx_video_id="218a4f00-e324-4434-bb44-d0c39ff9d4ba" html5_sources="[]" youtube_id_1_0="HQqZU8G7bAo">
+  <video_asset client_video_id="External Video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt"/>
+</video>

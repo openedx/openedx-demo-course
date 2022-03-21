@@ -1,4 +1,4 @@
-<problem display_name="Molecule Editor" graceperiod="0 day 5 hours 0 minutes 0 seconds" rerandomize="never" showanswer="attempted" start="2013-02-05T00:00" weight="" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
+<problem display_name="Molecule Editor" graceperiod="18000 seconds" rerandomize="never" showanswer="attempted" start="2013-02-05T00:00:00+00:00" weight="null" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
   <p> The Dopamine molecule, as shown, cannot make ionic bonds. Edit the dopamine molecule so it can make ionic bonds. 
     </p>
   <p>
@@ -16,6 +16,6 @@ def check1(expect, ans):
         </editamoleculeinput>
   </customresponse>
   <solution>
-    <img src="/c4x/edX/DemoX/asset/Screen_Shot_2013-04-16_at_1.43.36_PM.png"/>
+    <img src="/static/Screen_Shot_2013-04-16_at_1.43.36_PM.png"/>
   </solution>
 </problem>

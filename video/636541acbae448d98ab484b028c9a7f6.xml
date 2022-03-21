@@ -1,3 +1,9 @@
-<video youtube="1.00:xUIM7LWLsEY" url_name="636541acbae448d98ab484b028c9a7f6" display_name="Connecting a Circuit and a Circuit Diagram" download_video="true" html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/mit-6002x/6002-Tutorial-00010_100.mov&quot;]" source="" youtube_id_1_0="xUIM7LWLsEY">
+<video youtube="1.00:xUIM7LWLsEY" url_name="636541acbae448d98ab484b028c9a7f6" sub="" transcripts="{&quot;en&quot;: &quot;951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt&quot;}" display_name="Connecting a Circuit and a Circuit Diagram" download_video="true" edx_video_id="951ee25f-77b1-4810-b85f-88cd5bbfca50" html5_sources="[&quot;https://s3.amazonaws.com/edx-course-videos/mit-6002x/6002-Tutorial-00010_100.mov&quot;]" youtube_id_0_75="" youtube_id_1_0="xUIM7LWLsEY" youtube_id_1_25="" youtube_id_1_5="" source="">
   <source src="https://s3.amazonaws.com/edx-course-videos/mit-6002x/6002-Tutorial-00010_100.mov"/>
+  <video_asset client_video_id="External Video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt"/>
 </video>

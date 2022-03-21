@@ -1,4 +1,4 @@
-<problem display_name="Mathematical Expressions" graceperiod="0 day 5 hours 0 minutes 0 seconds" rerandomize="never" showanswer="attempted" start="2013-02-05T00:00" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
+<problem display_name="Mathematical Expressions" graceperiod="18000 seconds" rerandomize="never" showanswer="attempted" start="2013-02-05T00:00:00+00:00" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
   <script type="loncapa/python">
 z = "A*x^2 + sqrt(y)"
 </script>

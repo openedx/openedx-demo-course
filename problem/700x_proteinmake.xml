@@ -1,4 +1,4 @@
-<problem attempts="10" display_name="Designing Proteins in Two Dimensions" graceperiod="" max_attempts="" rerandomize="never" showanswer="always" start="2013-02-05T00:00" weight="" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
+<problem attempts="10" display_name="Designing Proteins in Two Dimensions" graceperiod="" max_attempts="null" rerandomize="never" showanswer="always" start="2013-02-05T00:00:00+00:00" weight="null" xqa_key="qaijS3UatK020Wc0sfCtFe0V6jpB4d64">
   <script type="loncapa/python">
 
 def two_d_grader(expect,ans):

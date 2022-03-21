@@ -1,0 +1,260 @@
+0
+00:00:00,000 --> 00:00:00,650
+
+
+1
+00:00:00,650 --> 00:00:03,920
+ERIC: Hi, and welcome to the edX demonstration course.
+
+2
+00:00:03,920 --> 00:00:07,450
+I'm Eric, and I'm here to help you get a better understanding of how fun and
+
+3
+00:00:07,450 --> 00:00:10,080
+easy it is to take an edX course.
+
+4
+00:00:10,080 --> 00:00:11,700
+So, let's get started.
+
+5
+00:00:11,700 --> 00:00:13,950
+Let me show you how all the parts work together.
+
+6
+00:00:13,950 --> 00:00:18,000
+If at any time you want to skip this video and get a firsthand experience
+
+7
+00:00:18,000 --> 00:00:21,020
+of the demonstration course, all you have to do is click
+
+8
+00:00:21,020 --> 00:00:22,710
+week one to the left.
+
+9
+00:00:22,710 --> 00:00:25,050
+Don't worry, I won't be offended.
+
+10
+00:00:25,050 --> 00:00:27,730
+Let's first look along the top of the page.
+
+11
+00:00:27,730 --> 00:00:29,990
+This area's called the navigation bar.
+
+12
+00:00:29,990 --> 00:00:32,950
+Click on Courseware to interact with your course.
+
+13
+00:00:32,950 --> 00:00:36,190
+Course Info contains course announcements and updates from the
+
+14
+00:00:36,190 --> 00:00:37,390
+course staff.
+
+15
+00:00:37,390 --> 00:00:41,130
+If your course has digital textbooks, this is where you'll find them.
+
+16
+00:00:41,130 --> 00:00:43,720
+Discussion is where you can communicate with the fellow students
+
+17
+00:00:43,720 --> 00:00:47,380
+on topics and projects, and even occasionally with the course staff.
+
+18
+00:00:47,380 --> 00:00:51,430
+When available, the course Wiki acts as a knowledge base for your course.
+
+19
+00:00:51,430 --> 00:00:53,000
+It's a helpful resource.
+
+20
+00:00:53,000 --> 00:00:55,980
+Clicking on Progress will reveal how well you're doing in
+
+21
+00:00:55,980 --> 00:00:57,790
+your studies and exams.
+
+22
+00:00:57,790 --> 00:01:01,000
+When you take the demo course, we'll provide you with a simple progress
+
+23
+00:01:01,000 --> 00:01:04,590
+report matching your results.
+
+24
+00:01:04,590 --> 00:01:06,440
+Let's look at the left column now.
+
+25
+00:01:06,440 --> 00:01:09,710
+The left side of the Courseware screen contains a course navigation bar
+
+26
+00:01:09,710 --> 00:01:11,790
+starting from the top down.
+
+27
+00:01:11,790 --> 00:01:16,110
+Many courses start with an overview of edX and an introduction to the course.
+
+28
+00:01:16,110 --> 00:01:19,570
+Below the overview are segments of the course, which are released as the
+
+29
+00:01:19,570 --> 00:01:21,080
+course progresses.
+
+30
+00:01:21,080 --> 00:01:24,950
+Typically, an edX course is delivered in week by week segments, and have
+
+31
+00:01:24,950 --> 00:01:27,580
+lessons and homeworks you need to complete.
+
+32
+00:01:27,580 --> 00:01:30,270
+Many courses are 10 to 12 weeks long.
+
+33
+00:01:30,270 --> 00:01:34,920
+We made this demonstration course three weeks for simplicity.
+
+34
+00:01:34,920 --> 00:01:37,070
+Let's now look at the learning sequence.
+
+35
+00:01:37,070 --> 00:01:40,920
+Each item in the left column reveals a corresponding learning sequence.
+
+36
+00:01:40,920 --> 00:01:43,600
+Work your way from left to right.
+
+37
+00:01:43,600 --> 00:01:47,200
+Learning sequences can contain lectures, exercises, and interactive
+
+38
+00:01:47,200 --> 00:01:51,090
+lessons that you can complete on your own schedule.
+
+39
+00:01:51,090 --> 00:01:56,760
+Next, let's discover what makes edX fun and unique, its interactivity.
+
+40
+00:01:56,760 --> 00:02:00,410
+edX prides itself on its interactive lessons, which can include
+
+41
+00:02:00,410 --> 00:02:04,600
+demonstrations, visualizations, and virtual environments.
+
+42
+00:02:04,600 --> 00:02:07,190
+You can try out some in the demo course.
+
+43
+00:02:07,190 --> 00:02:11,590
+Interactive lessons are often graded and contribute to your final grade.
+
+44
+00:02:11,590 --> 00:02:15,480
+While the edX platform also supports more traditional question formats like
+
+45
+00:02:15,480 --> 00:02:19,985
+multiple choice, our classes also test your understanding by allowing you to
+
+46
+00:02:19,985 --> 00:02:23,930
+use labs and simulators, and even asking you to write an essay.
+
+47
+00:02:23,930 --> 00:02:27,400
+Example of these graded interactions are in the demo course.
+
+48
+00:02:27,400 --> 00:02:30,640
+You can see how the questions the course uses for gauging your learning
+
+49
+00:02:30,640 --> 00:02:35,620
+process can even be auto graded, or detailed feedback given in real time.
+
+50
+00:02:35,620 --> 00:02:39,350
+So while an edX course might be rigorous, the tools and visualizations
+
+51
+00:02:39,350 --> 00:02:42,280
+are really fun and truly interactive.
+
+52
+00:02:42,280 --> 00:02:45,560
+Finally, there are many ways successful students like to you
+
+53
+00:02:45,560 --> 00:02:47,740
+interact to get the most out of a course.
+
+54
+00:02:47,740 --> 00:02:51,560
+Beyond the discussion forums, you can meet and engage with fellow classmates
+
+55
+00:02:51,560 --> 00:02:54,050
+through a local meet up-- which we highly recommend--
+
+56
+00:02:54,050 --> 00:02:57,830
+a Google Hangout, or even invite students to join you via Twitter,
+
+57
+00:02:57,830 --> 00:02:59,820
+Facebook, or other social networks.
+
+58
+00:02:59,820 --> 00:03:02,970
+It's a proven fact that if you engage with others while taking a course,
+
+59
+00:03:02,970 --> 00:03:04,990
+you're more likely to succeed.
+
+60
+00:03:04,990 --> 00:03:08,110
+Now that you've seen how easy it is to take an edX course, experience this
+
+61
+00:03:08,110 --> 00:03:09,070
+demonstration course.
+
+62
+00:03:09,070 --> 00:03:12,980
+Firsthand all you have to do is click on week one to the left and you can
+
+63
+00:03:12,980 --> 00:03:14,230
+get started.
+
+64
+00:03:14,230 --> 00:03:14,710
+
+

@@ -1,4 +1,4 @@
-<problem display_name="Few Checks" max_attempts="3" rerandomize="never" showanswer="never" weight="">
+<problem display_name="Few Checks" max_attempts="3" rerandomize="never" showanswer="never" weight="null">
   <text>
     <p>This example question has fewer checks, so you can observe how the system behaves when you run out of checks.</p>
     <p>What common fruit is round, has a stem, grows on tree, and comes in both red and green varieties?</p>
