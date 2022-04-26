@@ -1,4 +1,4 @@
 <vertical display_name="Discussion Forums">
   <html url_name="html_49b4494da2f7"/>
-  <discussion url_name="discussion_5deb6081620d" xblock-family="xblock.v1" display_name="Discussion Forums" discussion_category="Interesting Courses" discussion_id="edx_demo_embedded_discussion" discussion_target="Discussion Forums" xml_attributes="{}"/>
+  <discussion url_name="discussion_5deb6081620d" xblock-family="xblock.v1" display_name="Discussion Forums" discussion_category="Interesting Courses" discussion_id="edx_demo_embedded_discussion" discussion_target="Discussion Forums" xml_attributes="{&#10;  &quot;for&quot;: &quot;Demonstration Embedded Discussion&quot;,&#10;  &quot;id&quot;: &quot;edx_demo_embedded_discussion&quot;&#10;}"/>
 </vertical>
