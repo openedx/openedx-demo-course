@@ -1,4 +1,106 @@
 {
+    "218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt",
+        "import_path": "218a4f00-e324-4434-bb44-d0c39ff9d4ba-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt",
+        "import_path": "304e2b4e-27eb-4dbe-98fd-e93c3f48402c-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "402ff6ff-6079-42ef-ac33-52a1b8dd87aa-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "402ff6ff-6079-42ef-ac33-52a1b8dd87aa-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "402ff6ff-6079-42ef-ac33-52a1b8dd87aa-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@402ff6ff-6079-42ef-ac33-52a1b8dd87aa-en.srt",
+        "import_path": "402ff6ff-6079-42ef-ac33-52a1b8dd87aa-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt",
+        "import_path": "5ef286e8-8e15-4b9c-a02c-f41cd38cb0b6-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "6b44398c-6841-4516-9844-aa02e08d0a24-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "6b44398c-6841-4516-9844-aa02e08d0a24-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "6b44398c-6841-4516-9844-aa02e08d0a24-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@6b44398c-6841-4516-9844-aa02e08d0a24-en.srt",
+        "import_path": "6b44398c-6841-4516-9844-aa02e08d0a24-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "7fab63e8-3126-4b97-99e5-9db822693858-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "7fab63e8-3126-4b97-99e5-9db822693858-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "7fab63e8-3126-4b97-99e5-9db822693858-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@7fab63e8-3126-4b97-99e5-9db822693858-en.srt",
+        "import_path": "7fab63e8-3126-4b97-99e5-9db822693858-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
     "7m8pab1MfYY.srt.sjson": {
         "contentType": "application/octet-stream",
         "content_son": {
@@ -16,6 +118,40 @@
         "locked": false,
         "thumbnail_location": null
     },
+    "87700d97-a58b-429c-a5e5-a1fceef2a6c3-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "87700d97-a58b-429c-a5e5-a1fceef2a6c3-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "87700d97-a58b-429c-a5e5-a1fceef2a6c3-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@87700d97-a58b-429c-a5e5-a1fceef2a6c3-en.srt",
+        "import_path": "87700d97-a58b-429c-a5e5-a1fceef2a6c3-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "88f8814f-f127-41d4-bffa-714fa97634d6-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "88f8814f-f127-41d4-bffa-714fa97634d6-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "88f8814f-f127-41d4-bffa-714fa97634d6-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@88f8814f-f127-41d4-bffa-714fa97634d6-en.srt",
+        "import_path": "88f8814f-f127-41d4-bffa-714fa97634d6-en.srt",
+        "locked": false,
+        "thumbnail_location": null
+    },
     "8iAty3Kla7U.srt.sjson": {
         "contentType": "application/octet-stream",
         "content_son": {
@@ -30,6 +166,23 @@
         "displayname": "8iAty3Kla7U.srt.sjson",
         "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@8iAty3Kla7U.srt.sjson",
         "import_path": "8iAty3Kla7U.srt.sjson",
+        "locked": false,
+        "thumbnail_location": null
+    },
+    "951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt": {
+        "contentType": "application/octet-stream",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt",
+        "import_path": "951ee25f-77b1-4810-b85f-88cd5bbfca50-en.srt",
         "locked": false,
         "thumbnail_location": null
     },
@@ -2045,30 +2198,6 @@
         "locked": false,
         "thumbnail_location": null
     },
-    "images_PS1_P7_im1.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "images_PS1_P7_im1.png",
-            "org": "edX",
-            "revision": null,
-            "run": "Demo_Course",
-            "tag": "c4x"
-        },
-        "displayname": "images_PS1_P7_im1.png",
-        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@images_PS1_P7_im1.png",
-        "import_path": "images_PS1_P7_im1.png",
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "edX",
-            "DemoX",
-            "thumbnail",
-            "images_PS1_P7_im1-png.jpg",
-            null
-        ]
-    },
     "images_course_image.jpg": {
         "contentType": "image/jpeg",
         "content_son": {
@@ -2082,7 +2211,7 @@
         },
         "displayname": "images_course_image.jpg",
         "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@images_course_image.jpg",
-        "import_path": "images_course_image.jpg",
+        "import_path": "images/course_image.jpg",
         "locked": false,
         "thumbnail_location": [
             "c4x",
@@ -2090,6 +2219,30 @@
             "DemoX",
             "thumbnail",
             "images_course_image.jpg",
+            null
+        ]
+    },
+    "images_images_course_image.jpg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "images_images_course_image.jpg",
+            "org": "edX",
+            "revision": null,
+            "run": "Demo_Course",
+            "tag": "c4x"
+        },
+        "displayname": "images_course_image.jpg",
+        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@images_images_course_image.jpg",
+        "import_path": "images/images_course_image.jpg",
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "edX",
+            "DemoX",
+            "thumbnail",
+            "images_images_course_image.jpg",
             null
         ]
     },
@@ -18591,23 +18744,6 @@
         "displayname": "minimax_problem_grader.js",
         "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@minimax_problem_grader.js",
         "import_path": "minimax_problem_grader.js",
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "molecules_dopamine.mol": {
-        "contentType": "chemical/x-mdl-molfile",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "molecules_dopamine.mol",
-            "org": "edX",
-            "revision": null,
-            "run": "Demo_Course",
-            "tag": "c4x"
-        },
-        "displayname": "dopamine.mol",
-        "filename": "asset-v1:edX+DemoX+Demo_Course+type@asset+block@molecules_dopamine.mol",
-        "import_path": "molecules/dopamine.mol",
         "locked": false,
         "thumbnail_location": null
     },

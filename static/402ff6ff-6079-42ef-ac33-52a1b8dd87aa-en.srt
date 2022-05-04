@@ -1,0 +1,680 @@
+0
+00:00:00,350 --> 00:00:05,230
+GREGORY NAGY: In hour zero, where I try to introduce Homeric poetry to
+
+1
+00:00:05,230 --> 00:00:11,060
+people who may never have been exposed to the Iliad and the Odyssey even in
+
+2
+00:00:11,060 --> 00:00:20,290
+translation, my idea was to get a sense of the medium, which is not a
+
+3
+00:00:20,290 --> 00:00:25,690
+readable medium because Homeric poetry, in its historical context, was
+
+4
+00:00:25,690 --> 00:00:30,210
+meant to be heard, not read.
+
+5
+00:00:30,210 --> 00:00:34,760
+And there are various ways of describing it-- call it oral poetry or
+
+6
+00:00:34,760 --> 00:00:37,580
+call it a very specialized kind of oral poetry.
+
+7
+00:00:37,580 --> 00:00:42,560
+But the important thing is that we, as modern readers, just
+
+8
+00:00:42,560 --> 00:00:44,720
+don&#39;t get the medium.
+
+9
+00:00:44,720 --> 00:00:50,700
+And so I thought before we get into hours 1 through 24, it would be
+
+10
+00:00:50,700 --> 00:00:58,030
+important to do some kind of big, grand cover everything introduction.
+
+11
+00:00:58,030 --> 00:01:02,500
+But at the same time, in this introduction, I wanted to get people
+
+12
+00:01:02,500 --> 00:01:08,230
+already interested in my technique of using close readings of very specific
+
+13
+00:01:08,230 --> 00:01:12,120
+parts of the text in order to get an idea of the overall
+
+14
+00:01:12,120 --> 00:01:13,190
+meaning of the text.
+
+15
+00:01:13,190 --> 00:01:22,490
+And so I chose eight such texts, and they&#39;re all very famous, well, some
+
+16
+00:01:22,490 --> 00:01:24,470
+more famous than others.
+
+17
+00:01:24,470 --> 00:01:30,240
+And as with the 24 hours, I number these sample texts by
+
+18
+00:01:30,240 --> 00:01:31,380
+letters of the alphabet.
+
+19
+00:01:31,380 --> 00:01:34,250
+So its texts A through H.
+
+20
+00:01:34,250 --> 00:01:40,520
+What I&#39;d like to do is just go over those passages or text and go through
+
+21
+00:01:40,520 --> 00:01:46,730
+them; try to do close readings; try to exemplify the principle of having to
+
+22
+00:01:46,730 --> 00:01:53,520
+read out of the text, not into the text; and also try to say why I picked
+
+23
+00:01:53,520 --> 00:01:55,160
+the passages that I picked.
+
+24
+00:01:55,160 --> 00:02:02,630
+And in this case my dialogic partners were Jeff Emanuel and Claudia Filos
+
+25
+00:02:02,630 --> 00:02:04,980
+who are former students.
+
+26
+00:02:04,980 --> 00:02:11,420
+They took former versions of the project that we&#39;re engaged with here.
+
+27
+00:02:11,420 --> 00:02:16,680
+And as very perceptive fellow learners, they really got the hang of
+
+28
+00:02:16,680 --> 00:02:22,310
+how to ask very incisive questions that go to the core of what this whole
+
+29
+00:02:22,310 --> 00:02:26,990
+project is all about like what&#39;s at stake in the Iliad?
+
+30
+00:02:26,990 --> 00:02:29,340
+What&#39;s at stake for the number one hero?
+
+31
+00:02:29,340 --> 00:02:34,170
+But what&#39;s at stake for some very secondary, bit player hero, as well?
+
+32
+00:02:34,170 --> 00:02:41,230
+How does Achilles see himself as the prototype for the ultimate heroic
+
+33
+00:02:41,230 --> 00:02:42,030
+experiment--
+
+34
+00:02:42,030 --> 00:02:44,420
+which is the way I look at the Iliad--
+
+35
+00:02:44,420 --> 00:02:47,610
+and how is he self-conscious about it?
+
+36
+00:02:47,610 --> 00:02:49,790
+CLAUDIA FILOS: So, Greg, can you talk a bit about why you chose these
+
+37
+00:02:49,790 --> 00:02:54,970
+particular eight passages as the focus passages four hour zero?
+
+38
+00:02:54,970 --> 00:02:59,450
+GREGORY NAGY: Well, here I was trying to introduce all of Homeric poetry to
+
+39
+00:02:59,450 --> 00:03:03,420
+people who may not ever have read the Iliad and the Odyssey.
+
+40
+00:03:03,420 --> 00:03:09,200
+So I thought how can I talk about the Iliad and the Odyssey and show some
+
+41
+00:03:09,200 --> 00:03:13,320
+very representative pieces of text?
+
+42
+00:03:13,320 --> 00:03:15,100
+And sometimes, I call them passages.
+
+43
+00:03:15,100 --> 00:03:16,430
+Sometimes, I call them texts.
+
+44
+00:03:16,430 --> 00:03:18,600
+When I number them, I call them text.
+
+45
+00:03:18,600 --> 00:03:27,050
+And all eight of these that I have selected are what in popular culture
+
+46
+00:03:27,050 --> 00:03:33,010
+would be parts of the greatest hits, so to speak, of the Iliad and Odyssey.
+
+47
+00:03:33,010 --> 00:03:39,170
+So, for example, if you look at text A on this introduction to Homeric poetry
+
+48
+00:03:39,170 --> 00:03:44,986
+which I call appropriately hour zero, there it is--
+
+49
+00:03:44,986 --> 00:03:48,010
+the first few verses of the Iliad.
+
+50
+00:03:48,010 --> 00:03:50,300
+In fact, the first 10 verses.
+
+51
+00:03:50,300 --> 00:03:58,170
+So Iliad scroll one, verses 1 through 10.
+
+52
+00:03:58,170 --> 00:04:03,000
+SPEAKER: Anger, goddess, sing it of Achilles, son of Peleus.
+
+53
+00:04:03,000 --> 00:04:07,590
+Disastrous anger that made countless pains for the Achaeans and many
+
+54
+00:04:07,590 --> 00:04:12,600
+steadfast lives it drove down to Hades, heroes&#39; lives.
+
+55
+00:04:12,600 --> 00:04:17,050
+But their bodies, it made prizes for the dogs and for all birds.
+
+56
+00:04:17,050 --> 00:04:20,339
+And the will of Zeus was reaching its fulfillment.
+
+57
+00:04:20,339 --> 00:04:25,540
+Sing starting from the point where the two, I see it now, first had a falling
+
+58
+00:04:25,540 --> 00:04:28,440
+out, engaging in strife.
+
+59
+00:04:28,440 --> 00:04:29,270
+I mean--
+
+60
+00:04:29,270 --> 00:04:35,170
+Agamemnon, the son of Atreus, lord of men, and radiant Achilles.
+
+61
+00:04:35,170 --> 00:04:39,540
+So, which one of the gods was it who impelled the two to fight with each
+
+62
+00:04:39,540 --> 00:04:41,020
+other in strife?
+
+63
+00:04:41,020 --> 00:04:44,850
+It was Apollo, the son of Leda and of Zeus.
+
+64
+00:04:44,850 --> 00:04:50,230
+For he, infuriated at the king, Agamemnon, caused an evil disease to
+
+65
+00:04:50,230 --> 00:04:57,110
+rise throughout the mass of warriors, and the people were getting destroyed.
+
+66
+00:04:57,110 --> 00:05:00,050
+GREGORY NAGY: I tried to replicate in my translation the fact that the very
+
+67
+00:05:00,050 --> 00:05:06,100
+first word of the Iliad is menis, which means anger, a special kind of
+
+68
+00:05:06,100 --> 00:05:07,620
+anger, a cosmic anger.
+
+69
+00:05:07,620 --> 00:05:09,044
+We&#39;ll talk more about that.
+
+70
+00:05:12,010 --> 00:05:16,770
+That man, tell me, oh muse, the song of that man.
+
+71
+00:05:16,770 --> 00:05:22,570
+That versatile man who, in very many ways, veered from his path and
+
+72
+00:05:22,570 --> 00:05:28,780
+wandered off far and wide after he had destroyed the sacred citadel of Troy.
+
+73
+00:05:28,780 --> 00:05:33,120
+Many different cities of many different people did he see, getting
+
+74
+00:05:33,120 --> 00:05:36,140
+to know different ways of thinking.
+
+75
+00:05:36,140 --> 00:05:40,740
+Many were the pains he suffered in his heart while crossing the sea,
+
+76
+00:05:40,740 --> 00:05:46,630
+struggling to merit the saving of his own life and his own homecoming, as
+
+77
+00:05:46,630 --> 00:05:49,800
+well as the homecoming of his comrades.
+
+78
+00:05:49,800 --> 00:05:54,900
+But do it he might, he could not save his comrades even though he
+
+79
+00:05:54,900 --> 00:05:57,100
+very much wanted to.
+
+80
+00:05:57,100 --> 00:06:01,850
+For they perished through their own deeds of sheer recklessness,
+
+81
+00:06:01,850 --> 00:06:06,500
+disconnected as they were because of what they did to the cattle of the sun
+
+82
+00:06:06,500 --> 00:06:08,480
+god Helios--
+
+83
+00:06:08,480 --> 00:06:10,360
+they ate them.
+
+84
+00:06:10,360 --> 00:06:14,000
+So the god deprived them of their day of homecoming.
+
+85
+00:06:14,000 --> 00:06:18,570
+Starting from any single point of departure, oh goddess, daughter of
+
+86
+00:06:18,570 --> 00:06:22,560
+Zeus, tell me as you&#39;ve told those who came before me.
+
+87
+00:06:25,260 --> 00:06:28,700
+GREGORY NAGY: And then if we go to text B, look at that.
+
+88
+00:06:28,700 --> 00:06:32,150
+The first quote unquote word is man.
+
+89
+00:06:32,150 --> 00:06:36,000
+All right, in English, we have to say the man, but in the original Greek,
+
+90
+00:06:36,000 --> 00:06:38,210
+andra, the man.
+
+91
+00:06:38,210 --> 00:06:41,090
+And that&#39;s the subject of that epic.
+
+92
+00:06:41,090 --> 00:06:46,830
+Just as the subject of the Iliad is the anger of Achilles, the subject the
+
+93
+00:06:46,830 --> 00:06:48,770
+Odyssey is the man who is Odyssey.
+
+94
+00:06:48,770 --> 00:06:50,170
+So there you are.
+
+95
+00:06:50,170 --> 00:06:58,090
+That&#39;s why I shall zone text B to be the first few verses of the Odyssey.
+
+96
+00:06:58,090 --> 00:07:02,520
+And in fact just as with the Iliad, it&#39;s the first 10 verses.
+
+97
+00:07:02,520 --> 00:07:03,810
+Nice and symmetrical.
+
+98
+00:07:03,810 --> 00:07:05,700
+CLAUDIA FILOS: so those first words are so key.
+
+99
+00:07:05,700 --> 00:07:07,450
+The epics are telling us right away.
+
+100
+00:07:07,450 --> 00:07:11,010
+GREGORY NAGY: These epics are-- both of them, Iliad and the Odyssey--
+
+101
+00:07:11,010 --> 00:07:14,710
+telling what the subject is with the first word.
+
+102
+00:07:14,710 --> 00:07:19,060
+In the case of the Iliad, first word of 15,000 plus verses.
+
+103
+00:07:19,060 --> 00:07:22,580
+In the case of the Odyssey, the first word of 12,000 plus verses.
+
+104
+00:07:22,580 --> 00:07:23,830
+Pretty good.
+
+105
+00:07:26,860 --> 00:07:31,100
+SPEAKER: And now, tell me, oh muses, who live in your Olympian abodes,
+
+106
+00:07:31,100 --> 00:07:35,020
+since you are goddesses, and you were there, and you know everything.
+
+107
+00:07:35,020 --> 00:07:38,740
+But we only hear the kleos and we hear nothing.
+
+108
+00:07:38,740 --> 00:07:41,920
+Who are the princes of the Danaans?
+
+109
+00:07:41,920 --> 00:07:46,940
+GREGORY NAGY: Now look at text C for hour zero.
+
+110
+00:07:46,940 --> 00:07:54,470
+This is where Hector says there&#39;ll be a memory of the time that my fire
+
+111
+00:07:54,470 --> 00:07:58,840
+nearly destroyed not just the Achaeans but the entirety of Greek
+
+112
+00:07:58,840 --> 00:08:00,620
+civilization.
+
+113
+00:08:00,620 --> 00:08:04,390
+You see, if the fire of Hector had reached the ships of the Achaeans that
+
+114
+00:08:04,390 --> 00:08:09,650
+were beached like sitting ducks on the Hellespont, then, essentially, there
+
+115
+00:08:09,650 --> 00:08:11,610
+would be no more Greeks.
+
+116
+00:08:11,610 --> 00:08:16,220
+And so Hector, this character, is very aware of it-- says let there be a
+
+117
+00:08:16,220 --> 00:08:20,710
+memory of the time when this was about to happen.
+
+118
+00:08:20,710 --> 00:08:29,640
+And so poetic how the fire will confound the key Achaeans who the
+
+119
+00:08:29,640 --> 00:08:33,900
+Argives, who are the Danaans, by the smoke.
+
+120
+00:08:33,900 --> 00:08:35,400
+CLAUDIA FILOS: choosing it, you&#39;re saying there&#39;s something very
+
+121
+00:08:35,400 --> 00:08:37,909
+important about memory for both.
+
+122
+00:08:37,909 --> 00:08:40,760
+GREGORY NAGY: It&#39;s all important because this isn&#39;t just memory, this
+
+123
+00:08:40,760 --> 00:08:42,350
+is poetic memory.
+
+124
+00:08:42,350 --> 00:08:48,680
+And as we&#39;ll see when we get to hour two, it&#39;s a kind of total recall, if I
+
+125
+00:08:48,680 --> 00:08:50,620
+may use science fiction term.
+
+126
+00:08:54,440 --> 00:08:57,010
+SPEAKER: Ah, me, the pitiful one.
+
+127
+00:08:57,010 --> 00:09:02,140
+Ah, me, the mother, so sad it is of the very best.
+
+128
+00:09:02,140 --> 00:09:07,830
+I gave birth to a faultless and strong son, the very best of heroes, and he
+
+129
+00:09:07,830 --> 00:09:11,080
+shot up equal to a seedling.
+
+130
+00:09:11,080 --> 00:09:16,350
+I nurtured him like a shoot in the choicest spot of the orchard only to
+
+131
+00:09:16,350 --> 00:09:21,120
+send him off on curved ships to Troy to fight Trojan men.
+
+132
+00:09:21,120 --> 00:09:25,960
+And I will never be welcoming him back home as a returning warrior, back to
+
+133
+00:09:25,960 --> 00:09:28,050
+the house of Peleus.
+
+134
+00:09:28,050 --> 00:09:34,530
+GREGORY NAGY: Let&#39;s go to text D of hour zero, which is where Thetas, the
+
+135
+00:09:34,530 --> 00:09:36,970
+mother of Achilles, is speaking.
+
+136
+00:09:36,970 --> 00:09:42,050
+And she&#39;s not just speaking, in terms of the medium, she&#39;s actually singing
+
+137
+00:09:42,050 --> 00:09:46,220
+a song of lament, and we&#39;ll talk a lot more about lament later.
+
+138
+00:09:46,220 --> 00:09:50,710
+But I love the fact that as she is lamenting Achilles, who&#39;s not even
+
+139
+00:09:50,710 --> 00:09:58,450
+dead yet, she is comparing him to a tender, young shoot or seedling.
+
+140
+00:09:58,450 --> 00:10:05,290
+And I&#39;m pretty deliberate on why I use not just the translation seedling but
+
+141
+00:10:05,290 --> 00:10:14,110
+also shoot for imagining the hero as a beautiful, young planet.
+
+142
+00:10:14,110 --> 00:10:16,560
+OK, so there it is.
+
+143
+00:10:16,560 --> 00:10:21,890
+And even the specifics of the language that she uses, Thetas uses, in her
+
+144
+00:10:21,890 --> 00:10:25,910
+song of lament for Achilles, who&#39;s not even dead yet--
+
+145
+00:10:25,910 --> 00:10:29,140
+some of the specific language like [INAUDIBLE]
+
+146
+00:10:29,140 --> 00:10:31,860
+which I translated as he shot up.
+
+147
+00:10:31,860 --> 00:10:37,510
+It&#39;s a kind of violent, vegetal activity that you would associate with
+
+148
+00:10:37,510 --> 00:10:42,220
+mutant phenomena, not necessarily natural phenomena.
+
+149
+00:10:42,220 --> 00:10:47,120
+Sure, a growing planet is natural but this is an unnatural growth.
+
+150
+00:10:47,120 --> 00:10:50,680
+It&#39;s just so much quicker and so much more vibrant.
+
+151
+00:10:50,680 --> 00:10:51,660
+CLAUDIA FILOS: going to be thinking about what&#39;s
+
+152
+00:10:51,660 --> 00:10:52,940
+natural and what&#39;s unnatural?
+
+153
+00:10:52,940 --> 00:10:54,110
+GREGORY NAGY: Very much so.
+
+154
+00:10:54,110 --> 00:10:57,020
+I try never to use the word supernatural.
+
+155
+00:10:57,020 --> 00:11:02,100
+I&#39;ll try to use a superhuman because even the superhuman realm can still be
+
+156
+00:11:02,100 --> 00:11:03,210
+a function of nature.
+
+157
+00:11:03,210 --> 00:11:05,260
+JEFF EMANUEL: This an example maybe of what we&#39;re going to be thinking in
+
+158
+00:11:05,260 --> 00:11:06,470
+extremes as well.
+
+159
+00:11:06,470 --> 00:11:07,420
+GREGORY NAGY: Very much extremes.
+
+160
+00:11:07,420 --> 00:11:11,340
+And as we&#39;ll see it in our working definition of the
+
+161
+00:11:11,340 --> 00:11:13,700
+hero, the hero is extreme.
+
+162
+00:11:13,700 --> 00:11:16,530
+That&#39;s definitely one of the major characteristics.
+
+163
+00:11:16,530 --> 00:11:23,840
+When we talk about the growth spurt of Achilles, I&#39;m tempted to say that it&#39;s
+
+164
+00:11:23,840 --> 00:11:26,780
+an unnatural growth spurt.
+
+165
+00:11:26,780 --> 00:11:29,960
+But what I&#39;m really trying to say-- it&#39;s part of nature, but it&#39;s
+
+166
+00:11:29,960 --> 00:11:33,430
+exaggerated, extreme, as Jeff said.
+
+167
+00:11:33,430 --> 00:11:38,580
+We&#39;ll get back to that, but I wanted to expose people as soon as possible
+
+168
+00:11:38,580 --> 00:11:48,080
+to the idea that a hero is the subject of lament, And lament will be a very
+
+169
+00:11:48,080 --> 00:11:50,940
+important part of our agenda.
+
