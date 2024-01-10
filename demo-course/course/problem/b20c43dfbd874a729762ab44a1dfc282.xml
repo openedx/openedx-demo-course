@@ -1,0 +1,23 @@
+<problem display_name="Conditional Question" markdown="&lt;div style=&quot;width: 100%; text-align: center;&quot;&gt;&lt;img src=&quot;/static/Pendleton_Sinking_Ship.jpeg&quot; alt=&quot;The SS Pendleton sinking into the ocean waters&quot; style=&quot;border-radius: 10px; max-width: 500px;&quot;/&gt;&lt;/div&gt;&#10;The SS Pendleton was a 1950's era tanker. On February 18, while en route from New Orleans to Boston, Pendleton broke in two in a gale south of Cape Cod, Massachusetts. The subsequent rescue of the Pendleton's crew from the stormy waters is considered one of the most daring rescues in the history of the United States Coast Guard. &#10;&#10;&gt;&gt;In what year did the SS Pendleton sink?&lt;&lt;&#10;&#10;( ) 1592 {{The 1950's era ship did not sink in 1592. With this answered incorrectly, you will not be able to see the conditional subsection next.}}&#10;(x) 1952 {{Correct! Now, move on to the next section to see the hidden content.}}&#10;( ) 2052 {{The 1950's era ship did not sink in the future. With this answered incorrectly, you will not be able to see the conditional subsection next.}}&#10;&#10;[explanation]&#10;Short explanation&#10;[explanation]&#10;&#10;">
+<multiplechoiceresponse>
+  <div style="width: 100%; text-align: center;"><img src="/static/Pendleton_Sinking_Ship.jpeg" alt="The SS Pendleton sinking into the ocean waters" style="border-radius: 10px; max-width: 500px;"/></div>
+<p>The SS Pendleton was a 1950's era tanker. On February 18, while en route from New Orleans to Boston, Pendleton broke in two in a gale south of Cape Cod, Massachusetts. The subsequent rescue of the Pendleton's crew from the stormy waters is considered one of the most daring rescues in the history of the United States Coast Guard. </p>
+<label>In what year did the SS Pendleton sink?</label>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">1592 <choicehint>The 1950's era ship did not sink in 1592. With this answered incorrectly, you will not be able to see the conditional subsection next.</choicehint>
+</choice>
+    <choice correct="true">1952 <choicehint>Correct! Now, move on to the next section to see the hidden content.</choicehint>
+</choice>
+    <choice correct="false">2052 <choicehint>The 1950's era ship did not sink in the future. With this answered incorrectly, you will not be able to see the conditional subsection next.</choicehint>
+</choice>
+  </choicegroup>
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Short explanation</p>
+
+</div>
+</solution>
+</multiplechoiceresponse>
+</problem>

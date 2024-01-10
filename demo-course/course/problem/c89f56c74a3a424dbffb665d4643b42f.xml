@@ -1,0 +1,10 @@
+<problem display_name="Simple Dropdown" markdown="&gt;&gt;What is the capital city of Australia?&lt;&lt;&#10;[[&#10;Sydney&#10;(Canberra)&#10;Melbourne&#10;]]&#10;">
+<optionresponse>
+  <label>What is the capital city of Australia?</label>
+<optioninput>
+    <option correct="False">Sydney</option>
+    <option correct="True">Canberra</option>
+    <option correct="False">Melbourne</option>
+  </optioninput>
+</optionresponse>
+</problem>

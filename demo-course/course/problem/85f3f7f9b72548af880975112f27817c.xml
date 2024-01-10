@@ -1,0 +1,72 @@
+<problem display_name="Advanced Dropdown" markdown="null">
+  <p>For each of the following major scientific discoveries, identify the discoverer and their country of origin. </p>
+  <table border="1">
+    <tr>
+      <th>Scientific Discovery</th>
+      <th>Scientist Credited with Discovery</th>
+      <th>Scientist's Country of Origin</th>
+    </tr>
+    <tr>
+      <td>
+        <b>Theory of Relativity</b>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('Dmitri Mendeleev','Albert Einstein','Jonas Salk', 'Sir Isaac Newton')" correct="Albert Einstein"/>
+        </optionresponse>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('USA','Germany','Russia','England')" correct="Germany"/>
+        </optionresponse>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b>Periodic Table of Elements</b>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('Dmitri Mendeleev','Albert Einstein','Jonas Salk', 'Sir Isaac Newton')" correct="Dmitri Mendeleev"/>
+        </optionresponse>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('USA','Germany','Russia','England')" correct="Russia"/>
+        </optionresponse>
+      </td>
+    </tr>
+        <tr>
+      <td>
+        <b>Law of Universal Gravitation</b>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('Dmitri Mendeleev','Albert Einstein','Jonas Salk', 'Sir Isaac Newton')" correct="Sir Isaac Newton"/>
+        </optionresponse>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('USA','Germany','Russia','England')" correct="England"/>
+        </optionresponse>
+      </td>
+    </tr>
+    
+        <tr>
+      <td>
+        <b>Development of the Polio Vaccine </b>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('Dmitri Mendeleev','Albert Einstein','Jonas Salk', 'Sir Isaac Newton')" correct="Jonas Salk"/>
+        </optionresponse>
+      </td>
+      <td>
+        <optionresponse>
+          <optioninput options="('USA','Germany','Russia','England')" correct="USA"/>
+        </optionresponse>
+      </td>
+    </tr>
+        
+  </table>
+</problem>

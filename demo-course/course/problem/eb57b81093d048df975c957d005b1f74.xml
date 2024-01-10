@@ -1,0 +1,36 @@
+<problem display_name="Simple Code Grading using Python Problem Builder" markdown="null">
+    <script type="loncapa/python">
+    
+def grade(x, y):
+    # Adjusting the expected_query to reflect the change in the problem's context.
+    expected_query = "SELECT * FROM products WHERE price &gt; 20;"
+    
+    student_response = y["student_input"].strip().lower()
+    
+
+    # If the response contains a semi-colon, then compare with the expected query.
+    if student_response == expected_query.lower():
+        return {'ok': True}
+    else:
+        return {'ok': False}
+    
+    </script>
+  
+  		return { 'overall_message': overall_message,
+			'input_list': [
+				{ 'ok': friends_answer, 'msg': friends_message, 'grade_decimal': friends_grade},
+				{ 'ok': total_gallons_answer, 'grade_decimal': total_gallons_grade },
+				{ 'ok': gallons_camel_day1_answer, 'grade_decimal': gallons_camel_day1_grade },
+				{ 'ok': gallons_camel_day3_answer, 'grade_decimal': gallons_camel_day3_grade },
+			]
+		}
+
+    <p>Write an SQL query to select all products where the price is greater than 20.</p>
+  <p>In this case, products is in the table called "products" and price is in a column titled "price".</p>
+    <stringresponse answer="SELECT * FROM products WHERE price &gt; 20;" type="ci">
+        <textline size="80" correct_answer="SELECT * FROM products WHERE price &gt; 20;" label="Enter your SQL query here."/>
+    </stringresponse>
+  <demandhint>
+  <hint>Don't forget the semi-colon (;) at the end.</hint>  <hint>Select * from ______ where ______ &gt; _______;</hint>
+</demandhint>
+</problem>

@@ -1,0 +1,12 @@
+<video youtube="1.00:AOUEsgFrYeg" url_name="078de40d92a54047b951a2e7a8e2a348" sub="" transcripts="{&quot;en&quot;: &quot;48c991fb-083c-45e1-adad-930d2b11b11e-en.srt&quot;, &quot;es&quot;: &quot;48c991fb-083c-45e1-adad-930d2b11b11e-es.srt&quot;}" display_name="The Reach of the Open edX Platform (2023)" download_track="true" edx_video_id="48c991fb-083c-45e1-adad-930d2b11b11e" end_time="00:12:57" handout="/asset-v1:Axim+DemoX+demo_course+type@asset+block@open-edx-reach-slide.png" html5_sources="[]" start_time="00:11:39" track="/static/Reach_of_Open_edX_Downloadable_Transcript.pdf" youtube_id_1_0="AOUEsgFrYeg">
+  <track src="/static/Reach_of_Open_edX_Downloadable_Transcript.pdf"/>
+  <handout src="/asset-v1:Axim+DemoX+demo_course+type@asset+block@open-edx-reach-slide.png"/>
+  <video_asset client_video_id="external video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+      <transcript language_code="es" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="48c991fb-083c-45e1-adad-930d2b11b11e-en.srt"/>
+  <transcript language="es" src="48c991fb-083c-45e1-adad-930d2b11b11e-es.srt"/>
+</video>

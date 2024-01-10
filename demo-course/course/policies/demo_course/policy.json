@@ -1,0 +1,141 @@
+{
+    "course/demo_course": {
+        "advanced_modules": [
+            "edx_sga",
+            "lti",
+            "scorm",
+            "library_content",
+            "annotatable",
+            "poll",
+            "survey",
+            "ubcpi",
+            "pdf",
+            "freetextresponse",
+            "peer_instruction"
+        ],
+        "allow_anonymous": true,
+        "allow_anonymous_to_peers": true,
+        "cert_html_view_enabled": true,
+        "course_image": "thumbnail_draft.png",
+        "discussion_blackouts": [],
+        "discussion_topics": {
+            "General": {
+                "id": "course"
+            },
+            "Off Topic": {
+                "id": "ef5f389c-6b64-4d67-9b7e-f7d946f7cc7c"
+            }
+        },
+        "discussions_settings": {
+            "enable_graded_units": false,
+            "enable_in_context": true,
+            "legacy": {
+                "group_at_subsection": false
+            },
+            "provider_type": "legacy",
+            "unit_level_visibility": true
+        },
+        "display_name": "Open edX Demo Course",
+        "enable_subsection_gating": true,
+        "graceperiod": "",
+        "instructor_info": {
+            "instructors": []
+        },
+        "language": "en",
+        "learning_info": [],
+        "lti_passports": [
+            "codeboard:codeboard_key_1:codeboard_secret_1234",
+            "jupyter:811a447706c152588c436ee13addeeb889e7f256033679408737bd5bc4118225:869e9639af7de74929b13ae17ad22e4efb60d9d112143e287589289102e1de00"
+        ],
+        "minimum_grade_credit": 0.8,
+        "self_paced": true,
+        "start": "2020-01-01T00:00:00Z",
+        "tabs": [
+            {
+                "course_staff_only": false,
+                "name": "Course",
+                "type": "courseware"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Textbooks",
+                "type": "textbooks"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Discussion",
+                "type": "discussion"
+            },
+            {
+                "course_staff_only": false,
+                "is_hidden": true,
+                "name": "Wiki",
+                "type": "wiki"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Progress",
+                "type": "progress"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Dates",
+                "type": "dates"
+            },
+            {
+                "course_staff_only": false,
+                "name": "Teams",
+                "type": "teams"
+            }
+        ],
+        "teams_configuration": {
+            "max_team_size": 10,
+            "topics": [
+                {
+                    "description": "A place to join groups that would like to socialize",
+                    "id": "social",
+                    "name": "Social"
+                },
+                {
+                    "description": "A place to join groups that want to organize around specific study topics",
+                    "id": "study",
+                    "name": "Study"
+                }
+            ]
+        },
+        "user_partitions": [
+            {
+                "active": true,
+                "description": "The groups in this configuration can be mapped to cohorts in the Instructor Dashboard.",
+                "groups": [
+                    {
+                        "id": 1819362822,
+                        "name": "Content Group A",
+                        "version": 1
+                    },
+                    {
+                        "id": 259161138,
+                        "name": "Test",
+                        "version": 1
+                    },
+                    {
+                        "id": 205150518,
+                        "name": "Content Group B",
+                        "version": 1
+                    }
+                ],
+                "id": 18587404,
+                "name": "Content Groups",
+                "parameters": {},
+                "scheme": "cohort",
+                "version": 3
+            }
+        ],
+        "xml_attributes": {
+            "filename": [
+                "course/Demo_Course_v2.xml",
+                "course/Demo_Course_v2.xml"
+            ]
+        }
+    }
+}

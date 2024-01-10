@@ -1,0 +1,43 @@
+<script src="/static/demox_js.js"  type="text/javascript" charset="UTF-8" ></script>
+
+<style type="text/css">
+  /****************** Click to Expand Hints **********/
+.hint-wrapper {
+    border: 1px solid #d7d7d7;
+    margin-bottom: 20px;
+    overflow: hidden; /* Keeps the content from being shown when it is animating */
+}
+
+.hint-title {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #033769;
+    padding: 10px;
+}
+
+.hint-title h2,
+.hint-title h3,
+.hint-title h4,
+.hint-title p {
+margin-bottom: 0 !important;
+color: #fff !important;
+}
+
+.hint-body {
+    height: 0;
+    overflow: hidden;
+    /*Oddly, transition seems to break this. The box gets clipped at the bottom of a unit. */
+    /*transition: height 0.4s ease-in-out; */
+}
+
+.hint-body.expanded {
+padding: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+  </style>

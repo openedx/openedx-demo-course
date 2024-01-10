@@ -1,0 +1,17 @@
+<problem display_name="Which muscle contracts to help with inhalation during breathing?" markdown="null">
+    <multiplechoiceresponse>
+        <label>Which muscle contracts to help with inhalation during breathing?</label>
+        <choicegroup type="MultipleChoice">
+            <choice correct="true">A. Diaphragm</choice>
+            <choice correct="false">B. Biceps</choice>
+            <choice correct="false">C. Hamstrings</choice>
+            <choice correct="false">D. Triceps</choice>
+        </choicegroup>
+        <solution>
+            <div class="detailed-solution">
+                <p>Answer: A. Diaphragm</p>
+                <p>The diaphragm contracts during inhalation, increasing the volume of the thoracic cavity and allowing air to be drawn into the lungs.</p>
+            </div>
+        </solution>
+    </multiplechoiceresponse>
+</problem>

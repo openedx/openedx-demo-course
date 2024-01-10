@@ -1,0 +1,7 @@
+<vertical display_name="Surveys">
+  <html url_name="0b8b94b1a09b44bd9f94b84c7d86c88e"/>
+  <html url_name="74948cd6472b4910bcfcf0194ed497c6"/>
+  <survey url_name="6da749b1e81f42faa38bf51a37f7ea32" xblock-family="xblock.v1" feedback="Thanks for sharing your thoughts!" max_submissions="1" private_results="false" answers="[&#10;  [&#10;    &quot;Y&quot;,&#10;    &quot;Yes&quot;&#10;  ],&#10;  [&#10;    &quot;N&quot;,&#10;    &quot;No&quot;&#10;  ],&#10;  [&#10;    &quot;M&quot;,&#10;    &quot;Maybe&quot;&#10;  ]&#10;]" block_name="Survey" questions="[&#10;  [&#10;    &quot;enjoy&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Are you enjoying the course so far?&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;recommend&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Would you recommend this course to other new users of the Open edX platform?&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;learn&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Have you learned a lot about the Open edX platform?&quot;&#10;    }&#10;  ]&#10;]"/>
+  <html url_name="ec983644cc414ac597503da5b80dc671"/>
+  <html url_name="2942ccd3ee024ca096a96270017d9a70"/>
+</vertical>

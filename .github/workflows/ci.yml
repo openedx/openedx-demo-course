@@ -1,0 +1,39 @@
+# Ensure the test course and libraries can be imported.
+
+name: CI
+
+on:
+    pull_request:
+        branches: ["main"]
+    push:
+        branches: ["main"]
+
+jobs:
+
+    source_and_tars_match:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out this repo
+              uses: actions/checkout@v2
+
+            - name: Unpack tars
+              run: make unpack
+
+            - name: Confirm that unpacked tars match source
+              run: |
+                  git update-index --refresh && git diff-index HEAD -- && {
+                      echo -e "\033[1;32m=============================================================================\033[0m"
+                      echo -e "\033[1;32mUnpacked .tar.gz files do match source XML, all is well.\033[0m"
+                      echo -e "\033[1;32m=============================================================================\033[0m"
+                      exit 0
+                  } || { 
+                      echo -e "\033[1;31m=============================================================================\033[0m"
+                      echo -e "\033[1;31mERROR: Unpacked .tar.gz files do not match source XML! See differences below.\033[0m"
+                      echo -e "\033[0;31mYou can fix this by either:\033[0m"
+                      echo -e "\033[0;31m * updating the source using the tars (run: make unpack), or\033[0m"
+                      echo -e "\033[0;31m * updating the tars using the source (run: make dist).\033[0m"
+                      echo -e "\033[1;31m=============================================================================\033[0m"
+                      git diff
+                      exit 1
+                  }
+

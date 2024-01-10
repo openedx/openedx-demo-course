@@ -1,0 +1,12 @@
+<problem display_name="Basic text input" markdown="&gt;&gt;In the field below, enter one of the names of the seven dwarfs from Snow White.&lt;&lt;&#10;&#10;= Doc&#10;or= Sleepy&#10;or= Dopey&#10;or= Grumpy&#10;or= Happy&#10;or= Bashful&#10;or= Sneezy&#10;&#10;">
+<stringresponse answer="Doc" type="ci">
+  <label>In the field below, enter one of the names of the seven dwarfs from Snow White.</label>
+<additional_answer answer="Sleepy"/>
+  <additional_answer answer="Dopey"/>
+  <additional_answer answer="Grumpy"/>
+  <additional_answer answer="Happy"/>
+  <additional_answer answer="Bashful"/>
+  <additional_answer answer="Sneezy"/>
+  <textline size="20"/>
+</stringresponse>
+</problem>
