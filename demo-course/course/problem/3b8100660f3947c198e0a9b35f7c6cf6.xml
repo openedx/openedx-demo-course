@@ -1,0 +1,8 @@
+<problem display_name="Simple Numerical Input Problem" markdown="&gt;&gt;What is \(120 \times 5\)? || For demonstration purposes, your answer may be 5 higher or lower than the actual answer.&lt;&lt;&#10;&#10;= 600 +-5&#10;" showanswer="always">
+<numericalresponse answer="600">
+  <label>What is \(120 \times 5\)? </label>
+<description> For demonstration purposes, your answer may be 5 higher or lower than the actual answer.</description>
+<responseparam type="tolerance" default="5"/>
+  <formulaequationinput/>
+</numericalresponse>
+</problem>

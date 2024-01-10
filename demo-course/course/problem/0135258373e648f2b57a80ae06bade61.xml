@@ -1,0 +1,36 @@
+<problem display_name="Multi-Select Multiple Choice Problem" markdown="&gt;&gt;Which of the following fun facts are actually true? ||There are 3 correct answers. &lt;&lt;&#10;&#10;[ ] Bats are blind {{s:Bats actually have keener eyesight than most humans!}}&#10;[x] The Lion King was released closer to the Moon landing than it was to the present day {{u:One of the true facts you're missing makes me feel extremely old.}}&#10;[ ] Adding salt to water makes it boil faster {{s:Salt doesn't actually make a meaningful difference to anything but the taste!}}&#10;[x] Oxford University is older than the Aztec Empire {{u:Oxford University was founded in 1096.}}&#10;[x] Pluto has not yet finished a complete orbit of the sun since its discovery in 1930 {{u:Pluto's orbital period is 248 years.}}&#10;&#10;[explanation]&#10;In case you're wondering:&#10;&lt;ul&gt;&#10;  &lt;li&gt;The Lion King was released in 1994, 25 years after the Moon landing in 1969. 25 years from 1994 is 2019.&lt;/li&gt;&#10;  &lt;li&gt;Oxford University was founded in 1096, and the Aztec Empire was founded in 1428.&lt;/li&gt;&#10;  &lt;li&gt;Pluto's orbital period is 248 years, and it was discovered in 1930. This means it'll finish its first orbit on March 23, 2178.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;[explanation]&#10;" show_reset_button="true">
+<choiceresponse>
+  <label>Which of the following fun facts are actually true? </label>
+<description>There are 3 correct answers. </description>
+<checkboxgroup>
+    <choice correct="false">Bats are blind
+      <choicehint selected="true">Bats actually have keener eyesight than most humans!</choicehint>
+</choice>
+    <choice correct="true">The Lion King was released closer to the Moon landing than it was to the present day
+      <choicehint selected="false">One of the true facts you're missing makes me feel extremely old.</choicehint>
+</choice>
+    <choice correct="false">Adding salt to water makes it boil faster
+      <choicehint selected="true">Salt doesn't actually make a meaningful difference to anything but the taste!</choicehint>
+</choice>
+    <choice correct="true">Oxford University is older than the Aztec Empire
+      <choicehint selected="false">Oxford University was founded in 1096.</choicehint>
+</choice>
+    <choice correct="true">Pluto has not yet finished a complete orbit of the sun since its discovery in 1930
+      <choicehint selected="false">Pluto's orbital period is 248 years.</choicehint>
+</choice>
+  </checkboxgroup>
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>In case you're wondering:</p>
+<ul>
+  <li>The Lion King was released in 1994, 25 years after the Moon landing in 1969. 25 years from 1994 is 2019.</li>
+  <li>Oxford University was founded in 1096, and the Aztec Empire was founded in 1428.</li>
+  <li>Pluto's orbital period is 248 years, and it was discovered in 1930. This means it'll finish its first orbit on March 23, 2178.</li>
+</ul>
+
+</div>
+</solution>
+</choiceresponse>
+</problem>

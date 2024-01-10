@@ -1,0 +1,192 @@
+0
+00:00:04,320 --> 00:00:09,840
+Welcome to Open edX®, the open source platform and  community that powers many of the online courses  
+
+1
+00:00:09,840 --> 00:00:11,761
+and programs you see around the world.
+
+2
+00:00:11,761 --> 00:00:19,516
+ The open source community, there&#39;s a lot of sharing of ideas especially around course development and what approaches work for building courses.
+
+3
+00:00:19,516 --> 00:00:25,040
+There&#39;s a strong developer community supporting the Open edX® platform but there&#39;s also a broad network of  
+
+4
+00:00:25,040 --> 00:00:27,678
+communities of practice that you can get involved with.
+
+5
+00:00:27,678 --> 00:00:33,440
+I think one of the things that&#39;s great about the Open edX® community is how generous people are. People are always willing to share feedback and  
+
+6
+00:00:33,440 --> 00:00:38,560
+ideas and things that have worked for them. So  whether that&#39;s on the Slack channel or face to  
+
+7
+00:00:38,560 --> 00:00:43,000
+face at the conference or even in the discussion  forum you can always get some ideas and feedback.
+
+8
+00:00:43,000 --> 00:00:48,360
+The educators community of practice members support each other by sharing new techniques,  
+
+9
+00:00:48,360 --> 00:00:52,883
+design approaches, and together we form a human knowledge base.
+
+10
+00:00:52,883 --> 00:01:02,360
+And I think one of the exciting things actually about Open edX® and the fact that this group is so willing to share  
+
+11
+00:01:02,360 --> 00:01:08,600
+is that there are so many opportunities to look  at what other people are doing. To look, you know,  
+
+12
+00:01:08,600 --> 00:01:15,520
+into their classes, to look into their approaches and to get to see what everyone in  
+
+13
+00:01:15,520 --> 00:01:18,662
+this community is doing and that makes your work better.
+
+14
+00:01:18,662 --> 00:01:27,000
+What&#39;s great about it is there&#39;s a lot of unique, smart, talented people working in this space and when all of us share collectively as  
+
+15
+00:01:27,000 --> 00:01:32,720
+this open source community everyone gets better at  what they do, at what they build and that&#39;s really exciting to me.
+
+16
+00:01:32,720 --> 00:01:39,721
+You know, there is always this risk that you&#39;re operating in a box, but I think that the Open edX® Community kind of helps take you out of that box.
+
+17
+00:01:39,721 --> 00:01:47,040
+I contribute to the Open edX® community through open source tools. I really like  figuring out how to make things easier for people  
+
+18
+00:01:47,040 --> 00:01:50,640
+especially if you&#39;re running a lot of classes or if you want to do things that you don&#39;t think the  
+
+19
+00:01:50,640 --> 00:01:55,890
+platform can do that&#39;s where I want to chip in.  It&#39;s been really cool to see other people use what I make.
+
+20
+00:01:55,890 --> 00:02:00,031
+There&#39;s also a community of developers so if you&#39;re coming more from the technical side
+
+21
+00:02:00,031 --> 00:02:06,852
+there&#39;s a group of people that are really willing to help lean in and support you in making the best use of our open source platform.
+
+22
+00:02:06,852 --> 00:02:13,117
+It&#39;s so exciting to see that moment where a new developer realizes that they can contribute that feature they want to contribute
+
+23
+00:02:13,117 --> 00:02:21,400
+and it&#39;s really exciting when someone who originally was struggling to make a pull request or struggling to diagnose the problem  
+
+24
+00:02:21,400 --> 00:02:26,240
+of a bug to see them really get going and open a  bunch of different pull requests and feel like  
+
+25
+00:02:26,240 --> 00:02:28,113
+they&#39;re part of the community.
+
+26
+00:02:28,113 --> 00:02:33,833
+Whenever I want to know exactly how does the Open edX® platform work I look directly at the code.
+
+27
+00:02:33,833 --> 00:02:39,216
+Being open source allows me to make advanced customizations to meet specific customer business needs
+
+28
+00:02:39,216 --> 00:02:44,857
+and when we need help it&#39;s great to know that there is an enthusiastic community behind, willing to support.
+
+29
+00:02:44,857 --> 00:02:50,840
+In particular I like to think of the work I do as doing the work to make it easier for other developers to work on the platform  
+
+30
+00:02:50,840 --> 00:02:55,577
+so anything that makes lives for other people to make the platform better easier that&#39;s where I&#39;m working.
+
+31
+00:02:55,577 --> 00:03:01,615
+Being open source first you can get access to the code, you can modify, you can incorporate your new technology,
+
+32
+00:03:01,615 --> 00:03:07,955
+you can share experiences and so on so forth which makes a very enriching experience for everybody.
+
+33
+00:03:07,955 --> 00:03:16,680
+I love that if I see a problem I can go fix it. I love that I can just dig into every piece of code that has an issue or that I don&#39;t understand  
+
+34
+00:03:16,680 --> 00:03:19,268
+and it&#39;s there and I can understand it.
+
+35
+00:03:19,268 --> 00:03:24,930
+I like that we&#39;re building an open source platform that anyone around the world can use to learn.
+
+36
+00:03:24,930 --> 00:03:29,844
+It&#39;s extremely rewarding to know that what we build today will be used to help educate people tomorrow.
+
+37
+00:03:29,844 --> 00:03:38,120
+The people that work on it rarely work on it just because they have to. Usually, anybody especially in the education technology sphere  
+
+38
+00:03:38,120 --> 00:03:42,680
+it&#39;s because the the mission and the values are  important to them so you get to work with other  
+
+39
+00:03:42,680 --> 00:03:47,402
+people who have values that are aligned with  yours and who want to make a difference like we do.
+
+40
+00:03:47,402 --> 00:03:55,758
+I think the exciting thing to see with Open edX® is all of these developers, all of these course creators, they are committed to that process
+
+41
+00:03:55,758 --> 00:04:03,440
+not just with their students but they are committed to that process with within the community and I think that&#39;s a really exciting thing to see  
+
+42
+00:04:03,440 --> 00:04:06,800
+I think that&#39;s a really exciting thing to be  part of and I think that&#39;s a really valuable  
+
+43
+00:04:06,800 --> 00:04:07,881
+thing to be part of.
+
+44
+00:04:07,881 --> 00:04:10,602
+Yeah, I mean I think I&#39;m the luckiest man in the world.
+
+45
+00:04:10,602 --> 00:04:17,157
+I think we&#39;re building software that really has the possibility of transforming the lives of learners across the world
+
+46
+00:04:17,156 --> 00:04:24,999
+and some of the projects that I know of that are using Open edX® are really kind of important and transformational
+
+47
+00:04:24,999 --> 00:04:29,600
+so just to be even a small part of that is really just amazing.
+

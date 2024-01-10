@@ -1,0 +1,17 @@
+<problem display_name="Which structure is responsible for preventing food from entering the trachea when swallowing?" markdown="null">
+    <multiplechoiceresponse>
+        <label>Which structure is responsible for preventing food from entering the trachea when swallowing?</label>
+        <choicegroup type="MultipleChoice">
+            <choice correct="false">A. Bronchi</choice>
+            <choice correct="true">B. Epiglottis</choice>
+            <choice correct="false">C. Alveoli</choice>
+            <choice correct="false">D. Diaphragm</choice>
+        </choicegroup>
+        <solution>
+            <div class="detailed-solution">
+                <p>Answer: B. Epiglottis</p>
+                <p>The epiglottis is a flap-like structure that covers the entrance to the trachea when swallowing, preventing food and liquids from entering the airway.</p>
+            </div>
+        </solution>
+    </multiplechoiceresponse>
+</problem>

@@ -1,0 +1,8 @@
+<video youtube="1.00:8J4WuMdKCDM" url_name="0d9ca68c609b4251bb3eacccd28dea19" sub="" transcripts="{&quot;en&quot;: &quot;29425bc9-05c6-48fd-8232-c795ddf4e193-en.srt&quot;}" display_name="Open edX® vs. edX.org®" edx_video_id="29425bc9-05c6-48fd-8232-c795ddf4e193" html5_sources="[]" youtube_id_1_0="8J4WuMdKCDM">
+  <video_asset client_video_id="external video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="29425bc9-05c6-48fd-8232-c795ddf4e193-en.srt"/>
+</video>

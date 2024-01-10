@@ -1,0 +1,12 @@
+<problem display_name="Advanced text input" markdown="null" showanswer="always">
+<stringresponse answer="..bble" type="ci regexp">
+  <label>In the field below, enter a 6-letter word that ends with -BBLE.</label>
+<textline size="20"/>
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+<p>This problem uses extremely simple regex to evaluate answers, so anything with two B's, such as "bubble", "bobble" or "rubble" will be marked as correct (even if it's not a real word).</p>
+</div>
+</solution>
+</stringresponse>
+</problem>

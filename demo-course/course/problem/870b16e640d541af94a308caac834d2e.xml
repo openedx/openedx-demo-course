@@ -1,0 +1,10 @@
+<problem display_name="Basic Multiple Choice" markdown="&gt;&gt;Which animal was often used as a symbol for Ancient Rome?&lt;&lt;&#10;&#10;(x) Lion&#10;( ) Tiger&#10;( ) Elephant&#10;">
+  <multiplechoiceresponse>
+    <label>Which animal was often used as a symbol for Ancient Rome?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Lion</choice>
+      <choice correct="false">Tiger</choice>
+      <choice correct="false">Elephant</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>

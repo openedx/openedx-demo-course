@@ -1,0 +1,25 @@
+<problem display_name="Advanced Numerical Input Problem with Hints and Feedback" markdown="null">
+  <numericalresponse answer="2" partial_credit="list">
+    <p>Use the quadratic formula<clarification>The first hint of this problem will remind you of the quadratic formula, if you've forgotten.</clarification> to find the roots of the equation \(x^2 - 3x + 2 = 0\). Input the <strong>higher</strong> of the two roots in the response box below.</p>
+
+    <description> Full marks are given for the highest root. Partial credit is given for the other root.</description>
+    <formulaequationinput/>
+    <responseparam partial_answers="1"/>
+  </numericalresponse>
+  <solution>
+<div class="detailed-solution">
+
+            <p>Explanation:</p>
+            <p>
+                Using the quadratic formula, the roots are found to be \(x = 2\) and \(x = 1\). Thus, the higher value, 2, is the correct answer here. The lower value, 1, would receive partial credit. 
+            </p>
+
+</div>
+</solution>
+  <demandhint>
+  <hint>Recall the quadratic equation: \(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)</hint>
+  <hint>For the given equation \(x^2 - 3x + 2 = 0\), a = 1, b = -3, and c = 2.</hint>
+    <hint>Using the quadratic formula, one root is \(x = 2\) and the other is \(x = 1\).</hint>
+</demandhint>
+
+</problem>

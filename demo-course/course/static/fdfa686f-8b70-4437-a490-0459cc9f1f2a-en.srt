@@ -1,0 +1,76 @@
+0
+00:00:00,000 --> 00:00:03,033
+ Welcome to the Open edX® platform.
+
+1
+00:00:03,033 --> 00:00:26,129
+[music playing]
+
+2
+00:00:26,162 --> 00:00:36,093
+The Open edX® platform is the free to use learning management system developed by Harvard and MIT and with the stated mission to democratize education and power advances in learning.
+
+3
+00:00:36,093 --> 00:00:45,191
+Today, the Open edX® software is in use by over 4, 500 organizations teaching over 70 million learners across 50 languages and a hundred different countries.
+
+4
+00:00:46,325 --> 00:00:57,156
+The Open edX® platform is an all in one solution that includes a traditional student facing LMS, a CMS backend for creating courses, mobile apps for iOS
+
+5
+00:00:57,156 --> 00:01:03,255
+and Android, analytics, e commerce, and many, many more community developed plugins and extensions.
+
+6
+00:01:03,255 --> 00:01:08,087
+ Because the platform is open source, that means the software is available freely.
+
+7
+00:01:08,087 --> 00:01:17,152
+No fees or permissions are needed to run your own Open edX® instance.  It also means that you can customize the Open edX platform for your unique needs.
+
+8
+00:01:18,052 --> 00:01:28,083
+The software has been successfully leveraged to deliver large open online courses, small blended courses, corporate training, and more. Getting started with your first course is easy.
+
+9
+00:01:28,083 --> 00:01:35,215
+The intuitive drag and drop editor allows you to create a course and add your first videos, text and questions within minutes.
+
+10
+00:01:35,215 --> 00:01:40,314
+Incorporate inline discussions to get your students talking about your content. Easy so far?
+
+11
+00:01:40,314 --> 00:01:47,012
+Once you're comfortable with the basics, you can incorporate things like peer assessment problems or polls and surveys.
+
+12
+00:01:47,012 --> 00:01:54,211
+Using a mix of native, flexible, and community built component types, you will be well on your way to developing impactful courses for your learners.
+
+13
+00:01:54,211 --> 00:02:00,276
+You can even build your own components, called XBlocks, and customize the platform for your own specific learning case.
+
+14
+00:02:00,276 --> 00:02:07,275
+And once your course is running, Open edX® Aspects can provide you information about your learners and their progress through the course.
+
+15
+00:02:07,275 --> 00:02:16,240
+The software uses industry standard security best practices and proactively fixes security issues to maintain a secure open source platform that you can rely on.
+
+16
+00:02:16,240 --> 00:02:25,138
+There is still lots more to discover about the Open edX® platform. If you ever find yourself needing support, there is an active, passionate community of supporters.
+
+17
+00:02:25,138 --> 00:02:32,103
+As well as a marketplace of vendors who can support everything from development to customization to course development.
+
+18
+00:02:32,103 --> 00:02:38,036
+Welcome to the Open edX® platform and the community supporting it. We're glad you're here.
+

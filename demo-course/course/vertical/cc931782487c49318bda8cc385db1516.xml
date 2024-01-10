@@ -1,0 +1,10 @@
+<vertical display_name="SCORM">
+  <html url_name="1001a658c8c643dc80f02a00cf434c65"/>
+  <html url_name="aa1eb42464f14ccd91999ed88e3a154c"/>
+  <video url_name="32763b34bcb04f1ca20ef01839d8d2da"/>
+  <html url_name="f7ee293ed3064ff69ed77f31f0a6265c"/>
+  <scorm url_name="ef64f9269ce14c6ba42075c239a4e434" xblock-family="xblock.v1" display_name="Scorm module" has_score="true" height="680" icon_class="problem" index_page_path="index_lms.html" package_meta="{&#10;  &quot;last_updated&quot;: &quot;2023-10-20T19:51:13.466925&quot;,&#10;  &quot;name&quot;: &quot;SL360_LMS_SCORM_2004.zip&quot;,&#10;  &quot;sha1&quot;: &quot;c5041a861c924351bd42c7077100a665c2e63505&quot;,&#10;  &quot;size&quot;: 7778976&#10;}" popup_on_launch="false" scorm_version="SCORM_2004" weight="100.0" width="1000"/>
+  <html url_name="1e53adefe9494b3ea1ebf7b01a89f56a"/>
+  <html url_name="c729096cc76441478c6b4aa9346bcbde"/>
+  <html url_name="4502a078f72c43dfb5a954bb21a6948c"/>
+</vertical>

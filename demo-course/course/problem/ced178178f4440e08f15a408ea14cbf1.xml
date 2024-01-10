@@ -1,0 +1,40 @@
+<problem display_name="Advanced Numerical Problem with Fractions and Constants" markdown="null" showanswer="always">
+  <formularesponse inline="1" type="cs" samples="R,omega,E,rho,L@0.1,0.1,0.1,0.1,0.1:10,10,10,10,10#10" answer="(rho*omega^2*L^2)/E*((11*L)/48 +(3*R)/8)">
+    <label>Find a symbolic expression for the displacement of the blade mid-section, \( u_{x}(L/2) \), in terms of \(R\), \(L\), \(\rho\), \(\omega\), and \(E\).</label>
+    <description>\(u_x(L/2) = \)</description>
+    <responseparam type="tolerance" default="1%"/>
+    <textline inline="1" math="1"/>
+    <solution>
+      <div class="worked-solution">
+        <p><b>Obtaining the displacement at the mid-section \( u_{x}(x = L / 2)\):</b></p><p>According to the definition of strain,</p>
+        \[ \frac {du_{x}(x)} {dx} = \epsilon_a(x).\]
+        <p>Therefore, we can obtain the displacement field as</p>
+        \[ u_x(x) = u_x(0) + \int_0^x \epsilon_a (x') dx' = u_x(0) + \left[ \frac{\rho \omega^2}{E} \left(\frac{L^2x'}{2} - \frac{(x')^3}{6} + RLx' - \frac{R(x')^2}{2} \right) \right]_0^x\]
+        <p>Since the bar is fixed at x=0, therefore \(u_x(0)=0\). Hence we obtain</p>
+        \[\Rightarrow u_x(x) = \frac{\rho\omega^2}{E} \left( \frac{L^2x}{2} - \frac{x^3}{6} + RLx - \frac{Rx^2}{2} \right).\]
+        <p>The displacement of the bar at \(x=L/2\) is </p>
+        \[u_{x}(L/2) = \frac {\rho\omega^2L^2}{E} \left( \frac {11L}{48} + \frac {3R}{8} \right).\]
+      </div>
+    </solution>
+  </formularesponse>
+
+  <formularesponse inline="1" type="cs" samples="R,omega,E,rho,L@0.1,0.1,0.1,0.1,0.1:10,10,10,10,10#10" answer="(rho*omega^2)/E*(L^3/3 + (R*L^2)/2)">
+    <label>Find a symbolic expression for the blade elongation \( \delta \) in terms of \(R\), \(L\), \(\rho\), \(\omega\), and \(E\).</label>
+    <description>\(\delta = \)</description>
+    <responseparam type="tolerance" default="1%"/>
+    <textline inline="1" math="1"/>
+    <solution>
+      <div class="worked-solution">
+        \[  \delta = \frac {\rho \omega^2}{E} \left( \frac {L^3} {3} + \frac { RL^2} {2} \right) \]
+        <p><b>Obtaining the total elongation of the blade  \( \delta \):</b></p>
+        <p>The strain field in the bar is</p>
+        \[  \epsilon_a(x) = \frac {\mathcal{N}(x)}{EA} = \frac {\rho \omega^2 \left( \frac {L^2 - x^2}{2} + R\left(L-x\right)\right)}{E}. \]
+        <p>We can now calculate the elongation of the bar as the following.</p>
+        \[ \delta = \int_0^L \epsilon_{a}(x)dx = \int_0^L \frac {\rho \omega^2}{E} \left( \frac {L^2 - x^2}{2} + R\left(L-x\right)\right)dx. \]
+        \[ \Rightarrow \delta= \left[ \frac { \rho \omega^2}{E} \left( \frac {L^2x}{2}  - \frac {x^3}{6} + RLx - \frac {Rx^2}{2} \right)\right]_0^L.\]
+        \[ \Rightarrow \delta = \frac {\rho \omega^2}{E} \left( \frac {L^3}{2} - \frac{L^3}{6} + RL^2 - \frac {RL^2}{2} \right).\]
+        \[\Rightarrow \delta= \frac {\rho \omega^2}{E} \left( \frac {L^3}{3} + \frac {RL^2}{2} \right). \]
+      </div>
+    </solution>
+  </formularesponse>
+</problem>

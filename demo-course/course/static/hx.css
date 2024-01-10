@@ -1,0 +1,740 @@
+/* CSS for HarvardX's standard javascript library */
+/* Using a 75-pixel tall image as a drop cap. */
+.hx-icon-dropcap {
+  float: left;
+  height: 75px;
+  padding: 4px 8px 3px 0px;
+}
+
+/* Using a single letter as a drop cap. */
+/* Surround first letter with <span class="hx-dropcap"></span> */
+span.hx-dropcap {
+  float: left;
+  color: #339;
+  font-size: 48px;
+  margin-top: -4px;
+  margin-bottom: -16px;
+  padding-top: 0px;
+  padding-right: 4px;
+  padding-left: 2px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+/* Image that hangs over the top few lines of a paragraph on the right. */
+.hx-hangright {
+  float: right;
+  margin: 4px 0px 3px 8px;
+}
+
+/* Image that hangs over the top few lines of a paragraph on the left. */
+/* A lot like dropcap. */
+.hx-hangleft {
+  float: left;
+  padding: 4px 8px 3px 0px;
+}
+
+/* For centering images. */
+.hx-centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* For centering paragraphs. Using sparingly. */
+p.hx-centered {
+  text-align: center;
+}
+
+/* External links */
+.fa-external-link {
+  font-size: smaller;
+  vertical-align: super;
+}
+
+/* Standard image caption */
+/* Use <p><small class="hx-caption">Text</small></p> */
+p > small.hx-caption {
+  font-style: italic;
+}
+
+/* For clickable images that pop up dialog boxes. */
+.hx-popup-content {
+  background-color: #000000;
+  display: none;
+}
+
+/* For clickable images that pop up dialog boxes. */
+.hx-popup-dialog .ui-dialog-titlebar-close {
+  display: none;
+}
+
+/* For clickable images that pop up dialog boxes. */
+/* Not doing anything here yet, but this is how we change the orange if we want to. */
+/* .hx-popup-dialog .ui-dialog-titlebar {} */
+
+/* For pop-up SVGs that we want to show at full size. */
+.hx-svg-view {
+  width: 200% !important;
+  height: 200% !important;
+}
+
+/* Placeholder. */
+.hx-footnote-style {
+  font-size: small !important;
+}
+
+main .vert .xblock ul {
+  margin-left: 1em !important;
+}
+
+#main .vert .xblock ol {
+  margin-left: 1em !important;
+}
+
+/* For the smiley-face button */
+.hx-smileystack {
+  margin-left: auto;
+}
+
+.hx-smileystack .fa-smile-o {
+  color: black;
+}
+
+.hx-smileystack .fa-meh-o {
+  color: black;
+}
+
+.hx-smileystack.hx-smile .fa-circle {
+  color: #bef;
+}
+
+.hx-smileystack.hx-meh .fa-circle {
+  color: lightgray;
+}
+
+.hx-smileyspacer {
+  margin-right: auto;
+}
+
+/* Add image HRs */
+/*
+hr.hx-fancy {
+    background:url(hxFancyHR.gif) repeat-x top left;
+    border: 0;
+}
+*/
+/***************************************/
+/* This block is for sidebar tables
+/***************************************/
+table.hx-hangright {
+  max-width: 280px !important;
+  float: right !important;
+  margin-left: 20px !important;
+  margin-top: 5px !important;
+}
+
+table.hx-hangright th {
+  text-align: center;
+}
+
+table.hx-hangleft {
+  max-width: 280px !important;
+  float: left !important;
+  margin-right: 20px !important;
+  margin-top: 5px !important;
+}
+
+table.hx-hangleft th {
+  text-align: center;
+}
+
+table.hx-compact-table td {
+  padding: 3px !important;
+}
+
+table.hx-compact-table th {
+  padding: 3px !important;
+}
+
+/************** End sidebar table Block *******************/
+/***************************************/
+/* This block is for auto-TOCs
+/***************************************/
+.hx-autotoc {
+  float: right;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 3px;
+  margin: 8px;
+  font-size: 14px;
+  max-width: 300px;
+}
+
+.hx-autotoc h3 {
+  color: #08b;
+  font-size: 20px;
+  margin-bottom: 6px !important;
+}
+
+.hx-autotoc ul {
+  list-style-type: none !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.hx-autotoc li {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+/************** End auto-TOC Block *******************/
+/*********************************************/
+/* This block is for fancy headers
+/*********************************************/
+/* Fancy header - no lowercase, all caps. */
+h3.hx-smallcaps,
+h4.hx-smallcaps {
+  font-variant: small-caps;
+}
+
+/* Super-bold white-on-color right-justified header */
+/* Can be combined with smallcaps. */
+.hx-superbold {
+  background-color: #08b;
+  color: white;
+  text-align: right;
+  padding-right: 4px;
+}
+
+h3.hx-superbold {
+  font-size: 1.8em !important;
+}
+
+h4.hx-superbold {
+  font-size: 1.5em !important;
+}
+
+/* Header with an underline that goes most of the way across. */
+/* Can be combined with smallcaps. */
+.hx-underline {
+  border-bottom: 1px solid #189;
+  width: 75%;
+}
+
+/************** End fancy-header Block *******************/
+/*********************************************/
+/* This block is for pretty boxes
+/*********************************************/
+/* For boxes of material separated from the regular text. */
+/* Use h4 for headers inside. */
+.hx-yellowbox h3 {
+  font-variant: small-caps;
+  color: #666600;
+}
+
+.hx-redbox {
+  border-left: 15px solid #800;
+  background-color: #fdd;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-redbox h3,
+.hx-redbox h4 {
+  font-variant: small-caps;
+  color: #600;
+}
+
+.hx-redbox .hx-underline{
+  border-bottom-color: darkred;
+}
+
+.hx-pinkbox {
+  border-left: 15px solid #ffc0f8;
+  background-color: #ffe9f6;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-pinkbox h3,
+.hx-pinkbox h4 {
+  font-variant: small-caps;
+  color: #cf5cc2;
+}
+
+.hx-pinkbox .hx-underline{
+  border-bottom-color: orchid;
+}
+
+.hx-orangebox {
+  border-left: 15px solid #dc5b00;
+  background-color: #ffddc5;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-orangebox h3,
+.hx-orangebox h4 {
+  font-variant: small-caps;
+  color: #752900;
+}
+
+.hx-orangebox .hx-underline{
+  border-bottom-color: #752900;
+}
+
+.hx-peachbox {
+  border-left: 15px solid #ffdb9c;
+  background-color: #ffecd5;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-peachbox h3,
+.hx-peachbox h4 {
+  font-variant: small-caps;
+  color: #b6750f;
+}
+
+.hx-peachbox .hx-underline{
+  border-bottom-color: #b6750f;
+}
+
+.hx-yellowbox {
+  border-left: 15px solid #fdfd00;
+  background-color: #ffffd1;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-yellowbox a {
+  font-weight: bold !important;
+}
+
+.hx-yellowbox h3,
+.hx-yellowbox h4 {
+  font-variant: small-caps;
+  color: #666600;
+}
+
+.hx-yellowbox .hx-underline{
+  border-bottom-color: #666600;
+}
+
+.hx-greenbox {
+  border-left: 15px solid #07a878;
+  background-color: #c2eade;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-greenbox h3,
+.hx-greenbox h4 {
+  font-variant: small-caps;
+  color: #013a29;
+}
+
+.hx-greenbox .hx-underline{
+  border-bottom-color: forestgreen;
+}
+
+
+.hx-bluebox {
+  border-left: 15px solid #048;
+  background-color: #def;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-bluebox h3,
+.hx-sidebar h3,
+.hx-bluebox h4,
+.hx-sidebar h4 {
+  font-variant: small-caps;
+  color: #036;
+}
+
+.hx-bluebox2 {
+  border-left: 15px solid #5b93ff;
+  background-color: #d6e4ff;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-bluebox2 h3,
+.hx-bluebox2 h4 {
+  font-variant: small-caps;
+  color: #1e3460;
+}
+
+/* No change for bluebox underlines. Underlines are already blue. */
+/* .hx-bluebox .hx-underline{} */
+
+
+
+.hx-purplebox {
+  border-left: 15px solid #6c35c0;
+  background-color: #dbcdef;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-purplebox h3,
+.hx-purplebox h4 {
+  font-variant: small-caps;
+  color: #330974;
+}
+
+.hx-purplebox .hx-underline{
+  border-bottom-color: blueviolet;
+}
+
+.hx-magentabox {
+  border-left: 15px solid #a71852;
+  background-color: #eec6d4;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-magentabox h3,
+.hx-magentabox h4 {
+  font-variant: small-caps;
+  color: #4d001f;
+}
+
+.hx-magentabox .hx-underline{
+  border-bottom-color: #4d001f;
+}
+
+.hx-greybox,
+.hx-graybox {
+  border-left: 15px solid #666;
+  background-color: #ddd;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.hx-greybox h3,
+.hx-graybox h3,
+.hx-greybox h4,
+.hx-graybox h4 {
+  font-variant: small-caps;
+  color: #333;
+}
+
+.hx-greybox .hx-underline, .hx-graybox .hx-underline{
+  border-bottom-color: #333;
+}
+
+
+/* Blackbox needs more specific targeting to override white text. */
+.xmodule_display .hx-blackbox,
+.hx-blackbox {
+  border-left: 15px solid #0c0;
+  background-color: black;
+  color: #eee !important;
+  padding: 10px 10px 5px 15px;
+  margin: 40px;
+}
+
+.xmodule_display .hx-blackbox h3,
+.xmodule_display .hx-blackbox h4,
+.hx-blackbox h3,
+.hx-blackbox h4 {
+  font-variant: small-caps;
+  color: #0f0;
+}
+
+.xmodule_display .hx-blackbox p,
+.hx-blackbox p {
+  color: #eee !important;
+}
+
+/* For right-hand sidebars. Add colorbox styling. */
+/* Use h4 for headers inside. */
+.hx-sidebar {
+  margin: 3px 20px 20px 20px;
+  float: right;
+  width: 45%;
+}
+
+/* For boxes that contain big quote marks in the background. Stylish. */
+/* Add colorbox styling */
+.hx-excerpt {
+  background-image: url(quote-right.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.hx-excerpt .hx-quote-source {
+  text-align: right;
+  font-style: italic;
+}
+
+/* Helps with above. */
+.hx-excerpt p {
+  background-image: url(quote-left.png);
+  background-repeat: no-repeat;
+  margin-top: 0;
+  padding: 1em 60px 0;
+  min-height: 37px;
+}
+
+/* Helps with above. */
+.hx-excerpt p + p {
+  padding-top: 0;
+  background-image: none;
+}
+
+/************** End pretty-box Block *******************/
+/*********************************************/
+/* This block is for the Slick image slider.
+/*********************************************/
+.hx-sliderbox {
+  background-color: #fff;
+  border-top: 4px groove #189;
+  border-bottom: 4px ridge #189;
+  border-left: none;
+  border-right: none;
+  padding: 0px 25px 0px 25px;
+  margin-bottom: 15px;
+}
+
+.hx-slidertext {
+  color: black !important;
+  margin: 4px 2px 4px 2px !important;
+  padding: 2px;
+}
+
+.hx-slider > p {
+  color: black !important;
+  margin: 4px 2px 4px 2px !important;
+  padding: 2px;
+}
+
+.hx-navslider > p {
+  color: black !important;
+  margin: 4px 2px 4px 2px !important;
+  padding: 2px;
+}
+
+.hx-bigslider > p {
+  color: black !important;
+  margin: 4px 2px 4px 2px !important;
+  padding: 2px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #189 !important;
+}
+
+/************** End Slick Block *******************/
+/***************************************/
+/* This block is for video links.
+/***************************************/
+.hx-vidlink_bl {
+  display: none;
+  opacity: 0.7;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  padding: 4px;
+  border: 2px solid grey;
+  margin: 2px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px #111;
+}
+
+.hx-vidlink_br {
+  display: none;
+  opacity: 0.7;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  right: 5px;
+  padding: 4px;
+  border: 2px solid grey;
+  margin: 2px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px #111;
+}
+
+.hx-vidlink_tl {
+  display: none;
+  opacity: 0.7;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 5px;
+  padding: 4px;
+  border: 2px solid grey;
+  margin: 2px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px #111;
+}
+
+.hx-vidlink_tr {
+  display: none;
+  opacity: 0.7;
+  background-color: black;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 4px;
+  border: 2px solid grey;
+  margin: 2px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px #111;
+}
+
+.hx-vidlink-static {
+  display: list-item;
+}
+
+.hx-vidlink_bl a:link {
+  color: white;
+}
+
+.hx-vidlink_tl a:link {
+  color: white;
+}
+
+.hx-vidlink_tr a:link {
+  color: white;
+}
+
+.hx-vidlink_br a:link {
+  color: white;
+}
+
+.hx-vidlink_bl a:visited {
+  color: white;
+}
+
+.hx-vidlink_tl a:visited {
+  color: white;
+}
+
+.hx-vidlink_tr a:visited {
+  color: white;
+}
+
+.hx-vidlink_br a:visited {
+  color: white;
+}
+
+.hx-link-positioner {
+  position: relative !important;
+}
+
+.hx-boldlink {
+  font-weight: bold !important;
+}
+
+/*********** End Video Link Block **********/
+/***************************************/
+/* This block is for pop-up problems.
+/***************************************/
+.ui-widget-overlay {
+  background: #666 !important;
+  opacity: 0.3 !important;
+  filter: Alpha(Opacity=30) !important;
+  position: fixed !important;
+}
+
+.hx-popup.ui-dialog {
+  z-index: 100001 !important;
+}
+
+.hx-popup .ui-dialog-titlebar-close {
+  display: none;
+}
+
+.hx-popup .ui-dialog-titlebar {
+  background: linear-gradient(to top, #ccc 0%, #bbb 20%, #eee 100%);
+  border: 1px solid #aaa;
+}
+
+.hx-popup .answeredButton {
+  background: linear-gradient(to top, #9fd 0%, #7db 20%, #afd 100%);
+  background-color: #afc;
+  text-shadow: none;
+}
+
+span.hx-VQControls {
+  font-size: 150%;
+}
+
+span#hx-onoff {
+  font-weight: bold;
+}
+
+span#hx-playpauseword {
+  font-weight: bold;
+}
+
+/************** End Pop-Up Problems Block *******************/
+/***************************************/
+/* This block is for HXEditor.
+/***************************************/
+/* .hxed-save {} */
+
+/* .hxed-download {} */
+
+.hxed-filemenu {
+  background-image: linear-gradient(#f1f1f1, #d9d1d1);
+  font-weight: bold;
+  height: 2.1em;
+  font-size: 0.9rem;
+  border: 1px solid #d2c9c9;
+}
+
+.hxed-currentslot {
+  color: #0075b4;
+}
+
+.hxed-statusmessage {
+  color: #666;
+  flex-grow: 1;
+}
+
+.hxed-persistentnotice {
+  color: darkred;
+  float: right;
+}
+
+.hxed-deletebutton {
+  color: darkred;
+  float: right;
+  font-size: 1.2em;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+}
+
+.hxed-controlbox {
+  display: flex;
+  align-items: baseline;
+}
+
+.hxeditor-control {
+  margin: 2px;
+}
+
+.note-editable {
+  height: 5em;
+}
+
+/************** End Editor Block *******************/

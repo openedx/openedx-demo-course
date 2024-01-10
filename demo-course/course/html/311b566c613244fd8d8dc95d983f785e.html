@@ -1,0 +1,66 @@
+<div class="hint-wrapper" id="Hint-title-7" onclick="expandHintFunction(7)">
+<div class="hint-title">
+<h4><span class="icon">+</span> Click here to get the Click to Reveal code</h4>
+</div>
+<div class="hint-body" id="Hint-body-7" style="height: 0px;">
+<pre>&lt;!--####BEGIN HTML#####--&gt;<br />&lt;div class="hint-wrapper" id="Hint-title-1" onclick="expandHintFunction(1)"&gt;
+   &lt;div class="hint-title"&gt;
+      &lt;h4&gt;&lt;span class="icon"&gt;+&lt;/span&gt; Click here to reveal&lt;/h4&gt;
+   &lt;/div&gt;
+   &lt;div class="hint-body" id="Hint-body-1" style="height: 0px;"&gt;
+      &lt;p&gt;Your content goes here...&lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--####END HTML#####--&gt;<br /><br />&lt;!--####BEGIN JAVASCRIPT#####--&gt; <br />&lt;script&gt;<br />function expandHintFunction(a) {
+    var x = document.getElementById("Hint-body-" + a);
+    var y = document.getElementById("Hint-title-" + a).querySelector('.icon');
+
+    if (x.style.height === "0px" || x.style.Height === "") {
+        x.style.height = x.scrollHeight + "px";
+        y.textContent = '-';
+        x.classList.add("expanded");
+    } else {
+        x.style.height = "0px";
+        y.textContent = '+';
+        x.classList.remove("expanded");
+    }
+}<br />&lt;/script&gt;<br />&lt;!--####END JAVASCRIPT#####--&gt; <br /><br />&lt;!--####BEGIN CSS#####--&gt; <br />&lt;style type="text/css"&gt;<br />.hint-wrapper {
+    border: 1px solid #d7d7d7;
+    margin-bottom: 20px;
+    overflow: hidden; /* Keeps the content from being shown when it is animating */
+}
+
+.hint-title {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #033769;
+    padding: 10px;
+}
+
+.hint-title h2,
+.hint-title h3,
+.hint-title h4,
+.hint-title p {
+margin-bottom: 0 !important;
+color: #fff !important;
+}
+
+.hint-body {
+    height: 0;
+    overflow: hidden;
+    /*Oddly, transition seems to break this. The box gets clipped at the bottom of a unit. */
+    /*transition: height 0.4s ease-in-out; */
+}
+
+.hint-body.expanded {
+padding: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}<br />&lt;style&gt;
+&lt;!--####END CSS#####--&gt;</pre>
+</div>
+</div>

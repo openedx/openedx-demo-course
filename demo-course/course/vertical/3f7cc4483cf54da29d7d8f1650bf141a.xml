@@ -1,0 +1,7 @@
+<vertical display_name="Polls">
+  <html url_name="e165e3d43ff04527ae0eb18dbdfe44b8"/>
+  <html url_name="485d767850874a3897f466b7f7be2863"/>
+  <poll url_name="6b75d4fab22a4c70afcafc6ec699d64d" xblock-family="xblock.v1" display_name="Poll: Open edX features" feedback="Now that you've voted, head into the discussion below to share why you chose the option you did, and find out more about what others picked!" max_submissions="1" private_results="false" answers="[&#10;  [&#10;    &quot;R&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Assessment Features&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;B&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Social Learning Features&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;G&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Content Creation Tools&quot;&#10;    }&#10;  ],&#10;  [&#10;    &quot;O&quot;,&#10;    {&#10;      &quot;img&quot;: &quot;&quot;,&#10;      &quot;img_alt&quot;: &quot;&quot;,&#10;      &quot;label&quot;: &quot;Something Else&quot;&#10;    }&#10;  ]&#10;]" question="From what you've seen so far, which features of Open edX are you most excited to use?"/>
+  <html url_name="ecd00380bae44a4c878a6ec9a9120148"/>
+  <html url_name="09b8cfb6dbee418ab28debc45b676ed1"/>
+</vertical>

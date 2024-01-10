@@ -1,0 +1,8 @@
+<video youtube="1.00:UdawuO-o7AQ" url_name="b18dceef48234944a8d64ac6937ec6bd" sub="" transcripts="{&quot;en&quot;: &quot;10840580-cf26-4aeb-8076-7cacf5eaf5ae-en.srt&quot;}" display_name="Meet Open edX (Sample Youtube Video)" edx_video_id="10840580-cf26-4aeb-8076-7cacf5eaf5ae" html5_sources="[]" youtube_id_1_0="UdawuO-o7AQ">
+  <video_asset client_video_id="external video" duration="0.0" image="">
+    <transcripts>
+      <transcript language_code="en" file_format="srt" provider="Custom"/>
+    </transcripts>
+  </video_asset>
+  <transcript language="en" src="10840580-cf26-4aeb-8076-7cacf5eaf5ae-en.srt"/>
+</video>

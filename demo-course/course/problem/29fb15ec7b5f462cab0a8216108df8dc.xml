@@ -1,0 +1,19 @@
+<problem display_name="Annotation Problem" markdown="null">
+    <annotationresponse>
+        <annotationinput>
+          
+            <comment>What is your analysis of the sonnet so far?</comment>
+            <comment_prompt>Discuss:</comment_prompt>
+          <text>zealous pilgrimage</text>
+          <tag_prompt>Where is the speaker going on their pilgrimage?</tag_prompt>
+          <options>
+            <option choice="incorrect">Verona</option>
+            <option choice="incorrect">Venice</option>
+            <option choice="correct">Nowhere</option>
+          </options>
+        </annotationinput>
+    </annotationresponse>
+  <solution>
+    <p>The "zealous pilgrimage" upon which the speaker's thoughts embark in line 6 refers to a mental journey, as if his thoughts are capable of traveling physical distance like his body. The speaker is lying in bed thinking, not physically travelling anywhere.</p>
+  </solution>
+  </problem>

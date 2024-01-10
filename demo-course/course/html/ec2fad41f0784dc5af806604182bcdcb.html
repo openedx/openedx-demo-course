@@ -1,0 +1,142 @@
+<div class="hint-wrapper" id="Hint-title-6" onclick="expandHintFunction(6)">
+<div class="hint-title">
+<h4><span class="icon">+</span> Click here to get the Image Hotspot code</h4>
+</div>
+<div class="hint-body" id="Hint-body-6" style="height: 0px;">
+<pre>&lt;!--####BEGIN HTML#####--&gt;<br />&lt;div class="row tooltip-sec"&gt;<br />   &lt;div class="hotspot-img"&gt;<br />      &lt;img src="/static/grand_piano_freepik.jpeg" alt="inforgraphic for three steps for combatting information manipulation" /&gt;<br />      &lt;div class="circle first"&gt;<br />         &lt;div class="bubble left"&gt;<br />            &lt;p&gt;Pedals on pianos are called – from left to right – una corda, sostenuto, and the sustain pedal.&lt;/p&gt;<br />         &lt;/div&gt;<br />      &lt;/div&gt;<br />      &lt;div class="circle second"&gt;<br />         &lt;div class="bubble left"&gt;<br />            &lt;p&gt;Up until the 1950s, piano keys were made from elephant tusks. Today, in order to protect and preserve elephants, most piano keys are made from plastic.&lt;/p&gt;<br />         &lt;/div&gt;<br />      &lt;/div&gt;<br />      &lt;div class="circle third"&gt;<br />         &lt;div class="bubble right"&gt;<br />            &lt;p&gt;On larger grand pianos the "harp", or metal frame, can hold up to 30 tons of tension!&lt;/p&gt;<br />         &lt;/div&gt;<br />      &lt;/div&gt;<br />   &lt;/div&gt;<br />&lt;/div&gt;<br />&lt;p&gt;&lt;/p&gt;<br />&lt;!--####END HTML#####--&gt;<br /><br />&lt;!--####BEGIN JAVASCRIPT#####--&gt; <br />&lt;script&gt;<br />   (function( $ ){<br />     $(".flip-card, .circle").click(function() {<br />         $(this).toggleClass("active")<br />     });<br />     $(document).on("click", function(e) {<br />     if ($(e.target).is(".circle") === false) {<br />       $(".circle").removeClass("active");<br />     }<br />   });<br />   })(jQuery);<br />&lt;/script&gt;<br />&lt;!--####END JAVASCRIPT#####--&gt; <br /><br />&lt;!--####BEGIN CSS#####--&gt; <br />&lt;style type="text/css"&gt; .row.tooltip-sec .hotspot-img {
+     position: relative;
+}
+ .row.tooltip-sec .hotspot-img img {
+     width: 100%;
+}
+ .circle {
+     width: 20px;
+     height: 20px;
+     border-radius: 100%;
+     background: #3a7fac;
+     box-shadow: 0 0.2rem 0.6rem rgb(0 0 0 / 75%);
+     cursor: pointer;
+     text-align: center;
+     padding: 5px;
+     border: 2px solid transparent;
+     transition: .3s all ease;
+     position: absolute;
+}
+ .circle:hover {
+     border: 2px solid #ffffff;
+}
+ .circle:before {
+     content: '+';
+     font-size: 20px;
+     font-weight: 700;
+     color: #fff;
+     position: relative;
+     top: 0px;
+}
+ .circle.active {
+     background: #fff;
+}
+ .circle.active:hover {
+     border: 2px solid #3a7fac;
+}
+ .circle.active:before {
+     color: #3a7fac;
+}
+ .circle .bubble {
+     display: none;
+     background: #fff;
+     padding: 2rem;
+     width: 375px;
+     border-radius: 0.4rem;
+     border-bottom: 0 solid #3a7fac;
+     box-shadow: 0 0 1rem rgb(0 0 0 / 50%);
+     text-align: left;
+     box-sizing: border-box;
+     font-size: 14px;
+     position: absolute;
+}
+ .circle.active .bubble {
+     display: block;
+     border-bottom-width: 0.4rem;
+     border-color: #3a7fac;
+     z-index: 5;
+     top: -20px;
+}
+ .circle.active .bubble:before {
+     content: "";
+     position: absolute;
+     height: 0;
+     width: 0;
+     border: 0.6rem solid transparent;
+     top: 20px;
+}
+ .circle.first {
+     top: 75%;
+     left: 70%;
+}
+ .circle.second {
+     top: 50%;
+     left: 71%;
+}
+ .circle.third {
+     top: 32%;
+     left: 50%;
+}
+ .circle.active .bubble.right {
+     right: calc(0px - 400px);
+}
+ .circle.active .bubble.left {
+     left: calc(0px - 400px);
+}
+ .circle.active .bubble.left:before {
+     right: -1.1rem;
+     border-left-color: #fff;
+}
+ .circle.active .bubble.right:before {
+     left: -1.1rem;
+     border-right-color: #fff;
+}
+ @media only screen and (max-width: 1024px) {
+}
+ @media only screen and (max-width: 768px) {
+     .circle {
+         width: 10px;
+         height: 10px;
+         border: 1px solid transparent;
+    }
+     .circle:hover {
+         border: 1px solid #3a7fac;
+    }
+     .circle.active:hover {
+         border: 1px solid #fff;
+    }
+     .circle:before {
+         font-size: 15px;
+         top: -7px;
+    }
+     .circle .bubble {
+         width: 240px;
+         padding: 1.5rem;
+    }
+     .circle.active .bubble.left{
+         left: calc(0px - 255px);
+    }
+     .circle.active .bubble.right {
+         right: calc(0px - 260px);
+    }
+}
+ @media only screen and (max-width: 520px) {
+     .circle .bubble {
+         width: 180px;
+         padding: 1.3rem;
+    }
+     .circle.active .bubble.left{
+         left: calc(0px - 205px);
+    }
+     .circle.active .bubble.right {
+         right: calc(0px - 205px);
+    }
+}
+ &lt;/style&gt;<br />&lt;!--####END CSS#####--&gt;</pre>
+</div>
+</div>

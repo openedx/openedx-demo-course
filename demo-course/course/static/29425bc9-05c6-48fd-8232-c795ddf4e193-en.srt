@@ -1,0 +1,56 @@
+0
+00:00:00,000 --> 00:00:09,240
+Open edX® is a software. Specifically, it&#39;s  a learning management software which means that  
+
+1
+00:00:09,240 --> 00:00:14,560
+it can be used to create and deploy learning  experiences. The Open edX® platform is also an  
+
+2
+00:00:14,560 --> 00:00:20,040
+open source software which means that anyone  can use, modify or distribute the Open edX® code  
+
+3
+00:00:20,040 --> 00:00:25,600
+for free. Axim Collaborative is an education  focused non-profit organization that invests  
+
+4
+00:00:25,600 --> 00:00:31,480
+in partnerships in digital technologies. Together  with a committee of community members Axim provides  
+
+5
+00:00:31,480 --> 00:00:36,440
+stewardship for the Open edX® software and the  community supporting it. Thousands of academic  
+
+6
+00:00:36,440 --> 00:00:43,000
+institutions, companies, NGO&#39;s and individuals are  utilizing the Open edX® platform to create and  
+
+7
+00:00:43,000 --> 00:00:48,880
+deliver learning experiences to their learners. The largest deployment of the Open edX® platform  
+
+8
+00:00:48,880 --> 00:00:56,800
+is edX.org. edX.org was founded in 2012 and it was  the original developer of the Open edX® software  
+
+9
+00:00:56,800 --> 00:01:03,520
+which it released as open source in 2013. Today  edX.org operates with a select group of partners  
+
+10
+00:01:03,520 --> 00:01:09,080
+to create MOOCs and other high quality learning  experiences for their platform. Only edX partners  
+
+11
+00:01:09,080 --> 00:01:14,160
+can create courses on edX.org. So, regardless  of whether you&#39;re an individual running a  .
+
+12
+00:01:14,160 --> 00:01:20,800
+blended classroom experience for 30 users or an  edX.org partner offering a MOOC to 30,000 Learners  
+
+13
+00:01:20,800 --> 00:01:28,834
+you are both running on the same underlying  Open edX® software to deliver your learning experiences.
+

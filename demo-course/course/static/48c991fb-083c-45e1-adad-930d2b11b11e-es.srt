@@ -1,0 +1,5220 @@
+0
+00:00:01,199 --> 00:00:04,380
+Um, a continuación vamos a escuchar
+
+1
+00:00:02,520 --> 00:00:06,240
+sobre el estado de open edx de Ed
+
+2
+00:00:04,380 --> 00:00:08,519
+xericore y jenna mikowski del
+
+3
+00:00:06,240 --> 00:00:09,840
+Centro para reinventar el aprendizaje que es
+
+4
+00:00:08,519 --> 00:00:11,519
+el vicepresidente de ingeniería de
+
+5
+00:00:09,840 --> 00:00:13,080
+el proyecto open edx y la presidencia de
+
+6
+00:00:11,519 --> 00:00:15,000
+la supervisión técnica de openatix
+
+7
+00:00:13,080 --> 00:00:17,039
+comité Jenna es el proyecto senior
+
+8
+00:00:15,000 --> 00:00:19,320
+responsable del proyecto adictos abiertos y
+
+9
+00:00:17,039 --> 00:00:21,300
+líder del producto open edit open edx
+
+10
+00:00:19,320 --> 00:00:25,250
+grupo de trabajo de productos y también
+
+11
+00:00:21,300 --> 00:00:32,079
+Estar acompañado por un invitado especial, Ed.
+
+12
+00:00:25,250 --> 00:00:32,079
+[Aplausos]
+
+13
+00:00:32,880 --> 00:00:36,899
+gracias a todos, ¿pueden oírme bien?
+
+14
+00:00:34,980 --> 00:00:37,860
+sí, está bien
+
+15
+00:00:36,899 --> 00:00:40,620
+uno
+
+16
+00:00:37,860 --> 00:00:42,980
+bienvenido a open edx y bienvenido al
+
+17
+00:00:40,620 --> 00:00:45,840
+estado de la charla open edx
+
+18
+00:00:42,980 --> 00:00:48,420
+siempre es súper energizante para mí
+
+19
+00:00:45,840 --> 00:00:49,860
+Mirar a la multitud y ver
+
+20
+00:00:48,420 --> 00:00:51,559
+muchas caras conocidas personas que tienen
+
+21
+00:00:49,860 --> 00:00:53,719
+estado trabajando en este proyecto
+
+22
+00:00:51,559 --> 00:00:57,059
+durante tantos años
+
+23
+00:00:53,719 --> 00:00:58,440
+Realmente disfruto este evento y me mantiene
+
+24
+00:00:57,059 --> 00:01:00,079
+va por lo que queda del año
+
+25
+00:00:58,440 --> 00:01:02,699
+cada año podemos reunirnos en persona
+
+26
+00:01:00,079 --> 00:01:04,379
+Así que me alegro de que hayamos superado los tiempos de Cova.
+
+27
+00:01:02,699 --> 00:01:05,880
+y estamos aquí juntos de nuevo por el
+
+28
+00:01:04,379 --> 00:01:07,799
+segundo año consecutivo
+
+29
+00:01:05,880 --> 00:01:10,260
+Quería mencionar brevemente algunos
+
+30
+00:01:07,799 --> 00:01:12,720
+cosas de limpieza si estás publicando si
+
+31
+00:01:10,260 --> 00:01:15,360
+estás twitteando en Twitter, uh, nosotros
+
+32
+00:01:12,720 --> 00:01:19,040
+tener un hashtag para los materiales de la conferencia
+
+33
+00:01:15,360 --> 00:01:22,259
+así que utilice el hashtag open edx 2023
+
+34
+00:01:19,040 --> 00:01:24,240
+y si tienes alguna duda o contenido
+
+35
+00:01:22,259 --> 00:01:26,400
+que quieres publicar para la gente del
+
+36
+00:01:24,240 --> 00:01:28,200
+conferencia por favor utilice el canal de eventos
+
+37
+00:01:26,400 --> 00:01:30,720
+en el edx abierto Slack si no lo estás
+
+38
+00:01:28,200 --> 00:01:34,400
+registrado puedes seguir ese bitly
+
+39
+00:01:30,720 --> 00:01:34,400
+enlace para registrarse
+
+40
+00:01:34,500 --> 00:01:39,860
+y quería empezar por ya sabes
+
+41
+00:01:37,740 --> 00:01:43,740
+Realmente aprecié la presentación de Cheryl.
+
+42
+00:01:39,860 --> 00:01:46,619
+pero quería empezar agradeciendo al MIT open
+
+43
+00:01:43,740 --> 00:01:48,119
+conocer su generoso apoyo en
+
+44
+00:01:46,619 --> 00:01:50,280
+patrocinándonos y permitiéndonos usar el
+
+45
+00:01:48,119 --> 00:01:51,259
+El espacio en el MIT ha hecho que esta conferencia
+
+46
+00:01:50,280 --> 00:01:53,340
+posible
+
+47
+00:01:51,259 --> 00:01:55,619
+sabes como ella dijo que estamos en uno de los
+
+48
+00:01:53,340 --> 00:01:58,500
+Las aulas más emblemáticas de todo el MIT.
+
+49
+00:01:55,619 --> 00:02:01,259
+que no inspira en lo más mínimo
+
+50
+00:01:58,500 --> 00:02:03,180
+síndrome del impostor en absoluto
+
+51
+00:02:01,259 --> 00:02:05,939
+um, pero demos otra ronda de
+
+52
+00:02:03,180 --> 00:02:08,299
+Un aplauso para la gente del MIT por
+
+53
+00:02:05,939 --> 00:02:08,299
+hospedarnos
+
+54
+00:02:08,538 --> 00:02:15,459
+[Aplausos]
+
+55
+00:02:15,540 --> 00:02:21,000
+um y estoy especialmente agradecido de estar en
+
+56
+00:02:18,180 --> 00:02:22,620
+MIT este año y será anfitrión de parte de
+
+57
+00:02:21,000 --> 00:02:25,379
+nuestra conferencia en el centro de estadísticas
+
+58
+00:02:22,620 --> 00:02:27,720
+porque es literalmente donde se abre
+
+59
+00:02:25,379 --> 00:02:30,060
+El proyecto edx comenzó. Mencioné esto en
+
+60
+00:02:27,720 --> 00:02:33,000
+la carta de bienvenida en el programa pero
+
+61
+00:02:30,060 --> 00:02:34,680
+las primeras líneas de código que uh eso
+
+62
+00:02:33,000 --> 00:02:38,099
+se escribieron que ahora son la plataforma
+
+63
+00:02:34,680 --> 00:02:40,319
+que todos trabajamos y usamos hoy fueron
+
+64
+00:02:38,099 --> 00:02:43,860
+escrito en una pequeña habitación en el tercer
+
+65
+00:02:40,319 --> 00:02:45,959
+piso del centro de estatus en 2011. uh
+
+66
+00:02:43,860 --> 00:02:47,879
+aclarar que no estuve involucrado en 2011
+
+67
+00:02:45,959 --> 00:02:49,560
+Llegué más tarde en el proyecto pero
+
+68
+00:02:47,879 --> 00:02:52,680
+en realidad tengo un ingeniero que trabaja en
+
+69
+00:02:49,560 --> 00:02:54,480
+tcrill hoy quién estuvo entre los primeros
+
+70
+00:02:52,680 --> 00:02:56,700
+Tres ingenieros apretujados en el tercero.
+
+71
+00:02:54,480 --> 00:02:58,800
+piso del Stata Center uh escribiendo el
+
+72
+00:02:56,700 --> 00:03:01,019
+plataforma y por eso se siente realmente
+
+73
+00:02:58,800 --> 00:03:04,260
+importante estar de vuelta en el MIT en stata
+
+74
+00:03:01,019 --> 00:03:06,480
+este año ya que estamos lanzando o
+
+75
+00:03:04,260 --> 00:03:09,420
+Continuando nuestro viaje como código abierto.
+
+76
+00:03:06,480 --> 00:03:12,300
+proyecto y tratando de convertirme en el
+
+77
+00:03:09,420 --> 00:03:14,840
+duocacia inclusiva que aspiramos a ser
+
+78
+00:03:12,300 --> 00:03:14,840
+como un proyecto
+
+79
+00:03:15,480 --> 00:03:21,239
+y quiero agradecer también a nuestros patrocinadores
+
+80
+00:03:18,680 --> 00:03:25,879
+nuestro primer patrocinador nuestra piedra angular
+
+81
+00:03:21,239 --> 00:03:25,879
+El patrocinador es una universidad tecnológica.
+
+82
+00:03:27,319 --> 00:03:33,360
+UTech es una organización de Uruguay
+
+83
+00:03:30,420 --> 00:03:35,459
+que se concentra en brindar
+
+84
+00:03:33,360 --> 00:03:38,519
+oportunidades educativas para la universidad
+
+85
+00:03:35,459 --> 00:03:40,860
+estudiantes fuera de las áreas urbanas que
+
+86
+00:03:38,519 --> 00:03:44,340
+servir a estudiantes en las 19 provincias de
+
+87
+00:03:40,860 --> 00:03:46,860
+Uruguay y la mayoría de sus
+
+88
+00:03:44,340 --> 00:03:49,019
+los estudiantes son los primeros el primer estudiante
+
+89
+00:03:46,860 --> 00:03:50,159
+asistir a la Universidad y a su familia para
+
+90
+00:03:49,019 --> 00:03:53,340
+es una misión realmente genial
+
+91
+00:03:50,159 --> 00:03:55,140
+han estado usando openx desde 2014.
+
+92
+00:03:53,340 --> 00:03:58,340
+Estamos contentos de tenerlos aquí y
+
+93
+00:03:55,140 --> 00:03:58,340
+realmente aprecio su patrocinio
+
+94
+00:04:02,780 --> 00:04:08,099
+y nuestro patrocinador principal es edley también
+
+95
+00:04:06,659 --> 00:04:10,200
+miembros antiguos de la comunidad
+
+96
+00:04:08,099 --> 00:04:14,220
+han contribuido a la apertura
+
+97
+00:04:10,200 --> 00:04:16,680
+Proyecto edx desde 2013. Proporcionan una
+
+98
+00:04:14,220 --> 00:04:20,100
+amplia gama de servicios relacionados con la
+
+99
+00:04:16,680 --> 00:04:22,199
+la plataforma Ed Lee UTech y el resto
+
+100
+00:04:20,100 --> 00:04:24,360
+de nuestros patrocinadores tienen mesas en el
+
+101
+00:04:22,199 --> 00:04:26,460
+patrocinador Hall os animo a que paséis por aquí
+
+102
+00:04:24,360 --> 00:04:30,860
+y hablar con ellos y entender lo que
+
+103
+00:04:26,460 --> 00:04:30,860
+Lo están haciendo gracias a Edley también.
+
+104
+00:04:34,320 --> 00:04:38,160
+Así que entremos en el meollo del asunto.
+
+105
+00:04:36,060 --> 00:04:40,680
+presentación y revisión del estado de
+
+106
+00:04:38,160 --> 00:04:43,520
+open edx y esta presentación va
+
+107
+00:04:40,680 --> 00:04:46,259
+dividirse en tres segmentos
+
+108
+00:04:43,520 --> 00:04:47,240
+Voy a hablar del presente de
+
+109
+00:04:46,259 --> 00:04:49,560
+el proyecto
+
+110
+00:04:47,240 --> 00:04:51,600
+Jenna Makowski va a venir y
+
+111
+00:04:49,560 --> 00:04:53,699
+hablar sobre gestión de productos para el
+
+112
+00:04:51,600 --> 00:04:56,280
+proyecto de código abierto y tipo de
+
+113
+00:04:53,699 --> 00:04:58,020
+Dirección y prioridades futuras y luego
+
+114
+00:04:56,280 --> 00:05:01,440
+finalmente nos unirá
+
+115
+00:04:58,020 --> 00:05:03,000
+Adrian devison de Empower Empower es un
+
+116
+00:05:01,440 --> 00:05:04,620
+usuario de open edx y miembro de la
+
+117
+00:05:03,000 --> 00:05:06,660
+comunidad está haciendo algo realmente increíble
+
+118
+00:05:04,620 --> 00:05:08,639
+trabajo y aprenderemos más sobre el
+
+119
+00:05:06,660 --> 00:05:12,380
+Empoderar a la organización y al proyecto.
+
+120
+00:05:08,639 --> 00:05:12,380
+en lo que están trabajando
+
+121
+00:05:12,900 --> 00:05:17,580
+Em, entonces comencemos con el presente.
+
+122
+00:05:15,060 --> 00:05:19,440
+voy a hablar de uh tres
+
+123
+00:05:17,580 --> 00:05:21,660
+tres cosas principales aquí
+
+124
+00:05:19,440 --> 00:05:23,940
+um, quiero revisar la visión de Open Edx.
+
+125
+00:05:21,660 --> 00:05:25,440
+declaración que fue desarrollada por el
+
+126
+00:05:23,940 --> 00:05:27,120
+grupo de trabajo de productos en el otoño y
+
+127
+00:05:25,440 --> 00:05:30,840
+revisado por la supervisión técnica
+
+128
+00:05:27,120 --> 00:05:33,360
+Comité del proyecto en diciembre.
+
+129
+00:05:30,840 --> 00:05:35,880
+Quiero revisar el alcance de la
+
+130
+00:05:33,360 --> 00:05:38,759
+plataforma de la que hablaremos un poco
+
+131
+00:05:35,880 --> 00:05:40,680
+algunas métricas sobre cuántas instancias de
+
+132
+00:05:38,759 --> 00:05:42,660
+la plataforma existe cuantos usuarios tiene
+
+133
+00:05:40,680 --> 00:05:46,259
+He estado aprendiendo cuántos grados
+
+134
+00:05:42,660 --> 00:05:48,479
+han sido emitidos
+
+135
+00:05:46,259 --> 00:05:50,520
+y finalmente veremos la Comunidad
+
+136
+00:05:48,479 --> 00:05:52,500
+Salud algunas métricas clave que nos ayudan
+
+137
+00:05:50,520 --> 00:05:55,740
+comprender lo saludables que somos como
+
+138
+00:05:52,500 --> 00:05:58,500
+comunidad porque nuestra comunidad es la
+
+139
+00:05:55,740 --> 00:06:02,400
+el motor que hace avanzar el open edx
+
+140
+00:05:58,500 --> 00:06:04,620
+plataforma realmente buena que avanza el
+
+141
+00:06:02,400 --> 00:06:06,780
+plataforma abierta edx por lo que debemos mantener un
+
+142
+00:06:04,620 --> 00:06:09,539
+Esté atento a nuestra ayuda.
+
+143
+00:06:06,780 --> 00:06:11,280
+y también puedo ver desde el momento
+
+144
+00:06:09,539 --> 00:06:13,199
+tarjetas que revisan lo reciente
+
+145
+00:06:11,280 --> 00:06:15,180
+las características enviadas probablemente van a
+
+146
+00:06:13,199 --> 00:06:18,360
+se saltan pero Jenna va a
+
+147
+00:06:15,180 --> 00:06:20,520
+danos un recorrido sobre cómo puedes rastrear eso
+
+148
+00:06:18,360 --> 00:06:22,319
+continuamente en tiempo real cuando ella llega
+
+149
+00:06:20,520 --> 00:06:26,120
+en este segmento sobre el producto que
+
+150
+00:06:22,319 --> 00:06:26,120
+instrucciones para la hoja de ruta del producto
+
+151
+00:06:27,240 --> 00:06:31,500
+Muy bien, entonces comencemos con la visión.
+
+152
+00:06:29,280 --> 00:06:33,479
+declaración esto fue desarrollado por un
+
+153
+00:06:31,500 --> 00:06:36,900
+segmento del grupo de trabajo del producto que
+
+154
+00:06:33,479 --> 00:06:40,919
+realizó entrevistas, encuestas y trabajó
+
+155
+00:06:36,900 --> 00:06:43,919
+con la comunidad para intentar componer un
+
+156
+00:06:40,919 --> 00:06:46,979
+misión basada en todo lo que
+
+157
+00:06:43,919 --> 00:06:48,780
+valorado y lo presentaré hoy
+
+158
+00:06:46,979 --> 00:06:50,039
+esto ha sido presentado en otros foros
+
+159
+00:06:48,780 --> 00:06:52,440
+Puede que lo hayas visto pero si no lo has hecho
+
+160
+00:06:50,039 --> 00:06:54,360
+lo hablaremos hoy
+
+161
+00:06:52,440 --> 00:06:55,979
+um entonces la declaración de visión tal como ellos
+
+162
+00:06:54,360 --> 00:06:59,100
+definido fue que estamos aprovechando
+
+163
+00:06:55,979 --> 00:07:01,800
+código abierto para democratizar la educación y
+
+164
+00:06:59,100 --> 00:07:03,300
+avances de poder en el aprendizaje
+
+165
+00:07:01,800 --> 00:07:05,100
+y vamos
+
+166
+00:07:03,300 --> 00:07:07,580
+analicemos eso un poco
+
+167
+00:07:05,100 --> 00:07:07,580
+poco bien
+
+168
+00:07:09,600 --> 00:07:13,080
+Muy bien, la primera parte trata sobre
+
+169
+00:07:11,220 --> 00:07:14,580
+cómo lo hacemos y no creo que esto sea
+
+170
+00:07:13,080 --> 00:07:16,220
+Controvertido somos un código abierto.
+
+171
+00:07:14,580 --> 00:07:20,039
+proyecto somos una comunidad de código abierto
+
+172
+00:07:16,220 --> 00:07:23,759
+Creemos que las comunidades que tienen
+
+173
+00:07:20,039 --> 00:07:24,900
+valores compartidos y tener un tipo compartido uh
+
+174
+00:07:23,759 --> 00:07:27,240
+de
+
+175
+00:07:24,900 --> 00:07:28,680
+requisitos para la plataforma cuando
+
+176
+00:07:27,240 --> 00:07:31,740
+colaborar al aire libre y crear en abierto
+
+177
+00:07:28,680 --> 00:07:33,900
+El software fuente crea dinámicas poderosas.
+
+178
+00:07:31,740 --> 00:07:35,580
+y
+
+179
+00:07:33,900 --> 00:07:37,319
+entonces aprovechar el código abierto es bastante
+
+180
+00:07:35,580 --> 00:07:39,720
+obvio para nosotros
+
+181
+00:07:37,319 --> 00:07:41,340
+las siguientes dos partes son realmente lo que
+
+182
+00:07:39,720 --> 00:07:43,580
+aspiramos a hacer
+
+183
+00:07:41,340 --> 00:07:45,960
+El primero es democratizar la educación.
+
+184
+00:07:43,580 --> 00:07:48,900
+y profundizaremos un poco en esto
+
+185
+00:07:45,960 --> 00:07:50,580
+más en las siguientes diapositivas porque queremos
+
+186
+00:07:48,900 --> 00:07:52,259
+Esto debe ser más que simples palabras bonitas.
+
+187
+00:07:50,580 --> 00:07:54,479
+queremos que esto sea algo que ayude
+
+188
+00:07:52,259 --> 00:07:56,099
+nosotros enmarcamos nuestras prioridades y nos inspiramos
+
+189
+00:07:54,479 --> 00:07:58,800
+a medida que avanzamos
+
+190
+00:07:56,099 --> 00:08:01,620
+y la segunda parte de lo que es el poder
+
+191
+00:07:58,800 --> 00:08:04,080
+avances en el aprendizaje y esto ha sido un
+
+192
+00:08:01,620 --> 00:08:06,060
+parte de la misión de edx y open edx
+
+193
+00:08:04,080 --> 00:08:08,819
+desde muy temprano fue enmarcado
+
+194
+00:08:06,060 --> 00:08:11,039
+originalmente como mejorado en educa
+
+195
+00:08:08,819 --> 00:08:12,900
+mejorar la educación en línea y en el campus
+
+196
+00:08:11,039 --> 00:08:14,400
+y sigue siendo una parte importante
+
+197
+00:08:12,900 --> 00:08:16,919
+de nuestra misión pero tal vez un lugar donde
+
+198
+00:08:14,400 --> 00:08:18,360
+estamos preparados para mejorar un poco
+
+199
+00:08:16,919 --> 00:08:21,199
+Está bien, entonces comencemos con
+
+200
+00:08:18,360 --> 00:08:24,180
+democratizar la educación
+
+201
+00:08:21,199 --> 00:08:26,639
+para mí democratizar la educación hierve
+
+202
+00:08:24,180 --> 00:08:29,039
+dividir en dos cosas clave que queremos
+
+203
+00:08:26,639 --> 00:08:30,780
+lograrlo es mejorar el acceso a
+
+204
+00:08:29,039 --> 00:08:33,320
+oportunidades educativas de alta
+
+205
+00:08:30,780 --> 00:08:35,700
+calidad para estudiantes de todo el mundo
+
+206
+00:08:33,320 --> 00:08:38,459
+y eliminar impedimentos a aquellos
+
+207
+00:08:35,700 --> 00:08:41,700
+oportunidades siempre que podamos tecnología
+
+208
+00:08:38,458 --> 00:08:44,339
+¿Conoce alguna herramienta que nos ayude?
+
+209
+00:08:41,700 --> 00:08:48,300
+hazlo pero no es necesario y
+
+210
+00:08:44,339 --> 00:08:51,060
+suficiente requiere uh sabes que
+
+211
+00:08:48,300 --> 00:08:53,160
+requiere también de las organizaciones que
+
+212
+00:08:51,060 --> 00:08:55,680
+producir el contenido para que esté disponible
+
+213
+00:08:53,160 --> 00:08:58,140
+a los estudiantes y el compromiso de
+
+214
+00:08:55,680 --> 00:09:00,120
+derribando barreras de acceso
+
+215
+00:08:58,140 --> 00:09:01,860
+y la segunda parte es una especie de
+
+216
+00:09:00,120 --> 00:09:02,519
+impacto tan
+
+217
+00:09:01,860 --> 00:09:04,920
+uno
+
+218
+00:09:02,519 --> 00:09:07,380
+la plataforma en sí ya que el software no puede
+
+219
+00:09:04,920 --> 00:09:08,820
+garantizar impacto en la vida de nuestros
+
+220
+00:09:07,380 --> 00:09:11,640
+estudiantes, pero en última instancia eso es lo que
+
+221
+00:09:08,820 --> 00:09:14,880
+aspiramos a hacerlo, necesitamos tener
+
+222
+00:09:11,640 --> 00:09:17,519
+una plataforma que puede ofrecer la más alta
+
+223
+00:09:14,880 --> 00:09:19,560
+oportunidades educativas de calidad y nosotros
+
+224
+00:09:17,519 --> 00:09:20,519
+Necesitamos una manera de medir la eficacia de
+
+225
+00:09:19,560 --> 00:09:22,980
+Lo diferente
+
+226
+00:09:20,519 --> 00:09:26,700
+cosas que hace la plataforma y para
+
+227
+00:09:22,980 --> 00:09:29,480
+priorizar agregar avances en la plataforma
+
+228
+00:09:26,700 --> 00:09:29,480
+en ese sentido
+
+229
+00:09:29,760 --> 00:09:33,540
+Está bien y luego hablemos un poco.
+
+230
+00:09:31,920 --> 00:09:35,040
+un poco sobre los avances en la conducción
+
+231
+00:09:33,540 --> 00:09:36,959
+El aprendizaje podría verse así. Creo que esto es.
+
+232
+00:09:35,040 --> 00:09:38,580
+De nuevo la declaración de visión es
+
+233
+00:09:36,959 --> 00:09:39,779
+Aspiracional no pretendemos que estos
+
+234
+00:09:38,580 --> 00:09:42,120
+son cosas que ya hemos logrado
+
+235
+00:09:39,779 --> 00:09:43,920
+estas son cosas que queremos lograr
+
+236
+00:09:42,120 --> 00:09:45,899
+como comunidad
+
+237
+00:09:43,920 --> 00:09:47,459
+Está bien, entonces obviamente tenemos la puerta abierta.
+
+238
+00:09:45,899 --> 00:09:50,399
+plataforma edx con la que todos estamos familiarizados
+
+239
+00:09:47,459 --> 00:09:52,560
+que la plataforma tiene alguna clave
+
+240
+00:09:50,399 --> 00:09:55,260
+características en él hoy que realmente permiten
+
+241
+00:09:52,560 --> 00:09:57,959
+Extensión de experimentación e innovación.
+
+242
+00:09:55,260 --> 00:10:01,500
+puntos como Xbox cosas como pruebas abdominales
+
+243
+00:09:57,959 --> 00:10:04,560
+cohortes que son formas realmente poderosas de
+
+244
+00:10:01,500 --> 00:10:07,260
+de realizar pruebas en línea
+
+245
+00:10:04,560 --> 00:10:09,899
+cursos y a medida que los estudiantes interactúan con
+
+246
+00:10:07,260 --> 00:10:12,420
+aquellos con ese contenido
+
+247
+00:10:09,899 --> 00:10:13,740
+producimos datos y huellas de aprendizaje
+
+248
+00:10:12,420 --> 00:10:16,800
+todos están familiarizados con el seguimiento
+
+249
+00:10:13,740 --> 00:10:19,140
+registros, también tenemos versiones de datos X API
+
+250
+00:10:16,800 --> 00:10:22,320
+rastros de que los datos pueden convertirse en
+
+251
+00:10:19,140 --> 00:10:23,459
+aportes a la investigación y avances en
+
+252
+00:10:22,320 --> 00:10:25,320
+aprendiendo
+
+253
+00:10:23,459 --> 00:10:27,120
+um y ha habido un montón de
+
+254
+00:10:25,320 --> 00:10:28,860
+artículos interesantes me refiero y puedo
+
+255
+00:10:27,120 --> 00:10:30,959
+probablemente cite el número de artículos que
+
+256
+00:10:28,860 --> 00:10:32,640
+han sido producidos a partir de datos edx
+
+257
+00:10:30,959 --> 00:10:34,200
+pero se han realizado muchas investigaciones interesantes
+
+258
+00:10:32,640 --> 00:10:36,660
+ha sido elaborado a partir de los datos que
+
+259
+00:10:34,200 --> 00:10:39,060
+generar en la plataforma edx y también en
+
+260
+00:10:36,660 --> 00:10:41,399
+otras instancias de la plataforma excepto para
+
+261
+00:10:39,060 --> 00:10:44,820
+yo la cosa clave que no hemos hecho
+
+262
+00:10:41,399 --> 00:10:45,980
+bastante bien es esta última flecha es cómo
+
+263
+00:10:44,820 --> 00:10:49,680
+nosotros entonces
+
+264
+00:10:45,980 --> 00:10:52,140
+convertir esa investigación en avances en
+
+265
+00:10:49,680 --> 00:10:54,240
+aprender en un ciclo de retroalimentación completo
+
+266
+00:10:52,140 --> 00:10:55,800
+que nos ayuda a priorizar y avanzar en
+
+267
+00:10:54,240 --> 00:10:58,320
+plataforma de una manera que la haga más
+
+268
+00:10:55,800 --> 00:11:00,120
+eficaz para nuestros usuarios para que yo
+
+269
+00:10:58,320 --> 00:11:01,880
+Pensamos que es un desafío que tenemos ante nosotros.
+
+270
+00:11:00,120 --> 00:11:06,019
+y uno que te presentaré
+
+271
+00:11:01,880 --> 00:11:06,019
+así que descubramos cómo hacer eso
+
+272
+00:11:07,440 --> 00:11:11,779
+y luego en resumen uh
+
+273
+00:11:11,899 --> 00:11:17,040
+este viernes tenemos el ayuntamiento
+
+274
+00:11:14,459 --> 00:11:18,600
+reunión y esta es la visión propuesta
+
+275
+00:11:17,040 --> 00:11:20,279
+declaración del grupo de trabajo del producto
+
+276
+00:11:18,600 --> 00:11:23,519
+Creo que el ayuntamiento sería un gran
+
+277
+00:11:20,279 --> 00:11:25,880
+Es hora de venir y sumar tu voz a esto.
+
+278
+00:11:23,519 --> 00:11:28,800
+conversación para hacer cualquier pregunta
+
+279
+00:11:25,880 --> 00:11:30,300
+aclarar dudas o para llevarnos a
+
+280
+00:11:28,800 --> 00:11:31,740
+tarea si crees que hemos conseguido algo
+
+281
+00:11:30,300 --> 00:11:33,660
+mal aquí así que por favor asista a la ciudad
+
+282
+00:11:31,740 --> 00:11:35,820
+salón el viernes tengamos una robusta
+
+283
+00:11:33,660 --> 00:11:37,560
+discusión sobre la visión del
+
+284
+00:11:35,820 --> 00:11:39,000
+plataforma
+
+285
+00:11:37,560 --> 00:11:40,620
+está bien
+
+286
+00:11:39,000 --> 00:11:42,540
+Quiero hablar un poco sobre el alcance.
+
+287
+00:11:40,620 --> 00:11:44,579
+tenemos algunas estadísticas sobre el uso
+
+288
+00:11:42,540 --> 00:11:47,040
+de la plataforma este es un lugar que hemos
+
+289
+00:11:44,579 --> 00:11:49,860
+invertido en los últimos dos años
+
+290
+00:11:47,040 --> 00:11:51,660
+porque nuestra capacidad para determinar quién era
+
+291
+00:11:49,860 --> 00:11:54,000
+usar nuestro proyecto de código abierto fue
+
+292
+00:11:51,660 --> 00:11:55,860
+algo limitado es importante saberlo
+
+293
+00:11:54,000 --> 00:11:57,899
+el alcance del proyecto porque
+
+294
+00:11:55,860 --> 00:11:59,640
+indica un par de cosas que uno es
+
+295
+00:11:57,899 --> 00:12:03,300
+Estamos construyendo algo que a la gente le importe.
+
+296
+00:11:59,640 --> 00:12:06,720
+sobre lo que la gente quiere y también el
+
+297
+00:12:03,300 --> 00:12:09,180
+El alcance de la plataforma determina el
+
+298
+00:12:06,720 --> 00:12:11,700
+Tamaño de la red de nuestra comunidad.
+
+299
+00:12:09,180 --> 00:12:12,959
+El tamaño de la red determina quién es.
+
+300
+00:12:11,700 --> 00:12:14,459
+contribuyendo y cuantas personas son
+
+301
+00:12:12,959 --> 00:12:15,959
+contribuyendo y cuánto valor somos
+
+302
+00:12:14,459 --> 00:12:17,579
+crear por lo que es importante para aquellos
+
+303
+00:12:15,959 --> 00:12:18,480
+razones
+
+304
+00:12:17,579 --> 00:12:21,060
+uno
+
+305
+00:12:18,480 --> 00:12:23,339
+entonces tenemos una nueva tecnología que hemos
+
+306
+00:12:21,060 --> 00:12:25,380
+puesto en línea para ayudarnos a determinar cómo
+
+307
+00:12:23,339 --> 00:12:28,320
+En muchos casos sabemos que
+
+308
+00:12:25,380 --> 00:12:30,420
+hoy hay más de 4.500 vivos
+
+309
+00:12:28,320 --> 00:12:32,300
+instancias de la plataforma open edx en
+
+310
+00:12:30,420 --> 00:12:35,220
+la internet publica
+
+311
+00:12:32,300 --> 00:12:38,459
+en esos casos sabemos que
+
+312
+00:12:35,220 --> 00:12:41,579
+Hay más de 70.000 cursos que
+
+313
+00:12:38,459 --> 00:12:43,560
+se ofrecen en open edx hoy
+
+314
+00:12:41,579 --> 00:12:46,079
+y sabemos que a través de las instancias
+
+315
+00:12:43,560 --> 00:12:48,720
+este número es el más difícil de reunir
+
+316
+00:12:46,079 --> 00:12:50,279
+porque confiamos en que la gente nos diga cómo
+
+317
+00:12:48,720 --> 00:12:52,260
+cuantos usuarios registrados tienen nosotros no
+
+318
+00:12:50,279 --> 00:12:54,300
+Tengo alguna forma de recolectar esos datos, pero
+
+319
+00:12:52,260 --> 00:12:55,800
+sabemos que tenemos al menos 77 millones
+
+320
+00:12:54,300 --> 00:12:58,579
+usuarios que han interactuado con el abierto
+
+321
+00:12:55,800 --> 00:12:58,579
+plataforma edx
+
+322
+00:13:01,019 --> 00:13:04,440
+bueno
+
+323
+00:13:02,339 --> 00:13:05,760
+y
+
+324
+00:13:04,440 --> 00:13:07,860
+No creo que vaya a engañar a nadie.
+
+325
+00:13:05,760 --> 00:13:09,240
+mientras dibujo mi segundo volante del
+
+326
+00:13:07,860 --> 00:13:10,740
+presentación siendo la primera una
+
+327
+00:13:09,240 --> 00:13:13,440
+cuadrado y el segundo erguido
+
+328
+00:13:10,740 --> 00:13:15,420
+siendo un triangulo pero lo voy a hacer
+
+329
+00:13:13,440 --> 00:13:17,339
+de todos modos cierto
+
+330
+00:13:15,420 --> 00:13:19,380
+um simplemente para reforzar por qué alcanzar
+
+331
+00:13:17,339 --> 00:13:22,019
+es muy importante en proyectos de código abierto
+
+332
+00:13:19,380 --> 00:13:23,040
+es porque cuanto mayor sea el alcance que tenemos
+
+333
+00:13:22,019 --> 00:13:24,959
+tener
+
+334
+00:13:23,040 --> 00:13:26,940
+algún segmento de la comunidad que
+
+335
+00:13:24,959 --> 00:13:29,220
+estás tocando o contribuyendo de vuelta y
+
+336
+00:13:26,940 --> 00:13:31,260
+innovando en la plataforma puedes
+
+337
+00:13:29,220 --> 00:13:33,660
+aumentar el tamaño de ese segmento pero
+
+338
+00:13:31,260 --> 00:13:35,399
+cuanto más grande sea la red general
+
+339
+00:13:33,660 --> 00:13:38,100
+cuanta más gente tengas contribuyendo
+
+340
+00:13:35,399 --> 00:13:40,980
+e invertir que la inversión genera
+
+341
+00:13:38,100 --> 00:13:43,680
+valor adicional para la plataforma que
+
+342
+00:13:40,980 --> 00:13:46,019
+a su vez lo hace más atractivo para los nuevos
+
+343
+00:13:43,680 --> 00:13:48,360
+usuarios y aumenta el alcance y si
+
+344
+00:13:46,019 --> 00:13:51,300
+puedo seguir dando vueltas a esto
+
+345
+00:13:48,360 --> 00:13:53,700
+círculo virtuoso entonces con el tiempo construimos
+
+346
+00:13:51,300 --> 00:13:55,200
+la plataforma más eficaz y puede
+
+347
+00:13:53,700 --> 00:13:58,279
+tienen el mayor impacto en la vida de
+
+348
+00:13:55,200 --> 00:13:58,279
+nuestros estudiantes en todo el mundo
+
+349
+00:13:58,620 --> 00:14:03,899
+Ups, está bien
+
+350
+00:14:01,500 --> 00:14:06,480
+Mm pero el motor detrás de todo esto es
+
+351
+00:14:03,899 --> 00:14:09,060
+tu la comunidad que eso se desarrolla
+
+352
+00:14:06,480 --> 00:14:10,740
+openx y usa openx así que tomemos un
+
+353
+00:14:09,060 --> 00:14:12,779
+vistazo rápido a la salud del
+
+354
+00:14:10,740 --> 00:14:14,760
+comunidad basada en dos cosas en algunas
+
+355
+00:14:12,779 --> 00:14:18,060
+estadísticas que podemos medir y algunas
+
+356
+00:14:14,760 --> 00:14:20,100
+Historias que intentaré contar.
+
+357
+00:14:18,060 --> 00:14:22,260
+Um, está bien, esa contribución a la comunidad.
+
+358
+00:14:20,100 --> 00:14:23,940
+métricas que comenzaremos con un saludo a
+
+359
+00:14:22,260 --> 00:14:25,380
+grupos de trabajo que creo que son uno de
+
+360
+00:14:23,940 --> 00:14:26,339
+las partes más importantes de nuestro proyecto
+
+361
+00:14:25,380 --> 00:14:28,980
+hoy
+
+362
+00:14:26,339 --> 00:14:30,240
+uh y luego algo brevemente sobre un
+
+363
+00:14:28,980 --> 00:14:32,639
+programa que estamos haciendo alrededor
+
+364
+00:14:30,240 --> 00:14:34,200
+mantenimiento
+
+365
+00:14:32,639 --> 00:14:36,000
+bueno
+
+366
+00:14:34,200 --> 00:14:38,100
+Hoy sabemos que tenemos alrededor de 24.
+
+367
+00:14:36,000 --> 00:14:41,100
+diferentes organizaciones que están
+
+368
+00:14:38,100 --> 00:14:42,600
+contribuyendo al proyecto just just be
+
+369
+00:14:41,100 --> 00:14:44,220
+transparencia total que es bastante plana
+
+370
+00:14:42,600 --> 00:14:45,959
+Eso no ha cambiado mucho en los últimos
+
+371
+00:14:44,220 --> 00:14:48,420
+un par de años
+
+372
+00:14:45,959 --> 00:14:52,320
+um tenemos 333 personas en el último año
+
+373
+00:14:48,420 --> 00:14:55,380
+quién contribuyó con el código a la plataforma
+
+374
+00:14:52,320 --> 00:14:57,480
+y tenemos 10 grupos de trabajo activos para
+
+375
+00:14:55,380 --> 00:14:59,880
+Esto es interesante porque el año pasado en
+
+376
+00:14:57,480 --> 00:15:02,100
+En Lisboa teníamos alrededor de cinco grupos de trabajo.
+
+377
+00:14:59,880 --> 00:15:03,720
+que estaban activos por lo que ha aumentado dos
+
+378
+00:15:02,100 --> 00:15:05,279
+veces en ese tiempo y creo que por un
+
+379
+00:15:03,720 --> 00:15:08,040
+muy buena razón porque probablemente sea
+
+380
+00:15:05,279 --> 00:15:09,660
+la mejor manera de participar en el
+
+381
+00:15:08,040 --> 00:15:11,880
+proyecto y lo impulsan los grupos de trabajo
+
+382
+00:15:09,660 --> 00:15:13,320
+mucho valor para nosotros y hablaremos
+
+383
+00:15:11,880 --> 00:15:14,279
+tener una diapositiva específica para hablar de ellos
+
+384
+00:15:13,320 --> 00:15:16,560
+más tarde
+
+385
+00:15:14,279 --> 00:15:18,720
+Tenemos 50 colaboradores principales.
+
+386
+00:15:16,560 --> 00:15:20,399
+Los contribuyentes son las personas más
+
+387
+00:15:18,720 --> 00:15:22,579
+¿Sabes quién ha hecho un comentario personal?
+
+388
+00:15:20,399 --> 00:15:25,019
+compromiso de dedicar su tiempo
+
+389
+00:15:22,579 --> 00:15:26,820
+continuamente al proyecto que tienen
+
+390
+00:15:25,019 --> 00:15:30,540
+responsabilidades adicionales que vienen
+
+391
+00:15:26,820 --> 00:15:32,399
+junto con eso, pero este grupo de personas
+
+392
+00:15:30,540 --> 00:15:34,740
+son los son los más dedicados
+
+393
+00:15:32,399 --> 00:15:37,260
+contribuyentes en todo el proyecto
+
+394
+00:15:34,740 --> 00:15:39,300
+el año pasado fue 41, lo hemos aumentado en
+
+395
+00:15:37,260 --> 00:15:41,880
+50 al final de este al final del próximo
+
+396
+00:15:39,300 --> 00:15:42,959
+semana espero que esto sea 53 y esto es
+
+397
+00:15:41,880 --> 00:15:45,680
+un lugar donde vamos a continuar
+
+398
+00:15:42,959 --> 00:15:48,060
+invertir en el crecimiento de esa cohorte
+
+399
+00:15:45,680 --> 00:15:50,040
+tenemos 13 oficialmente apoyados
+
+400
+00:15:48,060 --> 00:15:51,720
+idiomas en la plataforma oficialmente
+
+401
+00:15:50,040 --> 00:15:53,959
+Los idiomas admitidos son idiomas que
+
+402
+00:15:51,720 --> 00:15:57,540
+se traducen a una tasa del 100 por ciento
+
+403
+00:15:53,959 --> 00:16:00,480
+Para nuestros lanzamientos de Open Edx, esto está disponible.
+
+404
+00:15:57,540 --> 00:16:02,579
+de 10 el año pasado, por lo que también es significativo
+
+405
+00:16:00,480 --> 00:16:05,480
+uh Mejora en los idiomas que
+
+406
+00:16:02,579 --> 00:16:05,480
+soporte en la plataforma
+
+407
+00:16:05,660 --> 00:16:10,860
+y todo suma a lo que vemos aquí
+
+408
+00:16:08,699 --> 00:16:13,740
+este es un gráfico de contribuciones sobre
+
+409
+00:16:10,860 --> 00:16:16,740
+los dos últimos años medidos como líneas de
+
+410
+00:16:13,740 --> 00:16:19,500
+código agregado a la plataforma la línea roja
+
+411
+00:16:16,740 --> 00:16:21,779
+es la línea de tendencia que puedes ver que hemos
+
+412
+00:16:19,500 --> 00:16:22,980
+visto un aumento constante, es irregular pero
+
+413
+00:16:21,779 --> 00:16:25,260
+Estamos viendo un aumento constante en
+
+414
+00:16:22,980 --> 00:16:27,180
+contribución a lo largo del tiempo líneas de código
+
+415
+00:16:25,260 --> 00:16:29,160
+agregado no es la métrica perfecta allí
+
+416
+00:16:27,180 --> 00:16:31,199
+no lo es pero creo que es lo suficientemente bueno
+
+417
+00:16:29,160 --> 00:16:34,620
+métrica para nosotros si miramos esto
+
+418
+00:16:31,199 --> 00:16:36,540
+acumulativamente representa un aumento de 54
+
+419
+00:16:34,620 --> 00:16:40,459
+año tras año durante los últimos dos años
+
+420
+00:16:36,540 --> 00:16:40,459
+subcódigo en línea agregado a la plataforma
+
+421
+00:16:41,100 --> 00:16:45,180
+¡Uy, simplemente salté hacia adelante pero tan rápido que
+
+422
+00:16:43,860 --> 00:16:46,680
+Quería hablar sobre algunas fuentes de
+
+423
+00:16:45,180 --> 00:16:48,180
+crecimiento
+
+424
+00:16:46,680 --> 00:16:49,860
+Una de las grandes fuentes de crecimiento ha sido
+
+425
+00:16:48,180 --> 00:16:51,540
+Ha sido la innovación de los micro front-end.
+
+426
+00:16:49,860 --> 00:16:54,540
+esa es una tecnología que realmente se utiliza
+
+427
+00:16:51,540 --> 00:16:56,160
+Ahora tenemos creo que 28 micro frontales.
+
+428
+00:16:54,540 --> 00:16:57,839
+termina hay mucha energía de desarrollo
+
+429
+00:16:56,160 --> 00:17:00,360
+alrededor de ellos y eso ha impulsado muchas
+
+430
+00:16:57,839 --> 00:17:02,880
+aumentando la contribución
+
+431
+00:17:00,360 --> 00:17:05,040
+de T Krill ha estado financiando
+
+432
+00:17:02,880 --> 00:17:07,319
+aportes donde para áreas críticas
+
+433
+00:17:05,040 --> 00:17:08,640
+en la plataforma donde vemos lagunas que
+
+434
+00:17:07,319 --> 00:17:10,860
+¿sabrás llenar esos vacíos?
+
+435
+00:17:08,640 --> 00:17:12,419
+beneficiar a todos en la comunidad para que
+
+436
+00:17:10,859 --> 00:17:14,220
+esa es otra fuente de crecimiento de
+
+437
+00:17:12,419 --> 00:17:16,199
+contribución y finalmente el crecimiento en
+
+438
+00:17:14,220 --> 00:17:17,339
+Los principales contribuyentes han estado en otras áreas.
+
+439
+00:17:16,199 --> 00:17:18,959
+dónde
+
+440
+00:17:17,339 --> 00:17:20,339
+Um, ya conoces el crecimiento de la gente.
+
+441
+00:17:18,959 --> 00:17:22,020
+participar en ese programa y
+
+442
+00:17:20,339 --> 00:17:24,720
+dedicando una parte importante de su
+
+443
+00:17:22,020 --> 00:17:27,299
+El tiempo hasta la plataforma ha sido
+
+444
+00:17:24,720 --> 00:17:28,980
+importante allí también
+
+445
+00:17:27,299 --> 00:17:31,919
+y quiero pasar un rato hablando
+
+446
+00:17:28,980 --> 00:17:33,480
+sobre la metáfora que usamos a menudo sobre
+
+447
+00:17:31,919 --> 00:17:35,880
+open edx se siente como si estuviéramos construyendo
+
+448
+00:17:33,480 --> 00:17:37,740
+el avión mientras lo volamos
+
+449
+00:17:35,880 --> 00:17:40,799
+um en este caso solo estamos construyendo
+
+450
+00:17:37,740 --> 00:17:43,440
+algo muy complejo como grupo para que
+
+451
+00:17:40,799 --> 00:17:44,400
+Mencioné que tenemos 10 grupos de trabajo.
+
+452
+00:17:43,440 --> 00:17:46,679
+uno
+
+453
+00:17:44,400 --> 00:17:48,600
+Esas son las personas que coordinan el
+
+454
+00:17:46,679 --> 00:17:49,679
+trabajo ellos planifican el trabajo ellos determinan
+
+455
+00:17:48,600 --> 00:17:52,200
+cuáles son las prioridades y
+
+456
+00:17:49,679 --> 00:17:54,539
+realmente hacer el trabajo grupos de trabajo
+
+457
+00:17:52,200 --> 00:17:58,140
+centrarse en cualquier cosa, desde la traducción y
+
+458
+00:17:54,539 --> 00:18:00,240
+marketing para devops para desuso para
+
+459
+00:17:58,140 --> 00:18:01,740
+lanzando la plataforma básicamente todos
+
+460
+00:18:00,240 --> 00:18:03,240
+las actividades críticas del proyecto
+
+461
+00:18:01,740 --> 00:18:06,840
+sucede en grupos de trabajo, así que si estás
+
+462
+00:18:03,240 --> 00:18:08,820
+interesado en convertirse en uh
+
+463
+00:18:06,840 --> 00:18:10,860
+participar más directamente en la
+
+464
+00:18:08,820 --> 00:18:13,380
+Los grupos de trabajo del proyecto son el lugar para
+
+465
+00:18:10,860 --> 00:18:14,820
+vamos y este viernes los grupos de trabajo
+
+466
+00:18:13,380 --> 00:18:17,520
+Tendrás sesiones donde puedas
+
+467
+00:18:14,820 --> 00:18:19,020
+venga y conozca a los miembros y vea
+
+468
+00:18:17,520 --> 00:18:20,220
+en qué están trabajando y si hay
+
+469
+00:18:19,020 --> 00:18:23,220
+Son grupos de trabajo especialmente
+
+470
+00:18:20,220 --> 00:18:25,140
+interesante para ti por favor únete el viernes
+
+471
+00:18:23,220 --> 00:18:27,360
+y también
+
+472
+00:18:25,140 --> 00:18:28,679
+No tengo tiempo para resumir todo
+
+473
+00:18:27,360 --> 00:18:30,960
+las grandes cosas que tienen los grupos de trabajo
+
+474
+00:18:28,679 --> 00:18:35,520
+hecho sin embargo todos han producido
+
+475
+00:18:30,960 --> 00:18:37,559
+informes de sus prioridades y
+
+476
+00:18:35,520 --> 00:18:40,140
+logros de los últimos seis meses
+
+477
+00:18:37,559 --> 00:18:41,760
+y están en la wiki y compartiré un
+
+478
+00:18:40,140 --> 00:18:42,960
+enlace al canal de eventos más tarde, así que si
+
+479
+00:18:41,760 --> 00:18:44,280
+quieres hacer un seguimiento con el
+
+480
+00:18:42,960 --> 00:18:46,880
+grupo de trabajo específico, ¿por favor?
+
+481
+00:18:44,280 --> 00:18:46,880
+registrarse allí
+
+482
+00:18:48,720 --> 00:18:53,160
+y finalmente quise decir cuando pregunto
+
+483
+00:18:51,780 --> 00:18:55,080
+la comunidad de qué debemos hablar
+
+484
+00:18:53,160 --> 00:18:57,299
+en el estado de open edx varias personas
+
+485
+00:18:55,080 --> 00:18:58,860
+dijo: hablemos de mantenimiento, pero
+
+486
+00:18:57,299 --> 00:19:00,720
+no tenemos tiempo para hablar de ello en
+
+487
+00:18:58,860 --> 00:19:03,419
+profundidad hoy pero quería mencionar eso
+
+488
+00:19:00,720 --> 00:19:06,780
+Tendremos una reunión en línea en abril.
+
+489
+00:19:03,419 --> 00:19:08,700
+27 y voy a hacer una inmersión profunda
+
+490
+00:19:06,780 --> 00:19:10,320
+en mantenimiento y el estado de
+
+491
+00:19:08,700 --> 00:19:12,720
+mantenimiento para openx, así que si eso es así
+
+492
+00:19:10,320 --> 00:19:15,559
+un tema interesante para ti por favor únete
+
+493
+00:19:12,720 --> 00:19:15,559
+nosotros entonces está bien
+
+494
+00:19:17,400 --> 00:19:22,559
+Está bien y luego rápidamente hablaré sobre
+
+495
+00:19:19,620 --> 00:19:24,539
+algunas características que se han enviado recientemente
+
+496
+00:19:22,559 --> 00:19:27,059
+um y luego Jenna y este es el
+
+497
+00:19:24,539 --> 00:19:28,380
+la versión actual de las cosas
+
+498
+00:19:27,059 --> 00:19:31,020
+uno
+
+499
+00:19:28,380 --> 00:19:32,340
+y estos se centran en las personas uh
+
+500
+00:19:31,020 --> 00:19:35,340
+que estamos rastreando en el producto
+
+501
+00:19:32,340 --> 00:19:36,840
+grupo de trabajo, por lo que muchas de estas características
+
+502
+00:19:35,340 --> 00:19:38,820
+sabes dar crédito donde estaba el crédito
+
+503
+00:19:36,840 --> 00:19:41,960
+Debido a que somos desarrollados por ingenieros de 2u.
+
+504
+00:19:38,820 --> 00:19:45,539
+o en contacto con usted a través de proyectos combinados para que
+
+505
+00:19:41,960 --> 00:19:48,600
+el nuevo editor de problemas ux nuevo texto
+
+506
+00:19:45,539 --> 00:19:50,700
+Se ha lanzado el editor ux, esos eran
+
+507
+00:19:48,600 --> 00:19:53,520
+contribuido por 2u así que gracias a ti
+
+508
+00:19:50,700 --> 00:19:55,620
+para eso creo que es Avanzado o un staff
+
+509
+00:19:53,520 --> 00:19:56,220
+El clasificador también fue
+
+510
+00:19:55,620 --> 00:19:59,039
+uno
+
+511
+00:19:56,220 --> 00:20:01,500
+en la plataforma del lado del alumno I
+
+512
+00:19:59,039 --> 00:20:03,900
+creo que todo el mundo es consciente de las grandes novedades
+
+513
+00:20:01,500 --> 00:20:05,880
+lanzamiento de discusiones, ahora tenemos varios
+
+514
+00:20:03,900 --> 00:20:08,760
+diferentes foros de discusión que
+
+515
+00:20:05,880 --> 00:20:10,440
+disponible en las discusiones de la plataforma
+
+516
+00:20:08,760 --> 00:20:12,000
+han sido un punto de dolor de larga data
+
+517
+00:20:10,440 --> 00:20:13,919
+para los miembros de la comunidad, así que creo
+
+518
+00:20:12,000 --> 00:20:17,400
+todos están felices de ver opciones y también
+
+519
+00:20:13,919 --> 00:20:19,140
+Discusiones nativas muy mejoradas.
+
+520
+00:20:17,400 --> 00:20:20,700
+ofrecimiento
+
+521
+00:20:19,140 --> 00:20:22,500
+y em
+
+522
+00:20:20,700 --> 00:20:25,020
+auras en equipo hubo una sesión sobre
+
+523
+00:20:22,500 --> 00:20:26,280
+que ayer esos son geniales así que si tu
+
+524
+00:20:25,020 --> 00:20:28,260
+¿Sabes?
+
+525
+00:20:26,280 --> 00:20:29,520
+Udo creo que su sesión fue grabada como
+
+526
+00:20:28,260 --> 00:20:32,580
+Haz zoom así que si quieres saber más sobre
+
+527
+00:20:29,520 --> 00:20:35,520
+auras basadas en equipos, por favor mira eso y
+
+528
+00:20:32,580 --> 00:20:37,500
+luego algunas cosas centradas en la plataforma
+
+529
+00:20:35,520 --> 00:20:39,480
+um algunos grandes como el tiempo de ejecución
+
+530
+00:20:37,500 --> 00:20:42,480
+La configuración para micro front-end fue
+
+531
+00:20:39,480 --> 00:20:44,340
+algo que salio en Olive fue
+
+532
+00:20:42,480 --> 00:20:46,980
+una gran victoria para
+
+533
+00:20:44,340 --> 00:20:49,260
+um para lotes de desarrollo de micro front-end
+
+534
+00:20:46,980 --> 00:20:52,460
+de inversión en mejoras de tutores y
+
+535
+00:20:49,260 --> 00:20:52,460
+documentación de la plataforma
+
+536
+00:20:52,760 --> 00:20:58,799
+ahora quiero entregarle la palabra a Jenna, quien es
+
+537
+00:20:56,100 --> 00:21:00,660
+el producto líder en tcrill ella es
+
+538
+00:20:58,799 --> 00:21:03,000
+Voy a hablar sobre algún tipo de nuestro producto.
+
+539
+00:21:00,660 --> 00:21:07,180
+procesos de gestión y la plataforma
+
+540
+00:21:03,000 --> 00:21:13,220
+prioridades y te entregaré el clicker
+
+541
+00:21:07,180 --> 00:21:16,559
+[Aplausos]
+
+542
+00:21:13,220 --> 00:21:18,539
+Gracias Ed, ¿pueden todos escucharme bien?
+
+543
+00:21:16,559 --> 00:21:20,700
+impresionante
+
+544
+00:21:18,539 --> 00:21:23,520
+Así que Ed mencionó esta parte del
+
+545
+00:21:20,700 --> 00:21:25,140
+la charla se centra en esperar con ansias
+
+546
+00:21:23,520 --> 00:21:27,299
+Planes de productos y algunas de nuestras prioridades.
+
+547
+00:21:25,140 --> 00:21:28,919
+y dónde estamos invirtiendo pero quería
+
+548
+00:21:27,299 --> 00:21:31,020
+tomarme un par de minutos aquí en el
+
+549
+00:21:28,919 --> 00:21:32,700
+Empiezo a mirar atrás porque creo
+
+550
+00:21:31,020 --> 00:21:36,140
+mirando hacia atrás eso nos ayudará a
+
+551
+00:21:32,700 --> 00:21:36,140
+Piensa en cómo avanzamos.
+
+552
+00:21:36,600 --> 00:21:41,520
+Algunos de ustedes recordarán la diapositiva de
+
+553
+00:21:38,700 --> 00:21:43,799
+el año pasado presenté esta diapositiva en el
+
+554
+00:21:41,520 --> 00:21:45,419
+Charla sobre el estado de Open Edx en Lisboa.
+
+555
+00:21:43,799 --> 00:21:48,000
+y si no te acuerdas o si
+
+556
+00:21:45,419 --> 00:21:49,980
+no estaban aquí este es el tema principal que
+
+557
+00:21:48,000 --> 00:21:52,860
+abordamos el año pasado en el estado fue
+
+558
+00:21:49,980 --> 00:21:55,140
+¿Cómo pasaríamos el próximo año?
+
+559
+00:21:52,860 --> 00:21:57,299
+construir una organización de productos dentro
+
+560
+00:21:55,140 --> 00:21:59,880
+la comunidad openatix
+
+561
+00:21:57,299 --> 00:22:01,860
+y este Doble Diamante fue el
+
+562
+00:21:59,880 --> 00:22:03,960
+marco que propuse solíamos
+
+563
+00:22:01,860 --> 00:22:05,940
+construir esa organización de producto
+
+564
+00:22:03,960 --> 00:22:07,980
+Así que, a modo de resumen rápido, el Doble Diamante.
+
+565
+00:22:05,940 --> 00:22:10,320
+framework es un método bastante popular o
+
+566
+00:22:07,980 --> 00:22:12,480
+Metodología de entrega del producto.
+
+567
+00:22:10,320 --> 00:22:15,419
+y en el
+
+568
+00:22:12,480 --> 00:22:17,460
+lado izquierdo del proceso por lo que es como un
+
+569
+00:22:15,419 --> 00:22:20,039
+es un flujo de trabajo el lado izquierdo es más
+
+570
+00:22:17,460 --> 00:22:22,860
+orientado al producto, por lo que se centra en
+
+571
+00:22:20,039 --> 00:22:25,020
+Descubrimiento de nuevas funciones centradas
+
+572
+00:22:22,860 --> 00:22:26,940
+en la definición de características aquí es donde
+
+573
+00:22:25,020 --> 00:22:28,260
+encontrarás todas tus historias de usuario
+
+574
+00:22:26,940 --> 00:22:30,000
+tu investigación de mercado todo tu Mercado
+
+575
+00:22:28,260 --> 00:22:31,559
+datos todo lo que utilizas para conducir
+
+576
+00:22:30,000 --> 00:22:33,600
+lo que construyes en la plataforma
+
+577
+00:22:31,559 --> 00:22:36,240
+y por qué
+
+578
+00:22:33,600 --> 00:22:37,500
+y la segunda mitad del Doblete
+
+579
+00:22:36,240 --> 00:22:39,720
+El marco del diamante es el técnico.
+
+580
+00:22:37,500 --> 00:22:40,740
+lado de ejecución desarrollo derecho y
+
+581
+00:22:39,720 --> 00:22:43,860
+entrega
+
+582
+00:22:40,740 --> 00:22:45,600
+y lo que observé el año pasado en
+
+583
+00:22:43,860 --> 00:22:48,360
+la charla fue que mucha de la energía
+
+584
+00:22:45,600 --> 00:22:50,520
+y el impulso en torno al proyecto tiende a
+
+585
+00:22:48,360 --> 00:22:52,860
+estar más centrados en este lado del
+
+586
+00:22:50,520 --> 00:22:55,020
+lado de la implementación con menos enfoque
+
+587
+00:22:52,860 --> 00:22:56,039
+al menos en la comunidad abierta en el
+
+588
+00:22:55,020 --> 00:22:58,440
+lado del producto
+
+589
+00:22:56,039 --> 00:23:00,840
+y entonces
+
+590
+00:22:58,440 --> 00:23:02,340
+Yo propondría que nos concentráramos en cambiar
+
+591
+00:23:00,840 --> 00:23:04,380
+pasar el año para reorientar eso
+
+592
+00:23:02,340 --> 00:23:06,419
+equilibrar un poco
+
+593
+00:23:04,380 --> 00:23:07,799
+Um, eso fue el año pasado y estoy realmente
+
+594
+00:23:06,419 --> 00:23:10,380
+feliz de decir que hemos hecho un montón de
+
+595
+00:23:07,799 --> 00:23:12,000
+progreso en el último año estoy muy orgulloso
+
+596
+00:23:10,380 --> 00:23:13,559
+de cómo los gerentes de producto en todo el mundo
+
+597
+00:23:12,000 --> 00:23:14,760
+La comunidad realmente se ha unido y
+
+598
+00:23:13,559 --> 00:23:17,880
+nos ayudó a construir un producto
+
+599
+00:23:14,760 --> 00:23:21,260
+Organización para la comunidad open edx
+
+600
+00:23:17,880 --> 00:23:21,260
+en general así que gracias a todos
+
+601
+00:23:21,960 --> 00:23:26,640
+um hoy me gustaría resaltar tres de
+
+602
+00:23:24,179 --> 00:23:28,559
+los procesos y artefactos clave que
+
+603
+00:23:26,640 --> 00:23:31,260
+como comunidad de código abierto con la
+
+604
+00:23:28,559 --> 00:23:32,460
+La organización del producto se ha construido a lo largo del
+
+605
+00:23:31,260 --> 00:23:34,080
+año pasado
+
+606
+00:23:32,460 --> 00:23:35,760
+para que realmente podamos traer esto
+
+607
+00:23:34,080 --> 00:23:38,159
+marco para la vida
+
+608
+00:23:35,760 --> 00:23:39,780
+esas tres cosas son el producto
+
+609
+00:23:38,159 --> 00:23:42,299
+grupo de trabajo
+
+610
+00:23:39,780 --> 00:23:45,080
+desarrollo de características al aire libre
+
+611
+00:23:42,299 --> 00:23:45,080
+y la hoja de ruta
+
+612
+00:23:45,600 --> 00:23:50,940
+así que comencemos respondiendo un par de
+
+613
+00:23:48,780 --> 00:23:53,960
+preguntas básicas quién es el producto openx
+
+614
+00:23:50,940 --> 00:23:53,960
+y qué hacemos
+
+615
+00:23:54,360 --> 00:23:58,559
+este es el producto openx
+
+616
+00:23:56,039 --> 00:24:00,120
+muchos de estos son los líderes de productos
+
+617
+00:23:58,559 --> 00:24:03,539
+de organizaciones de toda la comunidad
+
+618
+00:24:00,120 --> 00:24:05,159
+muchos de ustedes están aquí hoy
+
+619
+00:24:03,539 --> 00:24:06,659
+um y este es el producto
+
+620
+00:24:05,159 --> 00:24:09,120
+grupo de trabajo este es el motor que
+
+621
+00:24:06,659 --> 00:24:10,740
+impulsa el proyecto open edx que hemos tenido
+
+622
+00:24:09,120 --> 00:24:12,419
+personas que representan casi una docena
+
+623
+00:24:10,740 --> 00:24:15,480
+organizaciones en el grupo en el pasado
+
+624
+00:24:12,419 --> 00:24:19,520
+año que incluye el papel de 2u Tik Ed Lee edu
+
+625
+00:24:15,480 --> 00:24:19,520
+próximo opencraft y muchos más
+
+626
+00:24:19,679 --> 00:24:24,480
+Entonces la siguiente pregunta sería ¿qué significa?
+
+627
+00:24:21,600 --> 00:24:26,460
+producto coordinamos la toma de decisiones
+
+628
+00:24:24,480 --> 00:24:29,220
+sobre el producto cuyas características obtienen
+
+629
+00:24:26,460 --> 00:24:30,900
+priorizados dónde invertimos, me refiero a estos
+
+630
+00:24:29,220 --> 00:24:32,700
+Todas las decisiones se basan en datos sobre
+
+631
+00:24:30,900 --> 00:24:33,960
+investigación de mercado sobre los comentarios de los usuarios y
+
+632
+00:24:32,700 --> 00:24:35,760
+hemos podido crear canales que
+
+633
+00:24:33,960 --> 00:24:37,140
+De hecho, podemos agregar esto a lo largo de
+
+634
+00:24:35,760 --> 00:24:38,280
+la comunidad por lo que estamos extrayendo estos datos
+
+635
+00:24:37,140 --> 00:24:40,320
+juntos desde muchos lugares diferentes
+
+636
+00:24:38,280 --> 00:24:43,340
+fuentes que nos dan una visión holística
+
+637
+00:24:40,320 --> 00:24:43,340
+del proyecto
+
+638
+00:24:44,580 --> 00:24:48,360
+y por esta época el año pasado el producto
+
+639
+00:24:46,260 --> 00:24:49,919
+grupo de trabajo fue sólo una idea y
+
+640
+00:24:48,360 --> 00:24:52,260
+De hecho, se reunió por primera vez en
+
+641
+00:24:49,919 --> 00:24:54,539
+Lisboa para hacer una especie de lluvia de ideas sobre lo que
+
+642
+00:24:52,260 --> 00:24:56,159
+haríamos aquello en lo que nos centraríamos en
+
+643
+00:24:54,539 --> 00:24:58,440
+el primer año
+
+644
+00:24:56,159 --> 00:25:01,200
+y como Ed mencionó, hemos publicado
+
+645
+00:24:58,440 --> 00:25:03,059
+nuestro informe de impacto, pero quería
+
+646
+00:25:01,200 --> 00:25:04,559
+resaltar un par de logros
+
+647
+00:25:03,059 --> 00:25:06,120
+aquí que en realidad están ligados a esto
+
+648
+00:25:04,559 --> 00:25:09,500
+tema más amplio de la construcción del producto
+
+649
+00:25:06,120 --> 00:25:09,500
+organización dentro de la comunidad
+
+650
+00:25:09,720 --> 00:25:14,159
+y entonces en Lisboa decidimos que
+
+651
+00:25:12,059 --> 00:25:15,600
+se centraría en tres prioridades en el
+
+652
+00:25:14,159 --> 00:25:17,760
+primer año
+
+653
+00:25:15,600 --> 00:25:19,919
+El número uno fue definir lo que
+
+654
+00:25:17,760 --> 00:25:21,960
+la plataforma es
+
+655
+00:25:19,919 --> 00:25:23,760
+El número dos era simplificar la
+
+656
+00:25:21,960 --> 00:25:26,880
+proceso de contribución específicamente el
+
+657
+00:25:23,760 --> 00:25:28,980
+proceso de revisión de productos de osprs
+
+658
+00:25:26,880 --> 00:25:31,260
+y el tercero fue hacer el desarrollo
+
+659
+00:25:28,980 --> 00:25:32,940
+proceso de desarrollo de características visible y
+
+660
+00:25:31,260 --> 00:25:36,659
+abierto
+
+661
+00:25:32,940 --> 00:25:38,100
+y ahora un año después tenemos para esto
+
+662
+00:25:36,659 --> 00:25:40,620
+El primero que define qué es la plataforma.
+
+663
+00:25:38,100 --> 00:25:43,080
+tenemos de 57 que es un adicto abierto
+
+664
+00:25:40,620 --> 00:25:44,880
+propuesta que delinea una estrategia y un
+
+665
+00:25:43,080 --> 00:25:47,419
+planeamos definir cuál es nuestro producto principal
+
+666
+00:25:44,880 --> 00:25:47,419
+será
+
+667
+00:25:47,820 --> 00:25:52,860
+tenemos un equipo que se dedica a
+
+668
+00:25:50,640 --> 00:25:55,020
+simplificar este proceso para crear un
+
+669
+00:25:52,860 --> 00:25:58,260
+flujo de trabajo para ayudarnos a revisar el enorme
+
+670
+00:25:55,020 --> 00:26:00,720
+atraso de PRS
+
+671
+00:25:58,260 --> 00:26:02,600
+y tenemos un proceso que hemos probado
+
+672
+00:26:00,720 --> 00:26:04,860
+para hacer visible el desarrollo
+
+673
+00:26:02,600 --> 00:26:07,380
+Hemos aprendido mucho de este proceso.
+
+674
+00:26:04,860 --> 00:26:08,640
+Todavía tengo mucho que aprender pero como
+
+675
+00:26:07,380 --> 00:26:11,039
+resultado ahora tenemos una gestión de productos
+
+676
+00:26:08,640 --> 00:26:14,039
+Wiki que tiene más de media docena de públicos.
+
+677
+00:26:11,039 --> 00:26:15,480
+acercar memorandos historias de usuarios especificaciones que
+
+678
+00:26:14,039 --> 00:26:19,400
+describir lo que realmente estamos construyendo
+
+679
+00:26:15,480 --> 00:26:19,400
+al principio del proceso del producto
+
+680
+00:26:19,620 --> 00:26:24,299
+y mencionaré también los tres
+
+681
+00:26:21,659 --> 00:26:25,679
+estos tienen charlas dedicadas durante el
+
+682
+00:26:24,299 --> 00:26:27,720
+conferencia sobre la próxima pareja
+
+683
+00:26:25,679 --> 00:26:29,640
+de días si estás interesado en alguno de
+
+684
+00:26:27,720 --> 00:26:32,779
+estos encuentran la charla y se unen a nosotros y
+
+685
+00:26:29,640 --> 00:26:32,779
+bucearemos profundamente
+
+686
+00:26:33,900 --> 00:26:37,200
+así que el año pasado se trató de sentar las bases
+
+687
+00:26:35,760 --> 00:26:39,120
+fundación y este año se acerca
+
+688
+00:26:37,200 --> 00:26:39,900
+ejecución ¿cómo vamos a hacer estos?
+
+689
+00:26:39,120 --> 00:26:41,640
+cosas
+
+690
+00:26:39,900 --> 00:26:43,799
+Lo haremos
+
+691
+00:26:41,640 --> 00:26:45,000
+continuar definiendo y realmente construyendo
+
+692
+00:26:43,799 --> 00:26:46,740
+el núcleo
+
+693
+00:26:45,000 --> 00:26:49,260
+oferta de productos principales
+
+694
+00:26:46,740 --> 00:26:51,360
+Limpiaremos el trabajo atrasado de todos los
+
+695
+00:26:49,260 --> 00:26:52,620
+PRS y también seguir haciendo eso
+
+696
+00:26:51,360 --> 00:26:54,120
+procesar mejor
+
+697
+00:26:52,620 --> 00:26:56,900
+y continuaremos haciendo todo lo posible
+
+698
+00:26:54,120 --> 00:26:56,900
+desarrollo al aire libre
+
+699
+00:26:57,419 --> 00:27:01,799
+Está bien, entonces eso es el pasado.
+
+700
+00:26:59,820 --> 00:27:03,539
+hablemos de en qué nos estamos centrando
+
+701
+00:27:01,799 --> 00:27:06,500
+ahora y en qué nos centraremos en el
+
+702
+00:27:03,539 --> 00:27:06,500
+los próximos seis a 12 meses
+
+703
+00:27:06,720 --> 00:27:12,059
+entonces Ed mencionó antes
+
+704
+00:27:09,320 --> 00:27:13,740
+que estamos priorizando proyectos junto
+
+705
+00:27:12,059 --> 00:27:15,240
+eso apoyará nuestra misión
+
+706
+00:27:13,740 --> 00:27:17,220
+nuestra misión es mejorar el acceso a
+
+707
+00:27:15,240 --> 00:27:19,440
+aprendizaje en línea y nuestra misión es
+
+708
+00:27:17,220 --> 00:27:21,240
+mejorar el resultado o el impacto de
+
+709
+00:27:19,440 --> 00:27:22,559
+aprendizaje en línea y voy a hablar
+
+710
+00:27:21,240 --> 00:27:24,480
+sobre un par de áreas en las que estamos
+
+711
+00:27:22,559 --> 00:27:26,580
+priorizar la inversión sobre el
+
+712
+00:27:24,480 --> 00:27:28,500
+el próximo año que se alineen con esa misión
+
+713
+00:27:26,580 --> 00:27:30,419
+y también los usaré como ejemplos para
+
+714
+00:27:28,500 --> 00:27:33,380
+demostrar realmente cómo estamos construyendo
+
+715
+00:27:30,419 --> 00:27:33,380
+estas cosas al aire libre
+
+716
+00:27:33,659 --> 00:27:40,860
+así que en el frente de acceso un gran Focus
+
+717
+00:27:36,720 --> 00:27:42,539
+para nosotros es la oferta principal de productos
+
+718
+00:27:40,860 --> 00:27:44,159
+por lo que la oferta principal de productos está arraigada
+
+719
+00:27:42,539 --> 00:27:46,620
+en uno de los grandes retos de la
+
+720
+00:27:44,159 --> 00:27:47,960
+plataforma y es que la plataforma
+
+721
+00:27:46,620 --> 00:27:50,220
+es un poco difícil de definir
+
+722
+00:27:47,960 --> 00:27:52,320
+lo cual puede sonar un poco raro pero
+
+723
+00:27:50,220 --> 00:27:55,500
+admite muchos casos de uso diversos
+
+724
+00:27:52,320 --> 00:27:57,059
+cierto y debido a esto así es
+
+725
+00:27:55,500 --> 00:27:59,220
+gran derecho pero por eso hace
+
+726
+00:27:57,059 --> 00:28:01,740
+A veces es un poco difícil
+
+727
+00:27:59,220 --> 00:28:03,240
+instalarlo es ineficiente personalizarlo
+
+728
+00:28:01,740 --> 00:28:04,919
+pero más importante aún de un producto
+
+729
+00:28:03,240 --> 00:28:06,480
+perspectiva puede hacer que sea difícil
+
+730
+00:28:04,919 --> 00:28:07,620
+crear una estrategia como quiénes somos
+
+731
+00:28:06,480 --> 00:28:09,059
+construyendo esto y para qué somos
+
+732
+00:28:07,620 --> 00:28:10,679
+edificio
+
+733
+00:28:09,059 --> 00:28:12,960
+y así el objetivo del producto principal
+
+734
+00:28:10,679 --> 00:28:14,940
+oferta es definir un conjunto claro de
+
+735
+00:28:12,960 --> 00:28:17,039
+características que vienen admitidas en el exterior
+
+736
+00:28:14,940 --> 00:28:18,299
+de la caja Instalación comunitaria para que
+
+737
+00:28:17,039 --> 00:28:19,740
+Debe quedar muy claro para los usuarios qué
+
+738
+00:28:18,299 --> 00:28:21,840
+estás recibiendo y por qué estás recibiendo
+
+739
+00:28:19,740 --> 00:28:23,340
+esas características
+
+740
+00:28:21,840 --> 00:28:25,980
+encima queremos hacerlo parejo
+
+741
+00:28:23,340 --> 00:28:27,840
+más fácil de personalizar, así que vamos a ser
+
+742
+00:28:25,980 --> 00:28:29,520
+construir un catálogo claro de herramientas para
+
+743
+00:28:27,840 --> 00:28:32,640
+cosas como una herramienta un catálogo de Xbox
+
+744
+00:28:29,520 --> 00:28:34,260
+catálogos de complementos de aplicaciones LTI que
+
+745
+00:28:32,640 --> 00:28:36,240
+ayúdanos a agilizar y simplificar el
+
+746
+00:28:34,260 --> 00:28:38,100
+experiencia y para permitir más fácil
+
+747
+00:28:36,240 --> 00:28:39,779
+personalización para que podamos apoyar
+
+748
+00:28:38,100 --> 00:28:43,039
+esta diversidad de casos de uso que son
+
+749
+00:28:39,779 --> 00:28:43,039
+realmente en el corazón de la narrativa
+
+750
+00:28:43,860 --> 00:28:49,020
+en términos de desarrollar esto abiertamente
+
+751
+00:28:46,159 --> 00:28:52,260
+aunque este es un producto producto
+
+752
+00:28:49,020 --> 00:28:53,220
+proyecto lo pasamos por el oep
+
+753
+00:28:52,260 --> 00:28:55,380
+proceso
+
+754
+00:28:53,220 --> 00:28:58,080
+porque introduce muchos términos nuevos
+
+755
+00:28:55,380 --> 00:29:00,120
+muchos conceptos nuevos en el proceso de oop
+
+756
+00:28:58,080 --> 00:29:02,820
+¿Es el proceso de propuesta de Open Edx este?
+
+757
+00:29:00,120 --> 00:29:04,260
+nos permitió socializarlo con el
+
+758
+00:29:02,820 --> 00:29:06,720
+comunidad tanto en el aspecto técnico como en el
+
+759
+00:29:04,260 --> 00:29:08,520
+En el lado del producto pudimos integrar un
+
+760
+00:29:06,720 --> 00:29:10,220
+muchos comentarios excelentes en ese proceso, así que
+
+761
+00:29:08,520 --> 00:29:12,539
+realmente nos ayuda a darle forma en tiempo real
+
+762
+00:29:10,220 --> 00:29:13,980
+y este es un modelo realmente interesante.
+
+763
+00:29:12,539 --> 00:29:16,919
+Piensa para que exploremos el futuro.
+
+764
+00:29:13,980 --> 00:29:18,600
+¿Sabes qué otras mejores prácticas o
+
+765
+00:29:16,919 --> 00:29:20,279
+Los flujos de trabajo existen en el código abierto.
+
+766
+00:29:18,600 --> 00:29:22,620
+comunidad y cómo podemos acercar el producto
+
+767
+00:29:20,279 --> 00:29:24,539
+en esos procesos así que este es uno
+
+768
+00:29:22,620 --> 00:29:27,720
+ejemplo, ¿puedes?, cualquiera puede tomar un
+
+769
+00:29:24,539 --> 00:29:27,720
+mira 57.
+
+770
+00:29:30,059 --> 00:29:35,399
+otra área de inversión para nosotros a continuación
+
+771
+00:29:33,000 --> 00:29:37,620
+año es nuestra iniciativa de taxonomía nuestra
+
+772
+00:29:35,399 --> 00:29:41,220
+iniciativa de aprendizaje de taxonomía esto se alinea
+
+773
+00:29:37,620 --> 00:29:42,960
+Más con el lado de impacto de la misión.
+
+774
+00:29:41,220 --> 00:29:45,480
+así que con este proyecto los autores serán
+
+775
+00:29:42,960 --> 00:29:47,460
+capaces de alinear su contenido en los cursos
+
+776
+00:29:45,480 --> 00:29:48,960
+para aprender taxonomías
+
+777
+00:29:47,460 --> 00:29:51,659
+um, por ejemplo, taxonomías alrededor
+
+778
+00:29:48,960 --> 00:29:53,580
+competencias o taxonomías en torno a las habilidades
+
+779
+00:29:51,659 --> 00:29:56,760
+y también podrán agregar etiquetas
+
+780
+00:29:53,580 --> 00:29:58,440
+en el estudio y en las bibliotecas
+
+781
+00:29:56,760 --> 00:30:00,720
+Hay muchos beneficios en esto.
+
+782
+00:29:58,440 --> 00:30:01,980
+proyecto uno de ellos es el que sumado a
+
+783
+00:30:00,720 --> 00:30:04,380
+el proyecto de datos del que hablaré
+
+784
+00:30:01,980 --> 00:30:06,419
+en un minuto las taxonomías permitirán
+
+785
+00:30:04,380 --> 00:30:08,399
+instructores para gestionar y realizar un mejor seguimiento
+
+786
+00:30:06,419 --> 00:30:10,500
+Estudiantes a medida que avanzan a través del contenido.
+
+787
+00:30:08,399 --> 00:30:12,240
+secuencias y será capaz de mantener
+
+788
+00:30:10,500 --> 00:30:14,279
+equipos del curso responsables de nuestro derecho
+
+789
+00:30:12,240 --> 00:30:18,440
+los estudiantes realmente aprenden lo que la unidad
+
+790
+00:30:14,279 --> 00:30:21,299
+o el módulo promete enseñar
+
+791
+00:30:18,440 --> 00:30:23,460
+Las taxonomías también nos ayudarán a establecer el
+
+792
+00:30:21,299 --> 00:30:25,140
+plataforma levantada y algo así como con visión de futuro
+
+793
+00:30:23,460 --> 00:30:27,840
+para alinearse mejor con terceros
+
+794
+00:30:25,140 --> 00:30:29,580
+herramientas adaptativas y otros servicios que
+
+795
+00:30:27,840 --> 00:30:30,899
+personalizar el contenido que conoces
+
+796
+00:30:29,580 --> 00:30:34,100
+recomendaciones basadas en el alumno
+
+797
+00:30:30,899 --> 00:30:34,100
+perfiles e intereses de los estudiantes
+
+798
+00:30:34,500 --> 00:30:39,299
+en términos de desarrollar esto abiertamente
+
+799
+00:30:37,039 --> 00:30:40,860
+esto es parte de nuestro modular más grande
+
+800
+00:30:39,299 --> 00:30:42,179
+iniciativa de aprendizaje, quiero decir, hemos estado
+
+801
+00:30:40,860 --> 00:30:45,419
+desarrollando esto abiertamente desde el
+
+802
+00:30:42,179 --> 00:30:47,820
+Vamos, reunimos un grupo de aproximadamente
+
+803
+00:30:45,419 --> 00:30:48,899
+ocho a diez partes interesadas de todo
+
+804
+00:30:47,820 --> 00:30:51,000
+la comunidad a través de diferentes
+
+805
+00:30:48,899 --> 00:30:53,220
+organizaciones porque queríamos hacer
+
+806
+00:30:51,000 --> 00:30:55,260
+seguro de que los datos que estábamos obteniendo
+
+807
+00:30:53,220 --> 00:30:56,399
+representan la mayoría de los
+
+808
+00:30:55,260 --> 00:30:57,899
+La comunidad quería asegurarse de que
+
+809
+00:30:56,399 --> 00:30:59,760
+Las historias de usuarios que tuvimos fueron representativas.
+
+810
+00:30:57,899 --> 00:31:02,580
+de todos aquí y de todos los
+
+811
+00:30:59,760 --> 00:31:03,779
+clientes a los que atiendes
+
+812
+00:31:02,580 --> 00:31:06,059
+um ponemos todo esto en el producto
+
+813
+00:31:03,779 --> 00:31:07,500
+Wiki y hasta el momento todos los documentos.
+
+814
+00:31:06,059 --> 00:31:09,960
+en torno a este y otros proyectos relacionados
+
+815
+00:31:07,500 --> 00:31:12,059
+generó más de 100 visitas y alrededor de 30
+
+816
+00:31:09,960 --> 00:31:13,620
+diferentes hilos de comentarios que tienen
+
+817
+00:31:12,059 --> 00:31:16,159
+también nos ayudó a dar forma a estos proyectos
+
+818
+00:31:13,620 --> 00:31:16,159
+en tiempo real
+
+819
+00:31:18,059 --> 00:31:22,020
+y finalmente una tercera área de inversión
+
+820
+00:31:20,100 --> 00:31:23,880
+para nosotros que también se alinea con el impacto
+
+821
+00:31:22,020 --> 00:31:25,260
+El otro lado de nuestra misión es mejorar
+
+822
+00:31:23,880 --> 00:31:27,539
+análisis del alumno
+
+823
+00:31:25,260 --> 00:31:29,820
+reemplazaremos los conocimientos con minerales
+
+824
+00:31:27,539 --> 00:31:32,340
+cual es la analítica abierta abierta
+
+825
+00:31:29,820 --> 00:31:34,260
+sistema de referencia
+
+826
+00:31:32,340 --> 00:31:36,000
+un par de cosas sobre este proyecto que
+
+827
+00:31:34,260 --> 00:31:38,940
+alineará la plataforma para abrir
+
+828
+00:31:36,000 --> 00:31:41,039
+estándares de datos y esto desbloqueará una
+
+829
+00:31:38,940 --> 00:31:42,240
+muchas cosas interesantes y emocionantes
+
+830
+00:31:41,039 --> 00:31:45,299
+oportunidades en torno a la presentación de informes porque
+
+831
+00:31:42,240 --> 00:31:47,580
+podremos informar sobre cómo acercarnos
+
+832
+00:31:45,299 --> 00:31:49,860
+análisis del alumno en tiempo real que nuevamente
+
+833
+00:31:47,580 --> 00:31:51,120
+junto con cosas como la taxonomía
+
+834
+00:31:49,860 --> 00:31:53,039
+proyectos ahora los equipos del curso podrán
+
+835
+00:31:51,120 --> 00:31:54,419
+tener una mejor visión del alumno
+
+836
+00:31:53,039 --> 00:31:56,159
+el progreso del estudiante y cómo
+
+837
+00:31:54,419 --> 00:31:58,380
+Los alumnos comprenden el contenido.
+
+838
+00:31:56,159 --> 00:31:59,640
+en niveles muy granulares para que puedan hacer
+
+839
+00:31:58,380 --> 00:32:02,120
+decisiones sobre su rumbo en más
+
+840
+00:31:59,640 --> 00:32:02,120
+tiempo real
+
+841
+00:32:02,760 --> 00:32:06,659
+en términos de desarrollar esto abiertamente
+
+842
+00:32:05,100 --> 00:32:08,460
+um esta iniciativa está siendo impulsada por
+
+843
+00:32:06,659 --> 00:32:10,140
+el grupo de trabajo de datos y nuevamente su
+
+844
+00:32:08,460 --> 00:32:13,159
+sus tableros y todo su trabajo
+
+845
+00:32:10,140 --> 00:32:13,159
+está disponible al público
+
+846
+00:32:14,220 --> 00:32:18,179
+y si desea una vista completa de todo
+
+847
+00:32:16,500 --> 00:32:19,679
+las áreas de inversión estas son algunas
+
+848
+00:32:18,179 --> 00:32:21,779
+más aspectos destacados
+
+849
+00:32:19,679 --> 00:32:24,179
+um, el mejor lugar para ir es Open Edx.
+
+850
+00:32:21,779 --> 00:32:26,159
+mapa vial
+
+851
+00:32:24,179 --> 00:32:28,140
+um, recuerdo estar parado aquí en el
+
+852
+00:32:26,159 --> 00:32:29,880
+conferencia del año pasado diciendo que
+
+853
+00:32:28,140 --> 00:32:31,559
+La hoja de ruta en ese momento era una especie de
+
+854
+00:32:29,880 --> 00:32:33,419
+un pequeño experimento y fue
+
+855
+00:32:31,559 --> 00:32:35,279
+más de um en ese momento era más
+
+856
+00:32:33,419 --> 00:32:36,419
+como un directorio de iniciativas actuales
+
+857
+00:32:35,279 --> 00:32:37,620
+cierto, estábamos pidiendo a todos que
+
+858
+00:32:36,419 --> 00:32:38,580
+aportar las cosas que eran
+
+859
+00:32:37,620 --> 00:32:41,039
+edificio
+
+860
+00:32:38,580 --> 00:32:42,659
+y sigue siendo eso pero también estoy feliz
+
+861
+00:32:41,039 --> 00:32:44,520
+decir que hemos ido más allá
+
+862
+00:32:42,659 --> 00:32:46,080
+que además conseguimos estos productos
+
+863
+00:32:44,520 --> 00:32:48,240
+proyectos despegan a medida que comenzamos a
+
+864
+00:32:46,080 --> 00:32:49,500
+generar retrasos y priorizar
+
+865
+00:32:48,240 --> 00:32:51,360
+La hoja de ruta está empezando a desarrollarse un poco.
+
+866
+00:32:49,500 --> 00:32:54,020
+más bien un Arco estratégico que es
+
+867
+00:32:51,360 --> 00:32:54,020
+realmente emocionante
+
+868
+00:32:55,200 --> 00:32:58,620
+y una de las preguntas que he escuchado
+
+869
+00:32:56,940 --> 00:33:00,179
+bastante de la gente es como ¿cómo puedo?
+
+870
+00:32:58,620 --> 00:33:02,340
+mantenerse actualizado ¿cómo puedo estar al tanto?
+
+871
+00:33:00,179 --> 00:33:04,380
+todo lo que esta pasando y por eso yo
+
+872
+00:33:02,340 --> 00:33:06,000
+En realidad quería dar un rápido como 30.
+
+873
+00:33:04,380 --> 00:33:07,440
+Segundo curso intensivo sobre cómo leer el
+
+874
+00:33:06,000 --> 00:33:10,140
+hoja de ruta bueno, tengo la de todos
+
+875
+00:33:07,440 --> 00:33:11,640
+atención aquí
+
+876
+00:33:10,140 --> 00:33:14,240
+um para que puedas ver que la hoja de ruta es
+
+877
+00:33:11,640 --> 00:33:16,620
+organizado por área de plataforma en la parte superior
+
+878
+00:33:14,240 --> 00:33:18,360
+hay una pestaña para cada área importante de
+
+879
+00:33:16,620 --> 00:33:19,980
+la plataforma y este es tu tipo
+
+880
+00:33:18,360 --> 00:33:21,240
+navegación a través de la hoja de ruta si
+
+881
+00:33:19,980 --> 00:33:22,919
+hay un área específica de la plataforma
+
+882
+00:33:21,240 --> 00:33:24,000
+que te interese puedes ir a
+
+883
+00:33:22,919 --> 00:33:27,659
+la tabla
+
+884
+00:33:24,000 --> 00:33:29,760
+para que puedas ver que este es un
+
+885
+00:33:27,659 --> 00:33:32,179
+Este está resaltando el contenido.
+
+886
+00:33:29,760 --> 00:33:32,179
+bibliotecas
+
+887
+00:33:33,539 --> 00:33:38,580
+cada área de plataforma tiene un juego de boletos
+
+888
+00:33:36,299 --> 00:33:40,019
+entonces estas entradas son de alto nivel, ¿verdad?
+
+889
+00:33:38,580 --> 00:33:42,720
+están destinados simplemente a capturar un
+
+890
+00:33:40,019 --> 00:33:44,340
+descripción general del proyecto y darle una
+
+891
+00:33:42,720 --> 00:33:46,679
+descripción general rápida de cuál es el impacto y
+
+892
+00:33:44,340 --> 00:33:48,240
+cual es el valor del proyecto
+
+893
+00:33:46,679 --> 00:33:49,919
+si estás interesado en bucear más
+
+894
+00:33:48,240 --> 00:33:52,980
+profundizar en los proyectos de un curso
+
+895
+00:33:49,919 --> 00:33:54,600
+vista de granos también tenemos un archivo Léame para
+
+896
+00:33:52,980 --> 00:33:57,059
+cada sección de la plataforma donde
+
+897
+00:33:54,600 --> 00:33:58,679
+vincularlo a los tableros específicos y
+
+898
+00:33:57,059 --> 00:34:01,260
+Entonces, por ejemplo, si estás interesado en
+
+899
+00:33:58,679 --> 00:34:03,419
+Al igual que el proyecto de taxonomía, puedes encontrar un
+
+900
+00:34:01,260 --> 00:34:05,100
+enlace a ese tablero en particular aquí y
+
+901
+00:34:03,419 --> 00:34:06,360
+Puedes realizar un seguimiento de forma más detallada.
+
+902
+00:34:05,100 --> 00:34:09,500
+nivelar todos los problemas que hemos
+
+903
+00:34:06,360 --> 00:34:09,500
+arreglado donde estamos actualmente
+
+904
+00:34:12,359 --> 00:34:16,320
+y finalmente un rápido recordatorio de que el
+
+905
+00:34:14,460 --> 00:34:18,060
+La hoja de ruta sigue siendo colaborativa.
+
+906
+00:34:16,320 --> 00:34:19,740
+esfuerzo y necesitamos la ayuda de todos para
+
+907
+00:34:18,060 --> 00:34:20,700
+ayúdanos a seguir construyéndolo y haciendo carne
+
+908
+00:34:19,739 --> 00:34:22,980
+fuera
+
+909
+00:34:20,699 --> 00:34:24,839
+hay dos maneras en que puedes
+
+910
+00:34:22,980 --> 00:34:26,480
+participa para conseguir tu voz
+
+911
+00:34:24,839 --> 00:34:29,879
+en la hoja de ruta
+
+912
+00:34:26,480 --> 00:34:32,879
+en el repositorio de la hoja de ruta de la plataforma
+
+913
+00:34:29,879 --> 00:34:34,859
+Tenemos dos plantillas que están destinadas a
+
+914
+00:34:32,879 --> 00:34:38,159
+ayudarle a navegar a través de
+
+915
+00:34:34,859 --> 00:34:40,139
+contribuir con la primera plantilla es una
+
+916
+00:34:38,159 --> 00:34:42,119
+envío de problemas, así que si tienes trabajo
+
+917
+00:34:40,139 --> 00:34:44,159
+eso ya está en progreso si tienes
+
+918
+00:34:42,119 --> 00:34:45,060
+trabajo que te gustaría aportarte
+
+919
+00:34:44,159 --> 00:34:47,339
+saber pasar finalmente por el pr
+
+920
+00:34:45,060 --> 00:34:49,679
+proceso hay una plantilla para ayudarte
+
+921
+00:34:47,339 --> 00:34:52,040
+agregar que a esa contribución a la
+
+922
+00:34:49,679 --> 00:34:52,040
+mapa vial
+
+923
+00:34:52,080 --> 00:34:58,740
+el segundo es una solicitud de función
+
+924
+00:34:56,040 --> 00:35:00,599
+Así que esto es más nuevo si quieres verlo.
+
+925
+00:34:58,740 --> 00:35:02,640
+algo agregado a la hoja de ruta pero es
+
+926
+00:35:00,599 --> 00:35:04,619
+no hay una plantilla de ticket como
+
+927
+00:35:02,640 --> 00:35:06,420
+bueno para ayudarte puedes agregarlo a nuestro
+
+928
+00:35:04,619 --> 00:35:08,580
+retraso y lo haremos
+
+929
+00:35:06,420 --> 00:35:10,380
+um tenerlo tenerlo visible
+
+930
+00:35:08,580 --> 00:35:12,359
+¿Esto garantiza que vamos a
+
+931
+00:35:10,380 --> 00:35:15,720
+construir esa característica no no necesariamente
+
+932
+00:35:12,359 --> 00:35:17,700
+Depende de la organización del producto de
+
+933
+00:35:15,720 --> 00:35:20,880
+openx para ayudarnos a priorizar eso
+
+934
+00:35:17,700 --> 00:35:22,980
+trabajo pendiente, pero este es el proyecto que es un
+
+935
+00:35:20,880 --> 00:35:25,200
+duocracia bien y si quieres
+
+936
+00:35:22,980 --> 00:35:27,599
+Influir en qué proyectos se priorizan.
+
+937
+00:35:25,200 --> 00:35:29,400
+esta es una invitación abierta, únete
+
+938
+00:35:27,599 --> 00:35:33,320
+el grupo de trabajo del producto que es el
+
+939
+00:35:29,400 --> 00:35:33,320
+la mejor manera de hacer oír tu voz
+
+940
+00:35:35,579 --> 00:35:41,640
+y ahora me gustaría invitar a adrian
+
+941
+00:35:39,720 --> 00:35:43,980
+nuestro invitado especial
+
+942
+00:35:41,640 --> 00:35:46,560
+Adrian devison es el director ejecutivo
+
+943
+00:35:43,980 --> 00:35:48,119
+de Empower una organización sin fines de lucro
+
+944
+00:35:46,560 --> 00:35:49,920
+que enseña informática a alto
+
+945
+00:35:48,119 --> 00:35:51,119
+estudiantes de color de la escuela que comienzan en el
+
+946
+00:35:49,920 --> 00:35:53,160
+Noveno grado
+
+947
+00:35:51,119 --> 00:35:54,900
+Empower ha estado usando las ediciones abiertas
+
+948
+00:35:53,160 --> 00:35:56,760
+plataforma para entregar los elementos en línea
+
+949
+00:35:54,900 --> 00:35:58,460
+del plan de estudios y nos sentimos muy honrados
+
+950
+00:35:56,760 --> 00:36:09,119
+tenerte aquí hoy Adrián
+
+951
+00:35:58,460 --> 00:36:11,400
+[Aplausos]
+
+952
+00:36:09,119 --> 00:36:13,200
+gracias um Adrian devison el
+
+953
+00:36:11,400 --> 00:36:15,780
+director ejecutivo de empoderamiento
+
+954
+00:36:13,200 --> 00:36:17,579
+Empower es una organización sin fines de lucro que crea
+
+955
+00:36:15,780 --> 00:36:18,480
+canal de escuela a carrera para estudiantes
+
+956
+00:36:17,579 --> 00:36:20,640
+de color
+
+957
+00:36:18,480 --> 00:36:22,800
+enseñamos desarrollo de software como
+
+958
+00:36:20,640 --> 00:36:25,200
+programa plurianual para ayudar a aumentar
+
+959
+00:36:22,800 --> 00:36:27,540
+diversidad en tecnología y generacional
+
+960
+00:36:25,200 --> 00:36:29,099
+ciclos de pobreza y crear un entorno equitativo
+
+961
+00:36:27,540 --> 00:36:31,440
+futuro para todos
+
+962
+00:36:29,099 --> 00:36:32,940
+nuestros estudiantes se unen a nuestro programa en noveno
+
+963
+00:36:31,440 --> 00:36:34,740
+grado y permanecer durante todo el
+
+964
+00:36:32,940 --> 00:36:36,060
+toda su carrera en la escuela secundaria
+
+965
+00:36:34,740 --> 00:36:37,920
+en noveno grado aprendieron el
+
+966
+00:36:36,060 --> 00:36:39,780
+fundamentos del desarrollo de software y
+
+967
+00:36:37,920 --> 00:36:43,020
+someterse a una formación de liderazgo
+
+968
+00:36:39,780 --> 00:36:45,300
+en décimo grado piensan en ideas de aplicaciones para
+
+969
+00:36:43,020 --> 00:36:47,640
+impactar a su comunidad y luego tenemos
+
+970
+00:36:45,300 --> 00:36:49,200
+una competencia de lanzamiento y quien gane nosotros
+
+971
+00:36:47,640 --> 00:36:51,300
+construir juntos esa idea de aplicación
+
+972
+00:36:49,200 --> 00:36:52,920
+y los estudiantes luego lo incorporan para
+
+973
+00:36:51,300 --> 00:36:54,900
+aumentamos el número de minorías y
+
+974
+00:36:52,920 --> 00:36:57,780
+empresas propiedad de mujeres y estudiantes de espectáculos
+
+975
+00:36:54,900 --> 00:36:59,880
+el poder en ellos y su trabajo
+
+976
+00:36:57,780 --> 00:37:01,500
+y el tercer año nuestros alumnos obtienen
+
+977
+00:36:59,880 --> 00:37:03,420
+Prácticas de secundaria con nuestros
+
+978
+00:37:01,500 --> 00:37:05,280
+socios y que ayuda a nuestros estudiantes
+
+979
+00:37:03,420 --> 00:37:07,680
+traer ingresos adicionales especialmente para
+
+980
+00:37:05,280 --> 00:37:09,060
+nuestros estudiantes en áreas de bajos ingresos y en
+
+981
+00:37:07,680 --> 00:37:10,740
+al mismo tiempo asegurarnos de que nuestros estudiantes
+
+982
+00:37:09,060 --> 00:37:12,660
+graduarse de uno a dos años de experiencia
+
+983
+00:37:10,740 --> 00:37:14,520
+incluso antes de salir de la escuela secundaria
+
+984
+00:37:12,660 --> 00:37:17,220
+continúan esas pasantías en
+
+985
+00:37:14,520 --> 00:37:18,480
+su último año y también aprender que sabes
+
+986
+00:37:17,220 --> 00:37:20,640
+networking profesional y solución
+
+987
+00:37:18,480 --> 00:37:22,020
+habilidades comerciales para que cuando se gradúen
+
+988
+00:37:20,640 --> 00:37:23,400
+podemos trabajar para nuestros socios para garantizar que
+
+989
+00:37:22,020 --> 00:37:25,619
+todos tienen carreras esperándolos
+
+990
+00:37:23,400 --> 00:37:27,780
+nuestros graduados actuales obtienen un promedio de
+
+991
+00:37:25,619 --> 00:37:31,020
+setenta mil dólares en un año
+
+992
+00:37:27,780 --> 00:37:33,180
+de graduarse de la escuela secundaria
+
+993
+00:37:31,020 --> 00:37:34,619
+para poder escalar un programa como este
+
+994
+00:37:33,180 --> 00:37:36,119
+es muy difícil calificar manualmente
+
+995
+00:37:34,619 --> 00:37:39,839
+todo así que tuve que empezar a conseguir
+
+996
+00:37:36,119 --> 00:37:41,280
+creativo e inspirado en el código de fuga I
+
+997
+00:37:39,839 --> 00:37:43,320
+Decidimos que podemos crear una plataforma.
+
+998
+00:37:41,280 --> 00:37:45,900
+que permite a los profesores crear una
+
+999
+00:37:43,320 --> 00:37:48,240
+tarea en un par de minutos y
+
+1000
+00:37:45,900 --> 00:37:50,700
+que lo califiquen automáticamente mediante un control remoto
+
+1001
+00:37:48,240 --> 00:37:53,160
+servidor esto también nos permitiría
+
+1002
+00:37:50,700 --> 00:37:55,920
+Reduzca los costos enviando a cada estudiante un
+
+1003
+00:37:53,160 --> 00:37:58,440
+Macbook y al mismo tiempo
+
+1004
+00:37:55,920 --> 00:38:00,180
+Podemos admitir más de 100 diferentes
+
+1005
+00:37:58,440 --> 00:38:01,740
+Idiomas para que podamos seguir agregando cursos.
+
+1006
+00:38:00,180 --> 00:38:03,359
+a medida que avanzamos
+
+1007
+00:38:01,740 --> 00:38:05,339
+y el espíritu de democratización
+
+1008
+00:38:03,359 --> 00:38:07,140
+Educación nos aseguramos de que fuera gratuita y
+
+1009
+00:38:05,339 --> 00:38:11,000
+código abierto disponible para todos en
+
+1010
+00:38:07,140 --> 00:38:11,000
+GitHub para contribuir y utilizar
+
+1011
+00:38:11,220 --> 00:38:16,400
+Así que aquí tienes una demostración de cómo copiar nuestra plataforma.
+
+1012
+00:38:16,800 --> 00:38:20,640
+comenzamos en el panel de tareas
+
+1013
+00:38:18,540 --> 00:38:23,099
+y luego podemos bajar y podemos
+
+1014
+00:38:20,640 --> 00:38:25,079
+en realidad crear una nueva tarea
+
+1015
+00:38:23,099 --> 00:38:26,820
+le damos un título a la tarea y
+
+1016
+00:38:25,079 --> 00:38:28,380
+empieza con hola mundo porque todos somos
+
+1017
+00:38:26,820 --> 00:38:30,720
+desarrolladores aquí
+
+1018
+00:38:28,380 --> 00:38:33,180
+le damos una identificación de referencia y esto fue
+
+1019
+00:38:30,720 --> 00:38:35,880
+¿Qué usará edx para saber qué problema?
+
+1020
+00:38:33,180 --> 00:38:38,579
+para resolver puedes darle un total
+
+1021
+00:38:35,880 --> 00:38:40,980
+intentos que cero significa ilimitado y
+
+1022
+00:38:38,579 --> 00:38:43,140
+cualquier cosa por encima de eso es el número real
+
+1023
+00:38:40,980 --> 00:38:44,280
+Luego usamos Markdown para pegar el
+
+1024
+00:38:43,140 --> 00:38:47,160
+instrucciones
+
+1025
+00:38:44,280 --> 00:38:48,839
+un mensaje de éxito y un mensaje de fracaso
+
+1026
+00:38:47,160 --> 00:38:51,180
+para animar a sus alumnos en caso de que
+
+1027
+00:38:48,839 --> 00:38:53,760
+no completes el problema
+
+1028
+00:38:51,180 --> 00:38:55,619
+Podemos desplazarnos hacia abajo y vamos a nuestro
+
+1029
+00:38:53,760 --> 00:38:57,420
+códigos de asignación donde podemos agregar Which
+
+1030
+00:38:55,619 --> 00:38:59,640
+idiomas los estudiantes lo completarán
+
+1031
+00:38:57,420 --> 00:39:01,079
+en y cualquier prueba unitaria que se utilice para
+
+1032
+00:38:59,640 --> 00:39:03,480
+califica esto
+
+1033
+00:39:01,079 --> 00:39:05,220
+Entonces seleccionamos nuestro idioma y podemos decidir.
+
+1034
+00:39:03,480 --> 00:39:07,020
+si es el idioma principal
+
+1035
+00:39:05,220 --> 00:39:10,800
+Entonces podemos decidir si es inyectable.
+
+1036
+00:39:07,020 --> 00:39:12,540
+código que significa que nos esconderemos
+
+1037
+00:39:10,800 --> 00:39:14,700
+todo el código que puedas necesitar para ejecutar la unidad
+
+1038
+00:39:12,540 --> 00:39:15,960
+pruebas y tener estos soportes y eso es
+
+1039
+00:39:14,700 --> 00:39:17,220
+todo lo que el estudiante realmente verá es
+
+1040
+00:39:15,960 --> 00:39:18,720
+ese espacio vacío donde está el código
+
+1041
+00:39:17,220 --> 00:39:21,060
+inyectado
+
+1042
+00:39:18,720 --> 00:39:22,500
+Podemos proporcionar un código de solución opcional.
+
+1043
+00:39:21,060 --> 00:39:24,000
+en caso de que quieras que tus estudiantes sean
+
+1044
+00:39:22,500 --> 00:39:24,839
+capaz de ver la solución real al
+
+1045
+00:39:24,000 --> 00:39:27,119
+problema
+
+1046
+00:39:24,839 --> 00:39:29,640
+y por último le damos nuestras pruebas unitarias a
+
+1047
+00:39:27,119 --> 00:39:31,859
+realmente calificar la tarea contra
+
+1048
+00:39:29,640 --> 00:39:34,020
+luego simplemente hacemos clic en guardar
+
+1049
+00:39:31,859 --> 00:39:36,240
+puedes agregar tantos idiomas como quieras
+
+1050
+00:39:34,020 --> 00:39:37,859
+desea que sean compatibles con su servidor
+
+1051
+00:39:36,240 --> 00:39:41,099
+y es muy fácil agregar un idioma
+
+1052
+00:39:37,859 --> 00:39:43,619
+todo lo que haces es darle un nombre un mimo
+
+1053
+00:39:41,099 --> 00:39:45,720
+eso es del código refleja una expresión regular que
+
+1054
+00:39:43,619 --> 00:39:49,920
+nos ayuda a analizar la prueba unitaria real
+
+1055
+00:39:45,720 --> 00:39:52,800
+error y una URL espejo de código
+
+1056
+00:39:49,920 --> 00:39:55,800
+y una vez que hagamos eso
+
+1057
+00:39:52,800 --> 00:39:58,020
+Entonces podemos ver cómo um
+
+1058
+00:39:55,800 --> 00:40:00,300
+traemos esto en vivo en edx
+
+1059
+00:39:58,020 --> 00:40:03,720
+y así como crear cualquier otro
+
+1060
+00:40:00,300 --> 00:40:04,740
+El problema de un bloque x es ir a
+
+1061
+00:40:03,720 --> 00:40:07,980
+Avanzado
+
+1062
+00:40:04,740 --> 00:40:11,400
+seleccionarás el complemento Swift
+
+1063
+00:40:07,980 --> 00:40:13,740
+y luego lo cargará en tu pantalla
+
+1064
+00:40:11,400 --> 00:40:16,740
+después de eso hacemos clic en editar y todo
+
+1065
+00:40:13,740 --> 00:40:19,320
+Tienes que pasar es el ID de referencia del
+
+1066
+00:40:16,740 --> 00:40:21,720
+URL al policía en el servidor
+
+1067
+00:40:19,320 --> 00:40:24,560
+y luego la clave API proporcionada a su usuario
+
+1068
+00:40:21,720 --> 00:40:24,560
+en coppin
+
+1069
+00:40:25,740 --> 00:40:30,900
+y después de eso simplemente podemos publicar el
+
+1070
+00:40:28,500 --> 00:40:32,280
+tarea y lo veremos
+
+1071
+00:40:30,900 --> 00:40:34,520
+y podemos ver el directo
+
+1072
+00:40:32,280 --> 00:40:34,520
+versión
+
+1073
+00:40:34,560 --> 00:40:37,940
+una vez que nuestro video se ponga al día
+
+1074
+00:40:39,599 --> 00:40:44,220
+y aquí vemos que la rebaja es
+
+1075
+00:40:41,880 --> 00:40:45,900
+formateado como HTML
+
+1076
+00:40:44,220 --> 00:40:48,060
+y nosotros el estudiante podemos seleccionar cualquiera
+
+1077
+00:40:45,900 --> 00:40:49,859
+idiomas solo le dimos uno para que
+
+1078
+00:40:48,060 --> 00:40:52,560
+solo puedo seleccionar Swift
+
+1079
+00:40:49,859 --> 00:40:53,520
+y entonces podremos empezar a escribir
+
+1080
+00:40:52,560 --> 00:40:55,020
+nuestro codigo
+
+1081
+00:40:53,520 --> 00:40:57,060
+ahora se supone que debe escribir hola mundo
+
+1082
+00:40:55,020 --> 00:40:59,040
+pero nuestro estudiante acaba de escribir hola
+
+1083
+00:40:57,060 --> 00:41:01,920
+entonces el código se generó exitosamente
+
+1084
+00:40:59,040 --> 00:41:03,359
+pero luego, cuando vayan a probarlo, lo haremos
+
+1085
+00:41:01,920 --> 00:41:04,800
+Note que les va a dar una
+
+1086
+00:41:03,359 --> 00:41:07,200
+error por supuesto
+
+1087
+00:41:04,800 --> 00:41:09,599
+y lo que hace es probar el código
+
+1088
+00:41:07,200 --> 00:41:10,800
+en nuestro servidor médico es lo que
+
+1089
+00:41:09,599 --> 00:41:12,119
+lo nombró
+
+1090
+00:41:10,800 --> 00:41:13,619
+y les devuelve la prueba unitaria
+
+1091
+00:41:12,119 --> 00:41:15,060
+falla
+
+1092
+00:41:13,619 --> 00:41:16,980
+y ahora el estudiante puede ir y
+
+1093
+00:41:15,060 --> 00:41:19,260
+corregir el error
+
+1094
+00:41:16,980 --> 00:41:21,300
+enviar el código nuevamente
+
+1095
+00:41:19,260 --> 00:41:24,240
+y ahora quiero probar con éxito y
+
+1096
+00:41:21,300 --> 00:41:27,500
+pasar, en realidad actualizará la calificación para
+
+1097
+00:41:24,240 --> 00:41:27,500
+las tareas de los estudiantes para ellos
+
+1098
+00:41:28,079 --> 00:41:31,880
+y sí, ahora eres desarrollador
+
+1099
+00:41:31,980 --> 00:41:35,220
+porque les dimos una opción
+
+1100
+00:41:33,900 --> 00:41:36,839
+código de solución, pueden hacer clic en
+
+1101
+00:41:35,220 --> 00:41:39,240
+pestaña de solución para ver cuál es la solución
+
+1102
+00:41:36,839 --> 00:41:41,160
+fue también
+
+1103
+00:41:39,240 --> 00:41:42,060
+y así en menos de tres minutos tu
+
+1104
+00:41:41,160 --> 00:41:44,579
+puede crear
+
+1105
+00:41:42,060 --> 00:41:47,700
+y permita que sus estudiantes corran
+
+1106
+00:41:44,579 --> 00:41:50,420
+tareas de programación en su servidor
+
+1107
+00:41:47,700 --> 00:41:55,309
+Entonces, ¿cómo puedes ayudar?
+
+1108
+00:41:50,420 --> 00:41:55,309
+[Aplausos]
+
+1109
+00:41:55,920 --> 00:42:00,540
+bueno si como puedes ayudar
+
+1110
+00:41:58,339 --> 00:42:01,980
+pasantías para cualquiera de ustedes que conozca
+
+1111
+00:42:00,540 --> 00:42:03,900
+Cualquiera que nuestros estudiantes siempre estén buscando.
+
+1112
+00:42:01,980 --> 00:42:06,599
+pasantías lo que me gusta contarle a la gente
+
+1113
+00:42:03,900 --> 00:42:08,579
+es en la escuela que operamos principalmente
+
+1114
+00:42:06,599 --> 00:42:11,220
+en la escuela secundaria del sur de Atlanta el
+
+1115
+00:42:08,579 --> 00:42:12,960
+ingreso promedio de un hogar como
+
+1116
+00:42:11,220 --> 00:42:13,920
+El ingreso total del hogar es de diez dólares al año.
+
+1117
+00:42:12,960 --> 00:42:16,619
+hora
+
+1118
+00:42:13,920 --> 00:42:18,720
+muchos de nuestros estudiantes no comen o
+
+1119
+00:42:16,619 --> 00:42:21,900
+no tienen ropa y el promedio
+
+1120
+00:42:18,720 --> 00:42:24,599
+pasante de desarrollo de software hace 25 años
+
+1121
+00:42:21,900 --> 00:42:26,700
+hora para proporcionar una pasantía a estos
+
+1122
+00:42:24,599 --> 00:42:29,339
+estudiantes, efectivamente estás triplicando el
+
+1123
+00:42:26,700 --> 00:42:32,640
+ingresos de ese hogar para el año
+
+1124
+00:42:29,339 --> 00:42:34,200
+Las donaciones se destinan a comprar más MacBooks.
+
+1125
+00:42:32,640 --> 00:42:36,660
+Para los estudiantes se los proporcionamos todos.
+
+1126
+00:42:34,200 --> 00:42:38,099
+con conexión gratuita a Internet para auriculares MacBooks
+
+1127
+00:42:36,660 --> 00:42:40,260
+becas si no tienen internet en
+
+1128
+00:42:38,099 --> 00:42:42,000
+Planes de alimentación en el hogar para nuestros de bajos ingresos.
+
+1129
+00:42:40,260 --> 00:42:43,920
+estudiantes y ropa para los que no
+
+1130
+00:42:42,000 --> 00:42:47,099
+tenerlos también
+
+1131
+00:42:43,920 --> 00:42:48,660
+y los voluntarios que desarrollaron Captain tomaron una
+
+1132
+00:42:47,099 --> 00:42:49,980
+mucho tiempo y si revisas mi GitHub
+
+1133
+00:42:48,660 --> 00:42:51,040
+Historia Todavía estaba enviando cosas.
+
+1134
+00:42:49,980 --> 00:42:54,560
+anoche
+
+1135
+00:42:51,040 --> 00:42:54,560
+[Risa]
+
+1136
+00:42:55,520 --> 00:43:00,960
+así que cualquiera que sea bueno con la seguridad, le recomendaría
+
+1137
+00:42:59,579 --> 00:43:03,300
+Me encanta que vengas porque yo estaba
+
+1138
+00:43:00,960 --> 00:43:05,640
+no soy ingeniero de seguridad cibernética
+
+1139
+00:43:03,300 --> 00:43:07,740
+um ux también ese nunca fue mi fuerte
+
+1140
+00:43:05,640 --> 00:43:10,079
+punto pero escribiendo el código lo entendí
+
+1141
+00:43:07,740 --> 00:43:12,599
+Listo y entonces, me encantaría que vinieras.
+
+1142
+00:43:10,079 --> 00:43:15,180
+entrar y ayudar ayudar a construir coppin en
+
+1143
+00:43:12,599 --> 00:43:16,130
+algo aún más grande
+
+1144
+00:43:15,180 --> 00:43:30,060
+gracias
+
+1145
+00:43:16,130 --> 00:43:32,520
+[Aplausos]
+
+1146
+00:43:30,060 --> 00:43:34,319
+así que todos estaremos aquí arriba
+
+1147
+00:43:32,520 --> 00:43:37,020
+preguntas no dude en hacer preguntas de
+
+1148
+00:43:34,319 --> 00:43:40,280
+yo Jenna o Adrian eso era eso era
+
+1149
+00:43:37,020 --> 00:43:40,280
+Fantástico, gracias
+
+1150
+00:43:41,040 --> 00:43:45,000
+y hay micrófonos aquí abajo así que por favor
+
+1151
+00:43:43,260 --> 00:43:48,660
+por favor entra al micro para que podamos grabar
+
+1152
+00:43:45,000 --> 00:43:50,280
+tu pregunta si tienes uno
+
+1153
+00:43:48,660 --> 00:43:51,900
+tienes una pregunta levanta la mano
+
+1154
+00:43:50,280 --> 00:43:55,160
+alguien
+
+1155
+00:43:51,900 --> 00:43:55,160
+no, lo clavaron
+
+1156
+00:43:58,920 --> 00:44:01,640
+¿Están estos en vivo?
+
+1157
+00:44:02,460 --> 00:44:07,740
+No vi ninguno y tal vez me lo perdí.
+
+1158
+00:44:04,140 --> 00:44:09,960
+En la diapositiva hay una URL o un código QR.
+
+1159
+00:44:07,740 --> 00:44:11,160
+para empoderar
+
+1160
+00:44:09,960 --> 00:44:13,640
+Um, sí, debería haber puesto uno en el
+
+1161
+00:44:11,160 --> 00:44:16,640
+diapositiva eh pero um
+
+1162
+00:44:13,640 --> 00:44:16,640
+empoderaco.org
+
+1163
+00:44:16,819 --> 00:44:21,540
+empowrco.org y estoy seguro de que usted puede
+
+1164
+00:44:20,040 --> 00:44:23,460
+Busca también en Google y encontrarás el
+
+1165
+00:44:21,540 --> 00:44:26,180
+GitHub que es policía y el resto de nuestro
+
+1166
+00:44:23,460 --> 00:44:26,180
+servidores en él
+
+1167
+00:44:27,500 --> 00:44:32,280
+Quiero preguntarle a Adrián cómo estás.
+
+1168
+00:44:30,420 --> 00:44:34,140
+presentaciones que sin problemas estoy estoy
+
+1169
+00:44:32,280 --> 00:44:36,560
+inspirado de varias maneras por ti
+
+1170
+00:44:34,140 --> 00:44:36,560
+ahora mismo
+
+1171
+00:44:48,480 --> 00:44:53,220
+Obviamente una ADI generativa es una
+
+1172
+00:44:51,300 --> 00:44:57,480
+palabra de moda recientemente
+
+1173
+00:44:53,220 --> 00:45:01,680
+¿Hay algún plan para incorporar IA?
+
+1174
+00:44:57,480 --> 00:45:04,339
+herramientas en el producto Romance
+
+1175
+00:45:01,680 --> 00:45:06,900
+una gran pregunta y
+
+1176
+00:45:04,339 --> 00:45:09,599
+no en este momento
+
+1177
+00:45:06,900 --> 00:45:11,819
+Um, justo iba a decir como Jenna.
+
+1178
+00:45:09,599 --> 00:45:15,720
+Estaba desempacando el camino para nosotros.
+
+1179
+00:45:11,819 --> 00:45:18,300
+El mapa es generado por este grupo de personas.
+
+1180
+00:45:15,720 --> 00:45:20,040
+aquí y no sólo la gente del
+
+1181
+00:45:18,300 --> 00:45:21,599
+frente a la habitación así
+
+1182
+00:45:20,040 --> 00:45:24,060
+uno
+
+1183
+00:45:21,599 --> 00:45:25,260
+probablemente haya una opinión impopular
+
+1184
+00:45:24,060 --> 00:45:27,180
+ya que todo el mundo está tan entusiasmado
+
+1185
+00:45:25,260 --> 00:45:29,579
+IA generativa en este momento, pero creo
+
+1186
+00:45:27,180 --> 00:45:31,079
+pensemos en el valor que tenemos
+
+1187
+00:45:29,579 --> 00:45:32,640
+queremos ofrecer a nuestros estudiantes y cómo
+
+1188
+00:45:31,079 --> 00:45:34,560
+queremos cambiar sus vidas en lugar
+
+1189
+00:45:32,640 --> 00:45:37,440
+que encontrar una manera de utilizar una tecnología
+
+1190
+00:45:34,560 --> 00:45:39,599
+Eso realmente se ve muy bien, pero si
+
+1191
+00:45:37,440 --> 00:45:41,400
+tener ideas sobre cómo lo haremos realmente
+
+1192
+00:45:39,599 --> 00:45:42,839
+impactar las vidas de nuestros estudiantes con
+
+1193
+00:45:41,400 --> 00:45:46,260
+IA generativa, pongámoslos en marcha
+
+1194
+00:45:42,839 --> 00:45:48,180
+hoja de ruta y hagamos que todos
+
+1195
+00:45:46,260 --> 00:45:49,800
+refinando esas ideas y ayudándonos
+
+1196
+00:45:48,180 --> 00:45:52,400
+priorizarlos y entender qué
+
+1197
+00:45:49,800 --> 00:45:52,400
+deberíamos estar construyendo
+
+1198
+00:45:54,119 --> 00:45:59,160
+Sí, tengo una pregunta para ti, Jenna.
+
+1199
+00:45:55,980 --> 00:46:01,740
+Estoy realmente sorprendido por lo que lograste.
+
+1200
+00:45:59,160 --> 00:46:04,079
+en solo un año tengo curiosidad por tener
+
+1201
+00:46:01,740 --> 00:46:06,240
+tu perspectiva sobre cuáles son los únicos
+
+1202
+00:46:04,079 --> 00:46:09,060
+desafíos que enfrentarías en
+
+1203
+00:46:06,240 --> 00:46:12,300
+definir un producto para un código abierto
+
+1204
+00:46:09,060 --> 00:46:16,260
+Comunidad donde la gente puede simplemente unirse
+
+1205
+00:46:12,300 --> 00:46:18,180
+y proponernos construir cosas que
+
+1206
+00:46:16,260 --> 00:46:20,700
+eso no es eso no está necesariamente en el
+
+1207
+00:46:18,180 --> 00:46:22,260
+hoja de ruta sí, esa es una gran pregunta.
+
+1208
+00:46:20,700 --> 00:46:24,780
+Creo que uno de los mayores desafíos que
+
+1209
+00:46:22,260 --> 00:46:25,920
+nos hemos topado con cuál es algo así como tú
+
+1210
+00:46:24,780 --> 00:46:27,000
+Saber que los desafíos son siempre oportunidades.
+
+1211
+00:46:25,920 --> 00:46:28,260
+bien
+
+1212
+00:46:27,000 --> 00:46:30,180
+Um, pero el mayor desafío es que
+
+1213
+00:46:28,260 --> 00:46:32,220
+Hay tantos casos de uso que el
+
+1214
+00:46:30,180 --> 00:46:35,280
+Se utiliza la plataforma para lo cual es genial.
+
+1215
+00:46:32,220 --> 00:46:38,160
+correcto, pero presenta algunos desafíos en
+
+1216
+00:46:35,280 --> 00:46:41,339
+términos de decidir qué priorizamos
+
+1217
+00:46:38,160 --> 00:46:43,740
+um un par de ejemplos correctos que tenemos
+
+1218
+00:46:41,339 --> 00:46:45,540
+la plataforma ejecuta moocs y en línea
+
+1219
+00:46:43,740 --> 00:46:47,160
+grados cierto esos son dos muy muy
+
+1220
+00:46:45,540 --> 00:46:48,660
+diferentes conjuntos de características que son
+
+1221
+00:46:47,160 --> 00:46:49,819
+requerido para hacer esos casos de uso
+
+1222
+00:46:48,660 --> 00:46:52,619
+exitoso
+
+1223
+00:46:49,819 --> 00:46:54,300
+pero en términos de esto, este tipo de cosas van
+
+1224
+00:46:52,619 --> 00:46:55,560
+a la oferta principal de productos que es
+
+1225
+00:46:54,300 --> 00:46:56,579
+una de las cosas que toqué en lo que
+
+1226
+00:46:55,560 --> 00:46:58,740
+hablaremos de esto más adelante
+
+1227
+00:46:56,579 --> 00:47:00,359
+mañana también uno de los
+
+1228
+00:46:58,740 --> 00:47:01,980
+estrategias para la plataforma es que nosotros
+
+1229
+00:47:00,359 --> 00:47:04,140
+Queremos simplificarlo para que tengamos un
+
+1230
+00:47:01,980 --> 00:47:06,300
+núcleo que pueda soportar tanta diversidad
+
+1231
+00:47:04,140 --> 00:47:08,940
+posible y este concepto de
+
+1232
+00:47:06,300 --> 00:47:11,220
+sistema de catalogo donde podemos ir agregando
+
+1233
+00:47:08,940 --> 00:47:12,599
+indexar y agregar herramientas que pueda
+
+1234
+00:47:11,220 --> 00:47:14,400
+uso que se basan en el tipo de
+
+1235
+00:47:12,599 --> 00:47:16,020
+personalización que deseas construir, ¿y qué?
+
+1236
+00:47:14,400 --> 00:47:18,000
+estás enseñando o el tipo de enseñanza
+
+1237
+00:47:16,020 --> 00:47:20,520
+que lo estas haciendo la idea es que nosotros
+
+1238
+00:47:18,000 --> 00:47:22,500
+simplificar para volver a ampliar
+
+1239
+00:47:20,520 --> 00:47:23,940
+y creo que ese es uno de los
+
+1240
+00:47:22,500 --> 00:47:26,339
+estrategias que hemos utilizado para
+
+1241
+00:47:23,940 --> 00:47:28,260
+acercarse a eso, pero relacionado, aunque es
+
+1242
+00:47:26,339 --> 00:47:29,460
+que hay porque hay tantos usos
+
+1243
+00:47:28,260 --> 00:47:31,079
+Casos que vienen de tantos.
+
+1244
+00:47:29,460 --> 00:47:33,240
+diferentes organizaciones por lo que no estamos
+
+1245
+00:47:31,079 --> 00:47:34,920
+simplemente construyendo para un conjunto particular de
+
+1246
+00:47:33,240 --> 00:47:36,720
+clientes o un conjunto de clientes o un
+
+1247
+00:47:34,920 --> 00:47:39,300
+un grupo de personas para el que estamos construyendo
+
+1248
+00:47:36,720 --> 00:47:41,520
+a todos les gusta exponencialmente y así
+
+1249
+00:47:39,300 --> 00:47:44,040
+trabajando con diferentes métodos para probar
+
+1250
+00:47:41,520 --> 00:47:45,480
+y recopilar historias de usuarios de varios
+
+1251
+00:47:44,040 --> 00:47:47,099
+partes interesadas de toda la comunidad han
+
+1252
+00:47:45,480 --> 00:47:50,579
+Ha sido una táctica que hemos usado para probar.
+
+1253
+00:47:47,099 --> 00:47:52,140
+y obtener una representación más amplia de usted
+
+1254
+00:47:50,579 --> 00:47:54,240
+conocer las necesidades y los puntos débiles en todo el
+
+1255
+00:47:52,140 --> 00:47:56,640
+comunidad, pero sí, siempre estamos abiertos a
+
+1256
+00:47:54,240 --> 00:47:58,859
+Me sigue gustando evolucionar esos conceptos.
+
+1257
+00:47:56,640 --> 00:48:00,000
+e ideas y ya sabes, ojalá podamos
+
+1258
+00:47:58,859 --> 00:48:01,680
+ser capaz de aprovechar un poco más
+
+1259
+00:48:00,000 --> 00:48:02,940
+modos experimentales en el próximo año como
+
+1260
+00:48:01,680 --> 00:48:05,040
+Bueno
+
+1261
+00:48:02,940 --> 00:48:08,000
+tenemos una ultima pregunta
+
+1262
+00:48:05,040 --> 00:48:08,000
+de cualquiera
+
+1263
+00:48:11,339 --> 00:48:17,280
+Me encantaría saber acerca de uno o dos de
+
+1264
+00:48:13,980 --> 00:48:20,540
+las ideas de aplicaciones para estudiantes que potencian eso
+
+1265
+00:48:17,280 --> 00:48:20,540
+los estudiantes querían construir
+
+1266
+00:48:20,940 --> 00:48:25,920
+Sí, sí, definitivamente, somos nosotros.
+
+1267
+00:48:23,460 --> 00:48:26,940
+construir ahora lo deciden los estudiantes
+
+1268
+00:48:25,920 --> 00:48:28,859
+eso
+
+1269
+00:48:26,940 --> 00:48:32,520
+Las bolsas de trabajo son simplemente aburridas para ellos.
+
+1270
+00:48:28,859 --> 00:48:34,740
+no encuentran de hecho un monstruo y
+
+1271
+00:48:32,520 --> 00:48:38,400
+todos esos entretenidos de usar para que sean
+
+1272
+00:48:34,740 --> 00:48:41,160
+básicamente haciendo una bolsa de trabajo para sus
+
+1273
+00:48:38,400 --> 00:48:43,680
+generación donde puedes aplicar tipo de
+
+1274
+00:48:41,160 --> 00:48:45,960
+¿Cómo usarías el tic tac? Puedes uh
+
+1275
+00:48:43,680 --> 00:48:48,119
+las empresas te mostrarían moda genial
+
+1276
+00:48:45,960 --> 00:48:49,859
+vídeos de su lugar de trabajo y de su
+
+1277
+00:48:48,119 --> 00:48:51,480
+la aplicación comenzaría con un
+
+1278
+00:48:49,859 --> 00:48:53,040
+introducción usando ese tipo de mismo
+
+1279
+00:48:51,480 --> 00:48:55,380
+tecnología de video donde muestras cortos
+
+1280
+00:48:53,040 --> 00:48:56,940
+clips de ti mismo y lo que has hecho
+
+1281
+00:48:55,380 --> 00:48:58,800
+Y después de eso, por supuesto, todavía
+
+1282
+00:48:56,940 --> 00:49:00,540
+Tengo tu currículum pero de alguna manera hace un
+
+1283
+00:48:58,800 --> 00:49:02,220
+enfoque más personal del trabajo
+
+1284
+00:49:00,540 --> 00:49:04,800
+aplicaciones de una manera que habla
+
+1285
+00:49:02,220 --> 00:49:08,579
+su generación y para que uno a mí
+
+1286
+00:49:04,800 --> 00:49:11,040
+Fue realmente genial y um, la cohorte anterior.
+
+1287
+00:49:08,579 --> 00:49:12,900
+ellos ellos que estaban a mitad de la
+
+1288
+00:49:11,040 --> 00:49:14,520
+pandemia y tuvieron problemas para hacer
+
+1289
+00:49:12,900 --> 00:49:15,240
+amigos mientras pasaban por la Alta
+
+1290
+00:49:14,520 --> 00:49:17,460
+Escuela
+
+1291
+00:49:15,240 --> 00:49:19,859
+tuvieron problemas adicionales porque
+
+1292
+00:49:17,460 --> 00:49:23,280
+no podían salir y por eso decidieron
+
+1293
+00:49:19,859 --> 00:49:25,380
+para crear una aplicación de patinaje que sea completa
+
+1294
+00:49:23,280 --> 00:49:27,359
+El propósito era conseguir que cualquiera que quisiera
+
+1295
+00:49:25,380 --> 00:49:29,280
+montar ruedas en bicicletas, patinetas o
+
+1296
+00:49:27,359 --> 00:49:31,680
+cualquier cosa para poder unirnos y
+
+1297
+00:49:29,280 --> 00:49:33,180
+para desviar los eventos de patinaje y
+
+1298
+00:49:31,680 --> 00:49:36,060
+Así que tenían un par de diferentes.
+
+1299
+00:49:33,180 --> 00:49:36,900
+ideas únicas y por eso estoy muy orgulloso de
+
+1300
+00:49:36,060 --> 00:49:38,880
+uno
+
+1301
+00:49:36,900 --> 00:49:40,680
+para poder verlo crecer y ellos
+
+1302
+00:49:38,880 --> 00:49:44,839
+Tengo muchas otras ideas y todavía
+
+1303
+00:49:40,680 --> 00:49:44,839
+Espero que creen que no fueron elegidos así.
+
+1304
+00:49:45,960 --> 00:49:50,949
+[Aplausos]
+

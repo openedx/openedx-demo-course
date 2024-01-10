@@ -1,0 +1,90 @@
+<vertical display_name="Open Response Assessment (ORA)">
+  <html url_name="a8c7df65677b43219d5fcc5fc9f84125"/>
+  <html url_name="b521687f25a84d87a3c5895f4cfdb5ac"/>
+  <openassessment url_name="258949320d4c493e91296a51f33fbedc" submission_start="2001-01-01T00:00:00+00:00" submission_due="2029-01-01T00:00:00+00:00" text_response="required" text_response_editor="tinymce" file_upload_response="optional" file_upload_type="image" white_listed_file_types="gif,jpg,jpeg,jfif,pjpeg,pjp,png" allow_multiple_files="True" allow_latex="True" prompts_type="html" teams_enabled="False" selected_teamset_id="" show_rubric_during_response="True">
+    <title>Open Response Assessment</title>
+    <assessments>
+      <assessment name="self-assessment" enable_flexible_grading="False" start="2001-01-01T00:00:00+00:00" due="2029-01-01T00:00:00+00:00"/>
+    </assessments>
+    <prompts>
+      <prompt>
+        <description>&lt;h3&gt;Introduction:&lt;/h3&gt;
+&lt;p&gt;"Romeo and Juliet" is one of Shakespeare's most iconic plays. Within it, Shakespeare employs a myriad of symbols to convey deeper meanings and emotions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/asset-v1:Axim+DemoX+demo_course+type@asset+block@romeo_juliet_commons.jpeg" alt="Painting of Romeo and Juliet kissing on a balcony" style="margin-left: auto; margin-right: auto;" width="640" height="495" /&gt;&lt;/p&gt;
+&lt;h3&gt;Instructions:&lt;/h3&gt;
+&lt;p&gt;Write a brief essay (300-500 words) analyzing the use of one symbol in "Romeo and Juliet".&lt;/p&gt;
+&lt;p&gt;Discuss:&lt;/p&gt;
+&lt;p&gt;1. The symbol's significance and how it contributes to the overall theme of the play.&lt;/p&gt;
+&lt;p&gt;2. Specific scenes where the symbol is prominently featured and its impact on character development or plot progression.&lt;/p&gt;
+&lt;p&gt;3. How this symbol might be perceived in a contemporary setting or adaptation of the play.&lt;/p&gt;
+&lt;h3&gt;Optional:&lt;/h3&gt;
+&lt;p&gt;Along with your essay, you can upload an image of a scene from any adaptation of "Romeo and Juliet" that effectively illustrates your chosen symbol, be it from stage productions, film adaptations, or artistic representations.&lt;/p&gt;</description>
+      </prompt>
+    </prompts>
+    <rubric>
+      <criterion feedback="optional">
+        <name>Ideas</name>
+        <label>Depth of Analysis (50%)</label>
+        <prompt>How well does the response relate a specific symbol in the play to its theme(s)?</prompt>
+        <option points="0">
+          <name>0</name>
+          <label>Inadequate</label>
+          <explanation>Does not address a specific symbol and/or provide any analysis that relates to the story of Romeo &amp; Juliet.</explanation>
+        </option>
+        <option points="3">
+          <name>1</name>
+          <label>Adequate</label>
+          <explanation>Addresses the symbol's significance and provides some scene references, but may lack depth in analysis.</explanation>
+        </option>
+        <option points="5">
+          <name>2</name>
+          <label>Exemplary</label>
+          <explanation>Comprehensive understanding of the symbol; insightful connections made within the play and to broader themes.</explanation>
+        </option>
+      </criterion>
+      <criterion feedback="optional">
+        <name>0</name>
+        <label>Use of Evidence (30%)</label>
+        <prompt>Does the response use specific evidence (scenes, dialogue, etc) from the play to support its claims?</prompt>
+        <option points="0">
+          <name>0</name>
+          <label>Inadequate</label>
+          <explanation>Does not use any correct evidence to support the piece's claims.</explanation>
+        </option>
+        <option points="2">
+          <name>1</name>
+          <label>Adequate</label>
+          <explanation>Uses some textual evidence but may not fully support claims or might lack precision in references.</explanation>
+        </option>
+        <option points="4">
+          <name>2</name>
+          <label>Exemplary</label>
+          <explanation>Effectively uses textual evidence to support claims; references specific acts and scenes.</explanation>
+        </option>
+      </criterion>
+      <criterion>
+        <name>1</name>
+        <label>Image Upload</label>
+        <prompt>Was an image uploaded?</prompt>
+        <option points="1">
+          <name>0</name>
+          <label>No</label>
+          <explanation>No image was uploaded, or the image was clearly irrelevant. Because this objective is optional, it still receives credit. </explanation>
+        </option>
+        <option points="1">
+          <name>1</name>
+          <label>Yes</label>
+          <explanation>A relevant image was uploaded. </explanation>
+        </option>
+      </criterion>
+      <feedbackprompt>(Optional) What aspects of your response stood out to you? What did it do well? How could it be improved?
+</feedbackprompt>
+      <feedback_default_text>I think that my response...
+</feedback_default_text>
+    </rubric>
+  </openassessment>
+  <html url_name="d897984a61d54127a77f0643c2fe00bb"/>
+  <html url_name="f01347fd0ce14a9383ad95c7bde042d0"/>
+  <html url_name="cf9e4e0c237644a19c969bf4f4c4a529"/>
+  <html url_name="0bebeccf41994851b596500392bd8527"/>
+</vertical>
