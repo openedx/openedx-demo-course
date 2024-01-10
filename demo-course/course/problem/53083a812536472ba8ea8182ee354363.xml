@@ -1,0 +1,81 @@
+<problem display_name="Advanced Custom Python-Evaluated Input Problem" markdown="null" showanswer="never">
+  <script type="loncapa/python"> 
+def desert_trip(expect, ans):
+	try:
+		friends = int(ans[0])
+		total_gallons = int(ans[1])
+		gallons_camel_day1 = float(ans[2])
+		gallons_camel_day3 = float(ans[3])
+    
+		overall_message = "&lt;div style=\"margin-top: 20px; margin-bottom: 20px;\"&gt;&lt;strong&gt;Message:&lt;/strong&gt;&lt;br /&gt;You did not complete the entire problem correctly. Please keep trying.&lt;/div&gt;"
+    
+		friends_answer = "true"
+		friends_grade = 1
+		friends_message = ""
+		total_gallons_answer = "false"
+		total_gallons_grade = 0
+		gallons_camel_day1_answer = "false"
+		gallons_camel_day1_grade = 0
+		gallons_camel_day3_answer = "false"
+		gallons_camel_day3_grade = 0
+
+		if friends &lt; 2:
+			friends_answer = "false"
+			friends_grade = 0
+			friends_message = "Your friend group is too small. Try again."
+    
+		if friends &gt; 5:
+			friends_answer = "false"
+			friends_grade = 0
+			friends_message = "Your friend group is too large. Try again."
+    
+		true_total_gallons = ((friends+1) * 2 * 5) + (3 * 10 * 5)
+		if total_gallons == true_total_gallons:
+			total_gallons_answer = "true"
+			total_gallons_grade = 1
+    
+		if gallons_camel_day1 &gt;= (true_total_gallons / 3) - 1 and gallons_camel_day1 &lt;= (true_total_gallons / 3) + 1 :
+			gallons_camel_day1_answer = "true"
+			gallons_camel_day1_grade = 1
+    
+		if gallons_camel_day3 &gt;= ((true_total_gallons - ((friends+1) * 2 * 3) - (3*5*3)) / 3) - 1 and gallons_camel_day3 &lt;= ((true_total_gallons - ((friends+1) * 2 * 3) - (3*5*3)) / 3) + 1 :
+			gallons_camel_day3_answer = "true"
+			gallons_camel_day3_grade = 1
+    
+		return { 'overall_message': overall_message,
+			'input_list': [
+				{ 'ok': friends_answer, 'msg': friends_message, 'grade_decimal': friends_grade},
+				{ 'ok': total_gallons_answer, 'grade_decimal': total_gallons_grade },
+				{ 'ok': gallons_camel_day1_answer, 'grade_decimal': gallons_camel_day1_grade },
+				{ 'ok': gallons_camel_day3_answer, 'grade_decimal': gallons_camel_day3_grade },
+			]
+		}
+	except ValueError:
+		return False
+</script>
+
+  <div style="width: 80%; margin: 10px auto; background-color: #fff; border: solid 1px #ccc; border-radius: 10px; text-align: center;"><img style="max-width: 100%; height: auto; border-top-left-radius: 9px; border-top-right-radius: 9px;" src="/static/sahara_desert_pexels.jpeg" alt="Sandy dunes in the Sahara Desert"/>
+<div style="text-align: left; padding: 25px 50px;">
+
+  <div style="width: 100%; text-align: center;"><h3><strong>A Trip Across the Sahara</strong></h3></div>
+  <customresponse cfn="desert_trip">
+  <p>You are about to embark upon a 5-day trip across the Sahara desert, a beautiful but harsh and unforgiving expanse. You are bringing a group of your closest friends who were willing to make the trip with you. How many friends will you be bringing? (choose a number between 2 and 5)</p>
+<textline size="12" inline="1"/>
+  <p>On your trip, you will be accompanied by three camels that will be able to carry water jugs. Each person on your trip (your friends and yourself) will require 2 gallons of water per day and each camel will require 10 gallons of water per day. If you are preparing for a 5-day trip, how many gallons of water will you need?</p>
+<textline size="12" inline="1"/>
+  <p>The three camels will carry all of the water. If you distribute the water evenly, how many gallons will each camel be carrying to start the trip?</p>
+<textline size="12" inline="1"/>
+  <p>After day 3, each person drank 6 gallons each. But the camels have only drank 15 gallons each. Now, how many gallons is each camel carrying if they are still carrying equal amounts?</p>
+    <textline size="12" inline="1"/>
+
+</customresponse>
+    <p/>
+
+
+  
+  
+  </div>
+</div>
+<p/>
+  
+</problem>

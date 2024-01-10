@@ -1,0 +1,22 @@
+<problem display_name="Simple Python-Evaluated Input Problem" markdown="null" rerandomize="onreset" show_reset_button="true" weight="1.0">
+  <p>Solve the following equation:</p>
+<script type="loncapa/python">
+x = random.randint(0, 20)
+y = random.randint(0, 20)
+z = x + y
+</script>
+<p>Let x = $x and y = $y. What is the value of (x + y)?</p>
+<numericalresponse answer="$z">
+  <responseparam type="tolerance" default="0.01%" name="tol" description="Numerical Tolerance"/>
+  <textline size="10"/>
+</numericalresponse>
+  <solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>x = $x and y = $y. Therefore x + y  = $z</p>
+  <p>If you reset the problem you can get a new randomly generated set of variables.</p>
+
+</div>
+</solution>
+</problem>

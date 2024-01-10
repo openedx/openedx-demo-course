@@ -1,0 +1,49 @@
+<vertical display_name="Peer Assessment">
+  <html url_name="730b4217e8284e5abf4ae820889bd78b"/>
+  <html url_name="9b4148c7893d43d9ad7c870ea7294ebb"/>
+  <openassessment url_name="414407a9e235444cb530c102fd0c66d0" submission_start="2001-01-01T00:00:00+00:00" submission_due="2029-01-01T00:00:00+00:00" leaderboard_show="3" text_response="required" text_response_editor="tinymce" allow_multiple_files="True" allow_latex="False" prompts_type="html" teams_enabled="False" selected_teamset_id="" show_rubric_during_response="True">
+    <title>Peer Assessment</title>
+    <assessments>
+      <assessment name="peer-assessment" must_grade="1" must_be_graded_by="1" enable_flexible_grading="True" start="2001-01-01T00:00:00+00:00" due="2029-01-01T00:00:00+00:00"/>
+    </assessments>
+    <prompts>
+      <prompt>
+        <description>&lt;p&gt;In the box below, enter a sentence or two about how you intend to use the Open edX platform. If you're not sure yet, share any ideas you have for what the ideal learning platform could look like instead.&lt;/p&gt;
+&lt;p&gt;We've kept the rubric on this very simple, and you'll need to grade at least 1 other person in order to get your results, and only one person needs to grade you, but you can (and should!) set these thresholds higher on your own courses.&lt;/p&gt;</description>
+      </prompt>
+    </prompts>
+    <rubric>
+      <criterion feedback="optional">
+        <name>0</name>
+        <label>Clarity</label>
+        <prompt>Was the submission clear? Did it clearly express its ideas and/or plans?</prompt>
+        <option points="3">
+          <name>0</name>
+          <label>Excellent</label>
+          <explanation>The submission is perfectly clear and expresses the sentiment it was trying to convey clearly to the reader.</explanation>
+        </option>
+        <option points="2">
+          <name>1</name>
+          <label>Good</label>
+          <explanation>The submission was fully-formed and relatively clear, but could have been expressed in clearer language.</explanation>
+        </option>
+        <option points="1">
+          <name>2</name>
+          <label>Poor</label>
+          <explanation>The submission is unclear in places, and doesn't make much sense.</explanation>
+        </option>
+        <option points="0">
+          <name>3</name>
+          <label>Incomplete</label>
+          <explanation>The submission is in some way faulty, such as being a bunch of random letters mashed on a keyboard.</explanation>
+        </option>
+      </criterion>
+      <feedbackprompt>(Optional) What aspects of this response stood out to you? What did it do well? How could it be improved?
+</feedbackprompt>
+      <feedback_default_text>I think that this response...
+</feedback_default_text>
+    </rubric>
+  </openassessment>
+  <html url_name="604ec6d962dd423592af33b609e763de"/>
+  <html url_name="572b7bd7623e460a9b58a576a3dbf963"/>
+</vertical>

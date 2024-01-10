@@ -1,0 +1,32 @@
+<problem display_name="Medical Scenario" markdown="null" showanswer="never">
+  <script type="loncapa/python">
+import json
+def check_fun(e, ans):
+    try:
+      """
+      "response" is a dictionary that contains two keys, "answer" and "state".
+      The value of "answer" is the JSON string that "getGrade" returns.
+      The value of "state" is the JSON string that "getState" returns.
+      Clicking either "Submit" or "Save" registers the current state.
+      """
+
+      response = json.loads(ans)
+      response = json.loads(response["answer"]) 
+      answer = response["edxResult"]
+      edx_grade = response["edxScore"]
+      edx_message = response["edxMessage"]
+
+      return {
+        'input_list': [
+          { 'ok': answer, 'msg': edx_message, 'grade_decimal': edx_grade}
+        ]
+      }
+    except ValueError:
+        return False
+
+</script>
+  <p>Step into the shoes of a medical professional as a patient enters your waiting room complaining of stomach pain. Listen carefully to their symptoms to determine the most likely diagnosis.</p>
+  <customresponse cfn="check_fun">
+    <jsinput gradefn="edx_score.getGrade" get_statefn="edx_score.getState" set_statefn="edx_score.setState" width="840" height="800" html_file="/static/DiagnosisSimulation.html" title="Medical Diagnosis Simulation - Javascript Sample" sop="false"/>
+  </customresponse>
+</problem>

@@ -1,0 +1,28 @@
+{
+    "GRADER": [
+        {
+            "drop_count": 0,
+            "min_count": 1,
+            "short_label": "Basic",
+            "type": "Basic Assessment Tools",
+            "weight": 0.3
+        },
+        {
+            "drop_count": 0,
+            "min_count": 1,
+            "short_label": "Intermediate",
+            "type": "Intermediate Assessment Tools",
+            "weight": 0.35
+        },
+        {
+            "drop_count": 0,
+            "min_count": 1,
+            "short_label": "Advanced",
+            "type": "Advanced Assessment Tools",
+            "weight": 0.35
+        }
+    ],
+    "GRADE_CUTOFFS": {
+        "Pass": 0.5
+    }
+}

@@ -1,0 +1,72 @@
+0
+00:00:00,000 --> 00:00:04,500
+Voiceover: Meet the system that is behind the revolution of digital learning.
+
+1
+00:00:04,573 --> 00:00:11,821
+The Open edX platform is an innovative, robust, scalable, and learner-centred
+
+2
+00:00:12,021 --> 00:00:16,661
+web-based platform trusted by premier institutions throughout the world.
+
+3
+00:00:16,800 --> 00:00:21,128
+It is developed in collaboration with top universities, technology partners,
+
+4
+00:00:21,129 --> 00:00:23,729
+learning communities, and research centres.
+
+5
+00:00:24,114 --> 00:00:28,436
+It can be used on any cloud infrastructure, or your own servers
+
+6
+00:00:28,437 --> 00:00:31,386
+to support any number of learners you want.
+
+7
+00:00:31,586 --> 00:00:35,520
+It is a category-defining, unified learning platform
+
+8
+00:00:35,521 --> 00:00:38,457
+that can support degree programs, online campuses,
+
+9
+00:00:38,458 --> 00:00:42,329
+and instructor- and self-paced courses.
+
+10
+00:00:42,529 --> 00:00:46,000
+The Open edX Platform's innovative and flexible architecture
+
+11
+00:00:46,001 --> 00:00:50,512
+enables you to create your own highly-customized learner
+
+12
+00:00:50,513 --> 00:00:53,814
+experiences quickly and cost-effectively.
+
+13
+00:00:54,043 --> 00:00:58,371
+It provides a seamless learner experience on all platforms
+
+14
+00:00:58,372 --> 00:01:02,943
+and extensive data and analytics  in near real-time.
+
+15
+00:01:02,944 --> 00:01:07,900
+It includes an integrated authoring tool, Studio, for content development.
+
+16
+00:01:08,043 --> 00:01:12,643
+And you are part of a comprehensive ecosystem once you start using it.
+
+17
+00:01:12,644 --> 00:01:21,850
+Open edX, e-learning on any scale, any content, any course, any device.
+

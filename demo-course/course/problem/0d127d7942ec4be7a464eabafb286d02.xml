@@ -1,0 +1,29 @@
+<problem display_name="Protein Builder" markdown="null">
+<script type="loncapa/python">
+
+def protex_grader(expect,ans):
+  import json
+  ans=json.loads(ans)
+  if "ERROR" in ans["protex_answer"]:
+    raise ValueError("Protex did not understand your answer. Try folding the protein.")
+  return ans["protex_answer"]=="CORRECT"
+
+</script>
+
+  <text>
+    <customresponse cfn="protex_grader">
+      <designprotein2dinput width="855" height="580" target_shape="W;W;W;W;W;W;W"/>
+    </customresponse>
+  </text>
+  <solution>
+    <p>
+      Many protein sequences, such as the following example, fold to a straight line.You can play around with the protein builder if you're curious.
+      <img src="/static/protein_sln.png" alt="The protein canvas with R-R-R-R-R-R-R displayed" style="max-width: 600px;"/>
+    </p>
+    <ul>
+      <li>
+          Stick: RRRRRRR
+      </li>
+    </ul>
+  </solution>
+</problem>

@@ -1,0 +1,8277 @@
+#periodic-table.oxidation_states dl.column-18 {
+ background-color: #DDD;
+}
+
+#periodic-table.oxidation_states dl.row-8 {
+ background-color: #BBB;
+}
+
+#periodic-table.oxidation_states dl.row-9 {
+ background-color: #BBB;
+}
+
+
+#periodic-table.atomic_volume dl[itemid="Au"] {
+ background-color: red;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="H"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="H"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.density dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.atomic_number dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="H"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.boiling_point dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="H"]{
+ background-color: #afcace;
+}
+
+#periodic-table.atomic_weight dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.crystal_structure dl[itemid="H"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.electronegativity dl[itemid="H"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="H"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="H"]{
+ background-color: #a7dbd8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="He"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="He"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="He"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.atomic_number dl[itemid="He"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="He"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.boiling_point dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="He"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="He"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.crystal_structure dl[itemid="He"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.electronegativity dl[itemid="He"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="He"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="He"]{
+ background-color: #a7dbd8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Li"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Li"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Li"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Li"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.atomic_number dl[itemid="Li"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Li"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Li"]{
+ background-color: #afcace;
+}
+
+#periodic-table.covalent_radius dl[itemid="Li"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Li"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.boiling_point dl[itemid="Li"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Li"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.atomic_weight dl[itemid="Li"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Li"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Li"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.electronegativity dl[itemid="Li"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Li"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.polarizability dl[itemid="Li"]{
+ background-color: #b7b9c4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Be"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Be"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Be"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Be"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.atomic_number dl[itemid="Be"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Be"]{
+ background-color: #b2c5cb;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Be"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Be"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Be"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.boiling_point dl[itemid="Be"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Be"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.atomic_weight dl[itemid="Be"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Be"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Be"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.electronegativity dl[itemid="Be"]{
+ background-color: #b2c5cb;
+}
+
+#periodic-table.ionic_radius dl[itemid="Be"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.polarizability dl[itemid="Be"]{
+ background-color: #abd3d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="B"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="B"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="B"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.density dl[itemid="B"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.atomic_number dl[itemid="B"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="B"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="B"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.covalent_radius dl[itemid="B"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="B"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.boiling_point dl[itemid="B"]{
+ background-color: #c49db4;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="B"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.atomic_weight dl[itemid="B"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.crystal_structure dl[itemid="B"]{
+ background-color: #e9f4bb;
+}
+
+#periodic-table.melting_point dl[itemid="B"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.electronegativity dl[itemid="B"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.ionic_radius dl[itemid="B"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.polarizability dl[itemid="B"]{
+ background-color: #a9d7d6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="C"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="C"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="C"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.density dl[itemid="C"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.atomic_number dl[itemid="C"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="C"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="C"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.covalent_radius dl[itemid="C"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="C"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.boiling_point dl[itemid="C"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="C"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="C"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.crystal_structure dl[itemid="C"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="C"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.electronegativity dl[itemid="C"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.ionic_radius dl[itemid="C"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="C"]{
+ background-color: #a8d9d7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="N"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="N"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="N"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.density dl[itemid="N"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.atomic_number dl[itemid="N"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="N"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="N"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="N"]{
+ background-color: #b0c9cd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="N"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.boiling_point dl[itemid="N"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="N"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.atomic_weight dl[itemid="N"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.crystal_structure dl[itemid="N"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="N"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.electronegativity dl[itemid="N"]{
+ background-color: #c49eb5;
+}
+
+#periodic-table.ionic_radius dl[itemid="N"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.polarizability dl[itemid="N"]{
+ background-color: #a7dad7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="O"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="O"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="O"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.density dl[itemid="O"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.atomic_number dl[itemid="O"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="O"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="O"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="O"]{
+ background-color: #afcace;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="O"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.boiling_point dl[itemid="O"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="O"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.atomic_weight dl[itemid="O"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.crystal_structure dl[itemid="O"]{
+ background-color: #d29baa;
+}
+
+#periodic-table.melting_point dl[itemid="O"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.electronegativity dl[itemid="O"]{
+ background-color: #c894af;
+}
+
+#periodic-table.ionic_radius dl[itemid="O"]{
+ background-color: #bfa8ba;
+}
+
+#periodic-table.polarizability dl[itemid="O"]{
+ background-color: #a7dad8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="F"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="F"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="F"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.density dl[itemid="F"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.atomic_number dl[itemid="F"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="F"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="F"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="F"]{
+ background-color: #afcace;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="F"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.boiling_point dl[itemid="F"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="F"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.atomic_weight dl[itemid="F"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.crystal_structure dl[itemid="F"]{
+ background-color: #d29baa;
+}
+
+#periodic-table.melting_point dl[itemid="F"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.electronegativity dl[itemid="F"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.ionic_radius dl[itemid="F"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.polarizability dl[itemid="F"]{
+ background-color: #a7dbd8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ne"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ne"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ne"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.density dl[itemid="Ne"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.atomic_number dl[itemid="Ne"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ne"]{
+ background-color: #c992ae;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ne"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ne"]{
+ background-color: #afcace;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ne"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.boiling_point dl[itemid="Ne"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ne"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ne"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ne"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ne"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.electronegativity dl[itemid="Ne"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ne"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Ne"]{
+ background-color: #a7dbd8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Na"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Na"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Na"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Na"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.atomic_number dl[itemid="Na"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Na"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Na"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Na"]{
+ background-color: #bfa8ba;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Na"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.boiling_point dl[itemid="Na"]{
+ background-color: #afcace;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Na"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.atomic_weight dl[itemid="Na"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.crystal_structure dl[itemid="Na"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Na"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.electronegativity dl[itemid="Na"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.ionic_radius dl[itemid="Na"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.polarizability dl[itemid="Na"]{
+ background-color: #b7bac5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Mg"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Mg"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Mg"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Mg"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.atomic_number dl[itemid="Mg"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Mg"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Mg"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Mg"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Mg"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.boiling_point dl[itemid="Mg"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Mg"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.atomic_weight dl[itemid="Mg"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.crystal_structure dl[itemid="Mg"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Mg"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.electronegativity dl[itemid="Mg"]{
+ background-color: #aecbcf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Mg"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.polarizability dl[itemid="Mg"]{
+ background-color: #aeccd0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Al"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Al"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Al"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.density dl[itemid="Al"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.atomic_number dl[itemid="Al"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Al"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Al"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.covalent_radius dl[itemid="Al"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Al"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.boiling_point dl[itemid="Al"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Al"]{
+ background-color: #b4bec7;
+}
+
+#periodic-table.atomic_weight dl[itemid="Al"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.crystal_structure dl[itemid="Al"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Al"]{
+ background-color: #afcace;
+}
+
+#periodic-table.electronegativity dl[itemid="Al"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.ionic_radius dl[itemid="Al"]{
+ background-color: #afcace;
+}
+
+#periodic-table.polarizability dl[itemid="Al"]{
+ background-color: #abd2d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Si"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Si"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Si"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.density dl[itemid="Si"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.atomic_number dl[itemid="Si"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Si"]{
+ background-color: #afcace;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Si"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Si"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Si"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.boiling_point dl[itemid="Si"]{
+ background-color: #bfa8ba;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Si"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.atomic_weight dl[itemid="Si"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.crystal_structure dl[itemid="Si"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Si"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.electronegativity dl[itemid="Si"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Si"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.polarizability dl[itemid="Si"]{
+ background-color: #aad4d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="P"]{
+ background-color: #aecbcf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="P"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="P"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.density dl[itemid="P"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.atomic_number dl[itemid="P"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="P"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="P"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="P"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="P"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.boiling_point dl[itemid="P"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="P"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.atomic_weight dl[itemid="P"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.crystal_structure dl[itemid="P"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="P"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.electronegativity dl[itemid="P"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="P"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.polarizability dl[itemid="P"]{
+ background-color: #a9d6d5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="S"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="S"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="S"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.density dl[itemid="S"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.atomic_number dl[itemid="S"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="S"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="S"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="S"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="S"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.boiling_point dl[itemid="S"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="S"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.atomic_weight dl[itemid="S"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.crystal_structure dl[itemid="S"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="S"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.electronegativity dl[itemid="S"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.ionic_radius dl[itemid="S"]{
+ background-color: #c895b0;
+}
+
+#periodic-table.polarizability dl[itemid="S"]{
+ background-color: #a9d7d6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cl"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cl"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cl"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.density dl[itemid="Cl"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.atomic_number dl[itemid="Cl"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cl"]{
+ background-color: #b9b6c2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cl"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cl"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cl"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.boiling_point dl[itemid="Cl"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cl"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cl"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cl"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="Cl"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.electronegativity dl[itemid="Cl"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cl"]{
+ background-color: #c796b0;
+}
+
+#periodic-table.polarizability dl[itemid="Cl"]{
+ background-color: #a8d8d6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ar"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ar"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ar"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.density dl[itemid="Ar"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.atomic_number dl[itemid="Ar"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ar"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ar"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ar"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ar"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.boiling_point dl[itemid="Ar"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ar"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ar"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ar"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ar"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.electronegativity dl[itemid="Ar"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ar"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Ar"]{
+ background-color: #a8d9d7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="K"]{
+ background-color: #c0a6ba;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="K"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="K"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="K"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.atomic_number dl[itemid="K"]{
+ background-color: #adced1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="K"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="K"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.covalent_radius dl[itemid="K"]{
+ background-color: #c993af;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="K"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.boiling_point dl[itemid="K"]{
+ background-color: #aeccd0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="K"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.atomic_weight dl[itemid="K"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.crystal_structure dl[itemid="K"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="K"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.electronegativity dl[itemid="K"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.ionic_radius dl[itemid="K"]{
+ background-color: #bfa8ba;
+}
+
+#periodic-table.polarizability dl[itemid="K"]{
+ background-color: #c49db4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ca"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ca"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ca"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.density dl[itemid="Ca"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.atomic_number dl[itemid="Ca"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ca"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ca"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ca"]{
+ background-color: #c39fb6;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ca"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.boiling_point dl[itemid="Ca"]{
+ background-color: #b3c2c9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ca"]{
+ background-color: #adced0;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ca"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ca"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ca"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.electronegativity dl[itemid="Ca"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ca"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.polarizability dl[itemid="Ca"]{
+ background-color: #b6bbc5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Sc"]{
+ background-color: #adced0;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Sc"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Sc"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.density dl[itemid="Sc"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.atomic_number dl[itemid="Sc"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Sc"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Sc"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Sc"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Sc"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.boiling_point dl[itemid="Sc"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Sc"]{
+ background-color: #b5bcc6;
+}
+
+#periodic-table.atomic_weight dl[itemid="Sc"]{
+ background-color: #adced1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Sc"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Sc"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.electronegativity dl[itemid="Sc"]{
+ background-color: #afcace;
+}
+
+#periodic-table.ionic_radius dl[itemid="Sc"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.polarizability dl[itemid="Sc"]{
+ background-color: #b3c2ca;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ti"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ti"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ti"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.density dl[itemid="Ti"]{
+ background-color: #afcace;
+}
+
+#periodic-table.atomic_number dl[itemid="Ti"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ti"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ti"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ti"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ti"]{
+ background-color: #bcadbe;
+}
+
+#periodic-table.boiling_point dl[itemid="Ti"]{
+ background-color: #bfa7ba;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ti"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ti"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ti"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Ti"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.electronegativity dl[itemid="Ti"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ti"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Ti"]{
+ background-color: #b1c6cc;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="V"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="V"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="V"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.density dl[itemid="V"]{
+ background-color: #b1c5cb;
+}
+
+#periodic-table.atomic_number dl[itemid="V"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="V"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="V"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.covalent_radius dl[itemid="V"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="V"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.boiling_point dl[itemid="V"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="V"]{
+ background-color: #bea9bb;
+}
+
+#periodic-table.atomic_weight dl[itemid="V"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.crystal_structure dl[itemid="V"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="V"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.electronegativity dl[itemid="V"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.ionic_radius dl[itemid="V"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.polarizability dl[itemid="V"]{
+ background-color: #afcace;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cr"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cr"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cr"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.density dl[itemid="Cr"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.atomic_number dl[itemid="Cr"]{
+ background-color: #afcace;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cr"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cr"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cr"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cr"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.boiling_point dl[itemid="Cr"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cr"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cr"]{
+ background-color: #aeccd0;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cr"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Cr"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.electronegativity dl[itemid="Cr"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cr"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.polarizability dl[itemid="Cr"]{
+ background-color: #afcbcf;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Mn"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Mn"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Mn"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.density dl[itemid="Mn"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.atomic_number dl[itemid="Mn"]{
+ background-color: #afcace;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Mn"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Mn"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Mn"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Mn"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.boiling_point dl[itemid="Mn"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Mn"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.atomic_weight dl[itemid="Mn"]{
+ background-color: #aecbcf;
+}
+
+#periodic-table.crystal_structure dl[itemid="Mn"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Mn"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.electronegativity dl[itemid="Mn"]{
+ background-color: #b1c5cb;
+}
+
+#periodic-table.ionic_radius dl[itemid="Mn"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.polarizability dl[itemid="Mn"]{
+ background-color: #adced1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Fe"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Fe"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Fe"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.density dl[itemid="Fe"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.atomic_number dl[itemid="Fe"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Fe"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Fe"]{
+ background-color: #aecbcf;
+}
+
+#periodic-table.covalent_radius dl[itemid="Fe"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Fe"]{
+ background-color: #b9b6c2;
+}
+
+#periodic-table.boiling_point dl[itemid="Fe"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Fe"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.atomic_weight dl[itemid="Fe"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.crystal_structure dl[itemid="Fe"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Fe"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.electronegativity dl[itemid="Fe"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.ionic_radius dl[itemid="Fe"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.polarizability dl[itemid="Fe"]{
+ background-color: #accfd1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Co"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Co"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Co"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.density dl[itemid="Co"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.atomic_number dl[itemid="Co"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Co"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Co"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.covalent_radius dl[itemid="Co"]{
+ background-color: #b8b8c4;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Co"]{
+ background-color: #bab2c1;
+}
+
+#periodic-table.boiling_point dl[itemid="Co"]{
+ background-color: #bdadbd;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Co"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.atomic_weight dl[itemid="Co"]{
+ background-color: #afcace;
+}
+
+#periodic-table.crystal_structure dl[itemid="Co"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Co"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.electronegativity dl[itemid="Co"]{
+ background-color: #b5bcc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Co"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.polarizability dl[itemid="Co"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ni"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ni"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ni"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.density dl[itemid="Ni"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.atomic_number dl[itemid="Ni"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ni"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ni"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ni"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ni"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.boiling_point dl[itemid="Ni"]{
+ background-color: #bdadbd;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ni"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ni"]{
+ background-color: #afcace;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ni"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ni"]{
+ background-color: #b5bcc6;
+}
+
+#periodic-table.electronegativity dl[itemid="Ni"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ni"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Ni"]{
+ background-color: #abd2d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cu"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cu"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cu"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.density dl[itemid="Cu"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.atomic_number dl[itemid="Cu"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cu"]{
+ background-color: #aecbcf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cu"]{
+ background-color: #cc8baa;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cu"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cu"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.boiling_point dl[itemid="Cu"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cu"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cu"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cu"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Cu"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.electronegativity dl[itemid="Cu"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cu"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.polarizability dl[itemid="Cu"]{
+ background-color: #abd3d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Zn"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Zn"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Zn"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="Zn"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.atomic_number dl[itemid="Zn"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Zn"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Zn"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.covalent_radius dl[itemid="Zn"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Zn"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.boiling_point dl[itemid="Zn"]{
+ background-color: #afcace;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Zn"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.atomic_weight dl[itemid="Zn"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.crystal_structure dl[itemid="Zn"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Zn"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.electronegativity dl[itemid="Zn"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.ionic_radius dl[itemid="Zn"]{
+ background-color: #b3c2c9;
+}
+
+#periodic-table.polarizability dl[itemid="Zn"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ga"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ga"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ga"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.density dl[itemid="Ga"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.atomic_number dl[itemid="Ga"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ga"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ga"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ga"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ga"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.boiling_point dl[itemid="Ga"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ga"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ga"]{
+ background-color: #b0c7cc;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ga"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="Ga"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.electronegativity dl[itemid="Ga"]{
+ background-color: #b4bec7;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ga"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.polarizability dl[itemid="Ga"]{
+ background-color: #acd0d1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ge"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ge"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ge"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.density dl[itemid="Ge"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.atomic_number dl[itemid="Ge"]{
+ background-color: #b2c5cb;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ge"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ge"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ge"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ge"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.boiling_point dl[itemid="Ge"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ge"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ge"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ge"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ge"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.electronegativity dl[itemid="Ge"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ge"]{
+ background-color: #afcace;
+}
+
+#periodic-table.polarizability dl[itemid="Ge"]{
+ background-color: #abd3d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="As"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="As"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="As"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.density dl[itemid="As"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.atomic_number dl[itemid="As"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="As"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="As"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.covalent_radius dl[itemid="As"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="As"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.boiling_point dl[itemid="As"]{
+ background-color: #adced1;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="As"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_weight dl[itemid="As"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.crystal_structure dl[itemid="As"]{
+ background-color: #e9f4bb;
+}
+
+#periodic-table.melting_point dl[itemid="As"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.electronegativity dl[itemid="As"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="As"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.polarizability dl[itemid="As"]{
+ background-color: #aad5d5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Se"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Se"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Se"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.density dl[itemid="Se"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.atomic_number dl[itemid="Se"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Se"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Se"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Se"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Se"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.boiling_point dl[itemid="Se"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Se"]{
+ background-color: #aecbcf;
+}
+
+#periodic-table.atomic_weight dl[itemid="Se"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.crystal_structure dl[itemid="Se"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Se"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.electronegativity dl[itemid="Se"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.ionic_radius dl[itemid="Se"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.polarizability dl[itemid="Se"]{
+ background-color: #a9d6d5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Br"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Br"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Br"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.density dl[itemid="Br"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.atomic_number dl[itemid="Br"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Br"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Br"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Br"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Br"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.boiling_point dl[itemid="Br"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Br"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.atomic_weight dl[itemid="Br"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.crystal_structure dl[itemid="Br"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="Br"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.electronegativity dl[itemid="Br"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Br"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.polarizability dl[itemid="Br"]{
+ background-color: #a9d7d6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Kr"]{
+ background-color: #b8b8c4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Kr"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Kr"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.density dl[itemid="Kr"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.atomic_number dl[itemid="Kr"]{
+ background-color: #b3c2c9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Kr"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Kr"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Kr"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Kr"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.boiling_point dl[itemid="Kr"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Kr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Kr"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.crystal_structure dl[itemid="Kr"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Kr"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.electronegativity dl[itemid="Kr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Kr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Kr"]{
+ background-color: #a8d8d6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Rb"]{
+ background-color: #c699b2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Rb"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Rb"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Rb"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.atomic_number dl[itemid="Rb"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Rb"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Rb"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Rb"]{
+ background-color: #cb8eab;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Rb"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.boiling_point dl[itemid="Rb"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Rb"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.atomic_weight dl[itemid="Rb"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.crystal_structure dl[itemid="Rb"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Rb"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.electronegativity dl[itemid="Rb"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Rb"]{
+ background-color: #c2a2b7;
+}
+
+#periodic-table.polarizability dl[itemid="Rb"]{
+ background-color: #c798b1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Sr"]{
+ background-color: #b9b6c2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Sr"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Sr"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.density dl[itemid="Sr"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.atomic_number dl[itemid="Sr"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Sr"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Sr"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.covalent_radius dl[itemid="Sr"]{
+ background-color: #c698b2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Sr"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.boiling_point dl[itemid="Sr"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Sr"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.atomic_weight dl[itemid="Sr"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.crystal_structure dl[itemid="Sr"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Sr"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.electronegativity dl[itemid="Sr"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Sr"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.polarizability dl[itemid="Sr"]{
+ background-color: #bab4c1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Y"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Y"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Y"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.density dl[itemid="Y"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.atomic_number dl[itemid="Y"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Y"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Y"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Y"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Y"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.boiling_point dl[itemid="Y"]{
+ background-color: #c0a7ba;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Y"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.atomic_weight dl[itemid="Y"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.crystal_structure dl[itemid="Y"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Y"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.electronegativity dl[itemid="Y"]{
+ background-color: #adced0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Y"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Y"]{
+ background-color: #b6bbc6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Zr"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Zr"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Zr"]{
+ background-color: #afcace;
+}
+
+#periodic-table.density dl[itemid="Zr"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.atomic_number dl[itemid="Zr"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Zr"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Zr"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Zr"]{
+ background-color: #bdabbd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Zr"]{
+ background-color: #c49db4;
+}
+
+#periodic-table.boiling_point dl[itemid="Zr"]{
+ background-color: #c797b1;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Zr"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.atomic_weight dl[itemid="Zr"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.crystal_structure dl[itemid="Zr"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Zr"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.electronegativity dl[itemid="Zr"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Zr"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.polarizability dl[itemid="Zr"]{
+ background-color: #b3c2c9;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Nb"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Nb"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Nb"]{
+ background-color: #b1c5cb;
+}
+
+#periodic-table.density dl[itemid="Nb"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.atomic_number dl[itemid="Nb"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Nb"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Nb"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.covalent_radius dl[itemid="Nb"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Nb"]{
+ background-color: #ca91ad;
+}
+
+#periodic-table.boiling_point dl[itemid="Nb"]{
+ background-color: #c992ae;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Nb"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.atomic_weight dl[itemid="Nb"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.crystal_structure dl[itemid="Nb"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Nb"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.electronegativity dl[itemid="Nb"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.ionic_radius dl[itemid="Nb"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Nb"]{
+ background-color: #b1c5cb;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Mo"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Mo"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Mo"]{
+ background-color: #b2c5cb;
+}
+
+#periodic-table.density dl[itemid="Mo"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.atomic_number dl[itemid="Mo"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Mo"]{
+ background-color: #adced1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Mo"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Mo"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Mo"]{
+ background-color: #c59cb3;
+}
+
+#periodic-table.boiling_point dl[itemid="Mo"]{
+ background-color: #c994af;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Mo"]{
+ background-color: #c69ab3;
+}
+
+#periodic-table.atomic_weight dl[itemid="Mo"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.crystal_structure dl[itemid="Mo"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Mo"]{
+ background-color: #bfa7ba;
+}
+
+#periodic-table.electronegativity dl[itemid="Mo"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Mo"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.polarizability dl[itemid="Mo"]{
+ background-color: #afc9ce;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Tc"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Tc"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Tc"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.density dl[itemid="Tc"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.atomic_number dl[itemid="Tc"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Tc"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Tc"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.covalent_radius dl[itemid="Tc"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Tc"]{
+ background-color: #c895af;
+}
+
+#periodic-table.boiling_point dl[itemid="Tc"]{
+ background-color: #c699b2;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Tc"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.atomic_weight dl[itemid="Tc"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.crystal_structure dl[itemid="Tc"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Tc"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.electronegativity dl[itemid="Tc"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Tc"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.polarizability dl[itemid="Tc"]{
+ background-color: #afcbcf;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ru"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ru"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ru"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.density dl[itemid="Ru"]{
+ background-color: #bdadbd;
+}
+
+#periodic-table.atomic_number dl[itemid="Ru"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ru"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ru"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ru"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ru"]{
+ background-color: #c39fb5;
+}
+
+#periodic-table.boiling_point dl[itemid="Ru"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ru"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ru"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ru"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Ru"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.electronegativity dl[itemid="Ru"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ru"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Ru"]{
+ background-color: #adced0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Rh"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Rh"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Rh"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.density dl[itemid="Rh"]{
+ background-color: #bdadbd;
+}
+
+#periodic-table.atomic_number dl[itemid="Rh"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Rh"]{
+ background-color: #aeccd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Rh"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Rh"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Rh"]{
+ background-color: #c0a6ba;
+}
+
+#periodic-table.boiling_point dl[itemid="Rh"]{
+ background-color: #c2a1b7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Rh"]{
+ background-color: #c1a5b9;
+}
+
+#periodic-table.atomic_weight dl[itemid="Rh"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Rh"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Rh"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.electronegativity dl[itemid="Rh"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Rh"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Rh"]{
+ background-color: #adcfd1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pd"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pd"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pd"]{
+ background-color: #adced0;
+}
+
+#periodic-table.density dl[itemid="Pd"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.atomic_number dl[itemid="Pd"]{
+ background-color: #b6bac5;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pd"]{
+ background-color: #b0c9cd;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pd"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pd"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pd"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.boiling_point dl[itemid="Pd"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pd"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pd"]{
+ background-color: #b5bcc6;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pd"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Pd"]{
+ background-color: #b6bac5;
+}
+
+#periodic-table.electronegativity dl[itemid="Pd"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pd"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.polarizability dl[itemid="Pd"]{
+ background-color: #aad5d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ag"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ag"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ag"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Ag"]{
+ background-color: #bab4c1;
+}
+
+#periodic-table.atomic_number dl[itemid="Ag"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ag"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ag"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ag"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ag"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.boiling_point dl[itemid="Ag"]{
+ background-color: #b8b8c4;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ag"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ag"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ag"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ag"]{
+ background-color: #b1c5cb;
+}
+
+#periodic-table.electronegativity dl[itemid="Ag"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ag"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.polarizability dl[itemid="Ag"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cd"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cd"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cd"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.density dl[itemid="Cd"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.atomic_number dl[itemid="Cd"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cd"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cd"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cd"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cd"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.boiling_point dl[itemid="Cd"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cd"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cd"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cd"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Cd"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.electronegativity dl[itemid="Cd"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cd"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.polarizability dl[itemid="Cd"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="In"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="In"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="In"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="In"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.atomic_number dl[itemid="In"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="In"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="In"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.covalent_radius dl[itemid="In"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="In"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.boiling_point dl[itemid="In"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="In"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.atomic_weight dl[itemid="In"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.crystal_structure dl[itemid="In"]{
+ background-color: #d9ceb2;
+}
+
+#periodic-table.melting_point dl[itemid="In"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.electronegativity dl[itemid="In"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.ionic_radius dl[itemid="In"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.polarizability dl[itemid="In"]{
+ background-color: #aecdd0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Sn"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Sn"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Sn"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="Sn"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.atomic_number dl[itemid="Sn"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Sn"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Sn"]{
+ background-color: #adced1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Sn"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Sn"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.boiling_point dl[itemid="Sn"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Sn"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_weight dl[itemid="Sn"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.crystal_structure dl[itemid="Sn"]{
+ background-color: #d9ceb2;
+}
+
+#periodic-table.melting_point dl[itemid="Sn"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.electronegativity dl[itemid="Sn"]{
+ background-color: #b6bac5;
+}
+
+#periodic-table.ionic_radius dl[itemid="Sn"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Sn"]{
+ background-color: #acd0d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Sb"]{
+ background-color: #afcace;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Sb"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Sb"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.density dl[itemid="Sb"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.atomic_number dl[itemid="Sb"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Sb"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Sb"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.covalent_radius dl[itemid="Sb"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Sb"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.boiling_point dl[itemid="Sb"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Sb"]{
+ background-color: #b1c5cb;
+}
+
+#periodic-table.atomic_weight dl[itemid="Sb"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.crystal_structure dl[itemid="Sb"]{
+ background-color: #e9f4bb;
+}
+
+#periodic-table.melting_point dl[itemid="Sb"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.electronegativity dl[itemid="Sb"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Sb"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.polarizability dl[itemid="Sb"]{
+ background-color: #abd2d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Te"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Te"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Te"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.density dl[itemid="Te"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.atomic_number dl[itemid="Te"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Te"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Te"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Te"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Te"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.boiling_point dl[itemid="Te"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Te"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.atomic_weight dl[itemid="Te"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.crystal_structure dl[itemid="Te"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Te"]{
+ background-color: #adced1;
+}
+
+#periodic-table.electronegativity dl[itemid="Te"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.ionic_radius dl[itemid="Te"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.polarizability dl[itemid="Te"]{
+ background-color: #aad4d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="I"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="I"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="I"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="I"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.atomic_number dl[itemid="I"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="I"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="I"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="I"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="I"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.boiling_point dl[itemid="I"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="I"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.atomic_weight dl[itemid="I"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.crystal_structure dl[itemid="I"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="I"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.electronegativity dl[itemid="I"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.ionic_radius dl[itemid="I"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.polarizability dl[itemid="I"]{
+ background-color: #aad4d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Xe"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Xe"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Xe"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Xe"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.atomic_number dl[itemid="Xe"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Xe"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Xe"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Xe"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Xe"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.boiling_point dl[itemid="Xe"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Xe"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Xe"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.crystal_structure dl[itemid="Xe"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Xe"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.electronegativity dl[itemid="Xe"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Xe"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Xe"]{
+ background-color: #aad6d5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cs"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cs"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cs"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.density dl[itemid="Cs"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.atomic_number dl[itemid="Cs"]{
+ background-color: #bab4c1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cs"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cs"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cs"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cs"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.boiling_point dl[itemid="Cs"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cs"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cs"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cs"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Cs"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.electronegativity dl[itemid="Cs"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cs"]{
+ background-color: #c59cb3;
+}
+
+#periodic-table.polarizability dl[itemid="Cs"]{
+ background-color: #cf86a7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ba"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ba"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ba"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="Ba"]{
+ background-color: #adced1;
+}
+
+#periodic-table.atomic_number dl[itemid="Ba"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ba"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ba"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ba"]{
+ background-color: #c895b0;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ba"]{
+ background-color: #aeccd0;
+}
+
+#periodic-table.boiling_point dl[itemid="Ba"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ba"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ba"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ba"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Ba"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.electronegativity dl[itemid="Ba"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ba"]{
+ background-color: #bfa9bb;
+}
+
+#periodic-table.polarizability dl[itemid="Ba"]{
+ background-color: #c2a2b7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="La"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="La"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="La"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.density dl[itemid="La"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.atomic_number dl[itemid="La"]{
+ background-color: #bab2c1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="La"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="La"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="La"]{
+ background-color: #c2a1b7;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="La"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.boiling_point dl[itemid="La"]{
+ background-color: #c0a5b9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="La"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.atomic_weight dl[itemid="La"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.crystal_structure dl[itemid="La"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="La"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.electronegativity dl[itemid="La"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.ionic_radius dl[itemid="La"]{
+ background-color: #b9b6c2;
+}
+
+#periodic-table.polarizability dl[itemid="La"]{
+ background-color: #bcafbe;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ce"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ce"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ce"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.density dl[itemid="Ce"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.atomic_number dl[itemid="Ce"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ce"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ce"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ce"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ce"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.boiling_point dl[itemid="Ce"]{
+ background-color: #c0a5b9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ce"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ce"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ce"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ce"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.electronegativity dl[itemid="Ce"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ce"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.polarizability dl[itemid="Ce"]{
+ background-color: #bbb1c0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pr"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pr"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pr"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.density dl[itemid="Pr"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.atomic_number dl[itemid="Pr"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pr"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pr"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pr"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pr"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.boiling_point dl[itemid="Pr"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pr"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pr"]{
+ background-color: #bab2c1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pr"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Pr"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.electronegativity dl[itemid="Pr"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pr"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.polarizability dl[itemid="Pr"]{
+ background-color: #bab3c1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Nd"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Nd"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Nd"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="Nd"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_number dl[itemid="Nd"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Nd"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Nd"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Nd"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Nd"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.boiling_point dl[itemid="Nd"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Nd"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Nd"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.crystal_structure dl[itemid="Nd"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Nd"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.electronegativity dl[itemid="Nd"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.ionic_radius dl[itemid="Nd"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.polarizability dl[itemid="Nd"]{
+ background-color: #bcaebe;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pm"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pm"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="Pm"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.atomic_number dl[itemid="Pm"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pm"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pm"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pm"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Pm"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pm"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pm"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pm"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Pm"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.electronegativity dl[itemid="Pm"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pm"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.polarizability dl[itemid="Pm"]{
+ background-color: #bbb0bf;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Sm"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Sm"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Sm"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.density dl[itemid="Sm"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.atomic_number dl[itemid="Sm"]{
+ background-color: #bcafbe;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Sm"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Sm"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Sm"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Sm"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.boiling_point dl[itemid="Sm"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Sm"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.atomic_weight dl[itemid="Sm"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.crystal_structure dl[itemid="Sm"]{
+ background-color: #e9f4bb;
+}
+
+#periodic-table.melting_point dl[itemid="Sm"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.electronegativity dl[itemid="Sm"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.ionic_radius dl[itemid="Sm"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.polarizability dl[itemid="Sm"]{
+ background-color: #bab2c0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Eu"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Eu"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Eu"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.density dl[itemid="Eu"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.atomic_number dl[itemid="Eu"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Eu"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Eu"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Eu"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Eu"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.boiling_point dl[itemid="Eu"]{
+ background-color: #b4c0c8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Eu"]{
+ background-color: #adced1;
+}
+
+#periodic-table.atomic_weight dl[itemid="Eu"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.crystal_structure dl[itemid="Eu"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Eu"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.electronegativity dl[itemid="Eu"]{
+ background-color: #adced1;
+}
+
+#periodic-table.ionic_radius dl[itemid="Eu"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.polarizability dl[itemid="Eu"]{
+ background-color: #bab4c1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Gd"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Gd"]{
+ background-color: #a7dad8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Gd"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.density dl[itemid="Gd"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.atomic_number dl[itemid="Gd"]{
+ background-color: #bcadbe;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Gd"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Gd"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Gd"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Gd"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.boiling_point dl[itemid="Gd"]{
+ background-color: #bfa8ba;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Gd"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.atomic_weight dl[itemid="Gd"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.crystal_structure dl[itemid="Gd"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Gd"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.electronegativity dl[itemid="Gd"]{
+ background-color: #adced1;
+}
+
+#periodic-table.ionic_radius dl[itemid="Gd"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.polarizability dl[itemid="Gd"]{
+ background-color: #b7bac5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Tb"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Tb"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Tb"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Tb"]{
+ background-color: #b5bcc6;
+}
+
+#periodic-table.atomic_number dl[itemid="Tb"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Tb"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Tb"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Tb"]{
+ background-color: #c1a5b9;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Tb"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.boiling_point dl[itemid="Tb"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Tb"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Tb"]{
+ background-color: #bdadbd;
+}
+
+#periodic-table.crystal_structure dl[itemid="Tb"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Tb"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.electronegativity dl[itemid="Tb"]{
+ background-color: #adced1;
+}
+
+#periodic-table.ionic_radius dl[itemid="Tb"]{
+ background-color: #b6bac5;
+}
+
+#periodic-table.polarizability dl[itemid="Tb"]{
+ background-color: #b8b7c3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Dy"]{
+ background-color: #b0c9cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Dy"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Dy"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Dy"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.atomic_number dl[itemid="Dy"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Dy"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Dy"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Dy"]{
+ background-color: #c0a5b9;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Dy"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.boiling_point dl[itemid="Dy"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Dy"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_weight dl[itemid="Dy"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.crystal_structure dl[itemid="Dy"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Dy"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.electronegativity dl[itemid="Dy"]{
+ background-color: #adced0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Dy"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.polarizability dl[itemid="Dy"]{
+ background-color: #b7b8c4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ho"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ho"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ho"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Ho"]{
+ background-color: #b6bac5;
+}
+
+#periodic-table.atomic_number dl[itemid="Ho"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ho"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ho"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ho"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ho"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.boiling_point dl[itemid="Ho"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ho"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ho"]{
+ background-color: #bdabbd;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ho"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Ho"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.electronegativity dl[itemid="Ho"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ho"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.polarizability dl[itemid="Ho"]{
+ background-color: #b7bac5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Er"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Er"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Er"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.density dl[itemid="Er"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.atomic_number dl[itemid="Er"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Er"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Er"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Er"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Er"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.boiling_point dl[itemid="Er"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Er"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Er"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.crystal_structure dl[itemid="Er"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Er"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.electronegativity dl[itemid="Er"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Er"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.polarizability dl[itemid="Er"]{
+ background-color: #b6bbc6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Tm"]{
+ background-color: #afcace;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Tm"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Tm"]{
+ background-color: #adced0;
+}
+
+#periodic-table.density dl[itemid="Tm"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.atomic_number dl[itemid="Tm"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Tm"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Tm"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Tm"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Tm"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.boiling_point dl[itemid="Tm"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Tm"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.atomic_weight dl[itemid="Tm"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.crystal_structure dl[itemid="Tm"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Tm"]{
+ background-color: #b6bbc5;
+}
+
+#periodic-table.electronegativity dl[itemid="Tm"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Tm"]{
+ background-color: #b9b6c2;
+}
+
+#periodic-table.polarizability dl[itemid="Tm"]{
+ background-color: #b6bcc6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Yb"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Yb"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Yb"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.density dl[itemid="Yb"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_number dl[itemid="Yb"]{
+ background-color: #bfa9bb;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Yb"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Yb"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.covalent_radius dl[itemid="Yb"]{
+ background-color: #c39fb6;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Yb"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.boiling_point dl[itemid="Yb"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Yb"]{
+ background-color: #adced1;
+}
+
+#periodic-table.atomic_weight dl[itemid="Yb"]{
+ background-color: #bfa9bb;
+}
+
+#periodic-table.crystal_structure dl[itemid="Yb"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Yb"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.electronegativity dl[itemid="Yb"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Yb"]{
+ background-color: #b5bcc6;
+}
+
+#periodic-table.polarizability dl[itemid="Yb"]{
+ background-color: #b5bdc7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Lu"]{
+ background-color: #afcace;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Lu"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Lu"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.density dl[itemid="Lu"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.atomic_number dl[itemid="Lu"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Lu"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Lu"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Lu"]{
+ background-color: #bfa7ba;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Lu"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.boiling_point dl[itemid="Lu"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Lu"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.atomic_weight dl[itemid="Lu"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.crystal_structure dl[itemid="Lu"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Lu"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.electronegativity dl[itemid="Lu"]{
+ background-color: #aeccd0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Lu"]{
+ background-color: #b5bdc7;
+}
+
+#periodic-table.polarizability dl[itemid="Lu"]{
+ background-color: #b6bcc6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Hf"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Hf"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Hf"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.density dl[itemid="Hf"]{
+ background-color: #bfa9bb;
+}
+
+#periodic-table.atomic_number dl[itemid="Hf"]{
+ background-color: #bfa7ba;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Hf"]{
+ background-color: #adced1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Hf"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Hf"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Hf"]{
+ background-color: #c895af;
+}
+
+#periodic-table.boiling_point dl[itemid="Hf"]{
+ background-color: #c894af;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Hf"]{
+ background-color: #c895af;
+}
+
+#periodic-table.atomic_weight dl[itemid="Hf"]{
+ background-color: #bfa7ba;
+}
+
+#periodic-table.crystal_structure dl[itemid="Hf"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Hf"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.electronegativity dl[itemid="Hf"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Hf"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.polarizability dl[itemid="Hf"]{
+ background-color: #b2c4cb;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ta"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ta"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ta"]{
+ background-color: #b3c2c9;
+}
+
+#periodic-table.density dl[itemid="Ta"]{
+ background-color: #c49db4;
+}
+
+#periodic-table.atomic_number dl[itemid="Ta"]{
+ background-color: #c0a7ba;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ta"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ta"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ta"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ta"]{
+ background-color: #cd8baa;
+}
+
+#periodic-table.boiling_point dl[itemid="Ta"]{
+ background-color: #ce88a8;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ta"]{
+ background-color: #cc8caa;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ta"]{
+ background-color: #c0a7ba;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ta"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Ta"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.electronegativity dl[itemid="Ta"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ta"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.polarizability dl[itemid="Ta"]{
+ background-color: #b0c9cd;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="W"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="W"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="W"]{
+ background-color: #b4bec7;
+}
+
+#periodic-table.density dl[itemid="W"]{
+ background-color: #c992ae;
+}
+
+#periodic-table.atomic_number dl[itemid="W"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="W"]{
+ background-color: #afcace;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="W"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.covalent_radius dl[itemid="W"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="W"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.boiling_point dl[itemid="W"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="W"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.atomic_weight dl[itemid="W"]{
+ background-color: #c0a6b9;
+}
+
+#periodic-table.crystal_structure dl[itemid="W"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="W"]{
+ background-color: #c699b2;
+}
+
+#periodic-table.electronegativity dl[itemid="W"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.ionic_radius dl[itemid="W"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.polarizability dl[itemid="W"]{
+ background-color: #aecccf;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Re"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Re"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Re"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.density dl[itemid="Re"]{
+ background-color: #cb8eac;
+}
+
+#periodic-table.atomic_number dl[itemid="Re"]{
+ background-color: #c0a5b9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Re"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Re"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.covalent_radius dl[itemid="Re"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Re"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.boiling_point dl[itemid="Re"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Re"]{
+ background-color: #cd8baa;
+}
+
+#periodic-table.atomic_weight dl[itemid="Re"]{
+ background-color: #c0a5b9;
+}
+
+#periodic-table.crystal_structure dl[itemid="Re"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Re"]{
+ background-color: #c49db4;
+}
+
+#periodic-table.electronegativity dl[itemid="Re"]{
+ background-color: #b6bcc6;
+}
+
+#periodic-table.ionic_radius dl[itemid="Re"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.polarizability dl[itemid="Re"]{
+ background-color: #adced0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Os"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Os"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Os"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.density dl[itemid="Os"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.atomic_number dl[itemid="Os"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Os"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Os"]{
+ background-color: #afcace;
+}
+
+#periodic-table.covalent_radius dl[itemid="Os"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Os"]{
+ background-color: #c798b1;
+}
+
+#periodic-table.boiling_point dl[itemid="Os"]{
+ background-color: #cb8eac;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Os"]{
+ background-color: #c698b2;
+}
+
+#periodic-table.atomic_weight dl[itemid="Os"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.crystal_structure dl[itemid="Os"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Os"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.electronegativity dl[itemid="Os"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Os"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.polarizability dl[itemid="Os"]{
+ background-color: #accfd1;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ir"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ir"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ir"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.density dl[itemid="Ir"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.atomic_number dl[itemid="Ir"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ir"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ir"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ir"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ir"]{
+ background-color: #c39fb5;
+}
+
+#periodic-table.boiling_point dl[itemid="Ir"]{
+ background-color: #c797b1;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ir"]{
+ background-color: #c49db4;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ir"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ir"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ir"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.electronegativity dl[itemid="Ir"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ir"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.polarizability dl[itemid="Ir"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pt"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pt"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pt"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.density dl[itemid="Pt"]{
+ background-color: #cd8aa9;
+}
+
+#periodic-table.atomic_number dl[itemid="Pt"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pt"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pt"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pt"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pt"]{
+ background-color: #c1a5b9;
+}
+
+#periodic-table.boiling_point dl[itemid="Pt"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pt"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pt"]{
+ background-color: #c2a2b7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pt"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Pt"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.electronegativity dl[itemid="Pt"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pt"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.polarizability dl[itemid="Pt"]{
+ background-color: #abd2d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Au"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Au"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Au"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.density dl[itemid="Au"]{
+ background-color: #c992ae;
+}
+
+#periodic-table.atomic_number dl[itemid="Au"]{
+ background-color: #c2a2b7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Au"]{
+ background-color: #b1c5cc;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Au"]{
+ background-color: #c59cb4;
+}
+
+#periodic-table.covalent_radius dl[itemid="Au"]{
+ background-color: #bbb0bf;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Au"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.boiling_point dl[itemid="Au"]{
+ background-color: #bcaebe;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Au"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.atomic_weight dl[itemid="Au"]{
+ background-color: #c2a2b7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Au"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Au"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.electronegativity dl[itemid="Au"]{
+ background-color: #bdabbd;
+}
+
+#periodic-table.ionic_radius dl[itemid="Au"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.polarizability dl[itemid="Au"]{
+ background-color: #abd3d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Hg"]{
+ background-color: #adced1;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Hg"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Hg"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Hg"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.atomic_number dl[itemid="Hg"]{
+ background-color: #c2a2b7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Hg"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Hg"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Hg"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Hg"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.boiling_point dl[itemid="Hg"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Hg"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Hg"]{
+ background-color: #c2a1b7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Hg"]{
+ background-color: #e9f4bb;
+}
+
+#periodic-table.melting_point dl[itemid="Hg"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.electronegativity dl[itemid="Hg"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.ionic_radius dl[itemid="Hg"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.polarizability dl[itemid="Hg"]{
+ background-color: #abd3d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Tl"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Tl"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Tl"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.density dl[itemid="Tl"]{
+ background-color: #bcafbe;
+}
+
+#periodic-table.atomic_number dl[itemid="Tl"]{
+ background-color: #c2a1b6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Tl"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Tl"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.covalent_radius dl[itemid="Tl"]{
+ background-color: #beaabc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Tl"]{
+ background-color: #afcace;
+}
+
+#periodic-table.boiling_point dl[itemid="Tl"]{
+ background-color: #b3c2c9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Tl"]{
+ background-color: #adced1;
+}
+
+#periodic-table.atomic_weight dl[itemid="Tl"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.crystal_structure dl[itemid="Tl"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Tl"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.electronegativity dl[itemid="Tl"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Tl"]{
+ background-color: #c2a3b8;
+}
+
+#periodic-table.polarizability dl[itemid="Tl"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pb"]{
+ background-color: #afcace;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pb"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pb"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.density dl[itemid="Pb"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.atomic_number dl[itemid="Pb"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pb"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pb"]{
+ background-color: #aad4d4;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pb"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pb"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.boiling_point dl[itemid="Pb"]{
+ background-color: #b5bec7;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pb"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pb"]{
+ background-color: #c39fb5;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pb"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Pb"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.electronegativity dl[itemid="Pb"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pb"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.polarizability dl[itemid="Pb"]{
+ background-color: #abd2d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Bi"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Bi"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Bi"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.density dl[itemid="Bi"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.atomic_number dl[itemid="Bi"]{
+ background-color: #c39fb6;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Bi"]{
+ background-color: #aecdd0;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Bi"]{
+ background-color: #a8dad7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Bi"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Bi"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.boiling_point dl[itemid="Bi"]{
+ background-color: #b4c0c9;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Bi"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.atomic_weight dl[itemid="Bi"]{
+ background-color: #c49eb5;
+}
+
+#periodic-table.crystal_structure dl[itemid="Bi"]{
+ background-color: #e9f4bb;
+}
+
+#periodic-table.melting_point dl[itemid="Bi"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.electronegativity dl[itemid="Bi"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.ionic_radius dl[itemid="Bi"]{
+ background-color: #b9b6c2;
+}
+
+#periodic-table.polarizability dl[itemid="Bi"]{
+ background-color: #acd1d2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Po"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Po"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Po"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Po"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.atomic_number dl[itemid="Po"]{
+ background-color: #c39fb5;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Po"]{
+ background-color: #b0c9cd;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Po"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Po"]{
+ background-color: #beabbc;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Po"]{
+ background-color: #aad5d4;
+}
+
+#periodic-table.boiling_point dl[itemid="Po"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Po"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.atomic_weight dl[itemid="Po"]{
+ background-color: #c49eb5;
+}
+
+#periodic-table.crystal_structure dl[itemid="Po"]{
+ background-color: #d29baa;
+}
+
+#periodic-table.melting_point dl[itemid="Po"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.electronegativity dl[itemid="Po"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.ionic_radius dl[itemid="Po"]{
+ background-color: #b7b9c5;
+}
+
+#periodic-table.polarizability dl[itemid="Po"]{
+ background-color: #abd2d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="At"]{
+ background-color: #c49eb5;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="At"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="At"]{
+ background-color: #bdabbd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="At"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="At"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.atomic_weight dl[itemid="At"]{
+ background-color: #c49eb5;
+}
+
+#periodic-table.crystal_structure dl[itemid="At"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="At"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.electronegativity dl[itemid="At"]{
+ background-color: #b9b4c2;
+}
+
+#periodic-table.ionic_radius dl[itemid="At"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.polarizability dl[itemid="At"]{
+ background-color: #abd3d3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Rn"]{
+ background-color: #c3a0b6;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Rn"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Rn"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Rn"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.atomic_number dl[itemid="Rn"]{
+ background-color: #c49db4;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Rn"]{
+ background-color: #b4bfc8;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Rn"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.covalent_radius dl[itemid="Rn"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Rn"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.boiling_point dl[itemid="Rn"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Rn"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Rn"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.crystal_structure dl[itemid="Rn"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Rn"]{
+ background-color: #a9d8d6;
+}
+
+#periodic-table.electronegativity dl[itemid="Rn"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Rn"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Rn"]{
+ background-color: #aad4d4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Fr"]{
+ background-color: #c49cb4;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Fr"]{
+ background-color: #a8d8d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Fr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Fr"]{
+ background-color: #adcdd0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Fr"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.atomic_weight dl[itemid="Fr"]{
+ background-color: #c59ab3;
+}
+
+#periodic-table.crystal_structure dl[itemid="Fr"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Fr"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.electronegativity dl[itemid="Fr"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.ionic_radius dl[itemid="Fr"]{
+ background-color: #c796b0;
+}
+
+#periodic-table.polarizability dl[itemid="Fr"]{
+ background-color: #c895b0;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ra"]{
+ background-color: #bcafbe;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ra"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ra"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Ra"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.atomic_number dl[itemid="Ra"]{
+ background-color: #c59cb3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ra"]{
+ background-color: #aad5d5;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ra"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ra"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ra"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Ra"]{
+ background-color: #b1c7cc;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ra"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ra"]{
+ background-color: #c699b2;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ra"]{
+ background-color: #cdd1b7;
+}
+
+#periodic-table.melting_point dl[itemid="Ra"]{
+ background-color: #afcace;
+}
+
+#periodic-table.electronegativity dl[itemid="Ra"]{
+ background-color: #a9d6d5;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ra"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.polarizability dl[itemid="Ra"]{
+ background-color: #c1a4b8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Ac"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Ac"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Ac"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Ac"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.atomic_number dl[itemid="Ac"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Ac"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Ac"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Ac"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Ac"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Ac"]{
+ background-color: #bfa9bb;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Ac"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.atomic_weight dl[itemid="Ac"]{
+ background-color: #c699b2;
+}
+
+#periodic-table.crystal_structure dl[itemid="Ac"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Ac"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.electronegativity dl[itemid="Ac"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.ionic_radius dl[itemid="Ac"]{
+ background-color: #bab2c0;
+}
+
+#periodic-table.polarizability dl[itemid="Ac"]{
+ background-color: #bcadbe;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Th"]{
+ background-color: #b0c8cd;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Th"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Th"]{
+ background-color: #adced1;
+}
+
+#periodic-table.density dl[itemid="Th"]{
+ background-color: #bcafbf;
+}
+
+#periodic-table.atomic_number dl[itemid="Th"]{
+ background-color: #c59ab3;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Th"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Th"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.covalent_radius dl[itemid="Th"]{
+ background-color: #c1a3b8;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Th"]{
+ background-color: #c2a1b7;
+}
+
+#periodic-table.boiling_point dl[itemid="Th"]{
+ background-color: #ca92ae;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Th"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.atomic_weight dl[itemid="Th"]{
+ background-color: #c798b1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Th"]{
+ background-color: #f4ead5;
+}
+
+#periodic-table.melting_point dl[itemid="Th"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.electronegativity dl[itemid="Th"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Th"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.polarizability dl[itemid="Th"]{
+ background-color: #bcadbe;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pa"]{
+ background-color: #adced0;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pa"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pa"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.density dl[itemid="Pa"]{
+ background-color: #c2a1b7;
+}
+
+#periodic-table.atomic_number dl[itemid="Pa"]{
+ background-color: #c69ab2;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pa"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pa"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pa"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pa"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Pa"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pa"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pa"]{
+ background-color: #c798b1;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pa"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="Pa"]{
+ background-color: #b7bac5;
+}
+
+#periodic-table.electronegativity dl[itemid="Pa"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pa"]{
+ background-color: #b9b5c2;
+}
+
+#periodic-table.polarizability dl[itemid="Pa"]{
+ background-color: #b8b7c3;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="U"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="U"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="U"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.density dl[itemid="U"]{
+ background-color: #c993af;
+}
+
+#periodic-table.atomic_number dl[itemid="U"]{
+ background-color: #c699b2;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="U"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="U"]{
+ background-color: #aad6d5;
+}
+
+#periodic-table.covalent_radius dl[itemid="U"]{
+ background-color: #bdadbd;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="U"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.boiling_point dl[itemid="U"]{
+ background-color: #c59bb3;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="U"]{
+ background-color: #bdacbd;
+}
+
+#periodic-table.atomic_weight dl[itemid="U"]{
+ background-color: #c796b0;
+}
+
+#periodic-table.crystal_structure dl[itemid="U"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="U"]{
+ background-color: #b3c2ca;
+}
+
+#periodic-table.electronegativity dl[itemid="U"]{
+ background-color: #afc9ce;
+}
+
+#periodic-table.ionic_radius dl[itemid="U"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.polarizability dl[itemid="U"]{
+ background-color: #b9b4c2;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Np"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Np"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Np"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Np"]{
+ background-color: #cb8eac;
+}
+
+#periodic-table.atomic_number dl[itemid="Np"]{
+ background-color: #c798b1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Np"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Np"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Np"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Np"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Np"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Np"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Np"]{
+ background-color: #c796b0;
+}
+
+#periodic-table.crystal_structure dl[itemid="Np"]{
+ background-color: #fbcc93;
+}
+
+#periodic-table.melting_point dl[itemid="Np"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.electronegativity dl[itemid="Np"]{
+ background-color: #afcace;
+}
+
+#periodic-table.ionic_radius dl[itemid="Np"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.polarizability dl[itemid="Np"]{
+ background-color: #b8b8c4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Pu"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Pu"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Pu"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.density dl[itemid="Pu"]{
+ background-color: #ca91ad;
+}
+
+#periodic-table.atomic_number dl[itemid="Pu"]{
+ background-color: #c797b1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Pu"]{
+ background-color: #abd3d4;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Pu"]{
+ background-color: #a7dad7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Pu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Pu"]{
+ background-color: #b8b6c3;
+}
+
+#periodic-table.boiling_point dl[itemid="Pu"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Pu"]{
+ background-color: #b6bac5;
+}
+
+#periodic-table.atomic_weight dl[itemid="Pu"]{
+ background-color: #c894af;
+}
+
+#periodic-table.crystal_structure dl[itemid="Pu"]{
+ background-color: #d8b9b3;
+}
+
+#periodic-table.melting_point dl[itemid="Pu"]{
+ background-color: #afcbcf;
+}
+
+#periodic-table.electronegativity dl[itemid="Pu"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Pu"]{
+ background-color: #b8b7c3;
+}
+
+#periodic-table.polarizability dl[itemid="Pu"]{
+ background-color: #b7b8c4;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Am"]{
+ background-color: #afcace;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Am"]{
+ background-color: #a7dbd8;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Am"]{
+ background-color: #accfd1;
+}
+
+#periodic-table.density dl[itemid="Am"]{
+ background-color: #bfa8ba;
+}
+
+#periodic-table.atomic_number dl[itemid="Am"]{
+ background-color: #c797b1;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Am"]{
+ background-color: #abd3d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Am"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Am"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Am"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Am"]{
+ background-color: #bbb1c0;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Am"]{
+ background-color: #b2c4cb;
+}
+
+#periodic-table.atomic_weight dl[itemid="Am"]{
+ background-color: #c894af;
+}
+
+#periodic-table.crystal_structure dl[itemid="Am"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Am"]{
+ background-color: #b3c1c9;
+}
+
+#periodic-table.electronegativity dl[itemid="Am"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Am"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.polarizability dl[itemid="Am"]{
+ background-color: #b7bac5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cm"]{
+ background-color: #afcace;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cm"]{
+ background-color: #adcfd1;
+}
+
+#periodic-table.density dl[itemid="Cm"]{
+ background-color: #bfa8bb;
+}
+
+#periodic-table.atomic_number dl[itemid="Cm"]{
+ background-color: #c796b0;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cm"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cm"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Cm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cm"]{
+ background-color: #c993af;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cm"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Cm"]{
+ background-color: #b4bec7;
+}
+
+#periodic-table.electronegativity dl[itemid="Cm"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cm"]{
+ background-color: #b7b8c4;
+}
+
+#periodic-table.polarizability dl[itemid="Cm"]{
+ background-color: #b6bac5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Bk"]{
+ background-color: #c1a4b8;
+}
+
+#periodic-table.atomic_number dl[itemid="Bk"]{
+ background-color: #c895b0;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Bk"]{
+ background-color: #abd2d3;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Bk"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Bk"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Bk"]{
+ background-color: #c993af;
+}
+
+#periodic-table.crystal_structure dl[itemid="Bk"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Bk"]{
+ background-color: #b2c3ca;
+}
+
+#periodic-table.electronegativity dl[itemid="Bk"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Bk"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.polarizability dl[itemid="Bk"]{
+ background-color: #b6bbc6;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Cf"]{
+ background-color: #c894af;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Cf"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Cf"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Cf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Cf"]{
+ background-color: #c992ae;
+}
+
+#periodic-table.crystal_structure dl[itemid="Cf"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Cf"]{
+ background-color: #b1c6cc;
+}
+
+#periodic-table.electronegativity dl[itemid="Cf"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Cf"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.polarizability dl[itemid="Cf"]{
+ background-color: #b5bec7;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Es"]{
+ background-color: #c994af;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Es"]{
+ background-color: #acd1d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Es"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Es"]{
+ background-color: #ca92ae;
+}
+
+#periodic-table.crystal_structure dl[itemid="Es"]{
+ background-color: #bedfd7;
+}
+
+#periodic-table.melting_point dl[itemid="Es"]{
+ background-color: #b0c7cc;
+}
+
+#periodic-table.electronegativity dl[itemid="Es"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Es"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Es"]{
+ background-color: #b4bfc8;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Fm"]{
+ background-color: #c993ae;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Fm"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Fm"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Fm"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.crystal_structure dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Fm"]{
+ background-color: #b6bbc6;
+}
+
+#periodic-table.electronegativity dl[itemid="Fm"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Fm"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Fm"]{
+ background-color: #b7b9c5;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Md"]{
+ background-color: #c992ae;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Md"]{
+ background-color: #acd0d2;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Md"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Md"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.crystal_structure dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Md"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.electronegativity dl[itemid="Md"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="Md"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Md"]{
+ background-color: #b3c1c9;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="No"]{
+ background-color: #ca92ae;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="No"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="No"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="No"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.crystal_structure dl[itemid="No"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="No"]{
+ background-color: #b0c7cd;
+}
+
+#periodic-table.electronegativity dl[itemid="No"]{
+ background-color: #aecccf;
+}
+
+#periodic-table.ionic_radius dl[itemid="No"]{
+ background-color: #bab3c1;
+}
+
+#periodic-table.polarizability dl[itemid="No"]{
+ background-color: #b3c2ca;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Lr"]{
+ background-color: #ca91ad;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Lr"]{
+ background-color: #a8d9d7;
+}
+
+#periodic-table.covalent_radius dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Lr"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.crystal_structure dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Lr"]{
+ background-color: #b7b9c4;
+}
+
+#periodic-table.electronegativity dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Lr"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Rf"]{
+ background-color: #ca90ad;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Rf"]{
+ background-color: #a9d7d6;
+}
+
+#periodic-table.covalent_radius dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Rf"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.crystal_structure dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Rf"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Db"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Db"]{
+ background-color: #acd0d1;
+}
+
+#periodic-table.covalent_radius dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Db"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.crystal_structure dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Db"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Sg"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Sg"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.crystal_structure dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Sg"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Bh"]{
+ background-color: #cb8eac;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Bh"]{
+ background-color: #cb8fac;
+}
+
+#periodic-table.crystal_structure dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Bh"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Hs"]{
+ background-color: #cc8dab;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Hs"]{
+ background-color: #cb8eac;
+}
+
+#periodic-table.crystal_structure dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Hs"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Mt"]{
+ background-color: #cc8cab;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Mt"]{
+ background-color: #cb8eab;
+}
+
+#periodic-table.crystal_structure dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Mt"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uun"]{
+ background-color: #cc8caa;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uun"]{
+ background-color: #cc8dab;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uun"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uuu"]{
+ background-color: #cd8baa;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uuu"]{
+ background-color: #cc8caa;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uuu"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uub"]{
+ background-color: #cd8aa9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uub"]{
+ background-color: #cd8baa;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uub"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uut"]{
+ background-color: #cd89a9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uut"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uuq"]{
+ background-color: #ce89a9;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uuq"]{
+ background-color: #ce88a8;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uuq"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uup"]{
+ background-color: #ce88a8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uup"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uuh"]{
+ background-color: #ce87a8;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uuh"]{
+ background-color: #cf87a8;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uuh"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uus"]{
+ background-color: #cf87a7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uus"]{
+ background-color: #ffffff;
+}
+
+
+
+#periodic-table.atomic_volume dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.specific_heat_capacity dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_fusion dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.density dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_number dl[itemid="Uuo"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.first_ionization_potential dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.thermal_conductivity dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.covalent_radius dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_vaporization dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.boiling_point dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.enthalpy_of_atomization dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.atomic_weight dl[itemid="Uuo"]{
+ background-color: #cf86a7;
+}
+
+#periodic-table.crystal_structure dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.melting_point dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.electronegativity dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.ionic_radius dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+
+#periodic-table.polarizability dl[itemid="Uuo"]{
+ background-color: #ffffff;
+}
+

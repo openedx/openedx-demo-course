@@ -1,0 +1,26 @@
+<problem display_name="Multiple Choice with Hints and Feedback" markdown="&lt;p&gt;&lt;img style=&quot;width: 100%;&quot; src=&quot;/static/Abacus.png&quot; alt=&quot;An abacus with two beads pushed up in the last column, 1 bead in the 2nd to last, and one bead pushed down on the top right. &quot; /&gt;&lt;/p&gt;&#10;&gt;&gt;In the traditional abacus shown above, what number is represented?&lt;&lt;&#10;&#10;( ) 3&#10;( ) 8&#10;( ) 12&#10;( ) 16&#10;(x) 17&#10;&#10;||The &quot;top row&quot; represents the number 5.||&#10;||The furthest right row represents single digits. The second to furthest right represents 10's place. ||&#10;&#10;[explanation]&#10;&lt;p&gt;The last column represents 7 (5 + 1 + 1). The second to last column represents 10. For a total of 17&lt;/p&gt;&#10;&lt;p&gt;&lt;img style=&quot;width: 100%;&quot; src=&quot;/static/Abacus_solution.png&quot; alt=&quot;An abacus with 5, 1, and 1 highlighted in the last column. 10 highlighted in the second to last column. For a total of 17&quot; /&gt;&lt;/p&gt;&#10;[explanation]&#10;&#10;&#10;">
+<multiplechoiceresponse>
+  <p><img style="width: 100%;" src="/static/Abacus.png" alt="An abacus with two beads pushed up in the last column, 1 bead in the 2nd to last, and one bead pushed down on the top right. "/></p>
+<label>In the traditional abacus shown above, what number is represented?</label>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">3</choice>
+    <choice correct="false">8</choice>
+    <choice correct="false">12</choice>
+    <choice correct="false">16</choice>
+    <choice correct="true">17</choice>
+  </choicegroup>
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>The last column represents 7 (5 + 1 + 1). The second to last column represents 10. For a total of 17</p>
+<p><img style="width: 100%;" src="/static/Abacus_solution.png" alt="An abacus with 5, 1, and 1 highlighted in the last column. 10 highlighted in the second to last column. For a total of 17"/></p>
+
+</div>
+</solution>
+</multiplechoiceresponse>
+<demandhint>
+  <hint>The "top row" represents the number 5.</hint>
+  <hint>The furthest right row represents single digits. The second to furthest right represents 10's place.</hint>
+</demandhint>
+</problem>

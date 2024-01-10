@@ -1,0 +1,11 @@
+<problem display_name="Multi-Select Multiple Choice Problem" markdown="&gt;&gt;Which of the following animals engage in long-distance, annual migrations?&lt;&lt;&#10;&#10;[x] Monarch butterfly&#10;[ ] Brown bear&#10;[x] Arctic tern&#10;[ ] Giraffe" show_reset_button="true">
+<choiceresponse>
+  <label>Which of the following animals engage in long-distance, annual migrations?</label>
+<checkboxgroup>
+    <choice correct="true">Monarch butterfly</choice>
+    <choice correct="false">Brown bear</choice>
+    <choice correct="true">Arctic tern</choice>
+    <choice correct="false">Giraffe</choice>
+  </checkboxgroup>
+</choiceresponse>
+</problem>

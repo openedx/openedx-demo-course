@@ -1,0 +1,10 @@
+<problem display_name="Identify the fish" markdown="&gt;&gt;What kind of fish is this? &lt;&lt;&#10;&#10;( ) Puffer fish&#10;(x) Jellyfish&#10;( ) Shark&#10;">
+<multiplechoiceresponse>
+  <label>What kind of fish is this? </label>
+<choicegroup type="MultipleChoice">
+    <choice correct="false">Puffer fish</choice>
+    <choice correct="true">Jellyfish</choice>
+    <choice correct="false">Shark</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+</problem>

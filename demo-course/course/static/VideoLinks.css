@@ -1,0 +1,131 @@
+#vidlinks-static {	
+}
+
+#vidlinks-live {	
+}
+
+.link-text-live {
+}
+
+.vidlink_bl {
+	display: none;
+	opacity: 0.7;
+	background-color: black;
+	
+	font-size: 16px;
+	color: white;
+	
+	position: absolute;
+	bottom: 50px;
+	
+	padding: 4px;
+	border: 2px solid grey;
+	margin: 2px;
+	
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #111;
+}
+
+.vidlink_br {
+	display: none;
+	opacity: 0.7;
+	background-color: black;
+	
+	font-size: 16px;
+	color: white;
+	
+	position: absolute;
+	bottom: 50px;
+	right: 5px;
+	
+	padding: 4px;
+	border: 2px solid grey;
+	margin: 2px;
+	
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #111;
+}
+
+.vidlink_tl {
+	display: none;
+	opacity: 0.7;
+	background-color: black;
+	
+	font-size: 16px;
+	color: white;
+	
+	position: absolute;
+	top: 5px;
+	
+	padding: 4px;
+	border: 2px solid grey;
+	margin: 2px;
+	
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #111;
+}
+
+.vidlink_tr {
+	display: none;
+	opacity: 0.7;
+	background-color: black;
+	
+	font-size: 16px;
+	color: white;
+	
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	
+	padding: 4px;
+	border: 2px solid grey;
+	margin: 2px;
+	
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px #111;
+}
+
+.vidlink-static {
+	display: list-item;
+}
+
+.vidlink_bl a:link {
+	color: white;
+}
+
+.vidlink_tl a:link {
+	color: white;
+}
+
+.vidlink_tr a:link {
+	color: white;
+}
+
+.vidlink_br a:link {
+	color: white;
+}
+
+.vidlink_bl a:visited {
+	color: white;
+}
+
+.vidlink_tl a:visited {
+	color: white;
+}
+
+.vidlink_tr a:visited {
+	color: white;
+}
+
+.vidlink_br a:visited {
+	color: white;
+}
+
+.link-positioner {
+	position: relative !important;
+}
+
+
+.boldlink {
+	font-weight: bold !important;
+}

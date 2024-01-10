@@ -1,0 +1,10 @@
+<problem display_name="Reflection questions" markdown="null" show_reset_button="true" showanswer="never">
+  <p>Text input problems can also be used for short reflective questions that have no "incorrect" answer.</p>
+<stringresponse answer=".*." type="ci regexp">
+  <label>What other applications can you think of for using text input problems?</label>
+<textline size="120"/>
+
+
+</stringresponse>
+
+</problem>
