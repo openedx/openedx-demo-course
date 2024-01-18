@@ -18,13 +18,16 @@ help: ## Display this help message.
 clean: ## Delete all generated course and library exports.
 	rm -f $(COURSE_TAR) $(LIBRARY_TAR)
 
-dist: ## Create/overwrite exports in ./dist/ folder for course and libary.
+dist: clean ## Create/overwrite exports in ./dist/ folder for course and libary.
 	cd $(COURSE) && tar czfv ../$(COURSE_TAR) ./course/
 	cd $(LIBRARY) && tar czfv ../$(LIBRARY_TAR) ./library/
 
+clean:  ## Remove hidden system files that are ignored by git.
+	git clean -dfX
+
 unpack: ## Unpack course and library exports from ./dist/ folder into source OLX.
-	[ -f $(COURSE_TAR) ] && (cd $(COURSE) && tar xzfv ../$(COURSE_TAR)) || echo "No course to unpack."
-	[ -f $(LIBRARY_TAR) ] && (cd $(LIBRARY) && tar xzfv ../$(LIBRARY_TAR)) || echo "No content library to unpack."
+	[ -f $(COURSE_TAR) ] && mkdir -p $(COURSE) && (cd $(COURSE) && tar xzfv ../$(COURSE_TAR)) || echo "No course to unpack."
+	[ -f $(LIBRARY_TAR) ] && mkdir -p $(LIBRARY) && (cd $(LIBRARY) && tar xzfv ../$(LIBRARY_TAR)) || echo "No content library to unpack."
 
 import: dist ## Import course and libraries into a locally-running Tutor instance. Requires an admin user.
 	$(TUTOR) mounts add cms,cms-worker:.:/openedx/data/$(REPO_NAME)
