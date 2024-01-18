@@ -1,0 +1,17 @@
+<problem>
+  <multiplechoiceresponse>
+    <label>What is the primary function of the alveoli in the lungs?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">A. Producing mucus</choice>
+      <choice correct="false">B. Vocalization</choice>
+      <choice correct="true">C. Gas exchange</choice>
+      <choice correct="false">D. Humidifying incoming air</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Answer: C. Gas exchange</p>
+        <p>The alveoli are tiny sacs in the lungs where oxygen is exchanged for carbon dioxide in the blood.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

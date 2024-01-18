@@ -1,1 +1,8 @@
-<library_content allow_resetting_children="false" max_count="2" source_library_version=""/>
+<library_content allow_resetting_children="false" max_count="2" source_library_id="library-v1:demo+ContentLibrary" source_library_version="65a02a73775dfe9dad8b26d2">
+  <problem url_name="0895f1b6c0b329e50b90"/>
+  <problem url_name="fa55e7ce7a529c3aadf2"/>
+  <problem url_name="73ccaa75b5b6036b48fd"/>
+  <problem url_name="8a4f31060c1f666f9d75"/>
+  <problem url_name="c4f36f420bea1c8fb6a8"/>
+  <problem url_name="861cd64b013d1addc68f"/>
+</library_content>

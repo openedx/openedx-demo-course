@@ -1,0 +1,17 @@
+<problem>
+  <multiplechoiceresponse>
+    <label>Through which structure does air first enter the respiratory system?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">A. Nostrils</choice>
+      <choice correct="false">B. Trachea</choice>
+      <choice correct="false">C. Bronchioles</choice>
+      <choice correct="false">D. Alveoli</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Answer: A. Nostrils</p>
+        <p>Air first enters the respiratory system through the nostrils (or mouth) and then continues down the trachea and into the lungs.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

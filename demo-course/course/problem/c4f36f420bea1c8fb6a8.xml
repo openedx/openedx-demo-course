@@ -1,0 +1,17 @@
+<problem>
+  <multiplechoiceresponse>
+    <label>What is the role of the cilia in the respiratory system?</label>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">A. Gas exchange</choice>
+      <choice correct="false">B. Producing sounds</choice>
+      <choice correct="true">C. Moving mucus and trapped particles</choice>
+      <choice correct="false">D. Assisting with the sense of smell</choice>
+    </choicegroup>
+    <solution>
+      <div class="detailed-solution">
+        <p>Answer: C. Moving mucus and trapped particles</p>
+        <p>Cilia are tiny hair-like structures that line the airways and move mucus and trapped particles up and out of the respiratory system, helping to keep the airways clear.</p>
+      </div>
+    </solution>
+  </multiplechoiceresponse>
+</problem>

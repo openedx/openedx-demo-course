@@ -53,6 +53,11 @@
         "tabs": [
             {
                 "course_staff_only": false,
+                "name": "Home",
+                "type": "course_info"
+            },
+            {
+                "course_staff_only": false,
                 "name": "Course",
                 "type": "courseware"
             },
