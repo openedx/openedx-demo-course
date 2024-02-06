@@ -2421,6 +2421,30 @@
             null
         ]
     },
+    "thumbnail_demox.jpeg": {
+        "contentType": "image/jpeg",
+        "content_son": {
+            "category": "asset",
+            "course": "DemoX",
+            "name": "thumbnail_demox.jpeg",
+            "org": "Axim",
+            "revision": null,
+            "run": "demo_course",
+            "tag": "c4x"
+        },
+        "displayname": "thumbnail_demox.jpeg",
+        "filename": "asset-v1:Axim+DemoX+demo_course+type@asset+block@thumbnail_demox.jpeg",
+        "import_path": null,
+        "locked": false,
+        "thumbnail_location": [
+            "c4x",
+            "Axim",
+            "DemoX",
+            "thumbnail",
+            "thumbnail_demox-jpeg.jpg",
+            null
+        ]
+    },
     "thumbnail_draft.png": {
         "contentType": "image/png",
         "content_son": {

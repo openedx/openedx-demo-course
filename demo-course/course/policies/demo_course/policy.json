@@ -12,7 +12,7 @@
         "allow_anonymous": true,
         "allow_anonymous_to_peers": true,
         "cert_html_view_enabled": true,
-        "course_image": "thumbnail_draft.png",
+        "course_image": "thumbnail_demox.jpeg",
         "discussion_blackouts": [],
         "discussion_topics": {
             "General": {
