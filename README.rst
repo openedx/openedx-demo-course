@@ -17,7 +17,7 @@ This repository contains a course and some libraries that you can import into yo
      - Download
      - Source OLX
    * - *Open edX demo Course*
-     - ``course-v1:Axim+demo_course+DemoX``
+     - ``course-v1:Axim+DemoX+demo_course``
      - `<./dist/demo-course.tar.gz>`_
      - `<./demo-course>`_
    * - *Open edX Example Content Library*
