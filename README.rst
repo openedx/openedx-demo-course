@@ -17,11 +17,11 @@ This repository contains a course and some libraries that you can import into yo
      - Download
      - Source OLX
    * - *Open edX demo Course*
-     - ``course-v1:demo+Course+1``
+     - ``course-v1:Axim+demo_course+DemoX``
      - `<./dist/demo-course.tar.gz>`_
      - `<./demo-course>`_
    * - *Open edX Example Content Library*
-     - ``library-v1:demo+ContentLibrary``
+     - ``library-v1:Dummy+RESP_Q1``
      - `<./dist/demo-content-library.tar.gz>`_
      - `<./demo-content-library>`_
 
