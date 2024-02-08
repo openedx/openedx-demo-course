@@ -1,4 +1,4 @@
-<library_content allow_resetting_children="false" max_count="2" source_library_id="library-v1:Open_edX+DemoRespiratoryQuestions" source_library_version="65a02a73775dfe9dad8b26d2">
+<library_content allow_resetting_children="false" max_count="2" source_library_id="library-v1:OpenedX+DemoRespiratoryQuestions" source_library_version="65a02a73775dfe9dad8b26d2">
   <problem url_name="0895f1b6c0b329e50b90"/>
   <problem url_name="fa55e7ce7a529c3aadf2"/>
   <problem url_name="73ccaa75b5b6036b48fd"/>
