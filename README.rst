@@ -21,7 +21,7 @@ This repository contains a course and some libraries that you can import into yo
      - `<./dist/demo-course.tar.gz>`_
      - `<./demo-course>`_
    * - *Open edX Example Content Library*
-     - ``library-v1:demo+ContentLibrary``
+     - ``library-v1:Open_edX+DemoRespiratoryQuestions``
      - `<./dist/demo-content-library.tar.gz>`_
      - `<./demo-content-library>`_
 
