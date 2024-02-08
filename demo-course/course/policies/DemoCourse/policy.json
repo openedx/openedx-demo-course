@@ -1,5 +1,5 @@
 {
-    "course/demo_course": {
+    "course/DemoCourse": {
         "advanced_modules": [
             "edx_sga",
             "lti",
