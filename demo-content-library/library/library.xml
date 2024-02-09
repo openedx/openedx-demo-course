@@ -1,4 +1,4 @@
-<library url_name="library" xblock-family="xblock.v1" display_name="Respiratory System Question Bank 1" org="Dummy" library="RESP_Q1">
+<library url_name="library" xblock-family="xblock.v1" display_name="Respiratory System Question Bank 1" org="OpenedX" library="DemoRespiratoryQuestions">
   <problem url_name="dd88975768314dcd91363359d38371a8"/>
   <problem url_name="4e98cc7d3ed6413b9afbdf64e4a1b682"/>
   <problem url_name="19c4d31df12b423c8944cf66ed8aa11d"/>
