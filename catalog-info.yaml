@@ -23,7 +23,7 @@ spec:
   #
   # If you need a new team created, create an issue with tCRIL engineering:
   # https://github.com/openedx/tcril-engineering/issues/new/choose
-  owner: user:sarina
+  owner: user:jswope00
 
   # (Required) Acceptable Type Values: service, website, library
   type: 'website'
