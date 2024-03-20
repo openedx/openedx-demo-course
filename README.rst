@@ -44,11 +44,15 @@ This course is new as of the Redwood (June 2024) release.
 Usage
 *****
 
-To use this course and its libraries, you will need to import them into an Open edX instance. All new Open edX
-instances will get this course installed by default.
+To use this course and its libraries, you can:
 
-Manual import
-=============
+1. Manually Import the course
+2. Perform a Scripted import using Tutor
+3. Demo the course on `Open edX® Training LMS <https://training.openedx.org/courses/course-v1:Axim+DemoX+Demo_Course/about>`_.
+ 
+
+1. Manual import
+=================
 
 In Studio:
 
@@ -57,10 +61,10 @@ In Studio:
 3. Create a course run with the org ``demo``, name ``Course``, and run ``1``.
 4. Import ``dist/demo-course.tar.gz`` into the course run.
 
-Scripted import (for Tutor users)
-=================================
+2. Scripted import (for Tutor users)
+=====================================
 
-In the same environment that use to run tutor, execute the command::
+In the same environment that you use to run tutor, execute the command::
 
   make import TUTOR=... TUTOR_CONTEXT=... LIBRARY_IMPORT_USER=...
   
@@ -80,19 +84,22 @@ Or::
   # Import in kubernetes mode, and make bob the library admin.
   make import TUTOR_CONTEXT=k8s LIBRARY_IMPORT_USER=bob
 
-Re-generating the importable content
-====================================
+3. Demo on https://training.openedx.org 
+=========================================
+You can experience the course on training.openedx.org. Note that you can only experience the course as a student in this mode.
+Enroll at https://training.openedx.org/courses/course-v1:Axim+DemoX+Demo_Course/about.
+
+
+Contributing
+************
+
+Contributions of bug fixes are welcome. There are two ways you can make changes to this course.
 
 If you make changes to the course or library OLX and want to re-generate the importable ``.tar.gz`` files, simply run::
 
   make dist
 
 This will package the OLX into the ``dist`` directory.
-
-Contributing
-************
-
-Contributions of bug fixes are welcome. There are two ways you can make changes to this course.
 
 OLX Editing
 ===========
