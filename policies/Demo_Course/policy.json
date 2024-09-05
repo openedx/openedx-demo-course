@@ -19,10 +19,10 @@
         "discussions_settings": {
             "enable_graded_units": false,
             "enable_in_context": true,
-            "legacy": {
+            "openedx": {
                 "group_at_subsection": false
             },
-            "provider_type": "legacy",
+            "provider_type": "openedx",
             "unit_level_visibility": true
         },
         "display_name": "Demonstration Course",
