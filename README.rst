@@ -34,7 +34,6 @@ It does so by providing example usages of various block types and features such 
 This course serves as a user-facing introduction and tutorial to the Open edX platform.
 
 It is useful for basic testing, but also needs to remain a suitable first experience for Open edX learners.
-For deep testing, we recommend using the `Open edX Test Course <https://github.com/openedx/openedx-test-course>`_.
 
 Status
 ******
@@ -48,7 +47,7 @@ To use this course and its libraries, you can:
 
 1. Manually Import the course
 2. Perform a Scripted import using Tutor
-3. Demo the course on `Open edX® Training LMS <https://training.openedx.org/courses/course-v1:Axim+DemoX+Demo_Course/about>`_.
+3. Demo the course on `Open edX® Training LMS <https://training.openedx.io/courses/course-v1:OpenedX+DemoX+Demo_Course/about>`_.
  
 
 1. Manual import
