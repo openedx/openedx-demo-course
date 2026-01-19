@@ -1,2520 +1,2520 @@
 {
-    "Abacus.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Abacus.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Abacus.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Abacus.png",
-        "import_path": "Abacus.png",
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Abacus-png.jpg",
-            null
-        ]
-    },
-    "Abacus_solution.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Abacus_solution.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Abacus_solution.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Abacus_solution.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Abacus_solution-png.jpg",
-            null
-        ]
-    },
-    "Brain_green.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Brain_green.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Brain green.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Brain_green.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Brain_green-png.jpg",
-            null
-        ]
-    },
-    "Brain_red.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Brain_red.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Brain red.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Brain_red.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Brain_red-png.jpg",
-            null
-        ]
-    },
-    "Brain_target_sm.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Brain_target_sm.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Brain_target_sm.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Brain_target_sm.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Brain_target_sm-png.jpg",
-            null
-        ]
-    },
-    "Brain_yellow.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Brain_yellow.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Brain yellow.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Brain_yellow.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Brain_yellow-png.jpg",
-            null
-        ]
-    },
-    "DiagnosisSimulation.html": {
-        "contentType": "text/html",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "DiagnosisSimulation.html",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "DiagnosisSimulation.html",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@DiagnosisSimulation.html",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "DiagnosisSimulation2.html": {
-        "contentType": "text/html",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "DiagnosisSimulation2.html",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "DiagnosisSimulation2.html",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@DiagnosisSimulation2.html",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "DiagnosisSimulation_h2_1.html": {
-        "contentType": "text/html",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "DiagnosisSimulation_h2_1.html",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "DiagnosisSimulation_h2_1.html",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@DiagnosisSimulation_h2_1.html",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Discussion_Post.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Discussion_Post.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Discussion_Post.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Discussion_Post.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Discussion_Post-png.jpg",
-            null
-        ]
-    },
-    "HXEditor.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "HXEditor.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "HXEditor.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@HXEditor.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "HXPopUpProblems.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "HXPopUpProblems.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "HXPopUpProblems.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@HXPopUpProblems.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "HXVideoChime.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "HXVideoChime.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "HXVideoChime.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@HXVideoChime.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "HXVideoLinks.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "HXVideoLinks.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "HXVideoLinks.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@HXVideoLinks.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Jellyfish_720_10s_2MB.mp4": {
-        "contentType": "video/mp4",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Jellyfish_720_10s_2MB.mp4",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Jellyfish_720_10s_2MB.mp4",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Jellyfish_720_10s_2MB.mp4",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Learning_Goals.pdf": {
-        "contentType": "application/pdf",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Learning_Goals.pdf",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Learning Goals.pdf",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Learning_Goals.pdf",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Library_Content_graphic-100.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Library_Content_graphic-100.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Library Content graphic-100.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Library_Content_graphic-100.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Library_Content_graphic-100-png.jpg",
-            null
-        ]
-    },
-    "Marketplace-Open-edX_v2.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Marketplace-Open-edX_v2.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Marketplace-Open-edX v2.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Marketplace-Open-edX_v2.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Marketplace-Open-edX_v2-png.jpg",
-            null
-        ]
-    },
-    "OpenedX_Ecosystem.jpg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "OpenedX_Ecosystem.jpg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "OpenedX_Ecosystem.jpg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@OpenedX_Ecosystem.jpg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "OpenedX_Ecosystem.jpg",
-            null
-        ]
-    },
-    "OpenedX_vs_edx_infographic_v2.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "OpenedX_vs_edx_infographic_v2.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "OpenedX_vs_edx_infographic_v2.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@OpenedX_vs_edx_infographic_v2.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "OpenedX_vs_edx_infographic_v2-jpeg.jpg",
-            null
-        ]
-    },
-    "Pendleton_Sinking_Ship.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Pendleton_Sinking_Ship.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Pendleton_Sinking_Ship.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Pendleton_Sinking_Ship.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Pendleton_Sinking_Ship-jpeg.jpg",
-            null
-        ]
-    },
-    "Periodic-Table-Colors.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Periodic-Table-Colors.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Periodic-Table-Colors.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Periodic-Table-Colors.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Periodic-Table.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Periodic-Table.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Periodic-Table.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Periodic-Table.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Periodic-Table.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Periodic-Table.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Periodic-Table.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Periodic-Table.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Question_Post.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Question_Post.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Question_Post.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Question_Post.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Question_Post-png.jpg",
-            null
-        ]
-    },
-    "Reach_of_Open_edX_Downloadable_Transcript.pdf": {
-        "contentType": "application/pdf",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Reach_of_Open_edX_Downloadable_Transcript.pdf",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Reach of Open edX Downloadable Transcript.pdf",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Reach_of_Open_edX_Downloadable_Transcript.pdf",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "VideoLinks.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "VideoLinks.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "VideoLinks.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@VideoLinks.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "Video_Player_Elements_Image-100.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Video_Player_Elements_Image-100.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Video Player Elements Image-100.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Video_Player_Elements_Image-100.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Video_Player_Elements_Image-100-png.jpg",
-            null
-        ]
-    },
-    "Video_Toolbar.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "Video_Toolbar.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "Video_Toolbar.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@Video_Toolbar.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "Video_Toolbar-png.jpg",
-            null
-        ]
-    },
-    "ajax-loader.gif": {
-        "contentType": "image/gif",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "ajax-loader.gif",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "ajax-loader.gif",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@ajax-loader.gif",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "ajax-loader-gif.jpg",
-            null
-        ]
-    },
-    "arrow-clicked.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "arrow-clicked.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "arrow-clicked.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@arrow-clicked.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "arrow-clicked.svg",
-            null
-        ]
-    },
-    "bobcat_upload_orig_template.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "bobcat_upload_orig_template.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "bobcat_upload_orig_template.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@bobcat_upload_orig_template.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "bobcat_upload_orig_template-png.jpg",
-            null
-        ]
-    },
-    "callout_bg.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "callout_bg.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "callout_bg.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@callout_bg.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "callout_bg-png.jpg",
-            null
-        ]
-    },
-    "choose_library_component.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "choose_library_component.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "choose_library_component.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@choose_library_component.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "choose_library_component-png.jpg",
-            null
-        ]
-    },
-    "cm_style_guide_demox.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "cm_style_guide_demox.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "cm_style_guide_demox.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@cm_style_guide_demox.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "code_editor_orig.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "code_editor_orig.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "code_editor_orig.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@code_editor_orig.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "code_editor_orig-png.jpg",
-            null
-        ]
-    },
-    "codeboard_demo.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "codeboard_demo.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "codeboard_demo.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@codeboard_demo.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "codeboard_demo-png.jpg",
-            null
-        ]
-    },
-    "codeboard_demo_step3.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "codeboard_demo_step3.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "codeboard_demo_step3.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@codeboard_demo_step3.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "codeboard_demo_step3-png.jpg",
-            null
-        ]
-    },
-    "cohorts-groups-components.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "cohorts-groups-components.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "cohorts-groups-components.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@cohorts-groups-components.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "cohorts-groups-components-jpeg.jpg",
-            null
-        ]
-    },
-    "cohorts-setup.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "cohorts-setup.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "cohorts-setup.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@cohorts-setup.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "cohorts-setup-png.jpg",
-            null
-        ]
-    },
-    "community-icon.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "community-icon.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "community-icon.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@community-icon.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "community-icon.svg",
-            null
-        ]
-    },
-    "components_orig.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "components_orig.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "components_orig.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@components_orig.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "components_orig-png.jpg",
-            null
-        ]
-    },
-    "content-group-switcher.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "content-group-switcher.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "content-group-switcher.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@content-group-switcher.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "content-group-switcher-png.jpg",
-            null
-        ]
-    },
-    "course_components.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "course_components.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "course_components.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@course_components.png",
-        "import_path": "course_components.png",
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "course_components-png.jpg",
-            null
-        ]
-    },
-    "course_outline.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "course_outline.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "course_outline.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@course_outline.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "course_outline-png.jpg",
-            null
-        ]
-    },
-    "course_structure_1.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "course_structure_1.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "course_structure_1.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@course_structure_1.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "course_structure_1-png.jpg",
-            null
-        ]
-    },
-    "course_structure_2.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "course_structure_2.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "course_structure_2.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@course_structure_2.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "course_structure_2-png.jpg",
-            null
-        ]
-    },
-    "course_structure_3.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "course_structure_3.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "course_structure_3.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@course_structure_3.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "course_structure_3-png.jpg",
-            null
-        ]
-    },
-    "course_structure_full.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "course_structure_full.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "course_structure_full.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@course_structure_full.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "course_structure_full-png.jpg",
-            null
-        ]
-    },
-    "database-icon.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "database-icon.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "database-icon.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@database-icon.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "database-icon.svg",
-            null
-        ]
-    },
-    "demox_js.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "demox_js.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "demox_js.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@demox_js.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "discussion-admin-add.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "discussion-admin-add.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "discussion-admin-add.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@discussion-admin-add.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "discussion-admin-add-png.jpg",
-            null
-        ]
-    },
-    "divide-by-cohort.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "divide-by-cohort.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "divide-by-cohort.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@divide-by-cohort.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "divide-by-cohort-png.jpg",
-            null
-        ]
-    },
-    "documentation_icon.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "documentation_icon.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "documentation icon.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@documentation_icon.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "documentation_icon.svg",
-            null
-        ]
-    },
-    "download-icon.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "download-icon.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "download-icon.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@download-icon.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "download-icon.svg",
-            null
-        ]
-    },
-    "draft.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "draft.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "draft.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@draft.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "draft-png.jpg",
-            null
-        ]
-    },
-    "edX_logo.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "edX_logo.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "edX_logo.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@edX_logo.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "edX_logo-png.jpg",
-            null
-        ]
-    },
-    "feedback.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "feedback.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "feedback.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@feedback.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "grade_submissions.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "grade_submissions.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "grade_submissions.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@grade_submissions.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "grade_submissions-png.jpg",
-            null
-        ]
-    },
-    "gradient-triangle.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "gradient-triangle.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "gradient-triangle.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@gradient-triangle.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "gradient-triangle.svg",
-            null
-        ]
-    },
-    "grand_piano_freepik.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "grand_piano_freepik.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "grand_piano_freepik.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@grand_piano_freepik.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "grand_piano_freepik-jpeg.jpg",
-            null
-        ]
-    },
-    "html_button_orig.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "html_button_orig.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "html_button_orig.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@html_button_orig.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "html_button_orig-png.jpg",
-            null
-        ]
-    },
-    "hx.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "hx.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "hx.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@hx.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "hx.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "hx.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "hx.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@hx.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "hxGlobalOptions.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "hxGlobalOptions.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "hxGlobalOptions.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@hxGlobalOptions.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "imageMapResizer.min.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "imageMapResizer.min.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "imageMapResizer.min.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@imageMapResizer.min.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "images_logic_gate_image.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "images_logic_gate_image.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "images_logic_gate_image.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@images_logic_gate_image.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "images_logic_gate_image-png.jpg",
-            null
-        ]
-    },
-    "images_logic_gate_sln.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "images_logic_gate_sln.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "images_logic_gate_sln.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@images_logic_gate_sln.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "images_logic_gate_sln-png.jpg",
-            null
-        ]
-    },
-    "instructor_dashboard_orig.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "instructor_dashboard_orig.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "instructor_dashboard_orig.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@instructor_dashboard_orig.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "instructor_dashboard_orig-png.jpg",
-            null
-        ]
-    },
-    "intro_accessible.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "intro_accessible.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "intro_accessible.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@intro_accessible.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "introjs.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "introjs.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "introjs.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@introjs.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "learning_sequence_orig.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "learning_sequence_orig.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "learning_sequence_orig.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@learning_sequence_orig.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "learning_sequence_orig-png.jpg",
-            null
-        ]
-    },
-    "library_import.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "library_import.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "library_import.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@library_import.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "library_import-png.jpg",
-            null
-        ]
-    },
-    "lightbulb-opacity-5.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "lightbulb-opacity-5.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "lightbulb-opacity-5.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@lightbulb-opacity-5.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "lightbulb-opacity-5.svg",
-            null
-        ]
-    },
-    "new_library.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "new_library.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "new_library.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@new_library.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "new_library-png.jpg",
-            null
-        ]
-    },
-    "ohms_law.html": {
-        "contentType": "text/html",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "ohms_law.html",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "ohms_law.html",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@ohms_law.html",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "open-edx-celebratory-icon.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "open-edx-celebratory-icon.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "open-edx-celebratory-icon.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@open-edx-celebratory-icon.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "open-edx-celebratory-icon-png.jpg",
-            null
-        ]
-    },
-    "open-edx-reach-slide.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "open-edx-reach-slide.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "open-edx-reach-slide.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@open-edx-reach-slide.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "open-edx-reach-slide-png.jpg",
-            null
-        ]
-    },
-    "open_source_guy.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "open_source_guy.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "open source guy.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@open_source_guy.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "open_source_guy.svg",
-            null
-        ]
-    },
-    "openedx_logo.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "openedx_logo.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "openedx_logo.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@openedx_logo.png",
-        "import_path": "openedx_logo.png",
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "openedx_logo-png.jpg",
-            null
-        ]
-    },
-    "outline.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "outline.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "outline.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@outline.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "outline-png.jpg",
-            null
-        ]
-    },
-    "prerequisite-settings.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "prerequisite-settings.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "prerequisite-settings.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@prerequisite-settings.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "prerequisite-settings-png.jpg",
-            null
-        ]
-    },
-    "prerequisite.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "prerequisite.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "prerequisite.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@prerequisite.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "prerequisite-png.jpg",
-            null
-        ]
-    },
-    "prism.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "prism.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "prism.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@prism.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "prism.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "prism.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "prism.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@prism.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "progress_page.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "progress_page.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "progress_page.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@progress_page.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "progress_page-png.jpg",
-            null
-        ]
-    },
-    "protein_sln.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "protein_sln.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "protein_sln.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@protein_sln.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "protein_sln-png.jpg",
-            null
-        ]
-    },
-    "quote-left.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "quote-left.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "quote-left.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@quote-left.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "quote-left-png.jpg",
-            null
-        ]
-    },
-    "quote-right.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "quote-right.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "quote-right.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@quote-right.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "quote-right-png.jpg",
-            null
-        ]
-    },
-    "rabbit_gif_canva.gif": {
-        "contentType": "image/gif",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "rabbit_gif_canva.gif",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "rabbit_gif_canva.gif",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@rabbit_gif_canva.gif",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "rabbit_gif_canva-gif.jpg",
-            null
-        ]
-    },
-    "raw.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "raw.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "raw.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@raw.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "raw-png.jpg",
-            null
-        ]
-    },
-    "raw_html_orig.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "raw_html_orig.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "raw_html_orig.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@raw_html_orig.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "raw_html_orig-png.jpg",
-            null
-        ]
-    },
-    "rich_text_orig_with_template.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "rich_text_orig_with_template.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "rich_text_orig_with_template.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@rich_text_orig_with_template.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "rich_text_orig_with_template-png.jpg",
-            null
-        ]
-    },
-    "romeo_juliet_commons.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "romeo_juliet_commons.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "romeo_juliet_commons.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@romeo_juliet_commons.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "romeo_juliet_commons-jpeg.jpg",
-            null
-        ]
-    },
-    "sahara_desert_pexels.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "sahara_desert_pexels.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "sahara_desert_pexels.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@sahara_desert_pexels.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "sahara_desert_pexels-jpeg.jpg",
-            null
-        ]
-    },
-    "select_library.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "select_library.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "select_library.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@select_library.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "select_library-png.jpg",
-            null
-        ]
-    },
-    "slick-theme.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick-theme.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick-theme.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick-theme.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "slick.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "slick.eot": {
-        "contentType": "application/octet-stream",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick.eot",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick.eot",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick.eot",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "slick.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "slick.svg": {
-        "contentType": "image/svg+xml",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick.svg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick.svg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick.svg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "slick.svg",
-            null
-        ]
-    },
-    "slick.ttf": {
-        "contentType": "font/ttf",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick.ttf",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick.ttf",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick.ttf",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "slick.woff": {
-        "contentType": "application/font-woff",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "slick.woff",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "slick.woff",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@slick.woff",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "studio-home-libraries.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "studio-home-libraries.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "studio-home-libraries.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@studio-home-libraries.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "studio-home-libraries-png.jpg",
-            null
-        ]
-    },
-    "summernote-lite.min.css": {
-        "contentType": "text/css",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "summernote-lite.min.css",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "summernote-lite.min.css",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@summernote-lite.min.css",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "summernote-lite.min.js": {
-        "contentType": "text/javascript",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "summernote-lite.min.js",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "summernote-lite.min.js",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@summernote-lite.min.js",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "summernote.eot": {
-        "contentType": "application/octet-stream",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "summernote.eot",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "summernote.eot",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@summernote.eot",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "summernote.ttf": {
-        "contentType": "font/ttf",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "summernote.ttf",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "summernote.ttf",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@summernote.ttf",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "summernote.woff": {
-        "contentType": "application/font-woff",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "summernote.woff",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "summernote.woff",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@summernote.woff",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "summernote.woff2": {
-        "contentType": "application/octet-stream",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "summernote.woff2",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "summernote.woff2",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@summernote.woff2",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": null
-    },
-    "teams_application_screen.webp": {
-        "contentType": "image/webp",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "teams_application_screen.webp",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "teams_application_screen.webp",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@teams_application_screen.webp",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "teams_application_screen-webp.jpg",
-            null
-        ]
-    },
-    "thank_you.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "thank_you.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "thank you.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@thank_you.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "thank_you-png.jpg",
-            null
-        ]
-    },
-    "thumbnail_demox.jpeg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "thumbnail_demox.jpeg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "thumbnail_demox.jpeg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@thumbnail_demox.jpeg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "thumbnail_demox-jpeg.jpg",
-            null
-        ]
-    },
-    "thumbnail_draft.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "thumbnail_draft.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "thumbnail_draft.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@thumbnail_draft.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "thumbnail_draft-png.jpg",
-            null
-        ]
-    },
-    "try-it-bg.jpg": {
-        "contentType": "image/jpeg",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "try-it-bg.jpg",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "try-it-bg.jpg",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@try-it-bg.jpg",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "try-it-bg.jpg",
-            null
-        ]
-    },
-    "yellow_sq.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "yellow_sq.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "yellow_sq.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@yellow_sq.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "yellow_sq-png.jpg",
-            null
-        ]
-    }
+  "Abacus.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Abacus.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Abacus.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Abacus.png",
+    "import_path": "Abacus.png",
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Abacus-png.jpg",
+      null
+    ]
+  },
+  "Abacus_solution.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Abacus_solution.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Abacus_solution.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Abacus_solution.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Abacus_solution-png.jpg",
+      null
+    ]
+  },
+  "Brain_green.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Brain_green.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Brain green.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Brain_green.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Brain_green-png.jpg",
+      null
+    ]
+  },
+  "Brain_red.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Brain_red.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Brain red.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Brain_red.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Brain_red-png.jpg",
+      null
+    ]
+  },
+  "Brain_target_sm.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Brain_target_sm.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Brain_target_sm.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Brain_target_sm.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Brain_target_sm-png.jpg",
+      null
+    ]
+  },
+  "Brain_yellow.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Brain_yellow.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Brain yellow.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Brain_yellow.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Brain_yellow-png.jpg",
+      null
+    ]
+  },
+  "DiagnosisSimulation.html": {
+    "contentType": "text/html",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "DiagnosisSimulation.html",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "DiagnosisSimulation.html",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@DiagnosisSimulation.html",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "DiagnosisSimulation2.html": {
+    "contentType": "text/html",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "DiagnosisSimulation2.html",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "DiagnosisSimulation2.html",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@DiagnosisSimulation2.html",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "DiagnosisSimulation_h2_1.html": {
+    "contentType": "text/html",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "DiagnosisSimulation_h2_1.html",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "DiagnosisSimulation_h2_1.html",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@DiagnosisSimulation_h2_1.html",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Discussion_Post.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Discussion_Post.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Discussion_Post.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Discussion_Post.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Discussion_Post-png.jpg",
+      null
+    ]
+  },
+  "HXEditor.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "HXEditor.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "HXEditor.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@HXEditor.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "HXPopUpProblems.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "HXPopUpProblems.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "HXPopUpProblems.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@HXPopUpProblems.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "HXVideoChime.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "HXVideoChime.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "HXVideoChime.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@HXVideoChime.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "HXVideoLinks.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "HXVideoLinks.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "HXVideoLinks.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@HXVideoLinks.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Jellyfish_720_10s_2MB.mp4": {
+    "contentType": "video/mp4",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Jellyfish_720_10s_2MB.mp4",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Jellyfish_720_10s_2MB.mp4",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Jellyfish_720_10s_2MB.mp4",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Learning_Goals.pdf": {
+    "contentType": "application/pdf",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Learning_Goals.pdf",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Learning Goals.pdf",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Learning_Goals.pdf",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Library_Content_graphic-100.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Library_Content_graphic-100.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Library Content graphic-100.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Library_Content_graphic-100.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Library_Content_graphic-100-png.jpg",
+      null
+    ]
+  },
+  "Marketplace-Open-edX_v2.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Marketplace-Open-edX_v2.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Marketplace-Open-edX v2.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Marketplace-Open-edX_v2.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Marketplace-Open-edX_v2-png.jpg",
+      null
+    ]
+  },
+  "OpenedX_Ecosystem.jpg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "OpenedX_Ecosystem.jpg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "OpenedX_Ecosystem.jpg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@OpenedX_Ecosystem.jpg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "OpenedX_Ecosystem.jpg",
+      null
+    ]
+  },
+  "OpenedX_vs_edx_infographic_v2.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "OpenedX_vs_edx_infographic_v2.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "OpenedX_vs_edx_infographic_v2.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@OpenedX_vs_edx_infographic_v2.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "OpenedX_vs_edx_infographic_v2-jpeg.jpg",
+      null
+    ]
+  },
+  "Pendleton_Sinking_Ship.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Pendleton_Sinking_Ship.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Pendleton_Sinking_Ship.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Pendleton_Sinking_Ship.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Pendleton_Sinking_Ship-jpeg.jpg",
+      null
+    ]
+  },
+  "Periodic-Table-Colors.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Periodic-Table-Colors.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Periodic-Table-Colors.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Periodic-Table-Colors.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Periodic-Table.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Periodic-Table.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Periodic-Table.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Periodic-Table.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Periodic-Table.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Periodic-Table.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Periodic-Table.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Periodic-Table.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Question_Post.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Question_Post.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Question_Post.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Question_Post.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Question_Post-png.jpg",
+      null
+    ]
+  },
+  "Reach_of_Open_edX_Downloadable_Transcript.pdf": {
+    "contentType": "application/pdf",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Reach_of_Open_edX_Downloadable_Transcript.pdf",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Reach of Open edX Downloadable Transcript.pdf",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Reach_of_Open_edX_Downloadable_Transcript.pdf",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "VideoLinks.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "VideoLinks.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "VideoLinks.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@VideoLinks.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "Video_Player_Elements_Image-100.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Video_Player_Elements_Image-100.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Video Player Elements Image-100.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Video_Player_Elements_Image-100.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Video_Player_Elements_Image-100-png.jpg",
+      null
+    ]
+  },
+  "Video_Toolbar.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "Video_Toolbar.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "Video_Toolbar.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@Video_Toolbar.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "Video_Toolbar-png.jpg",
+      null
+    ]
+  },
+  "ajax-loader.gif": {
+    "contentType": "image/gif",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "ajax-loader.gif",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "ajax-loader.gif",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@ajax-loader.gif",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "ajax-loader-gif.jpg",
+      null
+    ]
+  },
+  "arrow-clicked.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "arrow-clicked.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "arrow-clicked.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@arrow-clicked.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "arrow-clicked.svg",
+      null
+    ]
+  },
+  "bobcat_upload_orig_template.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "bobcat_upload_orig_template.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "bobcat_upload_orig_template.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@bobcat_upload_orig_template.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "bobcat_upload_orig_template-png.jpg",
+      null
+    ]
+  },
+  "callout_bg.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "callout_bg.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "callout_bg.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@callout_bg.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "callout_bg-png.jpg",
+      null
+    ]
+  },
+  "choose_library_component.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "choose_library_component.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "choose_library_component.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@choose_library_component.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "choose_library_component-png.jpg",
+      null
+    ]
+  },
+  "cm_style_guide_demox.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "cm_style_guide_demox.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "cm_style_guide_demox.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@cm_style_guide_demox.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "code_editor_orig.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "code_editor_orig.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "code_editor_orig.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@code_editor_orig.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "code_editor_orig-png.jpg",
+      null
+    ]
+  },
+  "codeboard_demo.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "codeboard_demo.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "codeboard_demo.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@codeboard_demo.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "codeboard_demo-png.jpg",
+      null
+    ]
+  },
+  "codeboard_demo_step3.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "codeboard_demo_step3.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "codeboard_demo_step3.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@codeboard_demo_step3.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "codeboard_demo_step3-png.jpg",
+      null
+    ]
+  },
+  "cohorts-groups-components.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "cohorts-groups-components.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "cohorts-groups-components.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@cohorts-groups-components.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "cohorts-groups-components-jpeg.jpg",
+      null
+    ]
+  },
+  "cohorts-setup.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "cohorts-setup.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "cohorts-setup.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@cohorts-setup.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "cohorts-setup-png.jpg",
+      null
+    ]
+  },
+  "community-icon.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "community-icon.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "community-icon.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@community-icon.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "community-icon.svg",
+      null
+    ]
+  },
+  "components_orig.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "components_orig.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "components_orig.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@components_orig.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "components_orig-png.jpg",
+      null
+    ]
+  },
+  "content-group-switcher.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "content-group-switcher.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "content-group-switcher.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@content-group-switcher.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "content-group-switcher-png.jpg",
+      null
+    ]
+  },
+  "course_components.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "course_components.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "course_components.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@course_components.png",
+    "import_path": "course_components.png",
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "course_components-png.jpg",
+      null
+    ]
+  },
+  "course_outline.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "course_outline.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "course_outline.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@course_outline.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "course_outline-png.jpg",
+      null
+    ]
+  },
+  "course_structure_1.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "course_structure_1.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "course_structure_1.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@course_structure_1.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "course_structure_1-png.jpg",
+      null
+    ]
+  },
+  "course_structure_2.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "course_structure_2.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "course_structure_2.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@course_structure_2.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "course_structure_2-png.jpg",
+      null
+    ]
+  },
+  "course_structure_3.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "course_structure_3.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "course_structure_3.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@course_structure_3.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "course_structure_3-png.jpg",
+      null
+    ]
+  },
+  "course_structure_full.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "course_structure_full.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "course_structure_full.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@course_structure_full.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "course_structure_full-png.jpg",
+      null
+    ]
+  },
+  "database-icon.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "database-icon.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "database-icon.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@database-icon.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "database-icon.svg",
+      null
+    ]
+  },
+  "demox_js.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "demox_js.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "demox_js.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@demox_js.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "discussion-admin-add.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "discussion-admin-add.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "discussion-admin-add.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@discussion-admin-add.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "discussion-admin-add-png.jpg",
+      null
+    ]
+  },
+  "divide-by-cohort.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "divide-by-cohort.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "divide-by-cohort.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@divide-by-cohort.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "divide-by-cohort-png.jpg",
+      null
+    ]
+  },
+  "documentation_icon.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "documentation_icon.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "documentation icon.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@documentation_icon.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "documentation_icon.svg",
+      null
+    ]
+  },
+  "download-icon.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "download-icon.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "download-icon.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@download-icon.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "download-icon.svg",
+      null
+    ]
+  },
+  "draft.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "draft.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "draft.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@draft.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "draft-png.jpg",
+      null
+    ]
+  },
+  "edX_logo.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "edX_logo.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "edX_logo.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@edX_logo.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "edX_logo-png.jpg",
+      null
+    ]
+  },
+  "feedback.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "feedback.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "feedback.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@feedback.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "grade_submissions.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "grade_submissions.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "grade_submissions.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@grade_submissions.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "grade_submissions-png.jpg",
+      null
+    ]
+  },
+  "gradient-triangle.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "gradient-triangle.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "gradient-triangle.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@gradient-triangle.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "gradient-triangle.svg",
+      null
+    ]
+  },
+  "grand_piano_freepik.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "grand_piano_freepik.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "grand_piano_freepik.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@grand_piano_freepik.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "grand_piano_freepik-jpeg.jpg",
+      null
+    ]
+  },
+  "html_button_orig.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "html_button_orig.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "html_button_orig.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@html_button_orig.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "html_button_orig-png.jpg",
+      null
+    ]
+  },
+  "hx.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "hx.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "hx.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@hx.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "hx.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "hx.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "hx.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@hx.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "hxGlobalOptions.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "hxGlobalOptions.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "hxGlobalOptions.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@hxGlobalOptions.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "imageMapResizer.min.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "imageMapResizer.min.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "imageMapResizer.min.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@imageMapResizer.min.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "images_logic_gate_image.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "images_logic_gate_image.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "images_logic_gate_image.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@images_logic_gate_image.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "images_logic_gate_image-png.jpg",
+      null
+    ]
+  },
+  "images_logic_gate_sln.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "images_logic_gate_sln.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "images_logic_gate_sln.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@images_logic_gate_sln.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "images_logic_gate_sln-png.jpg",
+      null
+    ]
+  },
+  "instructor_dashboard_orig.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "instructor_dashboard_orig.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "instructor_dashboard_orig.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@instructor_dashboard_orig.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "instructor_dashboard_orig-png.jpg",
+      null
+    ]
+  },
+  "intro_accessible.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "intro_accessible.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "intro_accessible.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@intro_accessible.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "introjs.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "introjs.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "introjs.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@introjs.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "learning_sequence_orig.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "learning_sequence_orig.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "learning_sequence_orig.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@learning_sequence_orig.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "learning_sequence_orig-png.jpg",
+      null
+    ]
+  },
+  "library_import.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "library_import.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "library_import.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@library_import.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "library_import-png.jpg",
+      null
+    ]
+  },
+  "lightbulb-opacity-5.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "lightbulb-opacity-5.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "lightbulb-opacity-5.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@lightbulb-opacity-5.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "lightbulb-opacity-5.svg",
+      null
+    ]
+  },
+  "new_library.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "new_library.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "new_library.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@new_library.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "new_library-png.jpg",
+      null
+    ]
+  },
+  "ohms_law.html": {
+    "contentType": "text/html",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "ohms_law.html",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "ohms_law.html",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@ohms_law.html",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "open-edx-celebratory-icon.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "open-edx-celebratory-icon.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "open-edx-celebratory-icon.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@open-edx-celebratory-icon.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "open-edx-celebratory-icon-png.jpg",
+      null
+    ]
+  },
+  "open-edx-reach-slide.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "open-edx-reach-slide.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "open-edx-reach-slide.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@open-edx-reach-slide.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "open-edx-reach-slide-png.jpg",
+      null
+    ]
+  },
+  "open_source_guy.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "open_source_guy.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "open source guy.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@open_source_guy.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "open_source_guy.svg",
+      null
+    ]
+  },
+  "openedx_logo.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "openedx_logo.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "openedx_logo.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@openedx_logo.png",
+    "import_path": "openedx_logo.png",
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "openedx_logo-png.jpg",
+      null
+    ]
+  },
+  "outline.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "outline.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "outline.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@outline.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "outline-png.jpg",
+      null
+    ]
+  },
+  "prerequisite-settings.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "prerequisite-settings.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "prerequisite-settings.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@prerequisite-settings.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "prerequisite-settings-png.jpg",
+      null
+    ]
+  },
+  "prerequisite.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "prerequisite.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "prerequisite.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@prerequisite.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "prerequisite-png.jpg",
+      null
+    ]
+  },
+  "prism.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "prism.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "prism.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@prism.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "prism.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "prism.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "prism.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@prism.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "progress_page.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "progress_page.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "progress_page.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@progress_page.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "progress_page-png.jpg",
+      null
+    ]
+  },
+  "protein_sln.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "protein_sln.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "protein_sln.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@protein_sln.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "protein_sln-png.jpg",
+      null
+    ]
+  },
+  "quote-left.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "quote-left.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "quote-left.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@quote-left.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "quote-left-png.jpg",
+      null
+    ]
+  },
+  "quote-right.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "quote-right.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "quote-right.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@quote-right.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "quote-right-png.jpg",
+      null
+    ]
+  },
+  "rabbit_gif_canva.gif": {
+    "contentType": "image/gif",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "rabbit_gif_canva.gif",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "rabbit_gif_canva.gif",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@rabbit_gif_canva.gif",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "rabbit_gif_canva-gif.jpg",
+      null
+    ]
+  },
+  "raw.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "raw.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "raw.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@raw.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "raw-png.jpg",
+      null
+    ]
+  },
+  "raw_html_orig.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "raw_html_orig.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "raw_html_orig.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@raw_html_orig.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "raw_html_orig-png.jpg",
+      null
+    ]
+  },
+  "rich_text_orig_with_template.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "rich_text_orig_with_template.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "rich_text_orig_with_template.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@rich_text_orig_with_template.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "rich_text_orig_with_template-png.jpg",
+      null
+    ]
+  },
+  "romeo_juliet_commons.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "romeo_juliet_commons.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "romeo_juliet_commons.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@romeo_juliet_commons.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "romeo_juliet_commons-jpeg.jpg",
+      null
+    ]
+  },
+  "sahara_desert_pexels.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "sahara_desert_pexels.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "sahara_desert_pexels.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@sahara_desert_pexels.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "sahara_desert_pexels-jpeg.jpg",
+      null
+    ]
+  },
+  "select_library.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "select_library.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "select_library.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@select_library.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "select_library-png.jpg",
+      null
+    ]
+  },
+  "slick-theme.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick-theme.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick-theme.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick-theme.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "slick.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "slick.eot": {
+    "contentType": "application/octet-stream",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick.eot",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick.eot",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick.eot",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "slick.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "slick.svg": {
+    "contentType": "image/svg+xml",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick.svg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick.svg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick.svg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "slick.svg",
+      null
+    ]
+  },
+  "slick.ttf": {
+    "contentType": "font/ttf",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick.ttf",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick.ttf",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick.ttf",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "slick.woff": {
+    "contentType": "application/font-woff",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "slick.woff",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "slick.woff",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@slick.woff",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "studio-home-libraries.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "studio-home-libraries.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "studio-home-libraries.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@studio-home-libraries.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "studio-home-libraries-png.jpg",
+      null
+    ]
+  },
+  "summernote-lite.min.css": {
+    "contentType": "text/css",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "summernote-lite.min.css",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "summernote-lite.min.css",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@summernote-lite.min.css",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "summernote-lite.min.js": {
+    "contentType": "text/javascript",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "summernote-lite.min.js",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "summernote-lite.min.js",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@summernote-lite.min.js",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "summernote.eot": {
+    "contentType": "application/octet-stream",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "summernote.eot",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "summernote.eot",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@summernote.eot",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "summernote.ttf": {
+    "contentType": "font/ttf",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "summernote.ttf",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "summernote.ttf",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@summernote.ttf",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "summernote.woff": {
+    "contentType": "application/font-woff",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "summernote.woff",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "summernote.woff",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@summernote.woff",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "summernote.woff2": {
+    "contentType": "application/octet-stream",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "summernote.woff2",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "summernote.woff2",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@summernote.woff2",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": null
+  },
+  "teams_application_screen.webp": {
+    "contentType": "image/webp",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "teams_application_screen.webp",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "teams_application_screen.webp",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@teams_application_screen.webp",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "teams_application_screen-webp.jpg",
+      null
+    ]
+  },
+  "thank_you.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "thank_you.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "thank you.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@thank_you.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "thank_you-png.jpg",
+      null
+    ]
+  },
+  "thumbnail_demox.jpeg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "thumbnail_demox.jpeg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "thumbnail_demox.jpeg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@thumbnail_demox.jpeg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "thumbnail_demox-jpeg.jpg",
+      null
+    ]
+  },
+  "thumbnail_draft.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "thumbnail_draft.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "thumbnail_draft.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@thumbnail_draft.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "thumbnail_draft-png.jpg",
+      null
+    ]
+  },
+  "try-it-bg.jpg": {
+    "contentType": "image/jpeg",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "try-it-bg.jpg",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "try-it-bg.jpg",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@try-it-bg.jpg",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "try-it-bg.jpg",
+      null
+    ]
+  },
+  "yellow_sq.png": {
+    "contentType": "image/png",
+    "content_son": {
+      "category": "asset",
+      "course": "DemoX",
+      "name": "yellow_sq.png",
+      "org": "KhoaCNTT",
+      "revision": null,
+      "run": "DemoCourse",
+      "tag": "c4x"
+    },
+    "displayname": "yellow_sq.png",
+    "filename": "asset-v1:KhoaCNTT+DemoX+DemoCourse+type@asset+block@yellow_sq.png",
+    "import_path": null,
+    "locked": false,
+    "thumbnail_location": [
+      "c4x",
+      "KhoaCNTT",
+      "DemoX",
+      "thumbnail",
+      "yellow_sq-png.jpg",
+      null
+    ]
+  }
 }
