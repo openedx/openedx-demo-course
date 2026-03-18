@@ -2445,30 +2445,6 @@
             null
         ]
     },
-    "thumbnail_draft.png": {
-        "contentType": "image/png",
-        "content_son": {
-            "category": "asset",
-            "course": "DemoX",
-            "name": "thumbnail_draft.png",
-            "org": "OpenedX",
-            "revision": null,
-            "run": "DemoCourse",
-            "tag": "c4x"
-        },
-        "displayname": "thumbnail_draft.png",
-        "filename": "asset-v1:OpenedX+DemoX+DemoCourse+type@asset+block@thumbnail_draft.png",
-        "import_path": null,
-        "locked": false,
-        "thumbnail_location": [
-            "c4x",
-            "OpenedX",
-            "DemoX",
-            "thumbnail",
-            "thumbnail_draft-png.jpg",
-            null
-        ]
-    },
     "try-it-bg.jpg": {
         "contentType": "image/jpeg",
         "content_son": {

@@ -19,7 +19,7 @@ body {
 }
 .xblock.xmodule_display.xmodule_HtmlBlock ul li::marker,
 .xblock.xmodule_display.xmodule_HtmlBlock ul li strong {
-    color: #00262B;
+    color: #092B4D;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock ul {
     padding-left: 30px;
@@ -44,7 +44,7 @@ body {
 .xblock.xmodule_display.xmodule_HtmlBlock .course-structure h3 {
     margin: 0 0 20px;
     font-weight: 700;
-    color: #00262B;
+    color: #092B4D;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock .course-structure .boxed-image {
     padding: 50px;
@@ -192,7 +192,7 @@ body {
 .xmodule_display.xmodule_HtmlBlock .getting-help .help-header {
     background: #2D494E;
     padding: 15px 30px;
-    border-left: 6px solid #D23329;
+    border-left: 6px solid #9D0054;
 }
 .xmodule_display.xmodule_HtmlBlock .getting-help .help-content {
     padding: 40px 0;
@@ -219,7 +219,7 @@ body {
 @media only screen and (max-width: 600px) {
     .xmodule_display.xmodule_HtmlBlock .getting-help .help-header {
         border-left: 0;
-        border-bottom: 6px solid #D23329;
+        border-bottom: 6px solid #9D0054;
     }
     .xmodule_display.xmodule_HtmlBlock .getting-help .help-header h3 {
         flex-wrap: wrap;
@@ -258,7 +258,7 @@ body {
 .xmodule_display.xmodule_HtmlBlock .open-source,
 .xmodule_display.xmodule_HtmlBlock .marketplace {
     padding: 50px;
-    background-color: #00262B;
+    background-color: #092B4D;
     position: relative;
 }
 .xmodule_display.xmodule_HtmlBlock .marketplace img.macbook {
@@ -336,7 +336,7 @@ body {
 }
 .xmodule_display.xmodule_HtmlBlock .tabbed-box .tab-header {
     padding: 20px 50px;
-    background-color: #00262B;
+    background-color: #092B4D;
     display: inline-block;
     position: relative;
     z-index: 0;
@@ -348,7 +348,7 @@ body {
     height: 0px;
     border-style: solid;
     border-width: 67px 0 0 50px;
-    border-color: transparent transparent transparent #00262B;
+    border-color: transparent transparent transparent #092B4D;
     transform: rotate(0deg);
     position: absolute;
     top: 0;
@@ -436,7 +436,7 @@ body {
 }
 .xblock.xmodule_display.xmodule_HtmlBlock .grid-with-image .grid-left {
     padding: 35px;
-    background-color: #00262B;
+    background-color: #092B4D;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock .grid-with-image .grid-left p {
     color: #FFFFFF;
@@ -471,7 +471,7 @@ body {
     margin: 40px 0;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock h3 {
-    color: #00262B;
+    color: #092B4D;
     margin: 0 0 25px;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock .best-practice ul {
@@ -491,7 +491,7 @@ body {
     left: -30px;
     width: 20px;
     height: 20px;
-    background: #00262B;
+    background: #092B4D;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -500,7 +500,7 @@ body {
     font-size: 14px;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock .blue-text {
-    color: #00262B;
+    color: #092B4D;
 }
 
 /****************************/
@@ -531,7 +531,7 @@ body {
 .xblock.xmodule_display.xmodule_HtmlBlock .single-select .boxed-row ul li::marker,
 .xblock.xmodule_display.xmodule_HtmlBlock .single-select .boxed-row ul li strong,
 .xblock.xmodule_display.xmodule_HtmlBlock .single-select .boxed-row h3 {
-    color: #00262B;
+    color: #092B4D;
 }
 .xblock.xmodule_display.xmodule_HtmlBlock .single-select .boxed-row ul {
     padding-left: 30px;
@@ -603,17 +603,17 @@ body {
 .xblock.xblock-student_view-annotatable h3,
 .xblock.xblock-student_view-poll h3,
 .xblock.xblock-student_view-survey h3 {
-    color: #00262B;
+    color: #092B4D;
     font-weight: 600;
 }
 .xblock.xmodule_display.xmodule_ProblemBlock table th {
-    background-color: #00262B !important;
+    background-color: #092B4D !important;
     color: #FFFFFF;
     padding: 15px 10px !important;
-    border: 1px solid #00262B;
+    border: 1px solid #092B4D;
 }
 .xblock.xmodule_display.xmodule_ProblemBlock table td {
-    border: 1px solid #00262B !important;
+    border: 1px solid #092B4D !important;
 }
 @media only screen and (max-width: 768px) {
     .xblock.xmodule_display.xmodule_ProblemBlock,
@@ -657,7 +657,7 @@ body {
     display: block;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #00262B, transparent);
+    background: linear-gradient(90deg, #092B4D, transparent);
     z-index: 1;
     position: absolute;
     top: 0;
