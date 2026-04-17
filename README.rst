@@ -47,7 +47,7 @@ To use this course and its libraries, you can:
 
 1. Manually Import the course
 2. Perform a Scripted import using Tutor
-3. Demo the course on `Open edX® Training LMS <https://training.openedx.io/courses/course-v1:OpenedX+DemoX+Demo_Course/about>`_.
+3. Demo the course on `Open edX® Training LMS <https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+DemoX+Demo_Course/about>`_.
  
 
 1. Manual import
@@ -83,10 +83,10 @@ Or::
   # Import in kubernetes mode, and make bob the library admin.
   make import TUTOR_CONTEXT=k8s LIBRARY_IMPORT_USER=bob
 
-3. Demo on https://training.openedx.org 
+3. Demo on https://training.openedx.io 
 =========================================
-You can experience the course on training.openedx.org. Note that you can only experience the course as a student in this mode.
-Enroll at https://training.openedx.org/courses/course-v1:Axim+DemoX+Demo_Course/about.
+You can experience the course on training.openedx.io. Note that you can only experience the course as a student in this mode.
+Enroll at https://apps.training.openedx.io/catalog/courses/course-v1:OpenedX+DemoX+Demo_Course/about
 
 
 Contributing
