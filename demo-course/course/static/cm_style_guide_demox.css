@@ -699,7 +699,7 @@ body {
 /*******************************/
   
 .assessment-header {
-    background-color: #00252B;
+    background-color: #092B4D;
     color: #fff;
     position: relative;
 }
@@ -727,7 +727,7 @@ body {
   left: 0;
   width: 8px;                /* Adjust the width for the thickness of the border */
   height: 100%;              /* Make it span the entire height of the rectangle */
-  background-color: #D2332A;     /* Color of the border */
+  background-color: #9d0054;     /* Color of the border */
   z-index: 2;                /* Ensure it's above the rectangle but below the diagonal slash */
 }
   
@@ -772,14 +772,14 @@ body {
 /******* TABLE - DEMOX ********/
 /******************************/
 .xmodule_display.xmodule_HtmlBlock .table-demox tr th {
-    background: #00252B;
+    background: #092B4D;
     color: #FFFFFF;
     padding: 15px 10px;
-    border: 3px solid #00252B;
+    border: 3px solid #092B4D;
     font-size: 1.2em;
 }
 .xmodule_display.xmodule_HtmlBlock .table-demox tr td {
-    border: 3px solid #00252B;
+    border: 3px solid #092B4D;
     font-size: 1em;
     vertical-align: middle;
 }
